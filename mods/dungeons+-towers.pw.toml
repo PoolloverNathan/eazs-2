@@ -1,0 +1,16 @@
+filename = 'towers-1.0.1.jar'
+name = 'Dungeons+: Towers'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '77cfea2bb06738af545f3061e5a119c5896e0d262193b5584e8d0f7aa39b9a32b4d2800bf43940bd2a96ca0199d026622ae34142c5004ca36a2dfc2e3ab9e15c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/vdl5436m/versions/kUQvObix/towers-1.0.1.jar'
+
+[update.modrinth]
+mod-id = 'vdl5436m'
+version = 'kUQvObix'

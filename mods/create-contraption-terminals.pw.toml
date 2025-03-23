@@ -1,0 +1,16 @@
+filename = 'createcontraptionterminals-fabric-1.20-1.1.0.jar'
+name = 'Create Contraption Terminals'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '10d9b00a2165c12b5d552e1dfcdb744a3ee74434dadd9bf698aee1e8545856110cf89b859e56d89b270a56a21afe9394279bb018ccde492cd6f78628c3b05605'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gOPAFzp0/versions/TymTJZew/createcontraptionterminals-fabric-1.20-1.1.0.jar'
+
+[update.modrinth]
+mod-id = 'gOPAFzp0'
+version = 'TymTJZew'

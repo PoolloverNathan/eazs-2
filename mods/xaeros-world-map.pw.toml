@@ -1,0 +1,16 @@
+filename = 'XaerosWorldMap_1.39.4_Fabric_1.20.jar'
+name = "Xaero's World Map"
+side = 'client'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '42193dd06a379386c2ba06967eef2098dd3283331130907c906bd0bfcb8ffe6de20fc2b8b7ed3dad8a9e1b7f3fb10281b8b88fecb3086197b28a1134189a277e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NcUtCpym/versions/Fwao7ZwU/XaerosWorldMap_1.39.4_Fabric_1.20.jar'
+
+[update.modrinth]
+mod-id = 'NcUtCpym'
+version = 'Fwao7ZwU'

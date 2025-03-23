@@ -1,0 +1,16 @@
+filename = 'dimdoors-5.4.1-fabric.jar'
+name = 'Dimensional Doors'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'bcdeb3554fd54243269e64d6ac80f1d35adce3e2edb8c29edede6cb0a84bdd00f5c6772e1e87c9d0fcf89ce21baab27f6e2b2d05a2583e2c577bade5a24f701a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/b8Q0BxnV/versions/OH74ACY1/dimdoors-5.4.1-fabric.jar'
+
+[update.modrinth]
+mod-id = 'b8Q0BxnV'
+version = 'OH74ACY1'

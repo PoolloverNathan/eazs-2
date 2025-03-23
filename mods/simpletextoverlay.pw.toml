@@ -1,0 +1,16 @@
+filename = 'simpletextoverlay-1.20.1-5.2.2.0-FABRIC.jar'
+name = 'Simple Text Overlay'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a843e870d1d8f0b0b8ba737280357381dd9fa629d2cd2192de325e3cfb0321ce3e2053a9ebf17b29aa0c485f9c8dcd32877df7085e6dd69ac8cab5a13bc92ac9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/aY8vAgyv/versions/N64ln60M/simpletextoverlay-1.20.1-5.2.2.0-FABRIC.jar'
+
+[update.modrinth]
+mod-id = 'aY8vAgyv'
+version = 'N64ln60M'

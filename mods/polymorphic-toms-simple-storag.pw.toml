@@ -1,0 +1,16 @@
+filename = 'polymorphic-tom-1.0.3.jar'
+name = "Polymorphic Tom's Simple Storag"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f6cb6d7a3d65d46a9b5b1fc6a5253667f5447fb87e25b76c695b8440fe0c1df041a36ab9d31622993d2042daf4150cb8ceca2ad6f67357789e028a0303e5171a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/lgaejLU2/versions/2hdv6yMQ/polymorphic-tom-1.0.3.jar'
+
+[update.modrinth]
+mod-id = 'lgaejLU2'
+version = '2hdv6yMQ'

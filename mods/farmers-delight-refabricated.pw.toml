@@ -1,0 +1,16 @@
+filename = 'FarmersDelight-1.20.1-2.3.0+refabricated.jar'
+name = "Farmer's Delight Refabricated"
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd48a96b341a258995dd93f711c4fe02cb17b9eb0500ed066b89061910f27baea2cbae48c385abbe7bfe7ccbc69fc63ae0a13de4027685cd29a9b35afb6b22bae'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/7vxePowz/versions/ZnoPlYRz/FarmersDelight-1.20.1-2.3.0%2Brefabricated.jar'
+
+[update.modrinth]
+mod-id = '7vxePowz'
+version = 'ZnoPlYRz'

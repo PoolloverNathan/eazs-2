@@ -1,0 +1,13 @@
+name = "Eizel and Zacky's Modpack"
+author = "EdwardTheWatzo, PoolloverNathan, community"
+version = "2.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "afb6c04e16eb1e7602db41c42da4d115ddf4e78e578d2e3dff1837b11ba92384"
+
+[versions]
+fabric = "0.16.10"
+minecraft = "1.20.1"

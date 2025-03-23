@@ -1,0 +1,30 @@
+filename = 'extrakeybinds-0.5.0+1.17-1.19.4.jar'
+name = 'Origins Extra Keybinds'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.17',
+    '1.17.1',
+    '1.18',
+    '1.18.1',
+    '1.18.2',
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2'
+]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '342591abfa6aa24a683711ed43c095d40a8136aedd0dea41dec609e0561c11caac96305045888fd0f3b5e0aa28984ee94aaf4f6097754cfd498756c02e3727fa'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/6b2RpJpx/versions/G4UwAmju/extrakeybinds-0.5.0%2B1.17-1.19.4.jar'
+
+[update.modrinth]
+mod-id = '6b2RpJpx'
+version = 'G4UwAmju'

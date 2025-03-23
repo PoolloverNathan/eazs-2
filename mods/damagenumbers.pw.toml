@@ -1,0 +1,16 @@
+filename = 'damagenumbers-1.4.0-fabric.jar'
+name = 'Damage Numbers'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.19.4', '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ada9adf09d17508f66a4b790b8afaba126bb013645b9cd04595887cfe69a9e68787bd5302c73f70b60f4d27ca327903dbf1595cfdd71d19f939d6c5c1bf1763e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/iWdXs2dQ/versions/xpk8YOKG/damagenumbers-1.4.0-fabric.jar'
+
+[update.modrinth]
+mod-id = 'iWdXs2dQ'
+version = 'xpk8YOKG'

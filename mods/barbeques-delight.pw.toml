@@ -1,0 +1,16 @@
+filename = 'barbeques-delight-1.1.0.jar'
+name = 'Barbeque‘s Delight'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7c672ba1937bba24d23d05acd57669ba9c64b50d71176c67b0cc49f75a3365e1cc6896255c8e627d3970567ab0e0bbb50c4fa2890e5be9808b162916fa9ae002'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/c9qdJjaq/versions/CJCRxwWz/barbeques-delight-1.1.0.jar'
+
+[update.modrinth]
+mod-id = 'c9qdJjaq'
+version = 'CJCRxwWz'

@@ -1,0 +1,16 @@
+filename = 'mcdw-9.0.4.jar'
+name = 'MC Dungeons Weapons'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f9c1b28dccde38841f66e492d73bfa72aaaa87a8f83afebff9b636c2ab832ab1bf062e20fe956023929b0af03e42079749e3fb5318073f9feafff0287ce066f0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/FZmGDE43/versions/S2yuB3CX/mcdw-9.0.4.jar'
+
+[update.modrinth]
+mod-id = 'FZmGDE43'
+version = 'S2yuB3CX'

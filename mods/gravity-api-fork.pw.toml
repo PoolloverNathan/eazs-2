@@ -1,0 +1,16 @@
+filename = 'gravity-changer-1.1.2+mc1.20.1.jar'
+name = 'Gravity Changer (qouteall fork)'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd73d104ee2bca052ec76e151433d80884cd42fd6faab7160f69d6b78e4826ece3b9c4d18651f9007ede4330e1615f140dd0a3b8d022562ffb994252dafce9632'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/bqOyYdKi/versions/kl3DxAl9/gravity-changer-1.1.2%2Bmc1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'bqOyYdKi'
+version = 'kl3DxAl9'

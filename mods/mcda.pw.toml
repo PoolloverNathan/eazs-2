@@ -1,0 +1,16 @@
+filename = 'mcda-5.0.2.jar'
+name = 'MC Dungeons Armors'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ff59442744a5da5a740ea4e5fea4320af064b1486729d49bff63db7545d91cb38809f7671bd4714f683f1f48e562dd61afbc302f8ddf42a32291ecc59846befc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/oMitr7dU/versions/kOZVEfRn/mcda-5.0.2.jar'
+
+[update.modrinth]
+mod-id = 'oMitr7dU'
+version = 'kOZVEfRn'

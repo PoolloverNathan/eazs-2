@@ -1,0 +1,16 @@
+filename = 'dummmmmmy-1.20-2.0.6-fabric.jar'
+name = 'MmmMmmMmmMmm'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f7ad84a62bdd12bee94129c1b23d339e13d7441f02da21aa26681fa749ce794ac03aab3cddc10c570321cc167aa87bf3c83abb62de44ea285366426aa541e583'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Adega8YN/versions/fcSXO1Qb/dummmmmmy-1.20-2.0.6-fabric.jar'
+
+[update.modrinth]
+mod-id = 'Adega8YN'
+version = 'fcSXO1Qb'

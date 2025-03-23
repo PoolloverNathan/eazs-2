@@ -1,0 +1,16 @@
+filename = 'Medieval Decoration v.1.2 1.20.1 Fabric.jar'
+name = 'Medieval Deco'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5f088d8d91aac7ebdc0669d1aa4256b582bf6d419f4601ce8c3ea0327a3a8a206542de6dc269aee9ebe8d101ec8b146275e6c7095eef602668e7dc6cb080d568'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/v84HYuYv/versions/is3jGkFy/Medieval Decoration v.1.2 1.20.1 Fabric.jar'
+
+[update.modrinth]
+mod-id = 'v84HYuYv'
+version = 'is3jGkFy'

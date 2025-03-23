@@ -1,0 +1,31 @@
+filename = 'Pehkui-3.8.3+1.14.4-1.21.jar'
+name = 'Pehkui'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.14.4',
+    '1.15.2',
+    '1.16.5',
+    '1.17.1',
+    '1.18.2',
+    '1.19.2',
+    '1.19.4',
+    '1.20.1',
+    '1.20.2',
+    '1.20.4',
+    '1.20.6',
+    '1.21',
+    '1.21-rc1',
+    '1.21.1'
+]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5eb721d7e0e6889857a81f340451c9a98f8dcddca67dd919f9e69691cadf44b5f001e3c71db69f6b98d5d8709db739ad7b91dc71bd35880a0e6241b723822f1f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/t5W7Jfwy/versions/6fzxx6SC/Pehkui-3.8.3%2B1.14.4-1.21.jar'
+
+[update.modrinth]
+mod-id = 't5W7Jfwy'
+version = '6fzxx6SC'

@@ -1,0 +1,16 @@
+filename = 'Origins-Classes-1.20-1.7.0.jar'
+name = 'Origins: Classes'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c1536bd5d27d630eaebd441042b54183254e7a620f5dd1e804dab0f8094f124ee9e8ce9af6a5975e06e0b700eabfcd16a5e4a3b10769cc14ab0178ed85dd96c6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/FiDptjtR/versions/EnGfmh9y/Origins-Classes-1.20-1.7.0.jar'
+
+[update.modrinth]
+mod-id = 'FiDptjtR'
+version = 'EnGfmh9y'

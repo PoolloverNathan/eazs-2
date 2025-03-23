@@ -1,0 +1,16 @@
+filename = 'ships-3.0.3.jar'
+name = 'Ships'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6', '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8b23ab0991c988fb3bd1c29e97c5a005d4a82750f29668cb5cdd3f9273d4b7aeca4d1ee7142bca2f5dca53524417001949749302b62956d90b387beda5afcfd5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/M185nxi6/versions/qD0w21Oo/ships-3.0.3.jar'
+
+[update.modrinth]
+mod-id = 'M185nxi6'
+version = 'qD0w21Oo'

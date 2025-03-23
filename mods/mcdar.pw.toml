@@ -1,0 +1,16 @@
+filename = 'mcdar-4.0.5.jar'
+name = 'MC Dungeons Artifacts'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '878be8083498c45bfb23843bf6cc7a17ede18c1fc03e38e3e971738d54be60e57188daeac0628d40ccbbef7f068b759d35d0d21ee97053ce305dd38d50ebd612'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xweQBqAC/versions/oJXQHrhU/mcdar-4.0.5.jar'
+
+[update.modrinth]
+mod-id = 'xweQBqAC'
+version = 'oJXQHrhU'

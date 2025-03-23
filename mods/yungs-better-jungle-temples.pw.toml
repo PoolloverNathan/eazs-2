@@ -1,0 +1,16 @@
+filename = 'YungsBetterJungleTemples-1.20-Fabric-2.0.5.jar'
+name = "YUNG's Better Jungle Temples"
+side = 'server'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ea08ade714376f48cabdddd2e4b7376fc5cc5947e3911583ba4e182ab22c1335c884043441725cde21fb6e84402d17c43f509ade339d46a1a1db40f0e77ee81a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/z9Ve58Ih/versions/6LPrzuB0/YungsBetterJungleTemples-1.20-Fabric-2.0.5.jar'
+
+[update.modrinth]
+mod-id = 'z9Ve58Ih'
+version = '6LPrzuB0'
