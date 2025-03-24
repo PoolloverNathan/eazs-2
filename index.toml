@@ -109,6 +109,11 @@ hash = "bd2333096d222d7937fb5db2a053e5e0de9a8a133c5bbd240c5bb3070b734b72"
 metafile = true
 
 [[files]]
+file = "mods/athena-ctm.pw.toml"
+hash = "e09ceae04e73831b93c43e6a1f12da063fc24e1074f39fab1e00234a8de8a1e2"
+metafile = true
+
+[[files]]
 file = "mods/barbeques-delight.pw.toml"
 hash = "1255f07706f3e0944d5d57e0fb69b29237c69c1e3b9985ce8849468aebc2a239"
 metafile = true
@@ -144,6 +149,11 @@ hash = "c88f942cf2ed80ea859ff595f9adc7170b7b784fad6bfc76a09b456a4ecf5314"
 metafile = true
 
 [[files]]
+file = "mods/blahaj-fabric.pw.toml"
+hash = "3be4d8184379525c27fee02066e56149bc701189a4b8b4c5ec5deff189f1422d"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf-lib.pw.toml"
 hash = "c6746edec1a7bcbca3f93ad88bca75eb418d3d702571d9a3e3b960c63a6a6e72"
 metafile = true
@@ -161,6 +171,11 @@ metafile = true
 [[files]]
 file = "mods/cherished-worlds.pw.toml"
 hash = "eb0a40486a66d164bc532ac890cd62f0c2a69000333fb860331cb61525842c09"
+metafile = true
+
+[[files]]
+file = "mods/chipped.pw.toml"
+hash = "41c81f095b5a96775d2cf261dc8350e8214ef3a12bfa608f2761634e8560cfb9"
 metafile = true
 
 [[files]]
@@ -518,6 +533,11 @@ hash = "c25b77155e4b4f0d0cf2841562d5462c73ee980822fe1084c0535ffa6d31724a"
 metafile = true
 
 [[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "04309568425eb622ffab10178d2fae3543788be54aa427ab640aea0c0dd5a4b9"
+metafile = true
+
+[[files]]
 file = "mods/screenshot-viewer.pw.toml"
 hash = "2936b1ac0996a3bd5174cd29fdbae558985baf7015355ee53ba5d89116f901ac"
 metafile = true
@@ -585,6 +605,11 @@ metafile = true
 [[files]]
 file = "mods/toms-storage.pw.toml"
 hash = "fe8606e1460f437fda644e62162e78962e0f9ffdead5ebcab12285beba335680"
+metafile = true
+
+[[files]]
+file = "mods/tree-harvester.pw.toml"
+hash = "fb79296cbd2a9baa4f31a8664dff569e2490f14ea0334a82bcd3935d568d1471"
 metafile = true
 
 [[files]]
