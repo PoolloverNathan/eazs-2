@@ -78,6 +78,11 @@ hash = "e1f6e466fd6e494c0f74181e5f022db980533d1e87103b1b453277950c606949"
 metafile = true
 
 [[files]]
+file = "mods/altorigingui.pw.toml"
+hash = "611eabdbd20a918d55e648b024d6c961fd6774de3ce014739871886d1bebd131"
+metafile = true
+
+[[files]]
 file = "mods/amendments.pw.toml"
 hash = "1c5a6113c06dc556f0e251642596d1a687d7160dbf627336dfacfe1730f69b13"
 metafile = true
@@ -275,6 +280,11 @@ metafile = true
 [[files]]
 file = "mods/eating-animation.pw.toml"
 hash = "dcb3b041b59aa318525185fc5474887ee96bbc3487d5cc991e126c6c94ed49d9"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+hash = "a89e2a4903a962a372882656b0bfd4c55c595e08df0a27720a8707d3db474e25"
 metafile = true
 
 [[files]]
