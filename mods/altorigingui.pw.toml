@@ -11,3 +11,8 @@ hash = "ebc8f0215bcc999c8af2afe15cdc5e1ef31e30b6"
 [update.modrinth]
 mod-id = "ldWHqZwQ"
 version = "oSJyDQ48"
+
+[option]
+optional = true
+default = true
+description = "Shows an origins grid instead of a list. This is highly recommended due to the number of origins."

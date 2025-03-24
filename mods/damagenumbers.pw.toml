@@ -14,3 +14,7 @@ url = 'https://cdn.modrinth.com/data/iWdXs2dQ/versions/xpk8YOKG/damagenumbers-1.
 [update.modrinth]
 mod-id = 'iWdXs2dQ'
 version = 'xpk8YOKG'
+
+[option]
+optional = true
+description = "Shows the amount of damage you do. May be useful for testing weapons."

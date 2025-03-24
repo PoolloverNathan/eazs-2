@@ -14,3 +14,8 @@ url = 'https://cdn.modrinth.com/data/UVtY3ZAC/versions/LeAiyr1s/EnchantmentDescr
 [update.modrinth]
 mod-id = 'UVtY3ZAC'
 version = 'LeAiyr1s'
+
+[option]
+optional = true
+default = true
+description = "Shows descriptions for various enchantments. Useful, but currently doesn't support modded enchantments."

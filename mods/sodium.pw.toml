@@ -14,3 +14,8 @@ url = 'https://cdn.modrinth.com/data/AANobbMI/versions/OihdIimA/sodium-fabric-0.
 [update.modrinth]
 mod-id = 'AANobbMI'
 version = 'OihdIimA'
+
+[option]
+optional = true
+default = true
+description = "Optimizes Minecraft rendering. Highly recommended."

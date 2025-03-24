@@ -14,3 +14,8 @@ url = 'https://cdn.modrinth.com/data/NcUtCpym/versions/Fwao7ZwU/XaerosWorldMap_1
 [update.modrinth]
 mod-id = 'NcUtCpym'
 version = 'Fwao7ZwU'
+
+[option]
+optional = true
+default = true
+description = "Keeps a map of the world accessible through a keybind."

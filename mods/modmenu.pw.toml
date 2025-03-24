@@ -14,3 +14,8 @@ url = 'https://cdn.modrinth.com/data/mOgUt4GM/versions/lEkperf6/modmenu-7.2.2.ja
 [update.modrinth]
 mod-id = 'mOgUt4GM'
 version = 'lEkperf6'
+
+[option]
+optional = true
+default = true
+description = "Lists the mods in the modpack — useful, probably."

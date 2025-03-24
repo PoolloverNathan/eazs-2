@@ -14,3 +14,8 @@ url = 'https://cdn.modrinth.com/data/xv94TkTM/versions/6ipZLQSK/Controlling-fabr
 [update.modrinth]
 mod-id = 'xv94TkTM'
 version = '6ipZLQSK'
+
+[option]
+optional = true
+default = true
+description = "Helps with the keybinds menu."

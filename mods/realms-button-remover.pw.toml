@@ -79,3 +79,8 @@ url = 'https://cdn.modrinth.com/data/LqywxrVu/versions/W5lv2N12/realmsfix-2.0.7.
 [update.modrinth]
 mod-id = 'LqywxrVu'
 version = 'W5lv2N12'
+
+[option]
+optional = true
+default = true
+description = "Hides the Realms button, since it's useless in a modpack."

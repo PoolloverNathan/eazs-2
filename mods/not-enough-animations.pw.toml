@@ -14,3 +14,8 @@ url = 'https://cdn.modrinth.com/data/MPCX6s5C/versions/sXmCy47p/notenoughanimati
 [update.modrinth]
 mod-id = 'MPCX6s5C'
 version = 'sXmCy47p'
+
+[option]
+optional = true
+default = true
+description = "Adds more client-side animations for players."

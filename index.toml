@@ -79,7 +79,7 @@ metafile = true
 
 [[files]]
 file = "mods/altorigingui.pw.toml"
-hash = "611eabdbd20a918d55e648b024d6c961fd6774de3ce014739871886d1bebd131"
+hash = "6dc6db63ef3e66d503041e01b0d45bdf0e3b4c4e45fbd929436b9e67a730f34f"
 metafile = true
 
 [[files]]
@@ -204,12 +204,12 @@ metafile = true
 
 [[files]]
 file = "mods/continue.pw.toml"
-hash = "fd6f0a0f819cb0dcdae5b18e2b941b012ce9fc5474b2fe2b38549bb4a7198734"
+hash = "ff94c377c11290f80b7017f470299477c3904e6542720223183af524a508798f"
 metafile = true
 
 [[files]]
 file = "mods/controlling.pw.toml"
-hash = "91c3a915d37a120921b3231820822003be18937aeb4cb8ca2f375f4cb704a986"
+hash = "3e8e2864e6d6439455985d988389fd982ae6b11b9e1e023e5e95811240ef841f"
 metafile = true
 
 [[files]]
@@ -239,7 +239,7 @@ metafile = true
 
 [[files]]
 file = "mods/damagenumbers.pw.toml"
-hash = "c79a5f23392dc44a47a7c700b1fb4799900695b8ef38637de517e6496833757f"
+hash = "0bdeec888374e2f7568f213bffcf44f4fb277b758b758837d3dd7dec8a7df715"
 metafile = true
 
 [[files]]
@@ -289,7 +289,7 @@ metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "fdb6163d485330814333428d8ab11581d5e0ea2c2e71324935e8ae0e1047e4fb"
+hash = "7fbf58a8c2e52f569d6dd2ef8468802008019702479e9a32083a641cb75def29"
 metafile = true
 
 [[files]]
@@ -463,7 +463,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "076158204b25320e5308a99446295e8886137b5e04be232604526a7d0e7032b0"
+hash = "a03ac45394499a2c7b21ab0d6b6fee296656b7079721701268320d6ba952906b"
 metafile = true
 
 [[files]]
@@ -473,7 +473,7 @@ metafile = true
 
 [[files]]
 file = "mods/morechathistory.pw.toml"
-hash = "355a766d5b17d627afaa51c6198e6badbb487fd0bc11411f58b10a6f0e886924"
+hash = "010cd3262fc4ce0a62b1ca95baf5e6d303ea31ac3006305ff3b4f60f27081439"
 metafile = true
 
 [[files]]
@@ -493,7 +493,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "b54cb9203ce9140bf1ed3e202d94dcbe49641a586687e3db966376c53d31804c"
+hash = "1f82071636589ba00c1a9dd8816d5aa4dda62cea1f128b133fea56d40e829c71"
 metafile = true
 
 [[files]]
@@ -543,7 +543,7 @@ metafile = true
 
 [[files]]
 file = "mods/realms-button-remover.pw.toml"
-hash = "c25b77155e4b4f0d0cf2841562d5462c73ee980822fe1084c0535ffa6d31724a"
+hash = "a86dd825b3980726af45fbecb31cd242f14974dc2ec956dcd97965089ebd8e6d"
 metafile = true
 
 [[files]]
@@ -578,7 +578,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "99dc91162741d91f8e7b6b686cc77ec200f4449e7a702252c5b4bdfab0bc73a5"
+hash = "0322981d37ebcd2b867debfd4c6ceceb9bfabca32a32761b2bc3330e5e3ca245"
 metafile = true
 
 [[files]]
@@ -638,7 +638,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "72d0e1fcf1e2e44b67b20bf80b33e5f08ca31459fe568cd053f83379e4defea3"
+hash = "1d627b4694fc00eb855291461fa0b43c64e2a9ff91a198fa079f3e60fbe58783"
 metafile = true
 
 [[files]]
