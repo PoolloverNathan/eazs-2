@@ -1,6 +1,74 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/openloader/data/Cecaelia_Origin_v1.0.zip"
+hash = "0dfe1f7c361c2817d2f4fd996a55dee3acbab2090a82fea5c4a84be454bb8725"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1.zip"
+hash = "5e9b1feecec92d38a0ffb61504ce613d6034ee1596103d4016cf63e7a4146d60"
+
+[[files]]
+file = "config/openloader/data/Cervitaur_Origin_v1.0.zip"
+hash = "20de27c006e2bb5ddab5269736247a45c71812b6c45b19cc6f9b8d1b8c839618"
+
+[[files]]
+file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2.zip"
+hash = "48a03dfcc770ec95cf37df3088b651313aac1afc09c6d1ed35b22016d7b8a387"
+
+[[files]]
+file = "config/openloader/data/Dexterous_Elf_1.0.1.zip"
+hash = "483b9098bb6e113260c7b7d834edb3176c822141dbae6d8db991b41bc9976ecc"
+
+[[files]]
+file = "config/openloader/data/Furrettaur_Origin_v1.1.zip"
+hash = "3d18ce781ea177e2b028612b6453eb727fe21e827dc707216b9b70a9496781ec"
+
+[[files]]
+file = "config/openloader/data/Giraffetaur_Origin_v1.0.zip"
+hash = "ad352a04a6408a4957c68122dea009924c1628cbd9e19df716e8b854e3334143"
+
+[[files]]
+file = "config/openloader/data/Ice Statue 1.0.0.zip"
+hash = "35b8229f8ac6eca52301eeb6d6911bb8507a15318c8edb3e0f301de8f54ec438"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5.zip"
+hash = "17b9ce0ae15bc68bc808d4022b28ed93f87846f0ad0e82bbea4dd9ff680598a7"
+
+[[files]]
+file = "config/openloader/data/Mechanical Golem.zip"
+hash = "ad2830f18d7ed27a1ac9b80716fee9161a4cac83fd553c90281693bd41c38666"
+
+[[files]]
+file = "config/openloader/data/Serperiortaur_Origin_v1.0.zip"
+hash = "098354d766368ad8f3ab05835b9de057526b0b18f3ff2b5598bdbaa5e0b075f0"
+
+[[files]]
+file = "config/openloader/data/Slimetaur_Origin_Release_v1.0.zip"
+hash = "8a1c2f0463f7572720d5489a00ab23b5d9d90fb252686811c26d4e57dbb99e8e"
+
+[[files]]
+file = "config/openloader/data/Wailord-Tongue_Origin_v1.0.zip"
+hash = "9a8112d27015045de3d3af0c3959b95ef0e46ffede769f7d6a6b78d3b4b73e25"
+
+[[files]]
+file = "config/openloader/data/chestling.zip"
+hash = "e04132112c1c4b9c309565b995572dd18cc2a1c9e995ee07cb3600f1c559f515"
+
+[[files]]
+file = "config/openloader/data/datapacks.zip"
+hash = "a1e62ad5a4ad0d3740cdd5780e92ea9ea79ba627932cf270d7d5296876ea8c9c"
+
+[[files]]
+file = "config/openloader/data/foxplush.zip"
+hash = "49409abb89578db8fd90612887d7c768194ed4d0c8a86e2d9351f8e6837a748e"
+
+[[files]]
+file = "config/openloader/data/snail.zip"
+hash = "38812e207dfd84d52f468ea54f9a9d2aa3ef00d63eb5222d3055dfb4d8364d76"
+
+[[files]]
 file = "mods/almanac.pw.toml"
 hash = "e1f6e466fd6e494c0f74181e5f022db980533d1e87103b1b453277950c606949"
 metafile = true
@@ -402,6 +470,11 @@ metafile = true
 [[files]]
 file = "mods/oakspaintings.pw.toml"
 hash = "53e5c539e60b86e7c03ab2337bff1777b4f05cf152ee8aa1e6dfd1c3e3335f13"
+metafile = true
+
+[[files]]
+file = "mods/open-loader.pw.toml"
+hash = "ec277331d582b3e88b3f6bed3a77f4f526689680507d718f76a1d0fd03ffcf54"
 metafile = true
 
 [[files]]
