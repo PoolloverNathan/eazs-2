@@ -1,0 +1,62 @@
+{
+    "name": "Soaked",
+    "description": "You have been soaked, making you vulnerable to impaling.",
+    "type": "origins:multiple",
+    "bar": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 30,
+        "start_value": 30,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+            "bar_index": 16
+        },
+        "min_action": {
+            "type": "origins:remove_power",
+            "power": "wailord_tongue:soaked"
+        }
+    },
+    "countdown": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "resource": "wailord_tongue:soaked_bar",
+            "modifier": {
+                "operation": "addition",
+                "value": -1
+            }
+        }
+    },
+    "particles": {
+        "type": "origins:particle",
+        "particle": "minecraft:dripping_dripstone_water",
+        "frequency": 5,
+        "count": 1,
+        "speed": 0,
+        "spread": {
+            "x": 0.5,
+            "y": 0.25,
+            "z": 0.5
+        },
+        "offset_x": 0,
+        "offset_y": 1,
+        "offset_z": 0,
+        "visible_while_invisible": true
+    },
+    "aquatic": {
+        "type": "origins:entity_group",
+        "group": "aquatic"
+    },
+    "remove_on_death": {
+        "type": "origins:action_on_death",
+        "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:remove_power",
+                "power": "wailord_tongue:soaked"
+            }
+        }
+    }
+}

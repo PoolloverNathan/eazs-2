@@ -1,0 +1,198 @@
+{
+    "name": "§2§l§nCoiling",
+    "description": "§aWith the long, serpentine body of a Serperior, you are capable of coiling around your prey until they die. However, it only works on mobs both large enough to grab hold of and small enough to coil around. (Sneak + Right Click)",
+	"badges": [
+        {
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "§aOnly works when the bar is fully charged!"
+        }
+    ],
+    "type": "origins:multiple",
+    "coil": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:passenger",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:sneaking"
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "serperior:serperior_coiling_coiling_bar",
+                    "comparison": "==",
+                    "compare_to": 60
+                }
+            ]
+        },
+        "type": "origins:action_on_entity_use",
+        "bientity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:invert",
+                    "action": {
+                        "type": "origins:mount"
+                    }
+                },
+                {
+                    "type": "origins:target_action",
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:grant_power",
+                                "power": "serperior:serperior_prevent_coil_damaging",
+                                "source": "origins:origin"
+                            },
+                            {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:weakness",
+                                    "duration": 40,
+                                    "amplifier": 20,
+                                    "is_ambient": true,
+                                    "show_particles": false,
+                                    "show_icon": false
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "origins:actor_action",
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "scale set pehkui:hitbox_height 0.3 @s"
+                    }
+                }
+            ]
+        },
+        "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:in_tag",
+                        "tag": "serperior:serperior_coilable"
+                    },
+                    {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "inverted": true,
+                                "type": "origins:origin",
+                                "origin": "serperior:serperior"
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:origin",
+                                "origin": "lapras:lapras"
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:origin",
+                                "origin": "charizard:charizard"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action_result": "success"
+    },
+    "coiling_bar": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 60,
+        "start_value": 60,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/resource_bar.png",
+            "bar_index": 8
+        }
+    },
+    "coiling_recharge": {
+        "condition": {
+            "type": "origins:passenger",
+            "comparison": "==",
+            "compare_to": 0
+        },
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "serperior:serperior_coiling_coiling_bar",
+            "change": 1,
+            "operation": "add"
+        }
+    },
+    "coiling_discharge": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:passenger",
+            "comparison": "==",
+            "compare_to": 0
+        },
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "serperior:serperior_coiling_coiling_bar",
+            "change": -4,
+            "operation": "add"
+        }
+    },
+    "prevent_movement": {
+        "condition": {
+            "type": "origins:passenger",
+            "comparison": "==",
+            "compare_to": 1
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "multiply_total",
+            "value": -2
+        },
+        "tick_rate": 5,
+        "update_health": false
+    },
+	"dismount_prey": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "serperior:serperior_coiling_coiling_bar",
+            "comparison": "==",
+            "compare_to": 0
+        },
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:passenger_action",
+            "action": {
+                "type": "origins:dismount"
+            }
+        }
+    },
+	"hitbox_shrinking": {
+        "condition": {
+            "type": "origins:passenger",
+            "comparison": "==",
+            "compare_to": 1
+        },
+        "type": "origins:action_over_time",
+        "interval": 5,
+        "rising_action": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:hitbox_height 0.3 @s"
+        },
+        "falling_action": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:hitbox_height 1.43 @s"
+        }
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "name": "Graceful Stance",
+    "description": "Due to the size of your lower body of a deer, your hitbox is significantly larger, and you are incapable of riding mountable mobs.",
+    "type": "origins:multiple",
+    "hitbox": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:hitbox_height 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:eye_height 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:hitbox_width 1.2 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:hitbox_height 1.4 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:view_bobbing 0.2 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:eye_height 1.4 @s"
+                }
+            ]
+        },
+        "execute_chosen_when_orb": true,
+        "entity_action_lost": {
+            "type": "origins:execute_command",
+            "command": "scale reset @s"
+        },
+        "entity_action_added": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:hitbox_height 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:eye_height 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:hitbox_width 1.2 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:hitbox_height 1.4 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:view_bobbing 0.2 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:eye_height 1.4 @s"
+                }
+            ]
+        },
+        "entity_action_removed": {
+            "type": "origins:execute_command",
+            "command": "scale reset @s"
+        },
+        "entity_action_respawned": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:hitbox_height 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:eye_height 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:hitbox_width 1.2 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:hitbox_height 1.4 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:view_bobbing 0.2 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:eye_height 1.4 @s"
+                }
+            ]
+        }
+    },
+    "dismount": {
+        "type": "origins:action_on_entity_use",
+        "bientity_action": {
+            "type": "origins:actor_action",
+            "action": {
+                "type": "origins:delay",
+                "action": {
+                    "type": "origins:dismount"
+                },
+                "ticks": 1
+            }
+        },
+        "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:living"
+            }
+        },
+        "action_result": "success",
+        "priority": 0
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "snail:ceiling_climb",
+        "snail:mega_slowpoke",
+        "snail:smol",
+        "snail:solid_shell",
+        "snail:no_legs",
+        "snail:plant_eating",
+        "snail:ride_buff",
+        "snail:poor_vision"
+    ],
+    "icon": "minecraft:nautilus_shell",
+    "order": 4,
+    "impact": 3,
+    "name": "Snail",
+    "description": "Extremely slow. And small. Good luck getting anywhere."
+}

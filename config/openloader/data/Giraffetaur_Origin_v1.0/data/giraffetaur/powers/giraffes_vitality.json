@@ -1,0 +1,11 @@
+{
+    "name": "Giraffe's Vitality",
+    "description": "The sheer size and height of a giraffe isn't all bad as it might seem, as the size greatly contributes to your bulk and survivability, granting you 16 hearts of health",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "generic.max_health",
+        "operation": "addition",
+        "value": 12
+    },
+    "update_health": true
+}

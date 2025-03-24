@@ -1,0 +1,203 @@
+{
+    "name": "Cervid Diet",
+    "description": "Due to your digestive system being that of a deer, you are only capable of eating the same foods that deer can. However, your specialized digestive system causes plant-based foods to satiate you more.",
+    "type": "origins:multiple",
+    "more_saturation": {
+        "type": "origins:modify_food",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "cervitaur:vanilla_edible_foods"
+            }
+        },
+        "food_modifier": {
+            "operation": "addition",
+            "value": 1
+        },
+        "saturation_modifier": {
+            "operation": "addition",
+            "value": 0.2
+        }
+    },
+    "wheat_eat": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:wheat"
+            }
+        },
+        "food_component": {
+            "hunger": 2,
+            "saturation": 0.5
+        },
+        "consume_animation": "eat",
+        "priority": 0
+    },
+    "haybale_eat": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:hay_block"
+            }
+        },
+        "food_component": {
+            "hunger": 20,
+            "saturation": 1
+        },
+        "consume_animation": "eat",
+        "consuming_time_modifier": {
+            "operation": "set_total",
+            "value": 640
+        },
+        "priority": 0
+    },
+    "edible_tooltip": {
+        "type": "origins:tooltip",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "cervitaur:cervid_diet_foods"
+            }
+        },
+        "text": "§7Edible (§aCervid Diet§7)",
+        "order": 0
+    },
+    "brown_mushroom_eat": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:brown_mushroom"
+            }
+        },
+        "food_component": {
+            "hunger": 1,
+            "saturation": 0.5
+        },
+        "consume_animation": "eat",
+        "priority": 0
+    },
+    "red_mushroom_eat": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:red_mushroom"
+            }
+        },
+        "food_component": {
+            "hunger": 1,
+            "saturation": 0.5
+        },
+        "consume_animation": "eat",
+        "entity_action": {
+            "type": "origins:chance",
+            "chance": 0.1,
+            "action": {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:poison",
+                    "duration": 100,
+                    "amplifier": 0,
+                    "show_particles": true,
+                    "show_icon": true
+                }
+            }
+        },
+        "priority": 0
+    },
+    "grass_eat": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:grass"
+            }
+        },
+        "food_component": {
+            "hunger": 1,
+            "saturation": 0.5
+        },
+        "consume_animation": "eat",
+        "priority": 0
+    },
+    "tall_grass_eat": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:tall_grass"
+            }
+        },
+        "food_component": {
+            "hunger": 2,
+            "saturation": 0.5
+        },
+        "consume_animation": "eat",
+        "priority": 0
+    },
+    "grass_block_eat": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:grass_block"
+            }
+        },
+        "food_component": {
+            "hunger": 3,
+            "saturation": 0.5
+        },
+        "consume_animation": "eat",
+        "result_stack": {
+            "item": "minecraft:dirt"
+        },
+        "priority": 0
+    },
+    "short_flowers_eat": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": [
+                {
+                    "item": "minecraft:red_tulip"
+                },
+                {
+                    "item": "minecraft:orange_tulip"
+                },
+                {
+                    "item": "minecraft:white_tulip"
+                },
+                {
+                    "item": "minecraft:pink_tulip"
+                },
+                {
+                    "item": "minecraft:dandelion"
+                }
+            ]
+        },
+        "food_component": {
+            "hunger": 2,
+            "saturation": 0.5
+        },
+        "consume_animation": "eat",
+        "priority": 0
+    },
+    "rose_bush_eat": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:rose_bush"
+            }
+        },
+        "food_component": {
+            "hunger": 3,
+            "saturation": 0.5
+        },
+        "consume_animation": "eat",
+        "priority": 0
+    }
+}

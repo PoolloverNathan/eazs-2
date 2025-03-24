@@ -1,0 +1,12 @@
+{
+    "values": [
+        "minecraft:tall_grass",
+        "minecraft:large_fern",
+        "#minecraft:leaves",
+        "minecraft:warped_roots",
+        "minecraft:crimson_roots",
+        "minecraft:kelp",
+        "minecraft:kelp_plant",
+        "minecraft:moss_carpet"
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "name": "§6§l§nFlaming Tail",
+    "description": "§eAs a Charizard, the tip of your tail is an eternally burning flame, emitting light and heat, also causing snow and ice to melt around you.",
+    "type": "origins:multiple",
+    "light": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:in_rain"
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "setblock ~ ~1 ~ light[level=15] keep"
+        }
+    },
+    "remove_light_box_above": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "fill ~-10 ~2 ~-10 ~10 ~10 ~10 air replace light"
+        }
+    },
+    "remove_light_box_below": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "fill ~-10 ~-10 ~-10 ~10 ~ ~10 air replace light"
+        }
+    },
+    "remove_light_box_north": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "fill ~-10 ~1 ~-10 ~-1 ~1 ~-1 air replace light"
+        }
+    },
+    "remove_light_box_south": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "fill ~1 ~1 ~1 ~10 ~1 ~10 air replace light"
+        }
+    },
+    "remove_light_box_east": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "fill ~1 ~1 ~-10 ~10 ~1 ~10 air replace light"
+        }
+    },
+    "remove_light_box_west": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "fill ~-10 ~1 ~-10 ~-1 ~1 ~10 air replace light"
+        }
+    },
+    "remove_light_line_south": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "fill ~ ~1 ~1 ~ ~1 ~5 air replace light"
+        }
+    },
+    "remove_light_line_north": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "fill ~ ~1 ~-1 ~ ~1 ~-5 air replace light"
+        }
+    }
+}

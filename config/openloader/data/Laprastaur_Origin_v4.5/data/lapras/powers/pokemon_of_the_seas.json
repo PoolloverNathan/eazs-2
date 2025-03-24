@@ -1,0 +1,39 @@
+{
+    "name": "§b§l§nPokémon of the Seas",
+    "description": "§fYour powerful lungs of a Lapras allows you to hold your breath underwater for up to 5 minutes",
+    "condition": {
+        "inverted": true,
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:submerged_in",
+                "fluid": "water"
+            },
+            {
+                "inverted": true,
+                "type": "origins:status_effect",
+                "effect": "minecraft:conduit_power"
+            },
+            {
+                "inverted": true,
+                "type": "origins:in_block",
+                "block_condition": {
+                    "type": "origins:block",
+                    "block": "minecraft:bubble_column"
+                }
+            }
+        ]
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 5700,
+    "tick_rate": 20,
+    "effect": {
+        "effect": "water_breathing",
+        "duration": 0,
+        "amplifier": 0,
+        "show_particles": false,
+        "show_icon": true
+    }
+}

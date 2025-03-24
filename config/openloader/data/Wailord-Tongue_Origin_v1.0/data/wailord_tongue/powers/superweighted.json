@@ -1,0 +1,39 @@
+{
+    "name": "§1§l§nSuperweighted",
+    "description": "§3Due to the sheer weight and mass of your Wailord body, combined with a lack of true legs, you are incapable of ever walking on land, let alone being able to jump.",
+    "type": "origins:multiple",
+    "speed": {
+        "condition": {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": "==",
+            "compare_to": 0
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "generic.movement_speed",
+            "operation": "multiply_total",
+            "value": -10
+        },
+        "tick_rate": 4,
+        "update_health": true
+    },
+    "jump": {
+        "type": "origins:modify_jump",
+        "modifier": {
+            "operation": "set_total",
+            "value": 0
+        }
+    },
+    "air_speed": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:creative_flying"
+        },
+        "type": "origins:modify_air_speed",
+        "modifier": {
+            "operation": "set_total",
+            "value": 0
+        }
+    }
+}

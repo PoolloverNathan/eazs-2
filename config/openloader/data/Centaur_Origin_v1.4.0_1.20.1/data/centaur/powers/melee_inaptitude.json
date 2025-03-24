@@ -1,0 +1,28 @@
+{
+    "name": "Melee Inaptitude",
+    "description": "Due to your lower body's physique of a horse, melee combat is more cumbersome and difficult, reducing the effectiveness of melee combat.",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "§c-20% attack damage. 30% slower attack speed.",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+    "type": "origins:multiple",
+    "melee": {
+        "type": "origins:attribute",
+        "modifiers": [
+            {
+                "attribute": "generic.attack_damage",
+                "operation": "multiply_total",
+                "value": -0.2
+            },
+            {
+                "attribute": "generic.attack_speed",
+                "operation": "multiply_total",
+                "value": -0.3
+            }
+        ],
+        "update_health": true
+    }
+}

@@ -1,0 +1,71 @@
+1 Hunger, .1 saturation
+- Grass Block (becomes dirt)
+- Grass
+- Fern
+- Nether Sprouts
+- Seeds
+- Pink petals (works similar to cake)
+- Nether wart
+
+2 hunger, .2 saturation
+- Tall Grass
+- Large Fern
+- Kelp
+- Moss Carpet
+- Leaves
+- Warped / Crimson roots
+
+2 hunger, 1 saturation
+- Vines
+- Mycelium (becomes dirt)
+- Nylium
+
+3 hunger, 1 saturation
+- Lily pads
+- Flowers (excluding Torchflowers, Lily of the Valley, Wither Roses)
+- Sculk Vein (gives 3 seconds of blindness)
+
+3 hunger, 3 saturation
+- Mushrooms
+
+4 hunger, 2 saturation
+- Torchflower
+- Nether stems
+- Lily of the Valley
+
+5 hunger, 5 saturation
+- Nether vines
+- Moss block
+
+6 hunger, 4 saturation
+- Sculk (gives XP, 6 seconds of blindness)
+
+6 hunger, 8 saturation
+- Mushroom blocks
+- Tall flowers
+- Shroomlight
+- Cactus (deals 6 cactus damage)
+
+7 hunger, 9 saturation
+- Pumpkin
+- Carved Pumpkin
+- Spore blossom
+
+8 hunger, 4 saturation
+- Chorus flower/plant (Chorus fruit effect when eaten)
+
+9 hunger, 9 saturation
+- Nether wart blocks
+
+15 hunger, 18 saturation
+- Hay bale
+
+20 hunger, -5 saturation
+- Wither rose (5 seconds Wither II)
+
+EFFECTS
+- Warped blocks give Nausea and Speed III
+- Crimson blocks give Haste, Strength, and Hunger
+- Flowers give their suspicious stew effects at Level II if possible, with the following exceptions:
+    - Lily of the Valley: Gives Strength instead of Poison
+    - Cornflower: Gives Water Breathing instead of Jump Boost

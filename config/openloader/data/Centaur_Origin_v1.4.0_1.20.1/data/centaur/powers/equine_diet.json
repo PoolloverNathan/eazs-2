@@ -1,0 +1,83 @@
+{
+    "name": "Equine Diet",
+    "description": "Due to your digestive system being that of a horse, you are only capable of eating the same foods that horses can. However, they are slightly more filling due to your specialized diet.",
+    "type": "origins:multiple",
+    "more_saturation": {
+        "type": "origins:modify_food",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "centaur:vanilla_edible_foods"
+            }
+        },
+        "food_modifier": {
+            "operation": "addition",
+            "value": 1
+        },
+        "saturation_modifier": {
+            "operation": "addition",
+            "value": 0.2
+        }
+    },
+    "sugar_eat": {
+        "type": "apugli:edible_item",
+        "item_condition": {
+            "type": "apoli:ingredient",
+            "ingredient": {
+                "item": "minecraft:sugar"
+            }
+        },
+        "food_component": {
+            "hunger": 1,
+            "saturation": 1,
+            "snack": true
+        },
+        "consume_animation": "eat",
+        "priority": 0
+    },
+    "wheat_eat": {
+        "type": "apugli:edible_item",
+        "item_condition": {
+            "type": "apoli:ingredient",
+            "ingredient": {
+                "item": "minecraft:wheat"
+            }
+        },
+        "food_component": {
+            "hunger": 2,
+            "saturation": 0.5
+        },
+        "consume_animation": "eat",
+        "priority": 0
+    },
+    "haybale_eat": {
+        "type": "apugli:edible_item",
+        "item_condition": {
+            "type": "apoli:ingredient",
+            "ingredient": {
+                "item": "minecraft:hay_block"
+            }
+        },
+        "food_component": {
+            "hunger": 20,
+            "saturation": 1
+        },
+        "consume_animation": "eat",
+        "consuming_time_modifier": {
+            "operation": "set_total",
+            "value": 640
+        },
+        "priority": 0
+    },
+    "edible_tooltip": {
+        "type": "origins:tooltip",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "centaur:equine_diet_foods"
+            }
+        },
+        "text": "§7Edible (§aEquine Diet§7)",
+        "order": 0
+    }
+}

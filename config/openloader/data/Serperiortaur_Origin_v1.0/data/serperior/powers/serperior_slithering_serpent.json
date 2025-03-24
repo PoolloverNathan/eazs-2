@@ -1,0 +1,177 @@
+{
+    "name": "§2§l§nSlithering Serpent",
+    "description": "§aAs a Serperior, you seemingly have a severe lack of legs, preventing you from jumping. However, you're capable of slithering up two full blocks with ease and you're quite swift and agile on land, also showing itself in combat with 50% increased attack speed. Your lengthy tail also increases your height to just over 2.5 blocks and your maximum health to 12 hearts.",
+    "badges": [
+        {
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "§aThe silence of your slithering prevents your walking and sprinting from triggering sculk sensors!"
+        }
+    ],
+    "type": "origins:multiple",
+    "no_jumping": {
+        "type": "origins:modify_jump",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -1
+        }
+    },
+    "slithering": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:step_height 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:hitbox_width 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:hitbox_height 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:eye_height 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:step_height 4 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:hitbox_width 1.25 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:eye_height 1.4 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:hitbox_height 1.43 @s"
+                }
+            ]
+        },
+        "execute_chosen_when_orb": true,
+        "entity_action_lost": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale reset @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay reset @s"
+                }
+            ]
+        },
+        "entity_action_added": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:step_height 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:hitbox_width 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:hitbox_height 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:eye_height 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:step_height 4 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:hitbox_width 1.25 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:eye_height 1.4 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:hitbox_height 1.43 @s"
+                }
+            ]
+        },
+        "entity_action_respawned": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:step_height 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:hitbox_width 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:hitbox_height 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:eye_height 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:step_height 4 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:hitbox_width 1.25 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:eye_height 1.4 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:hitbox_height 1.43 @s"
+                }
+            ]
+        }
+    },
+    "movement_speed": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "addition",
+            "value": 0.05
+        },
+        "update_health": false
+    },
+    "silent_slithering": {
+        "type": "origins:prevent_game_event",
+        "event": "minecraft:step"
+    },
+    "silent_fall": {
+        "condition": {
+            "type": "origins:fall_distance",
+            "comparison": "<=",
+            "compare_to": 3
+        },
+        "type": "origins:prevent_game_event",
+        "event": "minecraft:hit_ground"
+    },
+    "health_increase": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 4
+        },
+        "update_health": true
+    }
+}

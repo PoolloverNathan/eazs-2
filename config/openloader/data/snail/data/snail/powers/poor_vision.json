@@ -1,0 +1,10 @@
+{
+    "name": "Poor Eyesight",
+    "description": "Your eyes are unable to focus, rendering your vision somewhat blurry.",
+    "type": "origins:multiple",
+
+    "blur": {
+        "type": "origins:shader",
+        "shader": "minecraft:shaders/post/blobs2.json"
+    }
+}

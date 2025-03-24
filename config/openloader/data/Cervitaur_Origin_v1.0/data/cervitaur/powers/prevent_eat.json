@@ -1,0 +1,21 @@
+{
+    "name": "Cervid Diet",
+    "description": "",
+    "hidden": true,
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:food"
+            },
+            {
+                "inverted": true,
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "cervitaur:cervid_diet_foods"
+                }
+            }
+        ]
+    }
+}

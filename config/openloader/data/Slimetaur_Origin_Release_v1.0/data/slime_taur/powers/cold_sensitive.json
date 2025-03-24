@@ -1,0 +1,70 @@
+{
+    "name": "§a§nCold-Sensitive",
+    "description": "§2Due to the properties of your lower body, it seems to be rather sensitive and solidifies in colder climates, making bouncing and jumping considerably more difficult",
+    "type": "origins:multiple",
+    "cold_slipping": {
+        "condition": {
+            "type": "origins:biome",
+            "condition": {
+                "type": "origins:precipitation",
+                "precipitation": "snow"
+            }
+        },
+        "type": "origins:modify_slipperiness",
+        "block_condition": {
+            "inverted": true,
+            "type": "origins:in_tag",
+            "tag": "slime_taur:slippery_default"
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 0.3999
+        }
+    },
+    "air_speed": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:biome",
+                    "condition": {
+                        "type": "origins:temperature",
+                        "comparison": "<=",
+                        "compare_to": 0.05
+                    }
+                }
+            ]
+        },
+        "type": "origins:modify_air_speed",
+        "modifier": {
+            "operation": "multiply_base",
+            "value": -0.2
+        }
+    },
+    "barely_jump": {
+        "condition": {
+            "type": "origins:biome",
+            "condition": {
+                "type": "origins:temperature",
+                "comparison": "<=",
+                "compare_to": 0.05
+            }
+        },
+        "type": "origins:modify_jump",
+        "modifier": {
+            "operation": "multiply_base",
+            "value": -0.05
+        }
+    },
+    "no_sprint": {
+        "condition": {
+            "type": "origins:biome",
+            "condition": {
+                "type": "origins:temperature",
+                "comparison": "<=",
+                "compare_to": 0.05
+            }
+        },
+        "type": "origins:prevent_sprinting"
+    }
+}

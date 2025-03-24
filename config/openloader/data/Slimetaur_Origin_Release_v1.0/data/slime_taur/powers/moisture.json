@@ -1,0 +1,282 @@
+{
+    "name": "§a§nBeing of Water",
+    "description": "§2Due to your slime-half being made of water, you need to maintain a healthy level of moisture in order to have a healthy level of mass for your slime, which scales your size and maximum health according to your moisture levels.",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "§2Various factors, such as the biome you're in, the weather, your diet, and being on fire contribute to your moisture levels!",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+    "type": "origins:multiple",
+    "bar": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 100,
+        "start_value": 50,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/resource_bar.png",
+            "bar_index": 1
+        }
+    },
+    "health_one": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "slime_taur:moisture_bar",
+                    "comparison": ">=",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "slime_taur:moisture_bar",
+                    "comparison": "<",
+                    "compare_to": 10
+                }
+            ]
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "generic.max_health",
+            "operation": "addition",
+            "value": -10
+        },
+        "tick_rate": 10,
+        "update_health": true
+    },
+    "health_two": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "slime_taur:moisture_bar",
+                    "comparison": ">=",
+                    "compare_to": 10
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "slime_taur:moisture_bar",
+                    "comparison": "<",
+                    "compare_to": 20
+                }
+            ]
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "generic.max_health",
+            "operation": "addition",
+            "value": -8
+        },
+        "tick_rate": 10,
+        "update_health": true
+    },
+    "health_three": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "slime_taur:moisture_bar",
+                    "comparison": ">=",
+                    "compare_to": 20
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "slime_taur:moisture_bar",
+                    "comparison": "<",
+                    "compare_to": 30
+                }
+            ]
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "generic.max_health",
+            "operation": "addition",
+            "value": -6
+        },
+        "tick_rate": 10,
+        "update_health": true
+    },
+    "health_four": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "slime_taur:moisture_bar",
+                    "comparison": ">=",
+                    "compare_to": 30
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "slime_taur:moisture_bar",
+                    "comparison": "<",
+                    "compare_to": 40
+                }
+            ]
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "generic.max_health",
+            "operation": "addition",
+            "value": -4
+        },
+        "tick_rate": 10,
+        "update_health": true
+    },
+    "health_five": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "slime_taur:moisture_bar",
+                    "comparison": ">=",
+                    "compare_to": 40
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "slime_taur:moisture_bar",
+                    "comparison": "<",
+                    "compare_to": 50
+                }
+            ]
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "generic.max_health",
+            "operation": "addition",
+            "value": -2
+        },
+        "tick_rate": 10,
+        "update_health": true
+    },
+    "health_six": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "slime_taur:moisture_bar",
+                    "comparison": ">",
+                    "compare_to": 50
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "slime_taur:moisture_bar",
+                    "comparison": "<",
+                    "compare_to": 60
+                }
+            ]
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "generic.max_health",
+            "operation": "addition",
+            "value": 2
+        },
+        "tick_rate": 10,
+        "update_health": true
+    },
+    "health_seven": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "slime_taur:moisture_bar",
+                    "comparison": ">=",
+                    "compare_to": 60
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "slime_taur:moisture_bar",
+                    "comparison": "<",
+                    "compare_to": 70
+                }
+            ]
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "generic.max_health",
+            "operation": "addition",
+            "value": 4
+        },
+        "tick_rate": 10,
+        "update_health": true
+    },
+    "health_eight": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "slime_taur:moisture_bar",
+                    "comparison": ">=",
+                    "compare_to": 70
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "slime_taur:moisture_bar",
+                    "comparison": "<",
+                    "compare_to": 80
+                }
+            ]
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "generic.max_health",
+            "operation": "addition",
+            "value": 6
+        },
+        "tick_rate": 10,
+        "update_health": true
+    },
+    "health_nine": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "slime_taur:moisture_bar",
+                    "comparison": ">=",
+                    "compare_to": 80
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "slime_taur:moisture_bar",
+                    "comparison": "<",
+                    "compare_to": 90
+                }
+            ]
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "generic.max_health",
+            "operation": "addition",
+            "value": 8
+        },
+        "tick_rate": 10,
+        "update_health": true
+    },
+    "health_ten": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "slime_taur:moisture_bar",
+            "comparison": ">=",
+            "compare_to": 90
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "generic.max_health",
+            "operation": "addition",
+            "value": 10
+        },
+        "tick_rate": 10,
+        "update_health": true
+    }
+}

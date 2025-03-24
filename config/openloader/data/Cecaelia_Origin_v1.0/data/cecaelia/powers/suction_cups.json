@@ -1,0 +1,95 @@
+{
+    "name": "Suction Cups",
+    "description": "Due to your tentacles having many suction cups on them, you are capable of climb up all walls with ease.",
+    "type": "origins:multiple",
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": true,
+        "key": {
+            "key": "key.origins.primary_active",
+            "continuous": false
+        },
+        "retain_state": true
+    },
+    "climbing": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "*:*_toggle"
+                },
+                {
+                    "type": "origins:or",
+                    "conditions": [
+                        {
+                            "type": "origins:and",
+                            "conditions": [
+                                {
+                                    "inverted": true,
+                                    "type": "origins:sneaking"
+                                },
+                                {
+                                    "type": "origins:collided_horizontally"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "origins:and",
+                            "conditions": [
+                                {
+                                    "type": "origins:sneaking"
+                                },
+                                {
+                                    "type": "origins:or",
+                                    "conditions": [
+                                        {
+                                            "type": "origins:block_collision",
+                                            "offset_x": 0.01,
+                                            "offset_y": 0,
+                                            "offset_z": 0.01
+                                        },
+                                        {
+                                            "type": "origins:block_collision",
+                                            "offset_x": -0.01,
+                                            "offset_y": 0,
+                                            "offset_z": -0.01
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "type": "origins:climbing",
+        "allow_holding": true
+    },
+    "actionbar": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:power_active",
+            "power": "cecaelia:suction_cups_toggle"
+        },
+        "type": "origins:action_over_time",
+        "interval": 5,
+        "rising_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale reset"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "title @s actionbar [\"\",{\"text\":\"Suction Cups: \"},{\"text\":\"OFF\",\"color\":\"red\"}]"
+                }
+            ]
+        },
+        "falling_action": {
+            "type": "origins:execute_command",
+            "command": "title @s actionbar [\"\",{\"text\":\"Suction Cups: \"},{\"text\":\"ON\",\"color\":\"green\"}]"
+        }
+    }
+}

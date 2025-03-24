@@ -1,0 +1,10 @@
+{
+    "hidden": true,
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "Knockback Resistance increase",
+        "attribute": "minecraft:generic.knockback_resistance",
+        "value": 1,
+        "operation": "addition"
+    }
+}

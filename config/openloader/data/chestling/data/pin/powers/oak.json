@@ -1,0 +1,19 @@
+{
+    "type": "origins:multiple",
+    "name": "Crafted from Oak",
+    "description": "Since your chest half was made from oak, you are more flammable. You also don't have legs so you can't run or swim.",
+    "sprint": {
+        "type": "origins:prevent_sprinting"
+    },
+    "oak": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:fire"
+        },
+        "modifier": {
+            "name": "Weak to cursed items",
+            "operation": "addition",
+            "value": 2
+        }
+    }
+}

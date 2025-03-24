@@ -1,0 +1,1899 @@
+{
+    "name": "§2§l§nBerry Devourer",
+    "description": "§aAs a Serperior-Taur, you are capable of consuming the special berries you may find during gameplay (Requires Cobblemon + Apugli)",
+    "type": "origins:multiple",
+    "oran_berry": {
+		"type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:oran_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:heal",
+			"amount": 2
+		}
+    },
+    "cheri_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:cheri_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:clear_effect",
+			"effect": "minecraft:slowness"
+		}
+    },
+    "chesto_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:chesto_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			 "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:blindness"
+                    },
+                    {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:nausea"
+                    }
+                ]
+		}
+    },
+    "pecha_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:pecha_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:clear_effect",
+			"effect": "minecraft:poison"
+		}
+    },
+    "rawst_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:rawst_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			 "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:weakness"
+                    },
+                    {
+                        "type": "origins:extinguish"
+                    }
+                ]
+		}
+    },
+    "aspear_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:aspear_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			  "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:slowness"
+                    },
+                    {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "effect": "minecraft:fire_resistance",
+                            "duration": 600,
+                            "amplifier": 0,
+                            "show_particles": true,
+                            "show_icon": true
+                        }
+                    }
+                ]
+		}
+    },
+    "persim_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:persim_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:clear_effect",
+			"effect": "minecraft:mining_fatigue"
+		}
+    },
+    "razz_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:razz_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:regeneration",
+                "duration": 200,
+                "amplifier": 0,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "bluk_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:bluk_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat"
+    },
+    "nanab_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:nanab_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:slowness",
+                "duration": 600,
+                "amplifier": 0,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "wepear_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:wepear_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat"
+    },
+    "pinap_berry": {
+       "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:pinap_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:luck",
+                "duration": 3600,
+                "amplifier": 0,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "occa_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:occa_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 600,
+                "amplifier": 1,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "passho_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:passho_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 600,
+                "amplifier": 1,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "wacan_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:wacan_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 600,
+                "amplifier": 1,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "rindo_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:rindo_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 600,
+                "amplifier": 1,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "yache_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:yache_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 600,
+                "amplifier": 1,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "chople_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:chople_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 600,
+                "amplifier": 1,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "kebia_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:kebia_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 600,
+                "amplifier": 1,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "shuca_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:shuca_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 600,
+                "amplifier": 1,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "coba_berry": {
+       "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:coba_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 600,
+                "amplifier": 1,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "payapa_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:payapa_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 600,
+                "amplifier": 1,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "tanga_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:tanga_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 600,
+                "amplifier": 1,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "charti_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:charti_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 600,
+                "amplifier": 1,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "kasib_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:kasib_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 600,
+                "amplifier": 1,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "haban_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:haban_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 600,
+                "amplifier": 1,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "colbur_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:colbur_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 600,
+                "amplifier": 1,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "babiri_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:babiri_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 600,
+                "amplifier": 1,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "chilan_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:chilan_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 600,
+                "amplifier": 1,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "roseli_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:roseli_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 600,
+                "amplifier": 1,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "leppa_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:leppa_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effects": [
+                    {
+                        "effect": "minecraft:speed",
+                        "duration": 1200,
+                        "amplifier": 0,
+                        "show_particles": true,
+                        "show_icon": true
+                    },
+                    {
+                        "effect": "minecraft:haste",
+                        "duration": 1200,
+                        "amplifier": 0,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+            ]
+		}
+    },
+    "lum_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:lum_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			 "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:slowness"
+                    },
+                    {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:mining_fatigue"
+                    },
+                    {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:nausea"
+                    },
+                    {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:blindness"
+                    },
+                    {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:hunger"
+                    },
+                    {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:weakness"
+                    },
+                    {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:poison"
+                    },
+                    {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:wither"
+                    },
+                    {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:levitation"
+                    },
+                    {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:bad_omen"
+                    },
+                    {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:darkness"
+                    },
+                    {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:unluck"
+                    }
+                ]
+		}
+    },
+    "hopo_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:hopo_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effects": [
+                    {
+                        "effect": "minecraft:speed",
+                        "duration": 1200,
+                        "amplifier": 0,
+                        "show_particles": true,
+                        "show_icon": true
+                    },
+                    {
+                        "effect": "minecraft:haste",
+                        "duration": 1200,
+                        "amplifier": 0,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+            ]
+		}
+    },
+    "figy_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:figy_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+				"type": "origins:and",
+				"actions": [
+                    {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "effect": "minecraft:weakness",
+                            "duration": 400,
+                            "amplifier": 0,
+                            "show_particles": true,
+                            "show_icon": true
+                        }
+                    },
+                    {
+                        "type": "origins:heal",
+                        "amount": 4
+                    }
+                ]
+		}
+    },
+    "iapapa_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:iapapa_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+				"type": "origins:and",
+				"actions": [
+                    {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:resistance"
+                    },
+                    {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:absorption"
+                    },
+                    {
+                        "type": "origins:heal",
+                        "amount": 4
+                    }
+                ]
+		}
+    },
+    "wiki_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:wiki_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+				"type": "origins:and",
+				"actions": [
+                    {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "effect": "minecraft:weakness",
+                            "duration": 400,
+                            "amplifier": 0,
+                            "show_particles": true,
+                            "show_icon": true
+                        }
+                    },
+                    {
+                        "type": "origins:heal",
+                        "amount": 4
+                    }
+                ]
+		}
+    },
+    "aguav_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:aguav_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+				"type": "origins:and",
+				"actions": [
+                    {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:resistance"
+                    },
+                    {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:absorption"
+                    },
+                    {
+                        "type": "origins:heal",
+                        "amount": 4
+                    }
+                ]
+		}
+    },
+    "mago_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:mago_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+				"type": "origins:and",
+				"actions": [
+                    {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "effect": "minecraft:slowness",
+                            "duration": 400,
+                            "amplifier": 0,
+                            "show_particles": true,
+                            "show_icon": true
+                        }
+                    },
+                    {
+                        "type": "origins:heal",
+                        "amount": 4
+                    }
+                ]
+		}
+    },
+    "sitrus_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:sitrus_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:heal",
+			"amount": 3
+		}
+    },
+    "touga_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:touga_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:clear_effect",
+			"effect": "minecraft:mining_fatigue"
+		}
+    },
+    "cornn_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:cornn_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat"
+    },
+    "magost_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:magost_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat"
+    },
+    "rabuta_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:rabuta_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat"
+    },
+    "nomel_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:nomel_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat"
+    },
+    "spelon_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:spelon_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat"
+    },
+    "pamtre_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:pamtre_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat"
+    },
+    "watmel_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:watmel_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat"
+    },
+    "durin_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:durin_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat"
+    },
+    "belue_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:belue_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat"
+    },
+    "enigma_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:enigma_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+				"type": "origins:and",
+				"actions": [
+                    {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "effect": "minecraft:absorption",
+                            "duration": 1200,
+                            "amplifier": 0,
+                            "show_particles": true,
+                            "show_icon": true
+                        }
+                    },
+                    {
+                        "type": "origins:heal",
+                        "amount": 4
+                    }
+                ]
+		}
+    },
+    "kee_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:kee_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 100,
+                "amplifier": 3,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "maranga_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:maranga_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:absorption",
+                "duration": 100,
+                "amplifier": 3,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "pomeg_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:pomeg_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+				"type": "origins:and",
+				"actions": [
+                    {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "effect": "minecraft:regeneration",
+                            "duration": 600,
+                            "amplifier": 0,
+                            "show_particles": true,
+                            "show_icon": true
+                        }
+                    },
+                    {
+                        "type": "origins:damage",
+                        "amount": 4,
+						"damage_type": "minecraft:thorns"
+                    }
+                ]
+		}
+    },
+    "kelpsy_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:kelpsy_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effects": [
+                    {
+                        "effect": "minecraft:regeneration",
+                        "duration": 600,
+                        "amplifier": 0,
+                        "show_particles": true,
+                        "show_icon": true
+                    },
+                    {
+                        "effect": "minecraft:weakness",
+                        "duration": 600,
+                        "amplifier": 0,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+            ]
+		}
+    },
+    "qualot_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:qualot_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+				"type": "origins:and",
+				"actions": [
+                    {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "effect": "minecraft:regeneration",
+                            "duration": 600,
+                            "amplifier": 0,
+                            "show_particles": true,
+                            "show_icon": true
+                        }
+                    },
+                    {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:resistance"
+                    },
+                    {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:absorption"
+                    }
+                ]
+		}
+    },
+    "hondew_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:hondew_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effects": [
+                    {
+                        "effect": "minecraft:regeneration",
+                        "duration": 600,
+                        "amplifier": 0,
+                        "show_particles": true,
+                        "show_icon": true
+                    },
+                    {
+                        "effect": "minecraft:weakness",
+                        "duration": 600,
+                        "amplifier": 0,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+            ]
+		}
+    },
+    "grepa_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:grepa_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+				"type": "origins:and",
+				"actions": [
+                    {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "effect": "minecraft:regeneration",
+                            "duration": 600,
+                            "amplifier": 0,
+                            "show_particles": true,
+                            "show_icon": true
+                        }
+                    },
+                    {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:resistance"
+                    },
+                    {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:absorption"
+                    }
+                ]
+		}
+    },
+    "tamato_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:tamato_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effects": [
+                    {
+                        "effect": "minecraft:regeneration",
+                        "duration": 600,
+                        "amplifier": 0,
+                        "show_particles": true,
+                        "show_icon": true
+                    },
+                    {
+                        "effect": "minecraft:slowness",
+                        "duration": 600,
+                        "amplifier": 0,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+            ]
+		}
+    },
+    "liechi_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:liechi_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:strength",
+                "duration": 1200,
+                "amplifier": 0,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "ganlon_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:ganlon_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 1200,
+                "amplifier": 0,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "petaya_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:petaya_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:strength",
+                "duration": 1200,
+                "amplifier": 0,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "apicot_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:apicot_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 1200,
+                "amplifier": 0,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "salac_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:salac_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:speed",
+                "duration": 1200,
+                "amplifier": 0,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "starf_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:starf_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:choice",
+                "actions": [
+                    {
+                        "weight": 1,
+                        "element": {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:regeneration",
+                                "duration": 1200,
+                                "amplifier": 1,
+                                "show_particles": true,
+                                "show_icon": true
+                            }
+                        }
+                    },
+                    {
+                        "weight": 1,
+                        "element": {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:resistance",
+                                "duration": 1200,
+                                "amplifier": 1,
+                                "show_particles": true,
+                                "show_icon": true
+                            }
+                        }
+                    },
+                    {
+                        "weight": 1,
+                        "element": {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:speed",
+                                "duration": 1200,
+                                "amplifier": 1,
+                                "show_particles": true,
+                                "show_icon": true
+                            }
+                        }
+                    },
+                    {
+                        "weight": 1,
+                        "element": {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:strength",
+                                "duration": 1200,
+                                "amplifier": 1,
+                                "show_particles": true,
+                                "show_icon": true
+                            }
+                        }
+                    },
+                    {
+                        "weight": 1,
+                        "element": {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:haste",
+                                "duration": 1200,
+                                "amplifier": 1,
+                                "show_particles": true,
+                                "show_icon": true
+                            }
+                        }
+                    },
+                    {
+                        "weight": 1,
+                        "element": {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:absorption",
+                                "duration": 1200,
+                                "amplifier": 1,
+                                "show_particles": true,
+                                "show_icon": true
+                            }
+                        }
+                    }
+                ]
+		}
+    },
+    "lansat_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:lansat_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effects": [
+                    {
+                        "effect": "minecraft:haste",
+                        "duration": 600,
+                        "amplifier": 0,
+                        "show_particles": true,
+                        "show_icon": true
+                    },
+                    {
+                        "effect": "minecraft:luck",
+                        "duration": 600,
+                        "amplifier": 1,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+            ]
+		}
+    },
+    "micle_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:micle_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effects": [
+                    {
+                        "effect": "minecraft:haste",
+                        "duration": 600,
+                        "amplifier": 1,
+                        "show_particles": true,
+                        "show_icon": true
+                    },
+                    {
+                        "effect": "minecraft:luck",
+                        "duration": 600,
+                        "amplifier": 0,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+            ]
+		}
+    },
+    "custap_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:custap_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:speed",
+                "duration": 100,
+                "amplifier": 4,
+                "show_particles": true,
+                "show_icon": true
+            }
+		}
+    },
+    "jaboca_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:jaboca_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:area_of_effect",
+                "radius": 10,
+                "bientity_action": {
+                    "type": "origins:target_action",
+                    "action": {
+                        "type": "origins:damage",
+                        "amount": 6,
+						"damage_type": "minecraft:thorns"
+                    }
+                }
+		}
+    },
+    "rowap_berry": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:rowap_berry"
+			}
+		},
+		"food_component": {
+			"hunger": 2,
+			"saturation": 0.5,
+			"meat": true
+		},
+		"use_action": "eat",
+		"entity_action": {
+			"type": "origins:area_of_effect",
+                "radius": 10,
+                "bientity_action": {
+                    "type": "origins:target_action",
+                    "action": {
+                        "type": "origins:damage",
+                        "amount": 6,
+						"damage_type": "minecraft:thorns"
+                    }
+                }
+		}
+    },
+	 "berry_juice": {
+        "type": "apugli:edible_item",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"item": "cobblemon:berry_juice"
+			}
+		},
+		"food_component": {
+			"hunger": 5,
+			"saturation": 5,
+			"meat": true
+		},
+		"use_action": "drink",
+		"entity_action": {
+			"type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:execute_command",
+                        "command": "clear @s cobblemon:berry_juice 1"
+                    },
+                    {
+                        "type": "origins:heal",
+                        "amount": 5
+                    }
+                ]
+		},
+		"return_stack": {
+        "item": "minecraft:bowl",
+        "amount": 1
+		}
+    }
+}

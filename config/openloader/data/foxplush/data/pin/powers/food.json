@@ -1,0 +1,78 @@
+{
+    "name": "Non-existent Digestion",
+    "description": "Your plush body doesn't have organs, so to \"repair\" yourself you need to use wool and you don't get hungry.",
+    "type": "origins:multiple",
+    "eat": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:equipped_item_action",
+                    "equipment_slot": "mainhand",
+                    "action": {
+                        "type": "origins:consume",
+                        "amount": 1
+                    }
+                },
+                {
+                    "type": "origins:heal",
+                    "amount": 2
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:block.wool.break"
+                },
+                {
+                    "type": "origins:swing_hand",
+                    "hand": "MAIN_HAND"
+                }
+            ]
+        },
+        "cooldown": 7,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.use",
+            "continuous": true
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "tag": "minecraft:wool"
+                        }
+                    }
+                },
+                {
+                    "type": "origins:health",
+                    "comparison": "!=",
+                    "compare_to": 16
+                }
+            ]
+        }
+    },
+    "prevent": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:food"
+        }
+    },
+    "exhaust": {
+        "type": "origins:modify_exhaustion",
+        "modifier": {
+            "name": "Disable Exhaustion",
+            "operation": "multiply_base",
+            "value": -1
+        }
+    },
+    "regen": {
+        "type": "origins:disable_regen"
+    }
+}

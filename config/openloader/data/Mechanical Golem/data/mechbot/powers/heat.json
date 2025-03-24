@@ -1,0 +1,500 @@
+{
+    "name": "Heat",
+    "description": "Your engine keeps you alive, but it also can be dangerous.",
+    "type": "origins:multiple",
+
+	"heat": {
+		"type": "origins:resource",
+		"min": 0,
+		"max": 360,
+		"hud_render": {
+			"should_render": true
+		},
+		"min_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:revoke_power",
+					"power": "mechbot:burnout",
+					"source": "mechbot:golem"
+				},
+				{
+					"type": "origins:grant_power",
+					"power": "mechbot:gearup",
+					"source": "mechbot:golem"
+				}
+			]
+		},
+		"max_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:grant_power",
+					"power": "mechbot:burnout",
+					"source": "mechbot:golem"
+				},
+				{
+					"type": "origins:revoke_power",
+					"power": "mechbot:gearup",
+					"source": "mechbot:golem"
+				},
+				{
+					"type": "origins:set_on_fire",
+					"duration": 6
+				}
+			]
+		}
+	},
+
+	"cold_death": {
+		"type": "origins:action_on_callback",
+		"entity_action_respawned": {
+			"type": "origins:execute_command",
+			"command": "/resource set @s mechbot:heat_heat 0"
+		}
+	},
+
+	"cool_down": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:if_else",
+			"condition": {
+				"type": "origins:sprinting"
+			},
+			"if_action": {
+				"type": "origins:change_resource",
+				"resource": "*:*_heat",
+				"change": 1
+			}
+		}
+	},
+
+	"moving": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:if_else",
+			"condition": {
+				"type": "origins:moving",
+				"vertically": false
+			},
+			"if_action": {
+				"type": "origins:change_resource",
+				"resource": "*:*_heat",
+				"change": -1
+			},
+			"else_action": {
+				"type": "origins:change_resource",
+				"resource": "*:*_heat",
+				"change": -2
+			}
+		}
+	},
+
+	"on_hit": {
+		"type": "origins:action_on_hit",
+		"bientity_action": {
+			"type": "origins:actor_action",
+			"action": {
+				"type": "origins:change_resource",
+				"resource": "*:*_heat",
+				"change": 10
+			}
+		}
+	},
+
+	"hit_by_fire": {
+		"type": "origins:action_when_hit",
+		"bientity_condition": {
+			"type": "origins:target_condition",
+			"condition": {
+				"type": "origins:and",
+				"conditions": [
+					{
+						"type": "origins:enchantment",
+						"enchantment": "minecraft:fire_protection",
+						"calculation": "sum",
+						"comparison": ">=",
+						"compare_to": 4,
+						"inverted": true
+					},
+					{
+						"type": "origins:status_effect",
+						"effect": "minecraft:fire_resistance",
+						"min_amplifier": 0,
+						"inverted": true
+					}
+				]
+			}
+		},
+		"damage_condition": {
+			"type": "origins:or",
+			"conditions": [
+				{
+					"type": "origins:attacker",
+					"entity_condition": {
+						"type": "origins:or",
+						"conditions": [
+							{
+								"type": "origins:entity_type",
+								"entity_type": "minecraft:blaze"
+							},
+							{
+								"type": "origins:entity_type",
+								"entity_type": "minecraft:magma_cube"
+							},
+							{
+								"type": "origins:entity_type",
+								"entity_type": "minecraft:ghast"
+							}
+						]
+					}
+				},
+				{
+					"type": "origins:name",
+					"name": "badRespawnPoint"
+				},
+				{
+					"type": "origins:name",
+					"name": "explosion"
+				},
+				{
+					"type": "origins:name",
+					"name": "explosion.player"
+				},
+				{
+					"type": "origins:name",
+					"name": "fireworks"
+				},
+				{
+					"type": "origins:name",
+					"name": "fireworks.player"
+				},
+				{
+					"type": "origins:name",
+					"name": "fireworks.item"
+				}
+			]
+		},
+		"bientity_action": {
+			"type": "origins:target_action",
+			"action": {
+				"type": "origins:change_resource",
+				"resource": "*:*_heat",
+				"change": 15
+			}
+		}
+	},
+
+	"on_fire": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:if_else",
+			"condition": {
+				"type": "origins:and",
+				"conditions": [
+					{
+						"type": "origins:on_fire"
+					},
+					{
+						"type": "origins:enchantment",
+						"enchantment": "minecraft:fire_protection",
+						"calculation": "sum",
+						"comparison": ">=",
+						"compare_to": 3,
+						"inverted": true
+					},
+					{
+						"type": "origins:status_effect",
+						"effect": "minecraft:fire_resistance",
+						"min_amplifier": 0,
+						"inverted": true
+					}
+				]
+			},
+			"if_action": {
+				"type": "origins:change_resource",
+				"resource": "*:*_heat",
+				"change": 5
+			}
+		}
+	},
+
+	"on_lava": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:if_else",
+			"condition": {
+				"type": "origins:and",
+				"conditions": [
+					{
+						"type": "origins:fluid_height",
+						"fluid": "minecraft:lava",
+						"comparison": ">",
+						"compare_to": 0
+					},
+					{
+						"type": "origins:enchantment",
+						"enchantment": "minecraft:fire_protection",
+						"calculation": "sum",
+						"comparison": ">=",
+						"compare_to": 16,
+						"inverted": true
+					},
+					{
+						"type": "origins:status_effect",
+						"effect": "minecraft:fire_resistance",
+						"min_amplifier": 0,
+						"inverted": true
+					}
+				]
+			},
+			"if_action": {
+				"type": "origins:change_resource",
+				"resource": "*:*_heat",
+				"change": 47
+			}
+		}
+	},
+
+	"in_nether": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:if_else",
+			"condition": {
+				"type": "origins:and",
+				"conditions": [
+					{
+						"type": "origins:dimension",
+						"dimension": "minecraft:the_nether"
+					},
+					{
+						"type": "origins:enchantment",
+						"enchantment": "minecraft:fire_protection",
+						"calculation": "sum",
+						"comparison": ">=",
+						"compare_to": 2,
+						"inverted": true
+					},
+					{
+						"type": "origins:status_effect",
+						"effect": "minecraft:fire_resistance",
+						"min_amplifier": 0,
+						"inverted": true
+					}
+				]
+			},
+			"if_action": {
+				"type": "origins:change_resource",
+				"resource": "*:*_heat",
+				"change": 1
+			}
+		}
+	},
+
+	"hot_biome": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:if_else",
+			"condition": {
+				"type": "origins:and",
+				"conditions": [
+					{
+						"type": "origins:biome",
+						"condition": {
+							"type": "origins:temperature",
+							"comparison": ">=",
+							"compare_to": 0.5
+						}
+					},
+					{
+						"type": "origins:enchantment",
+						"enchantment": "minecraft:fire_protection",
+						"calculation": "sum",
+						"comparison": ">=",
+						"compare_to": 1,
+						"inverted": true
+					},
+					{
+						"type": "origins:status_effect",
+						"effect": "minecraft:fire_resistance",
+						"min_amplifier": 0,
+						"inverted": true
+					}
+				]
+			},
+			"if_action": {
+				"type": "origins:change_resource",
+				"resource": "*:*_heat",
+				"change": 1
+			}
+		}
+	},
+
+	"cold_biome": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:if_else",
+			"condition": {
+					"type": "origins:biome",
+					"condition": {
+						"type": "origins:temperature",
+							"comparison": "<=",
+							"compare_to": -0.5
+						}
+				}
+			},
+			"if_action": {
+				"type": "origins:change_resource",
+				"resource": "*:*_heat",
+				"change": -1
+			}
+		},
+
+	"in_water": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:if_else",
+			"condition": {
+				"type": "origins:fluid_height",
+				"fluid": "minecraft:water",
+				"comparison": ">",
+				"compare_to": 0
+			},
+			"if_action": {
+				"type": "origins:change_resource",
+				"resource": "*:*_heat",
+				"change": -6
+			}
+		}
+	},
+
+	"in_rain": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:if_else",
+			"condition": {
+				"type": "origins:in_rain"
+			},
+			"if_action": {
+				"type": "origins:change_resource",
+				"resource": "*:*_heat",
+				"change": -2
+			}
+		}
+	},
+
+	"in_snow": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:if_else",
+			"condition": {
+				"type": "origins:in_snow"
+			},
+			"if_action": {
+				"type": "origins:change_resource",
+				"resource": "*:*_heat",
+				"change": -3
+			}
+		}
+	},
+
+	"powder_snow": {
+		"type": "origins:action_over_time",
+		"condition": {
+			"type": "origins:block_in_radius",
+			"block_condition": {
+				"type": "origins:block",
+				"block": "minecraft:powder_snow"
+			},
+			"radius": 0,
+			"shape": "cube",
+			"comparison": ">=",
+			"compare_to": 1
+		},
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "*:*_heat",
+			"change": -8
+		}
+	},
+
+	"freezing": {
+		"type": "origins:action_over_time",
+		"condition": {
+			"type": "origins:nbt",
+			"nbt": "{TicksFrozen:140}"
+		},
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "*:*_heat",
+			"change": -2
+		}
+	},
+
+	"drink_water": {
+		"type": "origins:action_on_item_use",
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "*:*_heat",
+			"change": -15
+		},
+
+		"item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:potion",
+				"nbt": "{Potion:\"minecraft:water\"}"
+			}
+		}
+	},
+
+	"self_sufficient": {
+		"type": "origins:modify_exhaustion",
+		"modifier": {
+			"operation": "multiply_base_multiplicative",
+			"value": -1
+		}
+	},
+
+	"prevent_cake": {
+		"type": "origins:prevent_block_use",
+		"block_condition": {
+			"type": "origins:block",
+			"block": "minecraft:cake"
+		}
+	},
+
+	"prevent_eat": {
+		"type": "origins:prevent_item_use",
+		"item_condition": {
+			"type": "origins:food"
+		}
+	},
+
+	"badges": [
+		{
+			"sprite": "minecraft:textures/item/blaze_powder.png",
+			"text": "If your engine reaches maximum heat, you overheat."
+		},
+		{
+			"sprite": "minecraft:textures/item/water_bucket.png",
+			"text": "Liquids or snow can help you cool yourself."
+		},
+		{
+			"sprite": "minecraft:textures/block/oak_sapling.png",
+			"text": "The biome, weather and dimension can affect your heat."
+		},
+		{
+			"sprite": "minecraft:textures/item/iron_chestplate.png",
+			"text": "Armor enchantments and potions can protect your heat from external factors. The enchantment levels required varies."
+		},
+		{
+			"sprite": "minecraft:textures/item/fire_charge.png",
+			"text": "While you are overheated, being attacked sets your enemies on fire but you cannot hit."
+		},
+		{
+			"sprite": "minecraft:textures/item/apple.png",
+			"text": "Your engine is self suficient, you dont need to eat."
+		}
+	]
+}

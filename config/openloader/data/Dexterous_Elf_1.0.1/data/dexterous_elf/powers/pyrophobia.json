@@ -1,0 +1,12 @@
+{
+	"name":"§cPyrophobia",
+	"description":"You are scared of fire's effect on nature so it deals more damage to you.",
+	"type": "origins:modify_damage_taken",
+	"damage_condition": {
+		"type": "origins:fire"
+		},
+	"modifier": {
+		"operation": "multiply_base_multiplicative",
+		"value": 0.5
+	}
+}

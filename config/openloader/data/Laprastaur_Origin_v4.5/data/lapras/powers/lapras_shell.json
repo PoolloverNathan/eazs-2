@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "Natural Armor health bonus",
+        "attribute": "minecraft:generic.armor",
+        "value": 10,
+        "operation": "addition"
+    },
+    "name": "§b§l§nLapras Shell",
+    "description": "§fDue to your large and tough shell of a Lapras on your back, most of your vital organs are well protected, giving you 10 armor points and 4 armor toughness."
+}

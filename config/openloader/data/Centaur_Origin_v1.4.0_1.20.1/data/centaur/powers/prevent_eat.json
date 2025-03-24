@@ -1,0 +1,21 @@
+{
+    "name": "Equine Diet",
+    "description": "",
+    "hidden": true,
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:food"
+            },
+            {
+                "inverted": true,
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "centaur:equine_diet_foods"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,61 @@
+{
+	"name": "§bMask of The Wild",
+	"description": "Become invisible while standing still or sneaking in any bushy vegetation that grows on the land.",
+	"badges": [
+		{
+			"type": "origins:keybind",
+			"sprite": "origins:textures/gui/badge/info.png",
+			"text": "You can attack through the plants you can hide in."
+		}
+	],
+	"type": "origins:multiple",
+	"invisibility": {
+		"type": "origins:invisibility",
+		"render_armor": false,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:in_block",
+					"block_condition": {
+						"type": "origins:in_tag",
+						"tag": "minecraft:replaceable_plants"
+					}
+				},
+				{
+					"type": "origins:or",
+					"conditions": [
+						{
+							"type": "origins:moving",
+							"inverted": true
+						},
+						{
+							"type": "origins:sneaking"
+						}
+					]
+				}
+			]
+		}
+	},
+	"hit_through": {
+		"type": "origins:prevent_block_selection",
+		"block_condition": {
+		  "type": "origins:in_tag",
+		  "tag": "minecraft:replaceable_plants"
+		},
+		"condition": {
+			"type": "origins:raycast",
+			"distance": 3,
+			"block": false,
+			"entity": true,
+			"shape_type": "collider",
+			"fluid_handling": "none",
+			"match_bientity_condition": {
+				"type": "origins:target_condition",
+				"condition": {
+					"type": "origins:living"
+				}
+			}
+		}
+	}
+}

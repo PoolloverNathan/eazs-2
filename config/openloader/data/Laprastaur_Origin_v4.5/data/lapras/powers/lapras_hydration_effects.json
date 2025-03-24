@@ -1,0 +1,62 @@
+{
+    "name": "§b§l§nHydration",
+    "description": "§fAs a Lapras, you have access to the hidden ability, Hydration, causing all negative status effects to be instantly cured in rain.",
+    "condition": {
+        "type": "origins:in_rain"
+    },
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:clear_effect",
+                "effect": "minecraft:bad_omen"
+            },
+            {
+                "type": "origins:clear_effect",
+                "effect": "minecraft:blindness"
+            },
+            {
+                "type": "origins:clear_effect",
+                "effect": "minecraft:darkness"
+            },
+            {
+                "type": "origins:clear_effect",
+                "effect": "minecraft:hunger"
+            },
+            {
+                "type": "origins:clear_effect",
+                "effect": "minecraft:levitation"
+            },
+            {
+                "type": "origins:clear_effect",
+                "effect": "minecraft:mining_fatigue"
+            },
+            {
+                "type": "origins:clear_effect",
+                "effect": "minecraft:nausea"
+            },
+            {
+                "type": "origins:clear_effect",
+                "effect": "minecraft:poison"
+            },
+            {
+                "type": "origins:clear_effect",
+                "effect": "minecraft:slowness"
+            },
+            {
+                "type": "origins:clear_effect",
+                "effect": "minecraft:unluck"
+            },
+            {
+                "type": "origins:clear_effect",
+                "effect": "minecraft:weakness"
+            },
+            {
+                "type": "origins:clear_effect",
+                "effect": "minecraft:wither"
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Stolen Life",
+    "description": "Your plush body doesn't provide as much protection as your original one that is no more...",
+    "type": "origins:multiple",
+    "lesshp": {
+        "type": "origins:attribute",
+        "modifier": {
+            "name": "Max health increase",
+            "attribute": "minecraft:generic.max_health",
+            "value": -4,
+            "operation": "addition"
+        }
+    },
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "You have 8 hearths!"
+        }
+    ]
+}

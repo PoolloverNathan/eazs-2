@@ -1,0 +1,81 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "generic_leaves": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "minecraft:leaves"
+                    }
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:ingredient",
+                    "ingredient": [
+                        {
+                            "item": "minecraft:cherry_leaves"
+                        },
+                        {
+                            "item": "minecraft:acacia_leaves"
+                        },
+                        {
+                            "item": "minecraft:flowering_azalea_leaves"
+                        }
+                    ]
+                }
+            ]
+        },
+        "food_component": {
+            "hunger": 3,
+            "saturation": 0.5
+        },
+        "consume_animation": "eat",
+        "consume_sound": "minecraft:entity.panda.eat",
+        "priority": 0
+    },
+    "generic_saplings": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "minecraft:saplings"
+                    }
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:ingredient",
+                    "ingredient": [
+                        {
+                            "item": "minecraft:cherry_sapling"
+                        },
+                        {
+                            "item": "minecraft:acacia_sapling"
+                        },
+                        {
+                            "item": "minecraft:flowering_azalea"
+                        }
+                    ]
+                }
+            ]
+        },
+        "food_component": {
+            "hunger": 1,
+            "saturation": 0.5,
+            "snack": true
+        },
+        "consume_animation": "eat",
+        "consume_sound": "minecraft:entity.panda.eat",
+        "result_stack": {
+            "item": "minecraft:stick",
+            "amount": 1
+        },
+        "priority": 0
+    }
+}

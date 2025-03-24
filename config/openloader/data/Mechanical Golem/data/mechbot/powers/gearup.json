@@ -1,0 +1,350 @@
+{
+    "name": "Gear Up",
+    "description": "(primary) Increases your attack speed, breaking speed, damage and movement speed.",
+    "type": "origins:multiple",
+
+	"gears": {
+		"type": "origins:resource",
+		"min": 0,
+		"max": 4,
+		"max_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:change_resource",
+					"resource": "*:*_gears",
+					"operation": "set",
+					"change": 0
+				}
+			]
+		}
+	},
+
+	"switch_gear": {
+		"type": "origins:active_self",
+		"key": {"key": "key.origins.primary_active"},
+		"entity_action": {
+			"type": "origins:delay",
+			"ticks": 1,
+			"action": {
+				"type": "origins:change_resource",
+				"resource": "*:*_gears",
+				"change": 1
+			}
+		}
+	},
+
+	"gear_one": {
+		"type": "origins:active_self",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_gears",
+			"comparison": "==",
+			"compare_to": 0
+		},
+		"key": {"key": "key.origins.primary_active"},
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:block.dispenser.dispense"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "/scale set pehkui:step_height 2 @s"
+				}
+			]
+		}
+	},
+
+	"gear_two": {
+		"type": "origins:active_self",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_gears",
+			"comparison": "==",
+			"compare_to": 1
+		},
+		"key": {"key": "key.origins.primary_active"},
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:block.dispenser.dispense",
+					"pitch": 1.1
+				}
+			]
+		}
+	},
+
+	"gear_three": {
+		"type": "origins:active_self",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_gears",
+			"comparison": "==",
+			"compare_to": 2
+		},
+		"key": {"key": "key.origins.primary_active"},
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:block.dispenser.dispense",
+					"pitch": 1.2
+				}
+			]
+		}
+	},
+
+	"reset_gear": {
+		"type": "origins:active_self",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_gears",
+			"comparison": "==",
+			"compare_to": 3
+		},
+		"key": {"key": "key.origins.primary_active"},
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:item.bucket.fill_powder_snow",
+					"volume": 2,
+					"pitch": 0.5
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "/scale set pehkui:step_height 1 @s"
+				}
+			]
+		}
+	},
+
+	"gear_fix": {
+		"type": "origins:action_on_callback",
+		"entity_action_removed": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:change_resource",
+					"resource": "*:*_gears",
+					"operation": "set",
+					"change": 0
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "/scale set pehkui:step_height 1 @s"
+				}
+			]
+		}
+	},
+
+	"gear_up_heat": {
+		"type": "origins:action_over_time",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_gears",
+			"comparison": ">=",
+			"compare_to": 1
+		},
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:spawn_particles",
+					"count": 1,
+					"speed": 0.1,
+					"spread": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"particle": "minecraft:large_smoke" 
+				},
+				{
+					"type": "origins:change_resource",
+					"resource": "mechbot:heat_heat",
+					"change": 3
+				}
+			]
+		}
+	},
+
+	"gear_two_heat": {
+		"type": "origins:action_over_time",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_gears",
+			"comparison": ">=",
+			"compare_to": 2
+		},
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:spawn_particles",
+					"count": 1,
+					"speed": 0.01,
+					"spread": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"particle": "minecraft:campfire_cosy_smoke" 
+				},
+				{
+					"type": "origins:change_resource",
+					"resource": "mechbot:heat_heat",
+					"change": 6
+				}
+			]
+		}
+	},
+
+	"gear_three_heat": {
+		"type": "origins:action_over_time",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_gears",
+			"comparison": ">=",
+			"compare_to": 3
+		},
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:spawn_particles",
+					"count": 1,
+					"speed": 0.01,
+					"spread": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"particle": "minecraft:lava" 
+				},
+				{
+					"type": "origins:change_resource",
+					"resource": "mechbot:heat_heat",
+					"change": 9
+				}
+			]
+		}
+	},
+
+	"less_damage": {
+		"type": "origins:modify_attribute",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_gears",
+			"compare_to": 3,
+			"comparison": "<"
+		},
+		"attribute": "minecraft:generic.attack_damage",
+		"modifier": {
+			"operation": "multiply_total",
+			"value": -0.5
+		}
+	},
+
+	"movement_speed": {
+		"type": "origins:modify_attribute",
+		
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_gears",
+			"comparison": ">",
+			"compare_to": 0
+		},
+		"attribute": "minecraft:generic.movement_speed",
+		"modifier": {
+			"operation": "multiply_total_multiplicative",
+			"value": 0,
+			"resource": "mechbot:upgrade_copper_resource",
+			"modifier": {
+				"operation": "multiply_total_multiplicative",
+				"value": -0.995
+			}
+		}
+	},
+
+	"break_speed": {
+		"type": "origins:modify_break_speed",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_gears",
+			"comparison": ">",
+			"compare_to": 1
+		},
+		"modifier": {
+			"operation": "multiply_total_multiplicative",
+			"value": 0,
+			"resource": "mechbot:upgrade_redstone_resource",
+			"modifier": {
+				"operation": "multiply_total_multiplicative",
+				"value": -0.98
+			}
+		}
+	},
+
+	"attack_speed": {
+		"type": "origins:modify_attribute",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_gears",
+			"comparison": ">",
+			"compare_to": 2
+		},
+		"attribute": "minecraft:generic.attack_speed",
+		"modifier": {
+			"operation": "multiply_total",
+			"value": 0,
+			"resource": "mechbot:upgrade_gold_resource",
+			"modifier": {
+				"operation": "multiply_total",
+				"value": -0.96
+			}
+		}
+	},
+
+	"attack_damage": {
+		"type": "origins:modify_attribute",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_gears",
+			"comparison": ">",
+			"compare_to": 2
+		},
+		"attribute": "minecraft:generic.attack_damage",
+		"modifier": {
+			"operation": "multiply_total",
+			"value": 0,
+			"resource": "mechbot:upgrade_netherite_resource",
+			"modifier": {
+				"operation": "multiply_total",
+				"value": -0.88
+			}
+		}
+	},
+
+	"badges": [
+		{
+			"sprite": "minecraft:textures/item/repeater.png",
+			"text": "You can gear up up to three times."
+		},
+		{
+			"sprite": "minecraft:textures/item/comparator.png",
+			"text": "Using this power at max gear deactivates it."
+		},
+		{
+			"sprite": "minecraft:textures/item/coal.png",
+			"text": "You cannot use this ability while overheated."
+		}
+	]
+}

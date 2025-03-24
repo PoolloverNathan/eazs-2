@@ -1,0 +1,38 @@
+{
+    "name": "Punce",
+    "description": "You can leap forward to get closer to foes.",
+    "type": "origins:multiple",
+    "velocity": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:add_velocity",
+                    "space": "local",
+                    "y": 0.5,
+                    "z": 1
+                },
+                {
+                    "type": "origins:spawn_particles",
+                    "particle": {
+                        "type": "minecraft:poof"
+                    },
+                    "count": 16,
+                    "speed": 0.0,
+                    "force": true
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:block.wool.fall"
+                }
+            ]
+        },
+        "cooldown": 70,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+            "bar_index": 9
+        }
+    }
+}

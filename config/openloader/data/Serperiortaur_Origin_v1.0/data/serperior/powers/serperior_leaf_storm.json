@@ -1,0 +1,115 @@
+{
+    "name": "§2§l§nLeaf Storm",
+    "description": "§aAs a Serperior, you are able to use grass type moves in combat, such as Leaf Storm using your primary key. This ability recharges more quickly whilst in sunlight.",
+	"badges": [
+        {
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "§aAlso inflicts weakness on enemies!"
+        }
+    ],
+    "type": "origins:multiple",
+    "normal_damage": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "serperior:serperior_leaf_storm_fuel_fuel_bar",
+                    "comparison": ">",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s run particle minecraft:totem_of_undying ~ ~2 ~ 12 8 12 0.5 120 normal"
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:block.azalea.fall",
+                    "volume": 1,
+                    "pitch": 1
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "serperior:serperior_leaf_storm_fuel_fuel_bar",
+                    "change": -1,
+                    "operation": "add"
+                },
+                {
+                    "type": "origins:area_of_effect",
+                    "radius": 12,
+                    "bientity_condition": {
+                        "type": "origins:target_condition",
+                        "condition": {
+                            "type": "origins:and",
+                            "conditions": [
+                                {
+                                    "type": "origins:living"
+                                },
+                                {
+                                    "inverted": true,
+                                    "type": "origins:origin",
+                                    "origin": "charizard:charizard"
+                                },
+                                {
+                                    "inverted": true,
+                                    "type": "origins:origin",
+                                    "origin": "lapras:lapras"
+                                },
+                                {
+                                    "inverted": true,
+                                    "type": "origins:origin",
+                                    "origin": "serperior:serperior"
+                                }
+                            ]
+                        }
+                    },
+                    "bientity_action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:add_velocity",
+                                "x": 0.03,
+                                "y": 0.01,
+                                "z": -0.03,
+                                "client": true,
+                                "server": true
+                            },
+                            {
+                                "type": "origins:damage",
+                                "amount": 3,
+                                "damage_type": "minecraft:fly_into_wall"
+                            },
+                            {
+                                "type": "origins:target_action",
+                                "action": {
+                                    "type": "origins:apply_effect",
+                                    "effect": {
+                                        "effect": "minecraft:weakness",
+                                        "duration": 100,
+                                        "amplifier": 0,
+                                        "show_particles": true,
+                                        "show_icon": true
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.origins.primary_active",
+            "continuous": true
+        }
+    }
+}

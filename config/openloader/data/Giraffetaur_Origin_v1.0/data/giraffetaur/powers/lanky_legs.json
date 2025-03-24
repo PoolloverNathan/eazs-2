@@ -1,0 +1,148 @@
+{
+    "name": "Lanky Legs",
+    "description": "With the excessive length of your giraffe legs comes the movement capabilities of one, with your movement speed, jump & step height, and fall distance modifers being that of a giraffe. Moreover, your movement speed decrease while walking in shallow waters is reduced. However, the long, slender nature of your legs prevents you from sprint-swimming",
+    "type": "origins:multiple",
+    "sprinting": {
+        "condition": {
+            "type": "origins:sprinting"
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "generic.movement_speed",
+            "operation": "addition",
+            "value": 0.075
+        },
+        "tick_rate": 1,
+        "update_health": true
+    },
+    "step_height": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:step_height 2 @s"
+        },
+        "execute_chosen_when_orb": true,
+        "entity_action_lost": {
+            "type": "origins:execute_command",
+            "command": "scale reset @s"
+        },
+        "entity_action_added": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:step_height 2 @s"
+        },
+        "entity_action_removed": {
+            "type": "origins:execute_command",
+            "command": "scale reset @s"
+        },
+        "entity_action_respawned": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:step_height 2 @s"
+        }
+    },
+    "walking": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "generic.movement_speed",
+            "operation": "addition",
+            "value": 0.05
+        },
+        "update_health": true
+    },
+    "fall_distance": {
+        "condition": {
+            "type": "origins:fall_distance",
+            "comparison": "<=",
+            "compare_to": 6
+        },
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:from_falling"
+        }
+    },
+    "fall_damage": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:from_falling"
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -0.5
+        }
+    },
+    "jump_height": {
+        "type": "origins:modify_jump",
+        "modifier": {
+            "operation": "addition",
+            "value": 0.17
+        }
+    },
+    "knockback_resistance": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "generic.knockback_resistance",
+            "operation": "addition",
+            "value": 1
+        },
+        "update_health": true
+    },
+    "no_swim": {
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+        },
+        "type": "origins:prevent_sprinting"
+    },
+    "fake_depth_strider": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": "<=",
+                    "compare_to": 2
+                },
+                {
+                    "type": "origins:on_block",
+                    "block_condition": {
+                        "type": "origins:movement_blocking"
+                    }
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "feet",
+                    "item_condition": {
+                        "type": "origins:enchantment",
+                        "enchantment": "minecraft:depth_strider",
+                        "comparison": ">=",
+                        "compare_to": 3
+                    }
+                }
+            ]
+        },
+        "type": "origins:modify_swim_speed",
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 2
+        }
+    },
+    "depth_strider_fix": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "feet",
+            "item_condition": {
+                "type": "origins:enchantment",
+                "enchantment": "minecraft:depth_strider",
+                "comparison": "<=",
+                "compare_to": 2
+            }
+        },
+        "type": "origins:modify_enchantment_level",
+        "enchantment": "minecraft:depth_strider",
+        "modifier": {
+            "operation": "set_total",
+            "value": 0
+        }
+    }
+}

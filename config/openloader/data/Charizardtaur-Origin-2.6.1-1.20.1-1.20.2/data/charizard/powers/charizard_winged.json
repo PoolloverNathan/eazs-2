@@ -1,0 +1,76 @@
+{
+    "name": "§6§l§nWinged",
+    "description": "§eYou have large, orange and blue wings that are just powerful enough to carry your large body in flight.",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "§ePress Space to Flap, Boosting You Forwards!",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+    "type": "origins:multiple",
+    "add_flight": {
+        "type": "origins:elytra_flight",
+        "render_elytra": false
+    },
+    "air_boost": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:fall_flying"
+                },
+                {
+                    "type": "origins:food_level",
+                    "comparison": ">",
+                    "compare_to": 6
+                }
+            ]
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:add_velocity",
+                    "y": 0.1,
+                    "z": 0.2,
+                    "space": "local",
+                    "client": true,
+                    "server": true
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.ender_dragon.flap",
+                    "volume": 0.2,
+                    "pitch": 1.2
+                },
+                {
+                    "type": "origins:exhaust",
+                    "amount": 0.5
+                }
+            ]
+        },
+        "cooldown": 10,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/resource_bar.png",
+            "bar_index": 4
+        },
+        "key": {
+            "key": "key.jump",
+            "continuous": true
+        }
+    },
+    "reduce_kinetic": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "flyIntoWall"
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -0.5
+        }
+    }
+}

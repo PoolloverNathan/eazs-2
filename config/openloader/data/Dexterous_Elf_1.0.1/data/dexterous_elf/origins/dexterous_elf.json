@@ -1,0 +1,23 @@
+{
+    "name": "§2Dextereous Elf",
+    "description": "A three hundred years old Wood Elf that loves the nature and hates mining.",
+    "powers": [
+		"dexterous_elf:dash",
+		"dexterous_elf:hide",
+		"dexterous_elf:nature",
+		"dexterous_elf:proficiency",
+		"dexterous_elf:senses",
+		"dexterous_elf:backpack",
+		"dexterous_elf:body",
+		"dexterous_elf:pyrophobia",
+		"dexterous_elf:cave",
+		"dexterous_elf:incompetence",
+		"dexterous_elf:diet",
+		"dexterous_elf:particles"
+    ],
+    "icon": {
+        "item": "minecraft:lily_pad"
+    },
+    "order": 0,
+    "impact": 2
+}

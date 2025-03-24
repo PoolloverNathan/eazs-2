@@ -1,0 +1,25 @@
+{
+    "name": "§1§lWailord's Tongue",
+    "description": "§3Quite unfortunately and horrifically, you seem to have fused with a Wailord in such a way that your relatively human upper body has situated itself where the Wailord's tongue is supposed to be, making you the tongue of the body you now control. That's gross...",
+    "powers": [
+        "wailord_tongue:wailord_mass",
+        "wailord_tongue:superweighted",
+        "wailord_tongue:wailord_fins",
+        "wailord_tongue:gargantuan_lungs",
+        "wailord_tongue:soak",
+        "wailord_tongue:rain_dance",
+        "wailord_tongue:piscivore",
+        "wailord_tongue:fish_only",
+        "wailord_tongue:thick_blubber",
+        "wailord_tongue:natural_habitat",
+        "wailord_tongue:colossal_diet",
+        "wailord_tongue:no_mounting",
+        "wailord_tongue:no_elytra",
+        "origins:like_water",
+        "origins:aquatic"
+    ],
+    "icon": {
+        "item": "minecraft:heart_of_the_sea"
+    },
+    "impact": 3
+}

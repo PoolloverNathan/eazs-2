@@ -1,0 +1,9 @@
+{
+    "name": "§6§l§nRapid Metabolism",
+    "description": "§7Due to how quickly your body functions with how fast you can move, you also have a fast metabolism, greatly increasing your appetite.",
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 1
+    }
+}

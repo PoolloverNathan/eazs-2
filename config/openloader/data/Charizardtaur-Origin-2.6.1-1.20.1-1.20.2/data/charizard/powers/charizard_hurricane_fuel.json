@@ -1,0 +1,72 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "fuel_bar": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 100,
+        "start_value": 100,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+            "bar_index": 8
+        }
+    },
+    "refuel_fast": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:exposed_to_sky"
+                },
+                {
+                    "type": "origins:in_block",
+                    "block_condition": {
+                        "type": "origins:height",
+                        "comparison": ">=",
+                        "compare_to": 128
+                    }
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "resource": "charizard:charizard_hurricane_fuel_fuel_bar",
+            "modifier": {
+                "operation": "addition",
+                "value": 3
+            }
+        }
+    },
+    "refuel_slow": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:exposed_to_sky"
+                },
+                {
+                    "type": "origins:in_block",
+                    "block_condition": {
+                        "type": "origins:height",
+                        "comparison": ">=",
+                        "compare_to": 128
+                    }
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "resource": "charizard:charizard_hurricane_fuel_fuel_bar",
+            "modifier": {
+                "operation": "addition",
+                "value": 1
+            }
+        }
+    }
+}

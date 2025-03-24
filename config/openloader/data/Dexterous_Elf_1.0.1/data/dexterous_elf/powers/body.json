@@ -1,0 +1,80 @@
+{
+	"name": "§6Elven Genes",
+	"description": "You are 1.5 blocks tall and have 2 less hearts of health.",
+	"type": "origins:multiple",
+	"height": {
+		"type": "origins:action_on_callback",
+		"entity_action_chosen": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:width 0.8"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:height 0.8"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale persist set pehkui:width true @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale persist set pehkui:height true @s"
+				}
+			]
+		},
+		"entity_action_removed": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:width 1"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:height 1"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale persist set pehkui:width false @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale persist set pehkui:height false @s"
+				}
+			]
+		},
+		"entity_action_added": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:width 0.8"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:height 0.8"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale persist set pehkui:width true @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale persist set pehkui:height true @s"
+				}
+			]
+		},
+		"execute_chosen_when_orb": true
+	},
+	"health": {
+		"type": "origins:attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.max_health",
+			"value": -4,
+			"operation": "addition"
+		}
+	}
+}

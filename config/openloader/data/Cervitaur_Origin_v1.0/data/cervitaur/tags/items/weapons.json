@@ -1,0 +1,12 @@
+{
+    "values": [
+        "minecraft:trident",
+        "minecraft:bow",
+        "minecraft:crossbow",
+        "minecraft:snowball",
+        "minecraft:flint_and_steel",
+        "minecraft:lava_bucket",
+        "minecraft:tnt",
+        "minecraft:end_crystal"
+    ]
+}

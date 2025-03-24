@@ -1,0 +1,31 @@
+{
+    "name": "§1§l§nPiscivore",
+    "description": "§3Due to your specialized aquatic stomach, your digestive system cannot handle any food other than fish. However, raw fish nourishes you just as much as cooked fish and all fish nourishes you more.",
+    "type": "origins:modify_food",
+    "item_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "fishes"
+                }
+            },
+            {
+                "inverted": true,
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:pufferfish"
+                }
+            }
+        ]
+    },
+    "food_modifier": {
+        "operation": "set_total",
+        "value": 8
+    },
+    "saturation_modifier": {
+        "operation": "set_total",
+        "value": 0.8
+    }
+}

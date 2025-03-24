@@ -1,0 +1,460 @@
+{
+    "name": "Artificial Life",
+    "description": "You are not truly alive, your body reacts differently to certain properties",
+    "type": "origins:multiple",
+
+	"effect_immunity":	{
+		"type": "origins:effect_immunity",
+		"effects": [
+			"minecraft:poison",
+			"minecraft:regeneration",
+			"minecraft:instant_health"
+		]
+	},
+
+	"no_absorption": {
+		"type": "origins:effect_immunity",
+		"condition": {
+			"type": "origins:power",
+			"power": "mechbot:shellbonus",
+			"inverted": true
+		},
+		"effect": "minecraft:absorption"
+	},
+
+	"damage_immunity": {
+		"type": "apoli:modify_damage_taken",
+		"damage_condition": {
+			"type": "origins:or",
+			"conditions": [
+				{
+					"type": "origins:name",
+					"name": "magic"
+				},
+				{
+					"type": "origins:name",
+					"name": "magic.player"
+				},
+				{
+					"type": "origins:name",
+					"name": "indirectMagic"
+				},
+				{
+					"type": "origins:name",
+					"name": "indirectMagic.item"
+				},
+				{
+					"type": "origins:name",
+					"name": "freeze"
+				},
+				{
+					"type": "origins:name",
+					"name": "freeze.player"
+				},
+				{
+					"type": "origins:name",
+					"name": "inWall"
+				},
+				{
+					"type": "origins:name",
+					"name": "inWall.player"
+				}
+			]
+		},
+		"modifier": {
+			"operation": "max_base",
+			"value": 0
+		}
+	},
+
+	"no_heal": {
+		"type": "origins:modify_healing",
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:power_active",
+					"power": "*:*_mending_toggle",
+					"inverted": true
+				},
+				{
+					"type": "origins:power_active",
+					"power": "mechbot:upgrade_health_toggle",
+					"inverted": true
+				}
+			]
+		},
+		"modifier": {
+			"operation": "max_base",
+			"value": 0
+		}
+	},
+		
+	"prevent_anvil": {
+		"type": "origins:prevent_block_use",
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:empty"
+			}
+		},
+		"block_condition": {
+			"type": "origins:or",
+			"conditions": [
+				{
+					"type": "origins:block",
+					"block": "minecraft:anvil"
+				},
+				{
+					"type": "origins:block",
+					"block": "minecraft:chipped_anvil"
+				},
+				{
+					"type": "origins:block",
+					"block": "minecraft:damaged_anvil"
+				}
+			]
+		}
+	},
+
+	"mending": {
+		"type": "origins:active_self",
+		"key": {
+			"key": "key.use",
+			"continuous": true
+		},
+		"cooldown": 30,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:empty"
+					}
+				},
+				{
+					"type": "origins:raycast",
+					"entity": false,
+					"distance": 4,
+					"fluid_handling": "none",
+					"block_condition": {
+						"type": "origins:or",
+						"conditions": [
+							{
+								"type": "origins:block",
+								"block": "minecraft:anvil"
+							},
+							{
+								"type": "origins:block",
+								"block": "minecraft:chipped_anvil"
+							},
+							{
+								"type": "origins:block",
+								"block": "minecraft:damaged_anvil"
+							}
+						]
+					}
+				}
+			]
+		},
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:change_resource",
+					"resource": "*:*_mending_resource",
+					"change": 1
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:block.anvil.use"
+				}
+			]
+		}
+	},
+
+	"mending_resource": {
+		"type": "origins:resource",
+		"min": 0,
+		"max": 4,
+		"hud_render": {
+			"should_render": true,
+			"condition": {
+				"type": "origins:resource",
+				"resource": "*:*_mending_resource",
+				"comparison": ">",
+				"compare_to": 0
+			},
+			"bar_index": 2,
+			"icon_index": 2
+		},
+		"max_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:change_resource",
+					"resource": "*:*_mending_resource",
+					"operation": "set",
+					"change": 0
+				},
+				{
+					"type": "origins:if_else_list",
+					"actions": [
+						{
+							"condition": {
+								"type": "origins:raycast",
+								"distance": 4,
+								"entity": false,
+								"fluid_handling": "none",
+								"block_condition": {
+									"type": "origins:block",
+									"block": "minecraft:anvil"
+								}
+							},
+							"action": {
+								"type": "origins:chance",
+								"chance": 0.12,
+								"action": {
+									"type": "origins:raycast",
+									"distance": 4,
+									"entity": false,
+									"fluid_handling": "none",
+									"block_action": {
+										"type": "origins:if_else_list",
+										"actions": [
+											{
+												"condition": {
+													"type": "origins:block_state",
+													"property": "facing",
+													"enum": "north"
+												},
+												"action": {
+													"type": "origins:execute_command",
+													"command": "/setblock ~ ~ ~ chipped_anvil[facing=north] replace"
+												}
+											},
+											{
+												"condition": {
+													"type": "origins:block_state",
+													"property": "facing",
+													"enum": "west"
+												},
+												"action": {
+													"type": "origins:execute_command",
+													"command": "/setblock ~ ~ ~ chipped_anvil[facing=west] replace"
+												}
+											},
+											{
+												"condition": {
+													"type": "origins:block_state",
+													"property": "facing",
+													"enum": "south"
+												},
+												"action": {
+													"type": "origins:execute_command",
+													"command": "/setblock ~ ~ ~ chipped_anvil[facing=south] replace"
+												}
+											},
+											{
+												"condition": {
+													"type": "origins:block_state",
+													"property": "facing",
+													"enum": "east"
+												},
+												"action": {
+													"type": "origins:execute_command",
+													"command": "/setblock ~ ~ ~ chipped_anvil[facing=east] replace"
+												}
+											}
+										]
+									}
+								}
+							}
+						},
+						{
+							"condition": {
+								"type": "origins:raycast",
+								"distance": 4,
+								"entity": false,
+								"fluid_handling": "none",
+								"block_condition": {
+									"type": "origins:block",
+									"block": "minecraft:chipped_anvil"
+								}
+							},
+							"action": {
+								"type": "origins:chance",
+								"chance": 0.25,
+								"action": {
+									"type": "origins:raycast",
+									"distance": 4,
+									"entity": false,
+									"fluid_handling": "none",
+									"block_action": {
+										"type": "origins:if_else_list",
+										"actions": [
+											{
+												"condition": {
+													"type": "origins:block_state",
+													"property": "facing",
+													"enum": "north"
+												},
+												"action": {
+													"type": "origins:execute_command",
+													"command": "/setblock ~ ~ ~ damaged_anvil[facing=north] replace"
+												}
+											},
+											{
+												"condition": {
+													"type": "origins:block_state",
+													"property": "facing",
+													"enum": "west"
+												},
+												"action": {
+													"type": "origins:execute_command",
+													"command": "/setblock ~ ~ ~ damaged_anvil[facing=west] replace"
+												}
+											},
+											{
+												"condition": {
+													"type": "origins:block_state",
+													"property": "facing",
+													"enum": "south"
+												},
+												"action": {
+													"type": "origins:execute_command",
+													"command": "/setblock ~ ~ ~ damaged_anvil[facing=south] replace"
+												}
+											},
+											{
+												"condition": {
+													"type": "origins:block_state",
+													"property": "facing",
+													"enum": "east"
+												},
+												"action": {
+													"type": "origins:execute_command",
+													"command": "/setblock ~ ~ ~ damaged_anvil[facing=east] replace"
+												}
+											}
+										]
+									}
+								}
+							}
+						},
+						{
+							"condition": {
+								"type": "origins:raycast",
+								"distance": 4,
+								"entity": false,
+								"fluid_handling": "none",
+								"block_condition": {
+									"type": "origins:block",
+									"block": "minecraft:damaged_anvil"
+								}
+							},
+							"action": {
+								"type": "origins:chance",
+								"chance": 0.25,
+								"action": {
+									"type": "origins:raycast",
+									"distance": 4,
+									"entity": false,
+									"fluid_handling": "none",
+									"block_action": {
+										"type": "origins:set_block",
+										"block": "minecraft:air"
+									}
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "origins:toggle",
+					"power": "*:*_mending_toggle"
+				},
+				{
+					"type": "origins:heal",
+					"amount": 99999999
+				},
+				{
+					"type": "origins:toggle",
+					"power": "*:*_mending_toggle"
+				}
+			]
+		}
+	},
+
+	"mending_reset": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:if_else",
+			"condition": {
+				"type": "origins:raycast",
+				"distance": 4,
+				"entity": false,
+				"fluid_handling": "none",
+				"block_condition": {
+					"type": "origins:or",
+					"conditions": [
+						{
+							"type": "origins:block",
+							"block": "minecraft:anvil"
+						},
+						{
+							"type": "origins:block",
+							"block": "minecraft:chipped_anvil"
+						},
+						{
+							"type": "origins:block",
+							"block": "minecraft:damaged_anvil"
+						}
+					]
+				}
+			},
+			"if_action": {
+				"type": "origins:nothing"
+			},
+			"else_action": {
+				"type": "origins:change_resource",
+				"resource": "*:*_mending_resource",
+				"operation": "set",
+				"change": 0
+			}
+		}
+	},
+
+	"mending_toggle": {
+		"type": "origins:toggle",
+		"active_by_default": false,
+		"key": {"key": "hjgfdjhfgkshdashgd"}
+	},
+
+	"less_health": {
+		"type": "origins:modify_attribute",
+		"attribute": "minecraft:generic.max_health",
+		"modifier": {
+			"operation": "multiply_total",
+			"value": -0.4
+		}
+	},
+
+	"badges": [
+		{
+			"sprite": "minecraft:textures/item/milk_bucket.png",
+			"text": "You are immune to freezing, instant damage, poison and suffocation."
+		},
+		{
+			"sprite": "minecraft:textures/particle/damage.png",
+			"text": "You can only be healed by mending yourself."
+		},
+		{
+			"sprite": "minecraft:textures/item/iron_ingot.png",
+			"text": "Holding right click on a anvil empty-handed will fully heal you, but might damage the anvil."
+		}
+	]
+}

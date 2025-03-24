@@ -1,0 +1,84 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "edible_tooltip": {
+        "type": "origins:tooltip",
+        "item_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "minecraft:leaves"
+                    }
+                },
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "minecraft:saplings"
+                    }
+                },
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": [
+                        {
+                            "item": "minecraft:spore_blossom"
+                        },
+                        {
+                            "item": "minecraft:big_dripleaf"
+                        },
+                        {
+                            "item": "minecraft:small_dripleaf"
+                        }
+                    ]
+                }
+            ]
+        },
+        "text": "§7Edible (§aFolivore§7)",
+        "order": 0
+    },
+    "yucky_tooltip": {
+        "type": "origins:tooltip",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": [
+                {
+                    "item": "minecraft:warped_wart_block"
+                },
+                {
+                    "item": "minecraft:nether_wart_block"
+                },
+                {
+                    "item": "minecraft:brown_mushroom_block"
+                },
+                {
+                    "item": "minecraft:red_mushroom_block"
+                }
+            ]
+        },
+        "text": "§cAre you sure these are leaves?",
+        "order": 1
+    },
+    "edibleish_tooltip": {
+        "type": "origins:tooltip",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": [
+                {
+                    "item": "minecraft:warped_wart_block"
+                },
+                {
+                    "item": "minecraft:nether_wart_block"
+                },
+                {
+                    "item": "minecraft:brown_mushroom_block"
+                },
+                {
+                    "item": "minecraft:red_mushroom_block"
+                }
+            ]
+        },
+        "text": "§7Edible-ish..? (§eFolivore§7)",
+        "order": 0
+    }
+}

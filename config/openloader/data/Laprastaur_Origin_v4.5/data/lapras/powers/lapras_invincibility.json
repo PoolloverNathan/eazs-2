@@ -1,0 +1,20 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:riding",
+        "bientity_condition": {
+            "type": "origins:actor_condition",
+            "condition": {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:player"
+            }
+        }
+    },
+    "type": "origins:modify_damage_taken",
+    "modifiers": [
+        {
+            "operation": "multiply_total",
+            "value": -1
+        }
+    ]
+}

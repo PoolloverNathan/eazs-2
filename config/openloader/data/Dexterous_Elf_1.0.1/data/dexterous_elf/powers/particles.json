@@ -1,0 +1,10 @@
+{
+	"hidden": true,
+	"type": "origins:particle",
+	"particle": "minecraft:happy_villager",
+	"frequency": 8,
+	"condition": {
+		"type": "origins:invisible",
+		"inverted": true
+	}
+}

@@ -1,0 +1,58 @@
+{
+    "name": "§1§l§nSoak",
+    "description": "§3Due to being part Wailord, you have access to the move Soak, allowing you to grant the Soak debuff onto the enemy you're looking at, making them vulnerable to impaling.",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:raycast",
+                "distance": 50,
+                "block": true,
+                "entity": true,
+                "shape_type": "collider",
+                "fluid_handling": "any",
+                "bientity_action": {
+                    "type": "origins:target_action",
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:play_sound",
+                                "sound": "minecraft:entity.generic.splash",
+                                "volume": 1,
+                                "pitch": 1
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "particle minecraft:rain ~ ~3 ~ 0.25 0.1 0.25 2 100 normal"
+                            },
+                            {
+                                "type": "origins:grant_power",
+                                "power": "wailord_tongue:soaked",
+                                "source": "wailord_tongue:wailordtaur"
+                            }
+                        ]
+                    }
+                },
+                "space": "world",
+                "command_along_ray": "particle rain ~ ~ ~ 0.05 0.05 0.05 0 1 normal"
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "minecraft:entity.drowned.swim",
+                "volume": 1,
+                "pitch": 1
+            }
+        ]
+    },
+    "cooldown": 200,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 1
+    },
+    "key": {
+        "key": "key.origins.primary_active"
+    }
+}

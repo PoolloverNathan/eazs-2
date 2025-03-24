@@ -1,0 +1,19 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "feet",
+        "item_condition": {
+            "type": "origins:enchantment",
+            "enchantment": "minecraft:depth_strider",
+            "comparison": "==",
+            "compare_to": 3
+        }
+    },
+    "type": "origins:modify_swim_speed",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 2.5,
+        "name": "Additional swim speed"
+    }
+}

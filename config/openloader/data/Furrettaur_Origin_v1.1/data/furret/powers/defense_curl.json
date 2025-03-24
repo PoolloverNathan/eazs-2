@@ -1,0 +1,58 @@
+{
+    "name": "§6§l§nDefense Curl",
+    "description": "§7Due to being part Furret, you know the move defense curl, allowing you to temporarily boost your defense by using Secondary (2 minute cooldown).",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "§7Only can be activated whilst crouching & being completely still.",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "inverted": true,
+                "type": "origins:moving"
+            },
+            {
+                "type": "origins:sneaking"
+            }
+        ]
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "particle minecraft:glow ~ ~ ~ 0.5 1.2 0.5 0.2 200"
+            },
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:resistance",
+                    "duration": 300,
+                    "amplifier": 1,
+                    "show_particles": true,
+                    "show_icon": true
+                }
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "minecraft:block.amethyst_cluster.hit",
+                "volume": 1,
+                "pitch": 1
+            }
+        ]
+    },
+    "cooldown": 2400,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 0
+    },
+    "key": {
+        "key": "key.origins.secondary_active"
+    }
+}

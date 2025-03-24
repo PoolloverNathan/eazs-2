@@ -1,0 +1,37 @@
+{
+    "name": "§2§l§nGrass Type",
+    "description": "§aAs a grass-type Pokémon, you take heavily increased damage from fire, lava, and fiery attacks.",
+    "condition": {
+        "type": "origins:exposed_to_sun"
+    },
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:name",
+                "name": "fireball"
+            },
+            {
+                "type": "origins:name",
+                "name": "hotFloor"
+            },
+            {
+                "type": "origins:name",
+                "name": "inFire"
+            },
+            {
+                "type": "origins:name",
+                "name": "lava"
+            },
+            {
+                "type": "origins:name",
+                "name": "onFire"
+            }
+        ]
+    },
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 0.5
+    }
+}

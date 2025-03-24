@@ -1,0 +1,16 @@
+{
+    "name": "§6§l§nShort Legs",
+    "description": "§7Due to your short legs, slowness and speed both have much more significant effects on you, causing their amplifiers to be increased by 1.",
+    "type": "origins:multiple",
+    "speed": {
+        "type": "origins:modify_status_effect_amplifier",
+        "status_effects": [
+            "minecraft:speed",
+            "minecraft:slowness"
+        ],
+        "modifier": {
+            "operation": "addition",
+            "value": 1
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "§1§l§nThick Blubber",
+    "description": "§3Due to your incredibly thick layer of blubber acting as insulation, you're completely immune to freezing damage.",
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "freeze"
+    }
+}

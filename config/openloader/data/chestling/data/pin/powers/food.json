@@ -1,0 +1,69 @@
+{
+    "name": "Repair",
+    "description": "You can't eat food, so you need to patch any damage you take with planks.",
+    "type": "origins:multiple",
+    "eat": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:equipped_item_action",
+                    "equipment_slot": "mainhand",
+                    "action": {
+                        "type": "origins:consume",
+                        "amount": 1
+                    }
+                },
+                {
+                    "type": "origins:feed",
+                    "food": 4,
+                    "saturation": 1
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:block.wood.break"
+                },
+                {
+                    "type": "origins:swing_hand",
+                    "hand": "MAIN_HAND"
+                }
+            ]
+        },
+        "cooldown": 7,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.use",
+            "continuous": true
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "tag": "minecraft:planks"
+                        }
+                    }
+                },
+                {
+                    "type": "origins:food_level",
+                    "comparison": "!=",
+                    "compare_to": 20
+                }
+            ]
+        }
+    },
+    "prevent": {
+        "name":"Chest people eat wood.",
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:food"
+        }
+    }
+}

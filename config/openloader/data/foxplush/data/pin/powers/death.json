@@ -1,0 +1,65 @@
+{
+    "name": "Power of Unknown",
+    "description": "When you would die, you don't go to rest peacefully, you have 5 seconds to heal yourself before you die.",
+    "type": "origins:multiple",
+    "death": {
+        "type": "origins:prevent_death",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:apply_effect",
+                    "effects": [
+                        {
+                            "effect": "minecraft:nausea",
+                            "duration": 100,
+                            "amplifier": 0,
+                            "show_particles": true,
+                            "show_icon": true
+                        },
+                        {
+                            "effect": "minecraft:slowness",
+                            "duration": 100,
+                            "amplifier": 3,
+                            "show_particles": true,
+                            "show_icon": true
+                        }
+                    ]
+                },
+                {
+                    "type": "origins:delay",
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:damage",
+                                "amount": 4,
+                                "damage_type": "minecraft:magic"
+                            },
+                            {
+                                "type": "origins:spawn_particles",
+                                "particle": {
+                                    "type": "minecraft:dust",
+                                    "params": "0.1 0.0 1.0 1"
+                                },
+                                "count": 32,
+                                "speed": 0.3,
+                                "force": true,
+                                "spread": {
+                                    "x": 0.5,
+                                    "y": 0.5,
+                                    "z": 0.5
+                                }
+                            },
+                            {
+                                "type": "origins:play_sound",
+                                "sound": "minecraft:block.respawn_anchor.charge"
+                            }
+                        ]
+                    },
+                    "ticks": 100
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Ice Statue",
+    "description": "You stayed out in the cold for too long. Good Luck!",
+    "powers": [
+        "ice_statue:frozen",
+        "ice_statue:break",
+        "ice_statue:desc1",
+        "ice_statue:desc2",
+        "ice_statue:desc3",
+        "ice_statue:desc4",
+        "ice_statue:shader"
+    ],
+    "icon": {
+        "item": "minecraft:ice"
+    },
+    "impact": 3
+}

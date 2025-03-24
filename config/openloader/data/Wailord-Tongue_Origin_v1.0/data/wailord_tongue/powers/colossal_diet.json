@@ -1,0 +1,9 @@
+{
+    "name": "§1§l§nColossal Diet",
+    "description": "§3Your body of a Wailord requires a lot of food to keep it going, greatly increasing the rate at which you exhaust hunger.",
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 3
+    }
+}

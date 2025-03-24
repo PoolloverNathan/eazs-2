@@ -1,0 +1,42 @@
+{
+    "name": "Ranged Enchanter",
+    "description": "Due to your specialization towards archery, you are capable of adding looting onto both bows and crossbows.",
+    "type": "origins:multiple",
+    "looting_bow": {
+        "type": "apugli:allow_anvil_enchant",
+        "enchantments": [
+            "minecraft:looting"
+        ],
+        "item_condition": {
+            "type": "apoli:ingredient",
+            "ingredient": {
+                "item": "minecraft:bow"
+            }
+        }
+    },
+    "looting_crossbow": {
+        "type": "apugli:allow_anvil_enchant",
+        "enchantments": [
+            "minecraft:looting"
+        ],
+        "item_condition": {
+            "type": "apoli:ingredient",
+            "ingredient": {
+                "item": "minecraft:crossbow"
+            }
+        }
+    },
+    "infinity_mending_bow": {
+        "type": "apugli:allow_anvil_enchant",
+        "enchantments": [
+            "minecraft:infinity",
+            "minecraft:mending"
+        ],
+        "item_condition": {
+            "type": "apoli:ingredient",
+            "ingredient": {
+                "item": "minecraft:bow"
+            }
+        }
+    }
+}

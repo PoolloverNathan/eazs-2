@@ -1,0 +1,14 @@
+{
+    "name": "§2§l§nPhotosynthesis",
+    "description": "§aLike other Serperiors, your body is capable of passively absorbing energy from the sun, slowly feeding you whilst in sunlight.",
+    "condition": {
+        "type": "origins:exposed_to_sun"
+    },
+    "type": "origins:action_over_time",
+    "interval": 200,
+    "entity_action": {
+        "type": "origins:feed",
+        "food": 1,
+        "saturation": 0.5
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Giraffetaur",
+    "description": "So...how exactly are you going to get that itch 10 feet down..?",
+    "powers": [
+        "giraffetaur:disclaimer",
+        "giraffetaur:chiropractors_nightmare",
+        "giraffetaur:lanky_legs",
+        "giraffetaur:folivore",
+        "giraffetaur:folivore_tooltips",
+        "giraffetaur:folivore_generics",
+        "giraffetaur:giraffes_vitality",
+        "giraffetaur:giraffes_hide",
+        "giraffetaur:savanna_acclimation",
+        "giraffetaur:prevent_eat",
+        "giraffetaur:silk_touch_leaves"
+    ],
+    "icon": {
+        "item": "minecraft:camel_spawn_egg"
+    },
+    "impact": 3
+}

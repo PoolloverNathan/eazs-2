@@ -1,0 +1,9 @@
+{
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "freeze"
+    },
+    "name": "§b§l§nIce Type",
+    "description": "§fAs a Lapras, while being a water type, you are also an ice type. Allowing you to use the move Ice Beam in cold biomes instead of Water Gun, and making you immune to freezing."
+}

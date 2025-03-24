@@ -1,0 +1,47 @@
+{
+    "name": "§b§l§nLapras Size",
+    "description": "§fAs a Lapras, you're quite tall and large in size, making you 2.5 by 2.5 block wide and 2.3 blocks tall.",
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:hitbox_width 3.5 @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:hitbox_height 1.25 @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:eye_height 1.3 @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:jump_height 0.5 @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale persist set true @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale delay set pehkui:hitbox_height 0 @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale delay set pehkui:eye_height 0 @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale delay set pehkui:hitbox_width 0 @s"
+            }
+        ]
+    },
+    "execute_chosen_when_orb": true,
+    "entity_action_lost": {
+        "type": "origins:execute_command",
+        "command": "scale reset @s"
+    }
+}

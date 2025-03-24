@@ -1,0 +1,131 @@
+{
+    "name": "§6§l§nTransport Pokémon",
+    "description": "§eCharizard are Pokémon often used for their transportation capabilities, allowing players to ride on your back by right clicking.",
+    "type": "origins:multiple",
+    "mount": {
+        "type": "origins:action_on_being_used",
+        "bientity_action": {
+            "type": "origins:mount"
+        },
+        "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:passenger",
+                "comparison": "==",
+                "compare_to": 0
+            }
+        },
+        "action_result": "success",
+        "priority": 0
+    },
+    "use": {
+        "type": "origins:prevent_entity_use",
+        "bientity_condition": {
+            "type": "origins:invert",
+            "condition": {
+                "type": "origins:riding"
+            }
+        }
+    },
+    "hitbox_short": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:passenger",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:riding"
+                }
+            ]
+        },
+        "type": "origins:action_on_being_used",
+        "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:execute_command",
+                        "command": "scale set pehkui:hitbox_height 0.9 @s"
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "scale set pehkui:eye_height 1.65 @s"
+                    }
+                ]
+            }
+        },
+        "action_result": "success",
+        "priority": 0
+    },
+    "hitbox_renormal": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:passenger",
+                    "comparison": "<",
+                    "compare_to": 1
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:riding",
+                    "bientity_condition": {
+                        "type": "origins:target_condition",
+                        "condition": {
+                            "type": "origins:entity_type",
+                            "entity_type": "minecraft:player"
+                        }
+                    }
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:hitbox_height 1.65 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:eye_height 1.65 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:hitbox_width 2.5 @s"
+                }
+            ]
+        }
+    },
+    "sneaking_dismount": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sneaking"
+                },
+                {
+                    "type": "origins:on_block",
+                    "block_condition": {
+                        "type": "origins:movement_blocking"
+                    }
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:passenger_action",
+            "action": {
+                "type": "origins:dismount"
+            }
+        }
+    }
+}

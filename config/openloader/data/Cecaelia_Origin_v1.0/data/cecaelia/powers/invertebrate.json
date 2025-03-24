@@ -1,0 +1,98 @@
+{
+    "name": "Invertebrate",
+    "description": "Due to your half octopus physique, you are completely boneless. Yes, even your human half seems to lack bones. This allows you to easily squeeze through tight gaps by squeezing yourself down flat.",
+    "type": "origins:multiple",
+    "squish": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sneaking"
+                },
+                {
+                    "type": "origins:power_active",
+                    "power": "*:*_toggle"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:creative_flying"
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 5,
+        "rising_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:height 0.2"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:third_person 3"
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.puffer_fish.blow_out",
+                    "volume": 1,
+                    "pitch": 0.3
+                }
+            ]
+        },
+        "falling_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:height 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:third_person 1"
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.puffer_fish.blow_up",
+                    "volume": 1,
+                    "pitch": 0.3
+                }
+            ]
+        }
+    },
+    "actionbar": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:power_active",
+            "power": "cecaelia:invertebrate_toggle"
+        },
+        "type": "origins:action_over_time",
+        "interval": 5,
+        "rising_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale reset"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "title @s actionbar [\"\",{\"text\":\"Squishing: \"},{\"text\":\"OFF\",\"color\":\"red\"}]"
+                }
+            ]
+        },
+        "falling_action": {
+            "type": "origins:execute_command",
+            "command": "title @s actionbar [\"\",{\"text\":\"Squishing: \"},{\"text\":\"ON\",\"color\":\"green\"}]"
+        }
+    },
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": true,
+        "key": {
+            "key": "key.origins.secondary_active",
+            "continuous": false
+        },
+        "retain_state": true
+    }
+}

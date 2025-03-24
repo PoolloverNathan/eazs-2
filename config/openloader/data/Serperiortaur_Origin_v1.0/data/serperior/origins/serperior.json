@@ -1,0 +1,24 @@
+{
+    "name": "§2§lSerperior-Taur",
+    "description": "§aAn intimidating gaze and majestic appearance have caused this Pokémon to be known as the Lord of the Forest.",
+    "powers": [
+        "serperior:serperior_photosynthesis",
+        "serperior:serperior_overgrow",
+        "serperior:serperior_grass_type",
+        "serperior:serperior_slithering_serpent",
+        "serperior:serperior_hesitation",
+        "serperior:serperior_leaf_storm",
+        "serperior:serperior_leaf_storm_strong_and_weak",
+        "serperior:serperior_leaf_storm_fuel",
+        "serperior:serperior_anti_jump",
+		"serperior:serperior_coiling",
+		"serperior:berry_devourer",
+		"origins:carnivore"
+    ],
+    "icon": {
+        "item": "minecraft:azure_bluet"
+    },
+    "unchoosable": false,
+    "order": 0,
+    "impact": 3
+}

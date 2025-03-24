@@ -1,0 +1,15 @@
+{
+    "name": "GET OUT OF THERE!",
+    "condition": {
+        "type": "origins:health",
+        "comparison": "<=",
+        "compare_to": 11
+    },
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "tag": "cervitaur:weapons"
+        }
+    }
+}

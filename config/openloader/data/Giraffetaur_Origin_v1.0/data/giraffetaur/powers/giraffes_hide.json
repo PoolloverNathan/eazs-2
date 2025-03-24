@@ -1,0 +1,11 @@
+{
+    "name": "Giraffe's Hide",
+    "description": "With many years of falling prey to apex predators, giraffes have developed dense hide to protect themselves from attacks, hide that you also have, giving you 2 points of natural armor",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "generic.armor",
+        "operation": "addition",
+        "value": 2
+    },
+    "update_health": true
+}

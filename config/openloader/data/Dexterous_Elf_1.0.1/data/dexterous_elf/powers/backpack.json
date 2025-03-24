@@ -1,0 +1,60 @@
+{
+	"name": "§bBag of Holding",
+	"description": "Open it to reveal an inventory the size of a chest and a crafting table. Items stored inside drop on death.",
+	"type": "origins:multiple",
+	"badges": [
+		{
+			"type": "origins:keybind",
+			"sprite": "origins:textures/gui/badge/active.png",
+			"text": "By pressing %s you can open a the inventory."
+		},
+		{
+			"type": "origins:keybind",
+			"sprite": "origins:textures/gui/badge/active.png",
+			"text": "Pressing %s while sneaking opens a crafting table."
+		}
+	],
+	"inventory": {
+		"type": "origins:inventory",
+		"title": "Bag of Holding",
+		"container_type": "chest",
+		"drop_on_death": true,
+		"key": {
+			"key": "key.origins.secondary_active"
+		},
+		"condition": {
+			"type": "origins:sneaking",
+			"inverted": true
+		}
+	},
+	"crafting": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:crafting_table"
+		},
+		"cooldown": 1,
+		"hud_render": {
+			"should_render": false
+		},
+		"key": {
+			"key": "key.origins.secondary_active"
+		},
+		"condition": {
+			"type": "origins:sneaking"
+		}
+	},
+	"sound": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "playsound minecraft:item.bundle.drop_contents player @s"
+		},
+		"cooldown": 1,
+		"hud_render": {
+			"should_render": false
+		},
+		"key": {
+			"key": "key.origins.secondary_active"
+		}
+	}
+}

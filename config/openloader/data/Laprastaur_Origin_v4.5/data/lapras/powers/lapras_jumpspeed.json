@@ -1,0 +1,78 @@
+{
+    "type": "origins:multiple",
+    "nojump2": {
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.jump",
+            "continuous": true
+        },
+        "cooldown": 1,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_nojumpbar",
+                    "change": 1
+                },
+                {
+                    "type": "origins:delay",
+                    "ticks": 2,
+                    "action": {
+                        "type": "origins:change_resource",
+                        "resource": "*:*_nojumpbar",
+                        "change": -1
+                    }
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:submerged_in",
+                    "fluid": "minecraft:water",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:on_block"
+                }
+            ]
+        }
+    },
+    "nojumpbar": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "nojumppatch": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_nojumpbar",
+            "change": -1
+        },
+        "interval": 75
+    },
+    "nojumpspeed": {
+        "type": "origins:modify_velocity",
+        "modifier": {
+            "value": -0.5,
+            "operation": "multiply_total"
+        },
+        "axes": [
+            "x",
+            "z"
+        ],
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_nojumpbar",
+            "comparison": "==",
+            "compare_to": 1
+        }
+    },
+    "hidden": true
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Boneless",
+    "description": "Your boneless form causes you to lack much natural protection that other organisms have, leading you to have only 8 hearts of maximum health.",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "generic.max_health",
+        "operation": "addition",
+        "value": -4
+    },
+    "update_health": true
+}

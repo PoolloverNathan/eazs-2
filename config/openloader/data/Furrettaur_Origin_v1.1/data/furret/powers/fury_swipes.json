@@ -1,0 +1,264 @@
+{
+    "name": "§6§l§nFury Swipes",
+    "description": "§7Using primary, you are capable of releasing a burst of 5 short-range swipes upon the enemy you're looking at (15 second cooldown).",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:delay",
+                "action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:raycast",
+                            "distance": 3.5,
+                            "block": true,
+                            "entity": true,
+                            "shape_type": "outline",
+                            "fluid_handling": "any",
+                            "bientity_action": {
+                                "type": "origins:target_action",
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "particle minecraft:flash ~ ~ ~ 0 0 0 0 1 normal"
+                                        },
+                                        {
+                                            "type": "origins:play_sound",
+                                            "sound": "minecraft:block.anvil.land",
+                                            "volume": 1,
+                                            "pitch": 1
+                                        },
+                                        {
+                                            "type": "origins:damage",
+                                            "amount": 6,
+                                            "damage_type": "player_attack"
+                                        }
+                                    ]
+                                }
+                            },
+                            "space": "world",
+                            "command_along_ray": "particle minecraft:sweep_attack ~ ~ ~ 0 0 0 0 1 normal",
+                            "command_step": 1.5
+                        },
+                        {
+                            "type": "origins:play_sound",
+                            "sound": "minecraft:entity.player.attack.sweep",
+                            "volume": 1,
+                            "pitch": 1
+                        }
+                    ]
+                },
+                "ticks": 0
+            },
+            {
+                "type": "origins:delay",
+                "action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:raycast",
+                            "distance": 3.5,
+                            "block": true,
+                            "entity": true,
+                            "shape_type": "outline",
+                            "fluid_handling": "any",
+                            "bientity_action": {
+                                "type": "origins:target_action",
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "particle minecraft:flash ~ ~ ~ 0 0 0 0 1 normal"
+                                        },
+                                        {
+                                            "type": "origins:play_sound",
+                                            "sound": "minecraft:block.anvil.land",
+                                            "volume": 1,
+                                            "pitch": 1
+                                        },
+                                        {
+                                            "type": "origins:damage",
+                                            "amount": 6,
+                                            "damage_type": "player_attack"
+                                        }
+                                    ]
+                                }
+                            },
+                            "space": "world",
+                            "command_along_ray": "particle minecraft:sweep_attack ~ ~ ~ 0 0 0 0 1 normal",
+                            "command_step": 1.5
+                        },
+                        {
+                            "type": "origins:play_sound",
+                            "sound": "minecraft:entity.player.attack.sweep",
+                            "volume": 1,
+                            "pitch": 1
+                        }
+                    ]
+                },
+                "ticks": 10
+            },
+            {
+                "type": "origins:delay",
+                "action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:raycast",
+                            "distance": 3.5,
+                            "block": true,
+                            "entity": true,
+                            "shape_type": "outline",
+                            "fluid_handling": "any",
+                            "bientity_action": {
+                                "type": "origins:target_action",
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "particle minecraft:flash ~ ~ ~ 0 0 0 0 1 normal"
+                                        },
+                                        {
+                                            "type": "origins:play_sound",
+                                            "sound": "minecraft:block.anvil.land",
+                                            "volume": 1,
+                                            "pitch": 1
+                                        },
+                                        {
+                                            "type": "origins:damage",
+                                            "amount": 6,
+                                            "damage_type": "player_attack"
+                                        }
+                                    ]
+                                }
+                            },
+                            "space": "world",
+                            "command_along_ray": "particle minecraft:sweep_attack ~ ~ ~ 0 0 0 0 1 normal",
+                            "command_step": 1.5
+                        },
+                        {
+                            "type": "origins:play_sound",
+                            "sound": "minecraft:entity.player.attack.sweep",
+                            "volume": 1,
+                            "pitch": 1
+                        }
+                    ]
+                },
+                "ticks": 20
+            },
+            {
+                "type": "origins:delay",
+                "action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:raycast",
+                            "distance": 3.5,
+                            "block": true,
+                            "entity": true,
+                            "shape_type": "collider",
+                            "fluid_handling": "any",
+                            "bientity_action": {
+                                "type": "origins:target_action",
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "particle minecraft:flash ~ ~ ~ 0 0 0 0 1 normal"
+                                        },
+                                        {
+                                            "type": "origins:play_sound",
+                                            "sound": "minecraft:block.anvil.land",
+                                            "volume": 1,
+                                            "pitch": 1
+                                        },
+                                        {
+                                            "type": "origins:damage",
+                                            "amount": 6,
+                                            "damage_type": "player_attack"
+                                        }
+                                    ]
+                                }
+                            },
+                            "space": "world",
+                            "command_along_ray": "particle minecraft:sweep_attack ~ ~ ~ 0 0 0 0 1 normal",
+                            "command_step": 1.5
+                        },
+                        {
+                            "type": "origins:play_sound",
+                            "sound": "minecraft:entity.player.attack.sweep",
+                            "volume": 1,
+                            "pitch": 1
+                        }
+                    ]
+                },
+                "ticks": 30
+            },
+            {
+                "type": "origins:delay",
+                "action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:raycast",
+                            "distance": 3.5,
+                            "block": true,
+                            "entity": true,
+                            "shape_type": "outline",
+                            "fluid_handling": "any",
+                            "bientity_action": {
+                                "type": "origins:target_action",
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "particle minecraft:flash ~ ~ ~ 0 0 0 0 1 normal"
+                                        },
+                                        {
+                                            "type": "origins:play_sound",
+                                            "sound": "minecraft:block.anvil.land",
+                                            "volume": 1,
+                                            "pitch": 1
+                                        },
+                                        {
+                                            "type": "origins:damage",
+                                            "amount": 6,
+                                            "damage_type": "player_attack"
+                                        }
+                                    ]
+                                }
+                            },
+                            "space": "world",
+                            "command_along_ray": "particle minecraft:sweep_attack ~ ~ ~ 0 0 0 0 1 normal",
+                            "command_step": 1.5
+                        },
+                        {
+                            "type": "origins:play_sound",
+                            "sound": "minecraft:entity.player.attack.sweep",
+                            "volume": 1,
+                            "pitch": 1
+                        }
+                    ]
+                },
+                "ticks": 40
+            }
+        ]
+    },
+    "cooldown": 300,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 1
+    },
+    "key": {
+        "key": "key.origins.primary_active"
+    }
+}

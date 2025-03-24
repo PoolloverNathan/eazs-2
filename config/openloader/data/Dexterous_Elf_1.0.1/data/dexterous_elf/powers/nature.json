@@ -1,0 +1,63 @@
+{
+	"name": "§bHarmony With Nature",
+	"description": "You slowly regenerate health and move slightly quicker on your feet in biomes where it can rain.",
+	"type": "origins:multiple",
+	"regeneration": {
+		"type": "origins:action_over_time",
+		"interval": 30,
+		"entity_action": {
+			"type": "origins:heal",
+			"amount": 1
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:biome",
+					"condition": {
+						"type": "origins:temperature",
+						"comparison": ">=",
+						"compare_to": 0.15
+					}
+				},
+				{
+					"type": "origins:biome",
+					"condition": {
+						"type": "origins:temperature",
+						"comparison": "<=",
+						"compare_to": 0.95
+					}
+				}
+			]
+		}
+	},
+	"speed": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.movement_speed",
+			"operation": "multiply_base",
+			"value": 0.2
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:biome",
+					"condition": {
+						"type": "origins:temperature",
+						"comparison": ">=",
+						"compare_to": 0.15
+					}
+				},
+				{
+					"type": "origins:biome",
+					"condition": {
+						"type": "origins:temperature",
+						"comparison": "<=",
+						"compare_to": 0.95
+					}
+				}
+			]
+		}
+	}
+}

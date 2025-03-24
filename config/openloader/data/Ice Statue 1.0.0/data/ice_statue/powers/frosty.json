@@ -1,0 +1,57 @@
+{
+    "type": "origins:multiple",
+    "thaw": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 10,
+        "start_value": 0,
+        "hud_render": {
+            "should_render": true
+        },
+        "max_action": {
+            "type": "origins:revoke_power",
+            "power": "ice_statue:frosty",
+            "source": "apoli:commands"
+        }
+    },
+    "count": {
+        "type": "origins:action_over_time",
+        "interval": 60,
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "resource": "ice_statue:frosty_thaw",
+            "modifier": {
+                "operation": "addition",
+                "value": 1
+            }
+        }
+    },
+    "dam": {
+        "type": "origins:freeze"
+    },
+    "key3": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "slowness",
+                "duration": 100,
+                "amplifier": 0,
+                "is_ambient": true,
+                "show_particles": true,
+                "show_icon": false
+            },
+            "effects": [
+                {
+                    "effect": "weakness",
+                    "duration": 100,
+                    "amplifier": 1,
+                    "is_ambient": true,
+                    "show_particles": true,
+                    "show_icon": false
+                }
+            ]
+        }
+    }
+}

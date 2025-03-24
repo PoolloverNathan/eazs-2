@@ -1,0 +1,237 @@
+{
+    "name": "§6§l§nFlamethrower",
+    "description": "§eAs a Charizard-Taur, you are able to use fire type moves in combat, such as Flamethrower using your primary key. This ability recharges more quickly in the Nether due to being more in your element.",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "§eEat Coal or Charcoal to Refill the Fuel Bar More Quickly!",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+    "type": "origins:multiple",
+    "flamethrower_normal": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:in_rain"
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "charizard:charizard_flamethrower_fuel",
+                    "comparison": ">",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.blaze.shoot",
+                    "volume": 1,
+                    "pitch": 1
+                },
+                {
+                    "type": "origins:raycast",
+                    "distance": 48,
+                    "block": true,
+                    "entity": true,
+                    "shape_type": "outline",
+                    "fluid_handling": "any",
+                    "bientity_action": {
+                        "type": "origins:target_action",
+                        "action": {
+                            "type": "origins:and",
+                            "actions": [
+                                {
+                                    "type": "origins:damage",
+                                    "amount": 5,
+                                    "damage_type": "on_fire"
+                                },
+                                {
+                                    "type": "origins:set_on_fire",
+                                    "duration": 5
+                                }
+                            ]
+                        }
+                    },
+                    "block_action": {
+                        "type": "origins:if_else",
+                        "condition": {
+                            "type": "origins:or",
+                            "conditions": [
+                                {
+                                    "type": "origins:or",
+                                    "conditions": [
+                                        {
+                                            "type": "origins:block",
+                                            "block": "minecraft:campfire"
+                                        },
+                                        {
+                                            "type": "origins:block",
+                                            "block": "minecraft:soul_campfire"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "origins:water_loggable"
+                                }
+                            ]
+                        },
+                        "if_action": {
+                            "type": "origins:modify_block_state",
+                            "property": "lit",
+                            "operation": "add",
+                            "value": true,
+                            "enum": "true"
+                        }
+                    },
+                    "command_at_hit": "fill ~1 ~ ~1 ~ ~ ~ minecraft:fire keep",
+                    "command_along_ray": "particle minecraft:flame ~ ~ ~ 0.2 0.2 0.2 0.07 30"
+                },
+                {
+                    "type": "origins:modify_resource",
+                    "resource": "charizard:charizard_flamethrower_fuel",
+                    "modifier": {
+                        "operation": "addition",
+                        "value": -1
+                    }
+                }
+            ]
+        },
+        "cooldown": 2,
+        "key": {
+            "key": "key.origins.primary_active",
+            "continuous": true
+        }
+    },
+    "refuel_bar": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:in_rain"
+                },
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "resource": "charizard:charizard_flamethrower_fuel",
+            "modifier": {
+                "operation": "addition",
+                "value": 1
+            }
+        }
+    },
+    "coal_eat": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": [
+                            {
+                                "item": "minecraft:coal"
+                            },
+                            {
+                                "item": "minecraft:charcoal"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "charizard:charizard_flamethrower_fuel",
+                    "comparison": "<",
+                    "compare_to": 60
+                }
+            ]
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:modify_resource",
+                    "resource": "charizard:charizard_flamethrower_fuel",
+                    "modifier": {
+                        "operation": "addition",
+                        "value": 30
+                    }
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.generic.eat",
+                    "volume": 1,
+                    "pitch": 0.8
+                },
+                {
+                    "type": "origins:equipped_item_action",
+                    "equipment_slot": "mainhand",
+                    "action": {
+                        "type": "origins:consume",
+                        "amount": 1
+                    }
+                }
+            ]
+        },
+        "cooldown": 10,
+        "key": {
+            "key": "key.use",
+            "continuous": true
+        }
+    },
+    "recharge_fast": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:in_rain"
+                },
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:dimension",
+                    "dimension": "minecraft:the_nether"
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "resource": "charizard:charizard_flamethrower_fuel",
+            "modifier": {
+                "operation": "addition",
+                "value": 2
+            }
+        }
+    }
+}

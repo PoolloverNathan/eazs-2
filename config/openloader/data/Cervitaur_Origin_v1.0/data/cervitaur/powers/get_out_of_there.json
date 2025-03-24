@@ -1,0 +1,40 @@
+{
+    "name": "GET OUT OF THERE!",
+    "description": "You gain a significant speed boost when at 50% health or less in order to flee from danger. However, during that, you cannot deal any damage at all.",
+    "type": "origins:multiple",
+    "speed": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:health",
+                    "comparison": "<=",
+                    "compare_to": 11
+                },
+                {
+                    "type": "origins:sprinting"
+                }
+            ]
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "generic.movement_speed",
+            "operation": "multiply_total",
+            "value": 0.5
+        },
+        "tick_rate": 5,
+        "update_health": true
+    },
+    "no_damage": {
+        "condition": {
+            "type": "origins:health",
+            "comparison": "<=",
+            "compare_to": 11
+        },
+        "type": "origins:modify_damage_dealt",
+        "modifier": {
+            "operation": "set_total",
+            "value": 0
+        }
+    }
+}

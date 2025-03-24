@@ -1,0 +1,409 @@
+{
+    "name": "Metal Shell",
+    "description": "(Secondary) You are your own armor",
+    "type": "origins:multiple",
+
+	"toggle_cooldown": {
+		"type": "origins:cooldown",
+		"hud_render": {
+			"inverted": true,
+			"bar_index": 5,
+			"icon_index": 5
+		},
+		"cooldown": 400
+	},
+
+	"toggle_shell": {
+		"type": "origins:active_self",
+		"key": {"key": "key.origins.secondary_active"},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_toggle_cooldown",
+			"comparison": "==",
+			"compare_to": 0
+		},
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:toggle",
+					"power": "*:*_shell_toggle"
+				},
+				{
+					"type": "origins:trigger_cooldown",
+					"power": "*:*_toggle_cooldown"
+				},
+				{
+					"type": "origins:if_else",
+					"condition": {
+						"type": "origins:power_active",
+						"power": "*:*_shell_toggle"
+					},
+					"if_action": {
+						"type": "origins:and",
+						"actions": [
+							{
+								"type": "origins:grant_power",
+								"power": "mechbot:shellbonus",
+								"source": "mechbot:golem"
+							},
+							{
+								"type": "origins:play_sound",
+								"sound": "minecraft:item.armor.equip_iron"
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "/scale set pehkui:width 1.1 @s"
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "/scale set pehkui:height 1.1 @s"
+							}
+						]
+					},
+					"else_action": {
+						"type": "origins:and",
+						"actions": [
+							{
+								"type": "origins:revoke_power",
+								"power": "mechbot:shellbonus",
+								"source": "mechbot:golem"
+							},
+							{
+								"type": "origins:play_sound",
+								"sound": "minecraft:item.bundle.drop_contents"
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "/scale set pehkui:width 0.9 @s"
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "/scale set pehkui:height 0.9 @s"
+							}
+						]
+					}
+				}
+			]
+		}
+	},
+	
+	"shell_toggle": {
+		"type": "origins:toggle",
+		"active_by_default": true,
+		"key": {"key": "fhdjhgsjgdh"}
+	},
+
+	"helmet": {
+		"type": "origins:shader",
+		"condition": {
+			"type": "origins:power_active",
+			"power": "*:*_shell_toggle"
+		},
+		"shader": "minecraft:shaders/post/scan_pincushion.json"
+	},
+
+	"no_armor": {
+		"type": "origins:modify_attribute",
+		"condition": {
+			"type": "origins:power_active",
+			"power": "*:*_shell_toggle",
+			"inverted": true
+		},
+		"attribute": "minecraft:generic.armor",
+		"modifier": {
+			"operation": "set_total",
+			"value": 0
+		}
+	},
+
+	"no_armor_toughness": {
+		"type": "origins:modify_attribute",
+		"condition": {
+			"type": "origins:power_active",
+			"power": "*:*_shell_toggle",
+			"inverted": true
+		},
+		"attribute": "minecraft:generic.no_armor_toughness",
+		"modifier": {
+			"operation": "set_total",
+			"value": 0
+		}
+	},
+
+	"extra_fire_damage": {
+		"type": "apoli:modify_damage_taken",
+		"condition": {
+			"type": "origins:power_active",
+			"power": "*:*_shell_toggle",
+			"inverted": true
+		},
+		"damage_condition": {
+			"type": "origins:or",
+			"conditions": [
+				{
+					"type": "origins:name",
+					"name": "badRespawnPoint"
+				},
+				{
+					"type": "origins:name",
+					"name": "explosion"
+				},
+				{
+					"type": "origins:name",
+					"name": "explosion.player"
+				},
+				{
+					"type": "origins:name",
+					"name": "fireball"
+				},
+				{
+					"type": "origins:name",
+					"name": "fireball.item"
+				},
+				{
+					"type": "origins:name",
+					"name": "fireworks"
+				},
+				{
+					"type": "origins:name",
+					"name": "fireworks.player"
+				},
+				{
+					"type": "origins:name",
+					"name": "fireworks.item"
+				},
+				{
+					"type": "origins:name",
+					"name": "hotFloor"
+				},
+				{
+					"type": "origins:name",
+					"name": "hotFloor.player"
+				},
+				{
+					"type": "origins:name",
+					"name": "inFire"
+				},
+				{
+					"type": "origins:name",
+					"name": "inFire.player"
+				},
+				{
+					"type": "origins:name",
+					"name": "lava"
+				},
+				{
+					"type": "origins:name",
+					"name": "lava.player"
+				},
+				{
+					"type": "origins:name",
+					"name": "lightningBolt"
+				},
+				{
+					"type": "origins:name",
+					"name": "lightningBolt.player"
+				},
+				{
+					"type": "origins:name",
+					"name": "onFire"
+				},
+				{
+					"type": "origins:name",
+					"name": "onFire.player"
+				},
+				{
+					"type": "origins:name",
+					"name": "wither"
+				}
+			]
+		},
+		"modifier": {
+			"operation": "multiply_total_multiplicative",
+			"value": 1
+		}
+	},
+
+	"extra_creature_damage": {
+		"type": "apoli:modify_damage_taken",
+		"condition": {
+			"type": "origins:power_active",
+			"power": "*:*_shell_toggle",
+			"inverted": true
+		},
+		"bientity_condition": {
+			"type": "origins:actor_condition",
+			"condition": {
+				"type": "origins:or",
+				"conditions": [
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:blaze"
+					},
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:magma_cube"
+					},
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:ghast"
+					}
+				]
+			}
+		},
+		"modifier": {
+			"operation": "multiply_total_multiplicative",
+			"value": 1
+		}
+	},
+
+	"venting": {
+		"type": "origins:action_over_time",
+		"condition": {
+			"type": "origins:power_active",
+			"power": "*:*_shell_toggle",
+			"inverted": true
+		},
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "mechbot:heat_heat",
+			"change": -2
+		}
+	},
+
+	"armor_down": {
+		"type": "origins:action_when_hit",
+		"bientity_condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:actor_condition",
+					"condition": {
+						"type": "origins:equipped_item",
+						"equipment_slot": "mainhand",
+						"item_condition": {
+							"type": "origins:ingredient",
+							"ingredient": {
+								"tag": "axes"
+							}
+						}
+					}
+				},
+				{
+					"type": "origins:target_condition",
+					"condition": {
+						"type": "origins:power_active",
+						"power": "*:*_shell_toggle"
+					}
+				}
+			]
+		},
+		"bientity_action": {
+			"type": "origins:target_action",
+			"action": {
+				"type": "origins:and",
+				"actions": [
+					{
+						"type": "origins:toggle",
+						"power": "*:*_shell_toggle"
+					},
+					{
+						"type": "origins:trigger_cooldown",
+						"power": "*:*_toggle_cooldown"
+					},
+					{
+						"type": "origins:play_sound",
+						"sound": "minecraft:entity.item.break"
+					},
+					{
+						"type": "origins:revoke_power",
+						"power": "mechbot:shellbonus",
+						"source": "mechbot:golem"
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "/scale set pehkui:width 0.9 @s"
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "/scale set pehkui:height 0.9 @s"
+					}
+				]
+			}
+		}
+	},
+
+	"size_change": {
+		"type": "origins:action_on_callback",
+		"entity_action_gained": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "/scale set pehkui:width 1.1 @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "/scale set pehkui:height 1.1 @s"
+				}
+			]
+		},
+		"entity_action_respawned": {
+			"type": "origins:if_else",
+			"condition": {
+				"type": "origins:power_active",
+				"power": "*:*_shell_toggle"
+			},
+			"if_action": {
+				"type": "origins:and",
+				"actions": [
+					{
+						"type": "origins:execute_command",
+						"command": "/scale set pehkui:width 1.1 @s"
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "/scale set pehkui:height 1.1 @s"
+					}
+				]
+			},
+			"else_action": {
+				"type": "origins:and",
+				"actions": [
+					{
+						"type": "origins:execute_command",
+						"command": "/scale set pehkui:width 0.9 @s"
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "/scale set pehkui:height 0.9 @s"
+					},
+					{
+						"type": "origins:clear_effect",
+						"effect": "minecraft:absorption"
+					}
+				]
+			}
+		}
+	},
+
+	"badges": [
+		{
+			"sprite": "minecraft:textures/item/turtle_helmet.png",
+			"text": "While armored you receive protection."
+		},
+		{
+			"sprite": "minecraft:textures/item/armor_stand.png",
+			"text": "Wearing armor grants you no extra defense."
+		},
+		{
+			"sprite": "minecraft:textures/item/snowball.png",
+			"text": "Taking off your armor grants extra cooling but removes your protection."
+		},
+		{
+			"sprite": "minecraft:textures/block/coal_block.png",
+			"text": "While your armor is off you take double damage from withering and fire sources or entities."
+		}
+	]
+}

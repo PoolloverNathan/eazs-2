@@ -1,0 +1,77 @@
+{
+    "name": "§1§l§nGargantuan Lungs",
+    "description": "§3With the body of a Wailord, you come with the incredibly large lungs of one, built for deep diving. You are capable of holding your breath for up to 20 minutes.",
+    "type": "origins:multiple",
+    "breath": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:submerged_in",
+                    "fluid": "water"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:status_effect",
+                    "effect": "minecraft:conduit_power"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:in_block",
+                    "block_condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:bubble_column"
+                    }
+                }
+            ]
+        },
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 24000,
+        "tick_rate": 20,
+        "effect": {
+            "effect": "water_breathing",
+            "duration": 0,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": true
+        }
+    },
+    "turtle_shell_compat": {
+        "condition": {
+            "inverted": false,
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "lapras:pokemon_of_the_seas"
+                },
+                {
+                    "inverted": false,
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "head",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:turtle_helmet"
+                        }
+                    }
+                }
+            ]
+        },
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 24200,
+        "tick_rate": 20,
+        "effect": {
+            "effect": "water_breathing",
+            "duration": 0,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": true
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "fuel_bar": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 100,
+        "start_value": 100,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+            "bar_index": 22
+        }
+    },
+    "refuel_fast": {
+        "condition": {
+            "type": "origins:exposed_to_sun"
+        },
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "resource": "serperior:serperior_leaf_storm_fuel_fuel_bar",
+            "modifier": {
+                "operation": "addition",
+                "value": 3
+            }
+        }
+    },
+    "refuel_slow": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:exposed_to_sun"
+        },
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "resource": "serperior:serperior_leaf_storm_fuel_fuel_bar",
+            "modifier": {
+                "operation": "addition",
+                "value": 1
+            }
+        }
+    }
+}

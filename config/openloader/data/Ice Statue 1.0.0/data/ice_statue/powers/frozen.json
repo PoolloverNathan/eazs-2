@@ -1,0 +1,113 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "iceblock": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:execute_command",
+            "command": "function ice_statue:ice"
+        },
+        "execute_chosen_when_orb": true,
+        "entity_action_lost": {
+            "type": "origins:execute_command",
+            "command": "kill @e[type=minecraft:block_display]"
+        },
+        "entity_action_removed": {
+            "type": "origins:execute_command",
+            "command": "kill @e[type=minecraft:block_display]"
+        },
+        "entity_action_respawned": {
+            "type": "origins:execute_command",
+            "command": "function ice_statue:ice"
+        }
+    },
+    "die": {
+        "type": "origins:action_on_death",
+        "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:execute_command",
+                "command": "kill @e[type=minecraft:block_display]"
+            }
+        }
+    },
+    "immobile": {
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "slowness",
+                "duration": 100,
+                "amplifier": 255,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": false
+            }
+        }
+    },
+    "slide": {
+        "type": "origins:modify_slipperiness",
+        "modifier": {
+            "operation": "set_total",
+            "value": 1
+        }
+    },
+    "nojump": {
+        "type": "origins:modify_jump",
+        "modifier": {
+            "operation": "set_base",
+            "value": 0
+        }
+    },
+    "tp": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "tp @e[type=minecraft:block_display,sort=nearest,limit=1] ~-0.5 ~ ~-0.5"
+        }
+    },
+    "stepup": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:step_height 2"
+        },
+        "execute_chosen_when_orb": true,
+        "entity_action_gained": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:step_height 2"
+        },
+        "entity_action_lost": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:step_height 1"
+        },
+        "entity_action_added": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:step_height 2"
+        },
+        "entity_action_removed": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:step_height 1"
+        },
+        "entity_action_respawned": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:step_height 2"
+        }
+    },
+    "nodam": {
+        "type": "origins:modify_damage_dealt",
+        "modifier": {
+            "operation": "set_total",
+            "value": 0
+        }
+    },
+    "nobreak": {
+        "type": "origins:modify_break_speed",
+        "modifier": {
+            "operation": "set_total",
+            "value": 0
+        }
+    }
+}

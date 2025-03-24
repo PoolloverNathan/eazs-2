@@ -1,0 +1,294 @@
+{
+    "name": "§a§nBouncy",
+    "description": "§2Your lower body, due to being completely made of slime, is perfectly made for bouncing around, increasing your jump height and causing you to bounce upon hitting the ground. Crouching as you land minimizes your bounce.",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "§2Crouching allows you to charge up your jump to go higher!",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+    "type": "origins:multiple",
+    "bounce": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:fall_distance",
+                    "comparison": ">",
+                    "compare_to": 3.5
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:sneaking"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:biome",
+                    "condition": {
+                        "type": "origins:temperature",
+                        "comparison": "<=",
+                        "compare_to": 0.05
+                    }
+                }
+            ]
+        },
+        "type": "origins:action_on_land",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:if_else_list",
+                    "actions": [
+                        {
+                            "condition": {
+                                "type": "origins:and",
+                                "conditions": [
+                                    {
+                                        "type": "origins:fall_distance",
+                                        "comparison": ">",
+                                        "compare_to": 3
+                                    },
+                                    {
+                                        "type": "origins:fall_distance",
+                                        "comparison": "<=",
+                                        "compare_to": 5
+                                    }
+                                ]
+                            },
+                            "action": {
+                                "type": "origins:add_velocity",
+                                "y": 0.75,
+                                "space": "world",
+                                "client": true,
+                                "server": true
+                            }
+                        },
+                        {
+                            "condition": {
+                                "type": "origins:and",
+                                "conditions": [
+                                    {
+                                        "type": "origins:fall_distance",
+                                        "comparison": ">",
+                                        "compare_to": 5
+                                    },
+                                    {
+                                        "type": "origins:fall_distance",
+                                        "comparison": "<=",
+                                        "compare_to": 10
+                                    }
+                                ]
+                            },
+                            "action": {
+                                "type": "origins:add_velocity",
+                                "y": 1.05,
+                                "space": "world",
+                                "client": true,
+                                "server": true
+                            }
+                        },
+                        {
+                            "condition": {
+                                "type": "origins:and",
+                                "conditions": [
+                                    {
+                                        "type": "origins:fall_distance",
+                                        "comparison": ">",
+                                        "compare_to": 10
+                                    },
+                                    {
+                                        "type": "origins:fall_distance",
+                                        "comparison": "<=",
+                                        "compare_to": 15
+                                    }
+                                ]
+                            },
+                            "action": {
+                                "type": "origins:add_velocity",
+                                "y": 1.25,
+                                "space": "world",
+                                "client": true,
+                                "server": true
+                            }
+                        },
+                        {
+                            "condition": {
+                                "type": "origins:and",
+                                "conditions": [
+                                    {
+                                        "type": "origins:fall_distance",
+                                        "comparison": ">",
+                                        "compare_to": 15
+                                    },
+                                    {
+                                        "type": "origins:fall_distance",
+                                        "comparison": "<=",
+                                        "compare_to": 25
+                                    }
+                                ]
+                            },
+                            "action": {
+                                "type": "origins:add_velocity",
+                                "y": 1.75,
+                                "space": "world",
+                                "client": true,
+                                "server": true
+                            }
+                        },
+                        {
+                            "condition": {
+                                "type": "origins:and",
+                                "conditions": [
+                                    {
+                                        "type": "origins:fall_distance",
+                                        "comparison": ">",
+                                        "compare_to": 25
+                                    },
+                                    {
+                                        "type": "origins:fall_distance",
+                                        "comparison": "<=",
+                                        "compare_to": 45
+                                    }
+                                ]
+                            },
+                            "action": {
+                                "type": "origins:add_velocity",
+                                "y": 2.1,
+                                "space": "world",
+                                "client": true,
+                                "server": true
+                            }
+                        },
+                        {
+                            "condition": {
+                                "type": "origins:and",
+                                "conditions": [
+                                    {
+                                        "type": "origins:fall_distance",
+                                        "comparison": ">",
+                                        "compare_to": 45
+                                    },
+                                    {
+                                        "type": "origins:fall_distance",
+                                        "comparison": "<=",
+                                        "compare_to": 65
+                                    }
+                                ]
+                            },
+                            "action": {
+                                "type": "origins:add_velocity",
+                                "y": 2.9,
+                                "space": "world",
+                                "client": true,
+                                "server": true
+                            }
+                        },
+                        {
+                            "condition": {
+                                "type": "origins:fall_distance",
+                                "comparison": ">",
+                                "compare_to": 65
+                            },
+                            "action": {
+                                "type": "origins:add_velocity",
+                                "y": 4,
+                                "space": "world",
+                                "client": true,
+                                "server": true
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "air_speed": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:biome",
+            "condition": {
+                "type": "origins:temperature",
+                "comparison": "<=",
+                "compare_to": 0.05
+            }
+        },
+        "type": "origins:modify_air_speed",
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 1.5
+        }
+    },
+    "jump_sneaking": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sneaking"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:biome",
+                    "condition": {
+                        "type": "origins:temperature",
+                        "comparison": "<=",
+                        "compare_to": 0.05
+                    }
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:biome",
+                    "condition": {
+                        "type": "origins:temperature",
+                        "comparison": "<=",
+                        "compare_to": 0.05
+                    }
+                }
+            ]
+        },
+        "type": "origins:modify_jump",
+        "modifier": {
+            "operation": "addition",
+            "value": 0.724
+        }
+    },
+    "jump_height": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:sneaking"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:biome",
+                    "condition": {
+                        "type": "origins:temperature",
+                        "comparison": "<=",
+                        "compare_to": 0.05
+                    }
+                }
+            ]
+        },
+        "type": "origins:modify_jump",
+        "modifier": {
+            "operation": "addition",
+            "value": 0.306
+        }
+    },
+    "no_fall_damage": {
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "fall"
+        }
+    },
+    "no_stalagmite_damage": {
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "stalagmite"
+        }
+    }
+}

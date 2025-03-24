@@ -1,0 +1,18 @@
+{
+    "name": "Fox Plush",
+    "description": "Cute looking fox plush. Be aware, it can and will steal your soul...",
+    "impact": 2,
+    "icon": {
+        "item": "minecraft:white_wool"
+    },
+    "powers": [
+        "pin:pounce",
+        "pin:featherweight",
+        "pin:stolen_life",
+        "pin:hike",
+        "pin:food",
+        "pin:sugar",
+        "pin:shelfsize"
+    ],
+    "unchoosable": false
+}

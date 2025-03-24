@@ -1,0 +1,28 @@
+{
+    "name": "Metal Shell",
+    "description": "Your massive density makes you sink in water.",
+    "type": "origins:multiple",
+
+	"sink": {
+		"type": "origins:ignore_water"
+	},
+
+	"no_breathing": {
+		"type": "origins:stacking_status_effect",
+		"min_stacks": 0,
+		"max_stacks": 1,
+		"duration_per_stack": 11,
+		"effect": {
+			"effect": "minecraft:water_breathing",
+			"show_particles": false,
+			"show_icon": false
+		}
+	},
+
+	"badges": [
+		{
+			"sprite": "minecraft:textures/item/pufferfish.png",
+			"text": "You cannot drown."
+		}
+	]
+}

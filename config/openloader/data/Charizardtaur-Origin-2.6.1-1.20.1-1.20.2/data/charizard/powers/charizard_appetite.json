@@ -1,0 +1,9 @@
+{
+    "name": "§6§l§nLarge Appetite",
+    "description": "§eAs a Charizard, due to your size, you have an increased appetite. This causes you to exhaust energy more quickly.",
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 0.6
+    }
+}

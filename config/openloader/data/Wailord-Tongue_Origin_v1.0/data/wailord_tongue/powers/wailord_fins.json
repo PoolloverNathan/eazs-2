@@ -1,0 +1,60 @@
+{
+    "name": "§1§l§nWailord's Fins",
+    "description": "§3Despite your severe lack of land mobility, you have the large and powerful fins of a Wailord, granting you smooth and powerful bursts of movement in the water.",
+    "type": "origins:multiple",
+    "fins": {
+        "type": "origins:modify_swim_speed",
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 3
+        }
+    },
+    "affinity_ungrounded": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": ">",
+                    "compare_to": 0
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:on_block"
+                }
+            ]
+        },
+        "type": "origins:modify_break_speed",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 4
+        }
+    },
+    "affinity_underwater": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:submerged_in",
+                    "fluid": "minecraft:water"
+                },
+                {
+                    "type": "origins:enchantment",
+                    "enchantment": "minecraft:aqua_affinity",
+                    "calculation": "sum",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "type": "origins:modify_break_speed",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 4
+        }
+    },
+    "no_sprint_swim": {
+        "type": "origins:prevent_sprinting"
+    }
+}

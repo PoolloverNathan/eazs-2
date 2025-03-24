@@ -1,0 +1,21 @@
+{
+    "name": "Cervitaur",
+    "description": "A being with an upper body closely resembling that of a human with a lower body that of a deer.",
+    "powers": [
+        "cervitaur:cervid_agility",
+        "cervitaur:graceful_stance",
+        "cervitaur:resolute",
+        "cervitaur:get_out_of_there",
+        "cervitaur:get_out_of_there_tooltip",
+        "cervitaur:keen_senses",
+        "cervitaur:cervid_diet",
+        "cervitaur:prevent_eat",
+        "cervitaur:victim_of_the_hunt",
+        "cervitaur:intriguing_lights",
+        "cervitaur:light_hypnosis"
+    ],
+    "icon": {
+        "item": "minecraft:podzol"
+    },
+    "impact": 1
+}

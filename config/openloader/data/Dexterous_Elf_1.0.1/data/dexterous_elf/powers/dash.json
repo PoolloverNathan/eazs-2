@@ -1,0 +1,130 @@
+{
+    "name": "§bDash",
+    "description": "Dash in the direction you are looking when airbone or facing when on the ground. This cancels fall damage for a short duration.",
+	"type": "origins:multiple",
+	"badges": [
+		{
+			"type": "origins:keybind",
+			"sprite": "origins:textures/gui/badge/active.png",
+			"text": "Active ability, use with %s."
+		},
+		{
+			"type": "origins:keybind",
+			"sprite": "origins:textures/gui/badge/info.png",
+			"text": "You can only dash if your hunger allows you to sprint and while not in elytra flight nor submerged in any fluid."
+		}
+	],
+	"dash": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:if_else",
+					"condition": {
+						"type": "origins:on_block",
+						"inverted": true
+					},
+					"if_action": {
+						"type": "origins:and",
+						"actions": [
+							{
+								"type": "origins:add_velocity",
+								"z": 1,
+								"space": "local",
+								"set": true,
+								"client": true,
+								"server": true
+							},
+							{
+								"type": "origins:exhaust",
+								"amount": 0.2
+							}
+						]
+					},
+					"else_action": {
+						"type": "origins:and",
+						"actions": [
+							{
+								"type": "origins:add_velocity",
+								"z": 1,
+								"space": "local_horizontal",
+								"set": true,
+								"client": true,
+								"server": true
+							},
+							{
+								"type": "origins:exhaust",
+								"amount": 0.1
+							}
+						]
+					}
+				},
+                {
+                    "type": "origins:set_fall_distance",
+                    "fall_distance": 0
+                },
+				{
+					"type": "origins:execute_command",
+					"command": "playsound minecraft:block.note_block.basedrum master @s ~ ~ ~ 0.2"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle minecraft:poof ~ ~0.5 ~ 0.3 0.3 0.3 0.1 10 force"
+				},
+				{
+					"type": "origins:trigger_cooldown",
+					"power": "*:*_timer"
+				}
+			]
+		},
+		"cooldown": 60,
+		"hud_render": {
+			"should_render": true,
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+			"bar_index": 23
+		},
+		"key": "key.origins.primary_active",
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:food_level",
+					"comparison": ">",
+					"compare_to": 6
+				},
+				{
+					"type": "origins:fall_flying",
+					"inverted": true
+				},
+				{
+					"type": "origins:submerged_in",
+					"fluid": "minecraft:water",
+					"inverted": true
+				},
+				{
+					"type": "origins:submerged_in",
+					"fluid": "minecraft:lava",
+					"inverted": true
+				}
+			]
+		}
+	},
+	"timer": {
+		"type": "origins:cooldown",
+		"cooldown": 40,
+		"hud_render": {
+			"should_render": false
+		}
+	},
+	"no_fall": {
+		"type": "origins:modify_falling",
+		"take_fall_damage": false,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_timer",
+			"comparison": ">",
+			"compare_to": 0
+		}
+	}
+}

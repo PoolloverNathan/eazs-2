@@ -1,0 +1,97 @@
+{
+    "name": "§b§l§nWater Type",
+    "description": "§fAs a water type Pokémon, you take increased damage from impaling. However, you are capable of utilizing Water Type moves in combat, such as Water Gun (only works when your head is outside of water).",
+    "type": "origins:multiple",
+    "power": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+        },
+        "type": "origins:simple"
+    },
+    "fire": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "lapras:lapras_hydration",
+                    "comparison": ">=",
+                    "compare_to": 1
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:biome",
+                    "biomes": [
+                        "minecraft:deep_frozen_ocean",
+                        "minecraft:frozen_ocean",
+                        "minecraft:frozen_peaks",
+                        "minecraft:frozen_river",
+                        "minecraft:ice_spikes",
+                        "minecraft:snowy_beach",
+                        "minecraft:snowy_plains",
+                        "minecraft:snowy_taiga",
+                        "minecraft:snowy_slopes"
+                    ]
+                }
+            ]
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:raycast",
+            "distance": 50,
+            "block": true,
+            "entity": true,
+            "shape_type": "outline",
+            "fluid_handling": "any",
+            "bientity_condition": {
+                "type": "origins:target_condition",
+                "condition": {
+                    "type": "origins:and",
+                    "conditions": [
+                        {
+                            "inverted": true,
+                            "type": "origins:in_tag",
+                            "tag": "lapras:weak_to_lapras_water_gun"
+                        },
+                        {
+                            "inverted": true,
+                            "type": "origins:origin",
+                            "origin": "charizard:charizard"
+                        },
+                        {
+                            "inverted": true,
+                            "type": "origins:origin",
+                            "origin": "lapras:lapras"
+                        },
+                        {
+                            "inverted": true,
+                            "type": "origins:origin",
+                            "origin": "serperior:serperior"
+                        }
+                    ]
+                }
+            },
+            "bientity_action": {
+                "type": "origins:damage",
+                "amount": 8,
+                "source": {
+                    "name": "drown",
+                    "bypasses_armor": false,
+                    "unblockable": false,
+                    "magic": false
+                }
+            },
+            "command_along_ray": "particle minecraft:splash ~ ~ ~ 0.2 0.2 0.2 0 100"
+        },
+        "cooldown": 20,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.origins.secondary_active",
+            "continuous": true
+        }
+    }
+}

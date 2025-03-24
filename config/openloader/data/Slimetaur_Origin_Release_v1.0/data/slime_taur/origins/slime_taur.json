@@ -1,0 +1,21 @@
+{
+    "name": "§aSlime-Taur",
+    "description": "§2Congratulations, the lower half of your body is now literally slime...",
+    "powers": [
+        "slime_taur:legless",
+        "slime_taur:bouncy",
+        "slime_taur:slimey",
+        "slime_taur:one_in_the_same",
+        "slime_taur:varied_sizing",
+        "slime_taur:buoyant",
+        "slime_taur:cold_sensitive",
+        "slime_taur:moisture",
+        "slime_taur:moisture_changing",
+        "slime_taur:moisture_food"
+    ],
+    "icon": {
+        "item": "minecraft:slime_block"
+    },
+    "order": 0,
+    "impact": 2
+}

@@ -1,0 +1,32 @@
+{
+    "name": "§6§l§nCharizard Bulk",
+    "description": "§eAs a Charizard-Taur, you have a generally bulkier lower body than the average human. Increasing your maximum health to 26 health and giving you 50% knockback resistance. However, your weight combined with your reliance on flight reduce your movement speed by 25%",
+    "type": "origins:multiple",
+    "extra_health": {
+        "type": "origins:attribute",
+        "modifier": {
+            "operation": "addition",
+            "value": 6,
+            "attribute": "minecraft:generic.max_health"
+        },
+        "update_health": true
+    },
+    "movement_speed": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "multiply_total",
+            "value": -0.25
+        },
+        "update_health": true
+    },
+    "knockback_resistance": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.knockback_resistance",
+            "operation": "addition",
+            "value": 0.5
+        },
+        "update_health": true
+    }
+}

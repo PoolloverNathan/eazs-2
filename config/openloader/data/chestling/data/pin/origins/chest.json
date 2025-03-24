@@ -1,0 +1,11 @@
+{
+    "powers": [
+        "pin:bodystore",
+        "pin:oak",
+        "pin:food"
+    ],
+    "icon": "minecraft:chest",
+    "impact": 1,
+    "name": "Chestling",
+    "description": "Half human half chest creatures, wandering around and picking up everything they see."
+}

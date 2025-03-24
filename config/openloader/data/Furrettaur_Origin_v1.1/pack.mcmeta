@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "name": "My Pack",
+        "id": "furret",
+        "meta": "My Pack",
+        "version": "v1.0",
+        "pack_format": 18,
+        "description": ""
+    }
+}

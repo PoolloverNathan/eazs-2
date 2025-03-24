@@ -1,0 +1,54 @@
+{
+    "name": "Folivore",
+    "hidden": true,
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:food"
+            },
+            {
+                "inverted": true,
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "minecraft:leaves"
+                }
+            },
+            {
+                "inverted": true,
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "minecraft:saplings"
+                }
+            },
+            {
+                "inverted": true,
+                "type": "origins:ingredient",
+                "ingredient": [
+                    {
+                        "item": "minecraft:warped_wart_block"
+                    },
+                    {
+                        "item": "minecraft:nether_wart_block"
+                    },
+                    {
+                        "item": "minecraft:brown_mushroom_block"
+                    },
+                    {
+                        "item": "minecraft:red_mushroom_block"
+                    },
+                    {
+                        "item": "minecraft:spore_blossom"
+                    },
+                    {
+                        "item": "minecraft:big_dripleaf"
+                    },
+                    {
+                        "item": "minecraft:small_dripleaf"
+                    }
+                ]
+            }
+        ]
+    }
+}

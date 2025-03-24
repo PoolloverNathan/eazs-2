@@ -1,0 +1,92 @@
+{
+    "name": "Savanna Acclimation",
+    "description": "Due to your giraffe anatomy, you're much more used to the warm and dry climate of savannas, causing your body to not fare well in snowier regions and freeze. However, at least you can call the savanna your home as that's where you spawn",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "§aHeat sources and leather armor help combat freezing temperatures",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+    "type": "origins:multiple",
+    "freeze": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:block_in_radius",
+                    "block_condition": {
+                        "type": "origins:light_level",
+                        "light_type": "block",
+                        "comparison": ">=",
+                        "compare_to": 10
+                    },
+                    "radius": 8,
+                    "shape": "sphere",
+                    "comparison": ">=",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:biome",
+                    "condition": {
+                        "type": "origins:precipitation",
+                        "precipitation": "snow"
+                    }
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "head",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:leather_helmet"
+                        }
+                    }
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "chest",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:leather_chestplate"
+                        }
+                    }
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "legs",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:leather_leggings"
+                        }
+                    }
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "feet",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:leather_boots"
+                        }
+                    }
+                }
+            ]
+        },
+        "type": "origins:freeze"
+    },
+    "savanna_spawn": {
+        "type": "origins:modify_player_spawn",
+        "dimension": "minecraft:overworld",
+        "biome": "minecraft:savanna",
+        "spawn_strategy": "default",
+        "dimension_distance_multiplier": 1
+    }
+}

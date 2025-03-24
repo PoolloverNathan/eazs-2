@@ -1,0 +1,27 @@
+{
+    "values": [
+        "minecraft:apple",
+        "minecraft:golden_apple",
+        "minecraft:enchanted_golden_apple",
+        "minecraft:carrot",
+        "minecraft:golden_carrot",
+        "minecraft:sweet_berries",
+        "minecraft:mushroom_stew",
+        "minecraft:suspicious_stew",
+        "minecraft:beetroot",
+        "minecraft:beetroot_soup",
+        "minecraft:wheat",
+        "minecraft:hay_block",
+        "minecraft:brown_mushroom",
+        "minecraft:red_mushroom",
+        "minecraft:grass",
+        "minecraft:tall_grass",
+        "minecraft:grass_block",
+        "minecraft:rose_bush",
+        "minecraft:red_tulip",
+        "minecraft:orange_tulip",
+        "minecraft:white_tulip",
+        "minecraft:pink_tulip",
+        "minecraft:dandelion"
+    ]
+}

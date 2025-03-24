@@ -1,0 +1,9 @@
+{
+    "pack": {
+        "name": "My Pack",
+        "id": "wailord_tongue",
+        "pack_format": 18,
+        "version": "1.0.0",
+        "description": ""
+    }
+}

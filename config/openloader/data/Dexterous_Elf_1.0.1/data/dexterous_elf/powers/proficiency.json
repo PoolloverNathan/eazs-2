@@ -1,0 +1,56 @@
+{
+	"name": "§bElven Training",
+	"description": "You deal slightly more damage with swords and regular arrows.",
+	"type": "origins:multiple",
+	"arrow": {
+		"type": "origins:modify_projectile_damage",
+		"damage_condition": {
+			"type": "origins:projectile",
+			"projectile": "minecraft:arrow"
+		},
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.2
+		}
+	},
+	"swords": {
+		"type": "origins:modify_damage_dealt",
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.2
+		},
+		"bientity_condition": {
+			"type": "origins:actor_condition",
+			"condition": {
+				"type": "origins:equipped_item",
+				"equipment_slot": "mainhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "dexterous_elf:swords"
+					}
+				}
+			}
+		}
+	},
+	"arrow_tooltip": {
+		"type": "origins:tooltip",
+		"item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:arrow"
+			}
+		},
+		"text": "§7Increased Damage (§bElven §bTraining§7)."
+	},
+	"swords_tooltip": {
+		"type": "origins:tooltip",
+		"item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"tag": "dexterous_elf:swords"
+			}
+		},
+		"text": "§7Increased Damage (§bElven §bTraining§7)."
+	}
+}

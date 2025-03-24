@@ -1,0 +1,19 @@
+{
+    "name": "§6§lFurret-Taur",
+    "description": "§7So, what happens when you take an already noodle-shaped Pokemon...and make it even longer by attaching a person to it?",
+    "powers": [
+        "furret:noodley_body",
+        "furret:quick_paws",
+        "furret:furret_agility",
+        "furret:run_away",
+        "furret:fury_swipes",
+        "furret:defense_curl",
+        "furret:short_legs",
+        "furret:rapid_metabolism",
+        "furret:unequipped_frame"
+    ],
+    "icon": {
+        "item": "minecraft:rabbit_hide"
+    },
+    "impact": 1
+}

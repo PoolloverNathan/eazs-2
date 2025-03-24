@@ -1,0 +1,62 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:power_active",
+                "power": "lapras:lapras_water_type"
+            },
+            {
+                "inverted": true,
+                "type": "origins:submerged_in",
+                "fluid": "minecraft:water"
+            },
+            {
+                "type": "origins:resource",
+                "resource": "lapras:lapras_hydration",
+                "comparison": ">=",
+                "compare_to": 1
+            },
+            {
+                "inverted": true,
+                "type": "origins:biome",
+                "biomes": [
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:frozen_peaks",
+                    "minecraft:frozen_river",
+                    "minecraft:ice_spikes",
+                    "minecraft:snowy_beach",
+                    "minecraft:snowy_plains",
+                    "minecraft:snowy_taiga"
+                ]
+            }
+        ]
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:play_sound",
+                "sound": "minecraft:block.bubble_column.upwards_inside",
+                "volume": 1,
+                "pitch": 1
+            },
+            {
+                "type": "origins:modify_resource",
+                "resource": "lapras:lapras_hydration",
+                "modifier": {
+                    "operation": "addition",
+                    "value": -1
+                }
+            }
+        ]
+    },
+    "cooldown": 20,
+    "key": {
+        "key": "key.origins.secondary_active",
+        "continuous": true
+    }
+}

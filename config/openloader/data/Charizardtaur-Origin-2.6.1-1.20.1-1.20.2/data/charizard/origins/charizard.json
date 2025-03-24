@@ -1,0 +1,28 @@
+{
+    "name": "§6§lCharizard-Taur",
+    "description": "§eLarge Pokémon with a fiery temper, Charizard are often seen flying in the skies, searching for foes to defeat.",
+    "powers": [
+        "charizard:charizard_size",
+        "charizard:charizard_winged",
+        "charizard:charizard_creative_flight",
+        "charizard:charizard_bulk",
+        "charizard:charizard_aerial_vulnerability",
+        "charizard:charizard_fire_type",
+        "charizard:charizard_appetite",
+        "charizard:light",
+        "charizard:charizard_flamethrower",
+        "charizard:charizard_flamethrower_fuel",
+        "charizard:charizard_hurricane",
+        "charizard:charizard_hurricane_fuel",
+        "charizard:charizard_hurricane_strong_and_weak",
+        "charizard:charizard_transport",
+        "charizard:berry_devourer",
+        "origins:carnivore"
+    ],
+    "icon": {
+        "item": "minecraft:fire_charge"
+    },
+    "unchoosable": false,
+    "order": 0,
+    "impact": 3
+}

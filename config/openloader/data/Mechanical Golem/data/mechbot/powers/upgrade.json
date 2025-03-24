@@ -1,0 +1,355 @@
+{
+    "name": "Upgrade",
+    "description": "You can right click to consume ore blocks, upgrading yourself.",
+    "type": "origins:multiple",
+
+	"use_blocks": {
+		"type": "origins:active_self",
+		"key": {"key": "key.use"},
+		"entity_action": {
+			"type": "origins:if_else_list",
+			"actions": [
+				{
+					"condition": {
+						"type": "origins:equipped_item",
+						"equipment_slot": "mainhand",
+						"item_condition": {
+							"type": "origins:ingredient",
+							"ingredient": {"item": "minecraft:netherite_block"}
+						}
+					},
+					"action": {
+						"type": "origins:and",
+						"actions": [
+							{
+								"type": "origins:change_resource",
+								"resource": "*:*_netherite_resource",
+								"change": 1
+							},
+							{
+								"type": "origins:equipped_item_action",
+								"equipment_slot": "mainhand",
+								"action": {
+									"type": "origins:consume",
+									"amount": 1
+                    			}
+							},
+							{
+								"type": "origins:play_sound",
+								"sound": "minecraft:block.anvil.use"
+							}
+						]
+					}
+				},
+				{
+					"condition": {
+						"type": "origins:equipped_item",
+						"equipment_slot": "mainhand",
+						"item_condition": {
+							"type": "origins:ingredient",
+							"ingredient": {"item": "minecraft:diamond_block"}
+						}
+					},
+					"action": {
+						"type": "origins:and",
+						"actions": [
+							{
+								"type": "origins:change_resource",
+								"resource": "*:*_diamond_resource",
+								"change": 1
+							},
+							{
+								"type": "origins:equipped_item_action",
+								"equipment_slot": "mainhand",
+								"action": {
+									"type": "origins:consume",
+									"amount": 1
+                    			}
+							},
+							{
+								"type": "origins:play_sound",
+								"sound": "minecraft:block.anvil.use"
+							}
+						]
+					}
+				},
+				{
+					"condition": {
+						"type": "origins:equipped_item",
+						"equipment_slot": "mainhand",
+						"item_condition": {
+							"type": "origins:ingredient",
+							"ingredient": {"item": "minecraft:emerald_block"}
+						}
+					},
+					"action": {
+						"type": "origins:and",
+						"actions": [
+							{
+								"type": "origins:change_resource",
+								"resource": "*:*_emerald_resource",
+								"change": 1
+							},
+							{
+								"type": "origins:equipped_item_action",
+								"equipment_slot": "mainhand",
+								"action": {
+									"type": "origins:consume",
+									"amount": 1
+                    			}
+							},
+							{
+								"type": "origins:play_sound",
+								"sound": "minecraft:block.anvil.use"
+							}
+						]
+					}
+				},
+				{
+					"condition": {
+						"type": "origins:equipped_item",
+						"equipment_slot": "mainhand",
+						"item_condition": {
+							"type": "origins:ingredient",
+							"ingredient": {"item": "minecraft:gold_block"}
+						}
+					},
+					"action": {
+						"type": "origins:and",
+						"actions": [
+							{
+								"type": "origins:change_resource",
+								"resource": "*:*_gold_resource",
+								"change": 1
+							},
+							{
+								"type": "origins:equipped_item_action",
+								"equipment_slot": "mainhand",
+								"action": {
+									"type": "origins:consume",
+									"amount": 1
+                    			}
+							},
+							{
+								"type": "origins:play_sound",
+								"sound": "minecraft:block.anvil.use"
+							}
+						]
+					}
+				},
+				{
+					"condition": {
+						"type": "origins:equipped_item",
+						"equipment_slot": "mainhand",
+						"item_condition": {
+							"type": "origins:ingredient",
+							"ingredient": {"item": "minecraft:iron_block"}
+						}
+					},
+					"action": {
+						"type": "origins:and",
+						"actions": [
+							{
+								"type": "origins:change_resource",
+								"resource": "*:*_iron_resource",
+								"change": 1
+							},
+							{
+								"type": "origins:equipped_item_action",
+								"equipment_slot": "mainhand",
+								"action": {
+									"type": "origins:consume",
+									"amount": 1
+                    			}
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "/attribute @s minecraft:generic.armor base set 1.0"
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "/attribute @s minecraft:generic.armor_toughness base set 1.0"
+							},
+							{
+								"type": "origins:play_sound",
+								"sound": "minecraft:block.anvil.use"
+							}
+						]
+					}
+				},
+				{
+					"condition": {
+						"type": "origins:equipped_item",
+						"equipment_slot": "mainhand",
+						"item_condition": {
+							"type": "origins:ingredient",
+							"ingredient": {"item": "minecraft:redstone_block"}
+						}
+					},
+					"action": {
+						"type": "origins:and",
+						"actions": [
+							{
+								"type": "origins:change_resource",
+								"resource": "*:*_redstone_resource",
+								"change": 1
+							},
+							{
+								"type": "origins:equipped_item_action",
+								"equipment_slot": "mainhand",
+								"action": {
+									"type": "origins:consume",
+									"amount": 1
+                    			}
+							},
+							{
+								"type": "origins:play_sound",
+								"sound": "minecraft:block.anvil.use"
+							}
+						]
+					}
+				},
+				{
+					"condition": {
+						"type": "origins:equipped_item",
+						"equipment_slot": "mainhand",
+						"item_condition": {
+							"type": "origins:ingredient",
+							"ingredient": {"item": "minecraft:lapis_block"}
+						}
+					},
+					"action": {
+						"type": "origins:and",
+						"actions": [
+							{
+								"type": "origins:change_resource",
+								"resource": "*:*_lapis_resource",
+								"change": 1
+							},
+							{
+								"type": "origins:equipped_item_action",
+								"equipment_slot": "mainhand",
+								"action": {
+									"type": "origins:consume",
+									"amount": 1
+                    			}
+							},
+							{
+								"type": "origins:play_sound",
+								"sound": "minecraft:block.anvil.use"
+							}
+						]
+					}
+				},
+				{
+					"condition": {
+						"type": "origins:equipped_item",
+						"equipment_slot": "mainhand",
+						"item_condition": {
+							"type": "origins:ingredient",
+							"ingredient": {"item": "minecraft:copper_block"}
+						}
+					},
+					"action": {
+						"type": "origins:and",
+						"actions": [
+							{
+								"type": "origins:change_resource",
+								"resource": "*:*_copper_resource",
+								"change": 1
+							},
+							{
+								"type": "origins:equipped_item_action",
+								"equipment_slot": "mainhand",
+								"action": {
+									"type": "origins:consume",
+									"amount": 1
+                    			}
+							},
+							{
+								"type": "origins:play_sound",
+								"sound": "minecraft:block.anvil.use"
+							}
+						]
+					}
+				}
+			]
+		}
+	},
+
+	"netherite_resource": {
+		"type": "origins:resource",
+		"min": 0,
+		"max": 99999
+	},
+	"diamond_resource": {
+		"type": "origins:resource",
+		"min": -1,
+		"max": 99999
+	},
+	"emerald_resource": {
+		"type": "origins:resource",
+		"min": 0,
+		"max": 99999
+	},
+	"gold_resource": {
+		"type": "origins:resource",
+		"min": 5,
+		"max": 99999
+	},
+	"iron_resource": {
+		"type": "origins:resource",
+		"min": 0,
+		"max": 99999
+	},
+	"redstone_resource": {
+		"type": "origins:resource",
+		"min": 25,
+		"max": 99999
+	},
+	"lapis_resource": {
+		"type": "origins:resource",
+		"min": 0,
+		"max": 99999
+	},
+	"copper_resource": {
+		"type": "origins:resource",
+		"min": 20,
+		"max": 99999
+	},
+
+	"badges": [
+		{
+			"sprite": "minecraft:textures/block/netherite_block.png",
+			"text": "Grants additional 10% damage during last gear"
+		},
+		{
+			"sprite": "minecraft:textures/block/diamond_block.png",
+			"text": "Grants +0.1 armor toughness while armored"
+		},
+		{
+			"sprite": "minecraft:textures/block/emerald_block.png",
+			"text": "Grants +2 luck while armored"
+		},
+		{
+			"sprite": "minecraft:textures/block/gold_block.png",
+			"text": "Grants +2% attack speed during last gear"
+		},
+		{
+			"sprite": "minecraft:textures/block/iron_block.png",
+			"text": "Grants +.05 armor while armored"
+		},
+		{
+			"sprite": "minecraft:textures/block/redstone_block.png",
+			"text": "Grants +5% break speed during last gear"
+		},
+		{
+			"sprite": "minecraft:textures/block/lapis_block.png",
+			"text": "Grants +5% experience while armored"
+		},
+		{
+			"sprite": "minecraft:textures/block/copper_block.png",
+			"text": "Grants +.5% speed during last gear"
+		}
+	]
+}

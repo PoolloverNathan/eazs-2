@@ -1,0 +1,490 @@
+{
+    "name": "§a§nVaried Sizing",
+    "description": "§2The size and mass of your lower body of slime is directly proportionate to your health. (This can be toggled with primary to enable/disable it)",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "§cIntended to be used with \"Set Health Size\" enabled within the avatar's config!",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+    "type": "origins:multiple",
+    "set_delays": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:execute_command",
+            "command": "scale delay set 0"
+        },
+        "execute_chosen_when_orb": true,
+        "entity_action_lost": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay reset"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale reset"
+                }
+            ]
+        },
+        "entity_action_added": {
+            "type": "origins:execute_command",
+            "command": "scale delay set 0"
+        },
+        "entity_action_removed": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay reset"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale reset"
+                }
+            ]
+        },
+        "entity_action_respawned": {
+            "type": "origins:execute_command",
+            "command": "scale delay set 0"
+        }
+    },
+    "resizing_hitbox": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "slime_taur:varied_sizing_toggle"
+        },
+        "type": "origins:action_over_time",
+        "interval": 5,
+        "entity_action": {
+            "type": "origins:if_else_list",
+            "actions": [
+                {
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "slime_taur:moisture_bar",
+                        "comparison": ">=",
+                        "compare_to": 90
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:hitbox_height 2.1"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:hitbox_width 3.5"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:eye_height 2.1"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:reach 1.5"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "slime_taur:moisture_bar",
+                                "comparison": ">=",
+                                "compare_to": 80
+                            },
+                            {
+                                "type": "origins:resource",
+                                "resource": "slime_taur:moisture_bar",
+                                "comparison": "<",
+                                "compare_to": 90
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:hitbox_height 2"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:hitbox_width 3.2"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:eye_height 2"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:reach 1.4"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "slime_taur:moisture_bar",
+                                "comparison": ">=",
+                                "compare_to": 70
+                            },
+                            {
+                                "type": "origins:resource",
+                                "resource": "slime_taur:moisture_bar",
+                                "comparison": "<",
+                                "compare_to": 80
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:hitbox_height 1.9"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:hitbox_width 3"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:eye_height 1.9"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:reach 1.4"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "slime_taur:moisture_bar",
+                                "comparison": ">=",
+                                "compare_to": 60
+                            },
+                            {
+                                "type": "origins:resource",
+                                "resource": "slime_taur:moisture_bar",
+                                "comparison": "<",
+                                "compare_to": 70
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:hitbox_height 1.8"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:hitbox_width 2.7"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:eye_height 1.8"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:reach 1.3"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "slime_taur:moisture_bar",
+                                "comparison": ">=",
+                                "compare_to": 50
+                            },
+                            {
+                                "type": "origins:resource",
+                                "resource": "slime_taur:moisture_bar",
+                                "comparison": "<",
+                                "compare_to": 60
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:hitbox_height 1.65"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:hitbox_width 2.5"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:eye_height 1.65"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:reach 1.3"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "slime_taur:moisture_bar",
+                                "comparison": ">=",
+                                "compare_to": 40
+                            },
+                            {
+                                "type": "origins:resource",
+                                "resource": "slime_taur:moisture_bar",
+                                "comparison": "<",
+                                "compare_to": 50
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:hitbox_height 1.6"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:hitbox_width 2.3"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:eye_height 1.6"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:reach 1.2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "slime_taur:moisture_bar",
+                                "comparison": ">=",
+                                "compare_to": 30
+                            },
+                            {
+                                "type": "origins:resource",
+                                "resource": "slime_taur:moisture_bar",
+                                "comparison": "<",
+                                "compare_to": 40
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:hitbox_height 1.5"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:hitbox_width 2"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:eye_height 1.45"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:reach 1.2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "slime_taur:moisture_bar",
+                                "comparison": ">=",
+                                "compare_to": 20
+                            },
+                            {
+                                "type": "origins:resource",
+                                "resource": "slime_taur:moisture_bar",
+                                "comparison": "<",
+                                "compare_to": 30
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:hitbox_height 1.4"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:hitbox_width 1.8"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:eye_height 1.25"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:reach 1.1"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "slime_taur:moisture_bar",
+                                "comparison": ">=",
+                                "compare_to": 10
+                            },
+                            {
+                                "type": "origins:resource",
+                                "resource": "slime_taur:moisture_bar",
+                                "comparison": "<",
+                                "compare_to": 20
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:hitbox_height 1.3"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:hitbox_width 1.4"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:eye_height 1.25"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:reach 1.1"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "slime_taur:moisture_bar",
+                                "comparison": ">=",
+                                "compare_to": 0
+                            },
+                            {
+                                "type": "origins:resource",
+                                "resource": "slime_taur:moisture_bar",
+                                "comparison": "<",
+                                "compare_to": 10
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:hitbox_height 1.2"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:hitbox_width 1"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:eye_height 1.1"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:reach 1"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "key.origins.primary_active"
+        },
+        "retain_state": true
+    },
+    "sizing_defaulting": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:power_active",
+            "power": "slime_taur:varied_sizing_toggle"
+        },
+        "type": "origins:action_over_time",
+        "interval": 5,
+        "rising_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale reset"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "title @s actionbar [\"\",{\"text\":\"Health Scaling: \"},{\"text\":\"OFF\",\"color\":\"red\"}]"
+                }
+            ]
+        },
+        "falling_action": {
+            "type": "origins:execute_command",
+            "command": "title @s actionbar [\"\",{\"text\":\"Health Scaling: \"},{\"text\":\"ON\",\"color\":\"green\"}]"
+        }
+    }
+}

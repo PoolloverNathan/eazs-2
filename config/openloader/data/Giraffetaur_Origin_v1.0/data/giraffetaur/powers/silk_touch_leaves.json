@@ -1,0 +1,422 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "oak_one": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:give",
+            "stack": {
+                "item": "minecraft:oak_leaves"
+            }
+        },
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:oak_leaves"
+        },
+        "only_when_harvested": false
+    },
+    "oak_two": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "type": "origins:modify_harvest",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:oak_leaves"
+        },
+        "allow": false
+    },
+    "spruce_one": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:give",
+            "stack": {
+                "item": "minecraft:spruce_leaves"
+            }
+        },
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:spruce_leaves"
+        },
+        "only_when_harvested": false
+    },
+    "spruce_two": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "type": "origins:modify_harvest",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:spruce_leaves"
+        },
+        "allow": false
+    },
+    "birch_one": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:give",
+            "stack": {
+                "item": "minecraft:birch_leaves"
+            }
+        },
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:birch_leaves"
+        },
+        "only_when_harvested": false
+    },
+    "birch_two": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "type": "origins:modify_harvest",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:birch_leaves"
+        },
+        "allow": false
+    },
+    "jungle_one": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:give",
+            "stack": {
+                "item": "minecraft:jungle_leaves"
+            }
+        },
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:jungle_leaves"
+        },
+        "only_when_harvested": false
+    },
+    "jungle_two": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "type": "origins:modify_harvest",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:jungle_leaves"
+        },
+        "allow": false
+    },
+    "acacia_one": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:give",
+            "stack": {
+                "item": "minecraft:acacia_leaves"
+            }
+        },
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:acacia_leaves"
+        },
+        "only_when_harvested": false
+    },
+    "acacia_two": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "type": "origins:modify_harvest",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:acacia_leaves"
+        },
+        "allow": false
+    },
+    "dark_oak_one": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:give",
+            "stack": {
+                "item": "minecraft:dark_oak_leaves"
+            }
+        },
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:dark_oak_leaves"
+        },
+        "only_when_harvested": false
+    },
+    "dark_oak_two": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "type": "origins:modify_harvest",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:dark_oak_leaves"
+        },
+        "allow": false
+    },
+    "mangrove_one": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:give",
+            "stack": {
+                "item": "minecraft:mangrove_leaves"
+            }
+        },
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:mangrove_leaves"
+        },
+        "only_when_harvested": false
+    },
+    "mangrove_two": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "type": "origins:modify_harvest",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:mangrove_leaves"
+        },
+        "allow": false
+    },
+    "cherry_one": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:give",
+            "stack": {
+                "item": "minecraft:cherry_leaves"
+            }
+        },
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:cherry_leaves"
+        },
+        "only_when_harvested": false
+    },
+    "cherry_two": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "type": "origins:modify_harvest",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:cherry_leaves"
+        },
+        "allow": false
+    },
+    "azalea_one": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:give",
+            "stack": {
+                "item": "minecraft:azalea_leaves"
+            }
+        },
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:azalea_leaves"
+        },
+        "only_when_harvested": false
+    },
+    "azalea_two": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "type": "origins:modify_harvest",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:azalea_leaves"
+        },
+        "allow": false
+    },
+    "flowering_azalea_one": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:give",
+            "stack": {
+                "item": "minecraft:flowering_azalea_leaves"
+            }
+        },
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:flowering_azalea_leaves"
+        },
+        "only_when_harvested": false
+    },
+    "flowering_azalea_two": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "type": "origins:modify_harvest",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:flowering_azalea_leaves"
+        },
+        "allow": false
+    },
+    "break_speed_fix": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "type": "origins:modify_break_speed",
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "minecraft:leaves"
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 1.5
+        }
+    }
+}

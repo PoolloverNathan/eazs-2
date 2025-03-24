@@ -1,0 +1,310 @@
+{
+    "type": "origins:multiple",
+    "name": "Sticky Skin",
+    "description": "Your sticky skin allows you to climb walls and ceilings, and makes you immune to knockback.",
+    "power": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:if_else_list",
+            "actions": [
+                {
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "gravity set_base_direction west"
+                            }
+                        ]
+                    },
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:block_collision",
+                                "offset_x": -0.25,
+                                "offset_y": 0,
+                                "offset_z": 0
+                            },
+                            {
+                                "type": "origins:block_collision",
+                                "offset_x": 0.25,
+                                "offset_y": 0.25,
+                                "offset_z": 0.25,
+                                "inverted": true
+                            },
+                            {
+                                "type": "origins:block_collision",
+                                "offset_x": 0,
+                                "offset_y": -0.25,
+                                "offset_z": -0.25,
+                                "inverted": true
+                            }
+                        ]
+                    }
+                },
+                {
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "gravity set_base_direction east"
+                            }
+                        ]
+                    },
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:block_collision",
+                                "offset_x": 0.25,
+                                "offset_y": 0,
+                                "offset_z": 0
+                            },
+                            {
+                                "type": "origins:block_collision",
+                                "offset_x": 0,
+                                "offset_y": 0.25,
+                                "offset_z": 0.25,
+                                "inverted": true
+                            },
+                            {
+                                "type": "origins:block_collision",
+                                "offset_x": -0.25,
+                                "offset_y": -0.25,
+                                "offset_z": -0.25,
+                                "inverted": true
+                            }
+                        ]
+                    }
+                },
+                {
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "gravity set_base_direction north"
+                            }
+                        ]
+                    },
+                    "interval": 1,
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:block_collision",
+                                "offset_x": 0,
+                                "offset_y": 0,
+                                "offset_z": -0.25
+                            },
+                            {
+                                "type": "origins:block_collision",
+                                "offset_x": 0.25,
+                                "offset_y": 0.25,
+                                "offset_z": 0.25,
+                                "inverted": true
+                            },
+                            {
+                                "type": "origins:block_collision",
+                                "offset_x": -0.25,
+                                "offset_y": -0.25,
+                                "offset_z": 0,
+                                "inverted": true
+                            }
+                        ]
+                    }
+                },
+                {
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "gravity set_base_direction south"
+                            }
+                        ]
+                    },
+                    "interval": 1,
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:block_collision",
+                                "offset_x": 0,
+                                "offset_y": 0,
+                                "offset_z": 0.25
+                            },
+                            {
+                                "type": "origins:block_collision",
+                                "offset_x": 0.25,
+                                "offset_y": 0.25,
+                                "offset_z": 0,
+                                "inverted": true
+                            },
+                            {
+                                "type": "origins:block_collision",
+                                "offset_x": -0.25,
+                                "offset_y": -0.25,
+                                "offset_z": -0.25,
+                                "inverted": true
+                            }
+                        ]
+                    }
+                },
+                {
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "gravity set_base_direction down"
+                            }
+                        ]
+                    },
+                    "interval": 1,
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:block_collision",
+                                "offset_x": 0.0,
+                                "offset_y": -0.25,
+                                "offset_z": 0.0
+                            },
+                            {
+                                "type": "origins:block_collision",
+                                "offset_x": 0.25,
+                                "offset_y": 0.25,
+                                "offset_z": 0.25,
+                                "inverted": true
+                            },
+                            {
+                                "type": "origins:block_collision",
+                                "offset_x": 0.0,
+                                "offset_y": 0.0,
+                                "offset_z": -0.25,
+                                "inverted": true
+                            }
+                        ]
+                    }
+                },
+                {
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "gravity set_base_direction up"
+                            }
+                        ]
+                    },
+                    "interval": 1,
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:block_collision",
+                                "offset_x": 0,
+                                "offset_y": 0.25,
+                                "offset_z": 0
+                            },
+                            {
+                                "type": "origins:block_collision",
+                                "offset_x": 0.25,
+                                "offset_y": 0,
+                                "offset_z": 0.25,
+                                "inverted": true
+                            },
+                            {
+                                "type": "origins:block_collision",
+                                "offset_x": 0,
+                                "offset_y": -0.25,
+                                "offset_z": -0.25,
+                                "inverted": true
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "climb": {
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:block_collision",
+                    "offset_x": 0.0005,
+                    "offset_y": 0.0005,
+                    "offset_z": 0.0005
+                },
+                {
+                    "type": "origins:block_collision",
+                    "offset_x": -0.0005,
+                    "offset_y": -0.0005,
+                    "offset_z": -0.0005
+                },
+                {
+                    "type": "origins:block_collision",
+                    "offset_x": -0.0005,
+                    "offset_y": -0.0005,
+                    "offset_z": 0.0005
+                },
+                {
+                    "type": "origins:block_collision",
+                    "offset_x": 0.0005,
+                    "offset_y": 0.0005,
+                    "offset_z": -0.0005
+                }
+            ]
+        }
+    },
+    "climb": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:collided_horizontally"
+                }
+            ]
+        },
+        "type": "origins:climbing",
+        "allow_holding": false
+	},
+    "default_down": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:block_in_radius",
+                    "block_condition": {
+                        "type": "origins:movement_blocking"
+                    },
+                    "radius": 1,
+                    "shape": "cube",
+                    "comparison": ">=",
+                    "compare_to": 1
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "gravity set_base_direction down"
+        }
+    },
+
+    "kb_immunity": {
+        "type": "origins:modify_attribute",
+        "attribute": "minecraft:generic.knockback_resistance",
+        "modifier": {
+            "value": 1,
+            "operation": "set_total"
+        }
+    }
+}

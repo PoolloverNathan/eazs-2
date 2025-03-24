@@ -1,0 +1,102 @@
+{
+    "name": "§6§l§nHurricane",
+    "description": "§eAs a Charizard-Taur, you are able to use flying type moves in combat, such as Hurricane using your secondary key. This ability recharges more quickly when exposed to the sky above a certain altitude.",
+    "badges": [
+        {
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "§eSpectral Arrows bypass any wind created from your Hurricane move."
+        }
+    ],
+    "type": "origins:multiple",
+    "normal_damage": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "charizard:charizard_hurricane_fuel_fuel_bar",
+                    "comparison": ">",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s run particle sweep_attack ~ ~2 ~ 3 2 3 0.5 20 normal"
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.blaze.shoot",
+                    "volume": 1,
+                    "pitch": 2
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "charizard:charizard_hurricane_fuel_fuel_bar",
+                    "change": -1,
+                    "operation": "add"
+                },
+                {
+                    "type": "origins:area_of_effect",
+                    "radius": 12,
+                    "bientity_condition": {
+                        "type": "origins:target_condition",
+                        "condition": {
+                            "type": "origins:and",
+                            "conditions": [
+                                {
+                                    "type": "origins:living"
+                                },
+                                {
+                                    "inverted": true,
+                                    "type": "origins:origin",
+                                    "origin": "charizard:charizard"
+                                },
+                                {
+                                    "inverted": true,
+                                    "type": "origins:origin",
+                                    "origin": "lapras:lapras"
+                                },
+                                {
+                                    "inverted": true,
+                                    "type": "origins:origin",
+                                    "origin": "serperior:serperior"
+                                }
+                            ]
+                        }
+                    },
+                    "bientity_action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:add_velocity",
+                                "x": 0.1,
+                                "y": 0.19,
+                                "z": -0.1,
+                                "client": true,
+                                "server": true
+                            },
+                            {
+                                "type": "origins:damage",
+                                "amount": 2,
+                                "damage_type": "minecraft:fly_into_wall"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.origins.secondary_active",
+            "continuous": true
+        }
+    }
+}

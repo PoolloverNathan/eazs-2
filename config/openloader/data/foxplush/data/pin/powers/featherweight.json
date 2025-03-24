@@ -1,0 +1,37 @@
+{
+    "name": "Plush Body",
+    "description": "Your plush body softens falls so you get no damage from falling, but when you get wet, you become slower.",
+    "type": "origins:multiple",
+    "damage": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:from_falling"
+        },
+        "modifier": {
+            "name": "No fall damage",
+            "operation": "set_base",
+            "value": 0.0
+        }
+    },
+    "water": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "effect": "minecraft:slowness",
+                    "duration": 220,
+                    "is_ambient": false,
+                    "show_particles": false,
+                    "show_icon": true,
+                    "amplifier": 2
+                }
+            ]
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+        }
+    }
+}

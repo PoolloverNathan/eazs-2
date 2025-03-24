@@ -1,0 +1,17 @@
+{
+    "name": "§2§l§nOvergrow",
+    "description": "§aWhenever you are at 5 hearts of health or less, you deal 50% more total damage.",
+    "condition": {
+        "type": "origins:health",
+        "comparison": "<=",
+        "compare_to": 10
+    },
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "multiply_total",
+        "value": 0.5
+    },
+    "tick_rate": 20,
+    "update_health": false
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Shelf Size",
+    "description": "You are just the right size to sit on a shelf!",
+    "type": "origins:action_on_callback",
+    "entity_action_added": {
+        "type": "origins:delay",
+        "ticks": 1,
+        "action": {
+            "type": "origins:execute_command",
+            "command": "function pin:size"
+        }
+    },
+    "entity_action_lost": {
+        "type": "origins:execute_command",
+        "command": "scale reset @s"
+    },
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "You are half a block small. (pehkui my beloved <3)"
+        }
+    ]
+}

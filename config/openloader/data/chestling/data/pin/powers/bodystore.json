@@ -1,0 +1,14 @@
+{
+    "type": "origins:multiple",
+    "name": "Hollow Body",
+    "description": "Your lower body is a chest, so you have more space to store your belongings. Since you have an Eye of Ender inside you, these items don't drop on death.",
+    "inv": {
+        "type": "origins:inventory",
+        "title": "Body",
+        "container_type": "chest",
+        "drop_on_death": false,
+        "key": {
+            "key": "key.origins.primary_active"
+        }
+    }
+}

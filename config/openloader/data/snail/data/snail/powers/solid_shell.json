@@ -1,0 +1,38 @@
+{
+    "type": "origins:multiple",
+    "name": "Snail Shell",
+    "description": "Your sturdy shell grants you 10 armor bars and reduces all incoming damage by 50%, but its weight prevents swimming and elytra flight.",
+    "armor": {
+        "type": "origins:modify_attribute",
+        "attribute": "minecraft:generic.armor",
+        "modifier":
+        {
+            "name": "+10 Armor Bars",
+            "value": 10,
+            "operation": "addition"
+        }
+    },
+
+    "damage_reduction": {
+        "type": "origins:modify_damage_taken",
+        "attribute": "minecraft:generic.armor",
+        "modifier":
+        {
+            "name": "50% damage reduction",
+            "value": -0.5,
+            "operation": "multiply_total"
+        }
+    },
+
+    "no_fly": {
+        "type": "origins:prevent_elytra_flight",
+        "condition": {
+            "type": "origins:constant",
+            "value": true
+        }
+    },
+
+    "no_swim": {
+        "type": "origins:ignore_water"
+    }
+}

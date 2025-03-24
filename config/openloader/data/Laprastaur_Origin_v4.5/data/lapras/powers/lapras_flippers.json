@@ -1,0 +1,25 @@
+{
+    "name": "§b§l§nLapras Flippers",
+    "description": "§fDue to having four large flippers of a Lapras, you are specialized to navigating bodies of water, allowing you to swim quickly. However, your flippers are not specialized for land and are unsuited for land travel, giving you incredibly low movement speed and jump height while on land. However, being in rain or on snow/ice blocks partially remedies your slowness on land.",
+    "type": "origins:multiple",
+    "movement_speed": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "multiply_base",
+            "value": -0.6
+        },
+        "update_health": true
+    },
+    "air_speed": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:creative_flying"
+        },
+        "type": "origins:modify_air_speed",
+        "modifier": {
+            "operation": "multiply_base",
+            "value": -1
+        }
+    }
+}

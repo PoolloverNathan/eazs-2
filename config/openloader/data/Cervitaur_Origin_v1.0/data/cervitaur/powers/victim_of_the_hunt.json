@@ -1,0 +1,13 @@
+{
+    "name": "Victim of the Hunt",
+    "description": "Just as how deer are vulnerable to arrows by hunters, you're naturally more vulnerable to arrows, taking considerably increased damage from them.",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "arrow"
+    },
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 0.3
+    }
+}

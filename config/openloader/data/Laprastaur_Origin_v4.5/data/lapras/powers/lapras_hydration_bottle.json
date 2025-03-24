@@ -1,0 +1,15 @@
+{
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "lapras:lapras_hydration",
+        "change": 10
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:potion"
+        }
+    },
+    "hidden": true
+}

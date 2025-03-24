@@ -1,0 +1,28 @@
+{
+    "name": "§6§l§nFurret Agility",
+    "description": "§7With your agility matching that of a furret, you are capable of swiftly bracing your falls with how you land, reducing fall damage and increasing the height of when fall damage begins.",
+    "type": "origins:multiple",
+    "fall_height": {
+        "condition": {
+            "type": "origins:fall_distance",
+            "comparison": "<=",
+            "compare_to": 6
+        },
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "fall"
+        }
+    },
+    "reduced_fall": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "fall"
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -0.5
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "description": "Simply prevent enemies from damaging the serperior while coiled around em",
+    "hidden": true,
+    "type": "origins:multiple",
+    "prevent_damage": {
+        "condition": {
+            "type": "origins:riding",
+            "bientity_condition": {
+                "type": "origins:target_condition",
+                "condition": {
+                    "type": "origins:origin",
+                    "origin": "serperior:serperior",
+                    "layer": "origins:origin"
+                }
+            }
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": -100
+        },
+        "tick_rate": 10,
+        "update_health": false
+    },
+    "damage_enemy": {
+        "condition": {
+            "type": "origins:riding",
+            "bientity_condition": {
+                "type": "origins:target_condition",
+                "condition": {
+                    "type": "origins:origin",
+                    "origin": "serperior:serperior",
+                    "layer": "origins:origin"
+                }
+            }
+        },
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:damage",
+            "amount": 3,
+			"damage_type": "minecraft:in_wall"
+        }
+    }
+}

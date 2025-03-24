@@ -1,0 +1,529 @@
+{
+    "name": "Folivore",
+    "description": "Due to you having the digestive system of a giraffe, it is specialized to the diet of one and incapable of digesting anything else, restricting your diet to leaves and similar foliage. However, you are capable of picking up leaves with empty hands",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "§aCertain leaves have unique qualities when eaten",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+    "type": "origins:multiple",
+    "cherry_leaves": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": [
+                {
+                    "item": "minecraft:cherry_leaves"
+                }
+            ]
+        },
+        "food_component": {
+            "hunger": 3,
+            "saturation": 0.5
+        },
+        "consume_animation": "eat",
+        "consume_sound": "minecraft:entity.panda.eat",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:regeneration",
+                "duration": 100,
+                "amplifier": 0,
+                "show_particles": true,
+                "show_icon": true
+            }
+        },
+        "priority": 0
+    },
+    "acacia_leaves": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": [
+                {
+                    "item": "minecraft:acacia_leaves"
+                }
+            ]
+        },
+        "food_component": {
+            "hunger": 6,
+            "saturation": 0.5
+        },
+        "consume_animation": "eat",
+        "consume_sound": "minecraft:entity.panda.eat",
+        "priority": 0
+    },
+    "flowering_azalea_leaves": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": [
+                {
+                    "item": "minecraft:flowering_azalea_leaves"
+                }
+            ]
+        },
+        "food_component": {
+            "hunger": 3,
+            "saturation": 0.5
+        },
+        "consume_animation": "eat",
+        "consume_sound": "minecraft:entity.panda.eat",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:luck",
+                "duration": 2400,
+                "amplifier": 0,
+                "show_particles": true,
+                "show_icon": true
+            }
+        },
+        "priority": 0
+    },
+    "warped_wart_block": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:warped_wart_block"
+                    }
+                }
+            ]
+        },
+        "food_component": {
+            "hunger": 1,
+            "saturation": 0.5
+        },
+        "consume_animation": "eat",
+        "consume_sound": "minecraft:entity.panda.eat",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:choice",
+                    "actions": [
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:damage",
+                                "amount": 3,
+                                "damage_type": "indirect_magic"
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:nausea",
+                                    "duration": 600,
+                                    "amplifier": 0,
+                                    "show_particles": true,
+                                    "show_icon": true
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:resistance",
+                                    "duration": 600,
+                                    "amplifier": 0,
+                                    "show_particles": true,
+                                    "show_icon": true
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:haste",
+                                    "duration": 600,
+                                    "amplifier": 0,
+                                    "show_particles": true,
+                                    "show_icon": true
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:hunger",
+                        "duration": 600,
+                        "amplifier": 0,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+                }
+            ]
+        },
+        "priority": 0
+    },
+    "nether_wart_block": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:nether_wart_block"
+                    }
+                }
+            ]
+        },
+        "food_component": {
+            "hunger": 1,
+            "saturation": 0.5
+        },
+        "consume_animation": "eat",
+        "consume_sound": "minecraft:entity.panda.eat",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:choice",
+                    "actions": [
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:set_on_fire",
+                                "duration": 5
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:darkness",
+                                    "duration": 600,
+                                    "amplifier": 0,
+                                    "show_particles": true,
+                                    "show_icon": true
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:fire_resistance",
+                                    "duration": 600,
+                                    "amplifier": 0,
+                                    "show_particles": true,
+                                    "show_icon": true
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:strength",
+                                    "duration": 600,
+                                    "amplifier": 0,
+                                    "show_particles": true,
+                                    "show_icon": true
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:hunger",
+                        "duration": 600,
+                        "amplifier": 0,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+                }
+            ]
+        },
+        "priority": 0
+    },
+    "brown_mushroom_block": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:brown_mushroom_block"
+                    }
+                }
+            ]
+        },
+        "food_component": {
+            "hunger": 1,
+            "saturation": 0.5
+        },
+        "consume_animation": "eat",
+        "consume_sound": "minecraft:entity.panda.eat",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:choice",
+                    "actions": [
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:weakness",
+                                    "duration": 600,
+                                    "amplifier": 0,
+                                    "show_particles": true,
+                                    "show_icon": true
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:nothing"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:hunger",
+                        "duration": 600,
+                        "amplifier": 0,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+                }
+            ]
+        },
+        "priority": 0
+    },
+    "red_mushroom_block": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:red_mushroom_block"
+                    }
+                }
+            ]
+        },
+        "food_component": {
+            "hunger": 1,
+            "saturation": 0.5
+        },
+        "consume_animation": "eat",
+        "consume_sound": "minecraft:entity.panda.eat",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:choice",
+                    "actions": [
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:poison",
+                                    "duration": 600,
+                                    "amplifier": 0,
+                                    "show_particles": true,
+                                    "show_icon": true
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:nothing"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:hunger",
+                        "duration": 600,
+                        "amplifier": 0,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+                }
+            ]
+        },
+        "priority": 0
+    },
+    "cherry_sapling": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:cherry_sapling"
+            }
+        },
+        "food_component": {
+            "hunger": 1,
+            "saturation": 0.5,
+            "snack": true
+        },
+        "consume_animation": "eat",
+        "consume_sound": "minecraft:entity.panda.eat",
+        "result_stack": {
+            "item": "minecraft:stick",
+            "amount": 1
+        },
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:regeneration",
+                "duration": 50,
+                "amplifier": 0,
+                "show_particles": true,
+                "show_icon": true
+            }
+        },
+        "priority": 0
+    },
+    "acacia_sapling": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:acacia_sapling"
+            }
+        },
+        "food_component": {
+            "hunger": 2,
+            "saturation": 0.5,
+            "snack": true
+        },
+        "consume_animation": "eat",
+        "consume_sound": "minecraft:entity.panda.eat",
+        "result_stack": {
+            "item": "minecraft:stick",
+            "amount": 1
+        },
+        "priority": 0
+    },
+    "flowering_azalea": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:flowering_azalea"
+            }
+        },
+        "food_component": {
+            "hunger": 1,
+            "saturation": 0.5,
+            "snack": true
+        },
+        "consume_animation": "eat",
+        "consume_sound": "minecraft:entity.panda.eat",
+        "result_stack": {
+            "item": "minecraft:stick",
+            "amount": 1
+        },
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:luck",
+                "duration": 800,
+                "amplifier": 0,
+                "show_particles": true,
+                "show_icon": true
+            }
+        },
+        "priority": 0
+    },
+    "spore_blossom": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": [
+                {
+                    "item": "minecraft:spore_blossom"
+                }
+            ]
+        },
+        "food_component": {
+            "hunger": 5,
+            "saturation": 0.5
+        },
+        "consume_animation": "eat",
+        "consume_sound": "minecraft:entity.panda.eat",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:absorption",
+                "duration": 1200,
+                "amplifier": 0,
+                "show_particles": true,
+                "show_icon": true
+            }
+        },
+        "priority": 0
+    },
+    "big_dripleaf": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": [
+                {
+                    "item": "minecraft:big_dripleaf"
+                }
+            ]
+        },
+        "food_component": {
+            "hunger": 4,
+            "saturation": 0.5
+        },
+        "consume_animation": "eat",
+        "consume_sound": "minecraft:entity.panda.eat",
+        "priority": 0
+    },
+    "small_dripleaf": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": [
+                {
+                    "item": "minecraft:small_dripleaf"
+                }
+            ]
+        },
+        "food_component": {
+            "hunger": 2,
+            "saturation": 0.5,
+            "snack": true
+        },
+        "consume_animation": "eat",
+        "consume_sound": "minecraft:entity.panda.eat",
+        "priority": 0
+    }
+}

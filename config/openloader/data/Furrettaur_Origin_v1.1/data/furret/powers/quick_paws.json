@@ -1,0 +1,25 @@
+{
+    "name": "§6§l§nQuick Paws",
+    "description": "§7Your lower half of a Furret grants you greatly increased movement speed and jumping capabilities.",
+    "type": "origins:multiple",
+    "speed": {
+        "condition": {
+            "type": "origins:sprinting"
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "generic.movement_speed",
+            "operation": "multiply_total",
+            "value": 1
+        },
+        "tick_rate": 5,
+        "update_health": true
+    },
+    "jump": {
+        "type": "origins:modify_jump",
+        "modifier": {
+            "operation": "addition",
+            "value": 0.3
+        }
+    }
+}

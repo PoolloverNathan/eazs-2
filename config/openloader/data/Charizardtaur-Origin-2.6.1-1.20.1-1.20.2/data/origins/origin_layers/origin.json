@@ -1,0 +1,7 @@
+{
+    "origins": [
+        "charizard:charizard"
+    ],
+    "enabled": true,
+    "allow_random_unchoosable": true
+}

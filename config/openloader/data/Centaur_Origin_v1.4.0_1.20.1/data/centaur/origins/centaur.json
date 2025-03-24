@@ -1,0 +1,20 @@
+{
+    "name": "Centaur",
+    "description": "A being with an upper body closely resembling that of a human with a lower body that of a horse.",
+    "powers": [
+        "centaur:robust",
+        "centaur:imposing",
+        "centaur:rideable",
+        "centaur:equine_diet",
+        "centaur:large_stance",
+        "centaur:horse_kick",
+        "centaur:archery_specialist",
+        "centaur:ranged_enchanter",
+        "centaur:melee_inaptitude",
+        "centaur:prevent_eat"
+    ],
+    "icon": {
+        "item": "minecraft:saddle"
+    },
+    "impact": 1
+}

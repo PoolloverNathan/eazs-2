@@ -1,0 +1,73 @@
+{
+	"name": "§bHeightened Senses",
+	"description": "You can see well in the dark and sense living creatures near you.",
+	"badges": [
+		{
+			"type": "origins:keybind",
+			"sprite": "origins:textures/gui/badge/info.png",
+			"text": "Invisible and sneaking creatures are revealed only when they are very close to you."
+		}
+	],
+	"type": "origins:multiple",
+	"night_vision": {
+		"type": "origins:night_vision",
+		"strength": 0.4
+	},
+	"sense": {
+		"type": "origins:entity_glow",
+		"bientity_condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:distance",
+					"comparison": "<=",
+					"compare_to": 10
+				},
+				{
+					"type": "origins:distance",
+					"comparison": ">",
+					"compare_to": 4
+				},
+				{
+					"type": "origins:target_condition",
+					"condition": {
+						"type": "origins:living"
+					}
+				},
+				{
+					"type": "origins:target_condition",
+					"condition": {
+						"type": "origins:sneaking"
+					},
+					"inverted": true
+				},
+				{
+					"type": "origins:target_condition",
+					"condition": {
+						"type": "origins:invisible"
+					},
+					"inverted": true
+				}
+			]
+		}
+	},
+	"strong_sense": {
+		"type": "origins:entity_glow",
+		"bientity_condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:distance",
+					"comparison": "<=",
+					"compare_to": 4
+				},
+				{
+					"type": "origins:target_condition",
+					"condition": {
+						"type": "origins:living"
+					}
+				}
+			]
+		}
+	}
+}

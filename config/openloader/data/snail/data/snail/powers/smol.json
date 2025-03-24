@@ -1,0 +1,34 @@
+{
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+		"type": "origins:and",
+		"actions": [
+		{
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:height 0.25 @s"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:width 0.29 @s"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:step_height set 0.08 @s"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:visibility set 0.3 @s"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "scale persist set true @s"
+		}
+		]
+    },
+    "entity_action_lost": {
+        "type": "origins:execute_command",
+        "command": "scale reset @s"
+    },
+	"name": "Small Size",
+	"description": "You are extremely small, allowing you to ride on other players. It is also much harder for mobs to spot you."
+}

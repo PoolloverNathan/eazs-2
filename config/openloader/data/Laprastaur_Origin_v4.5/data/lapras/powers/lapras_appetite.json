@@ -1,0 +1,10 @@
+{
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "name": "Extra exhaustion because Lapras",
+        "value": 0.6,
+        "operation": "multiply_base"
+    },
+    "name": "§b§l§nLarge Appetite",
+    "description": "§fDue to your large size, you have a large appetite and need to eat more often than others."
+}

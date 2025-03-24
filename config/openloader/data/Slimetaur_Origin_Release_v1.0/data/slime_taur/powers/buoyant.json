@@ -1,0 +1,46 @@
+{
+    "name": "§a§nBuoyant",
+    "description": "§2Due to the low density of your slime lower half, you struggle to sink in water and float on its surface instead",
+    "type": "origins:multiple",
+    "floating": {
+        "condition": {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": ">=",
+            "compare_to": 0.8
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:add_velocity",
+            "y": 0.075,
+            "space": "world",
+            "client": true,
+            "server": true
+        }
+    },
+    "swimming_speed": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:swimming"
+                },
+                {
+                    "type": "origins:submerged_in",
+                    "fluid": "minecraft:water"
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:add_velocity",
+            "y": 0.075,
+            "z": 0.025,
+            "space": "local_horizontal",
+            "client": true,
+            "server": true
+        }
+    }
+}

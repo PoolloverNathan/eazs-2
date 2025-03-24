@@ -1,0 +1,9 @@
+{
+    "pack": {
+        "name": "Slimetaur",
+        "id": "slime_taur",
+        "pack_format": 18,
+        "version": "1.0.0",
+        "description": "Origin made by PsychoBreadstick, meant to be used with TotalTakeover's slime-taur figura avatar."
+    }
+}

@@ -1,0 +1,922 @@
+{
+    "type": "origins:multiple",
+    "name": "Foliage Eater",
+    "description": "Your unique mouth parts allow you to eat mushrooms and plant matter.",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "Eat by right-clicking the block you want to eat with an empty hand.",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+
+    "1h-1s": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:feed",
+                    "food": 1.0,
+                    "saturation": 0.1
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.player.burp",
+                    "volume": 0.5,
+                    "pitch": 0.95
+                }
+            ]
+        },
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "snail:1hunger1saturation"
+        }, 
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "2h-2s": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:feed",
+                    "food": 2.0,
+                    "saturation": 0.2
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.player.burp",
+                    "volume": 0.5,
+                    "pitch": 0.95
+                }
+            ]
+        },
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "snail:2hunger2saturation"
+        }, 
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "3h-1s": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:feed",
+                    "food": 3.0,
+                    "saturation": 1.0
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.player.burp",
+                    "volume": 0.5,
+                    "pitch": 0.95
+                }
+            ]
+        },
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "snail:3hunger1saturation"
+        }, 
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "3h-3s": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:feed",
+                    "food": 3.0,
+                    "saturation": 3.0
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.player.burp",
+                    "volume": 0.5,
+                    "pitch": 0.95
+                }
+            ]
+        },
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "snail:3hunger3saturation"
+        }, 
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "4h-2s": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:feed",
+                    "food": 4.0,
+                    "saturation": 2.0
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.player.burp",
+                    "volume": 0.5,
+                    "pitch": 0.95
+                }
+            ]
+        },
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "snail:4hunger2saturation"
+        }, 
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "5h5s": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:feed",
+                    "food": 5.0,
+                    "saturation": 5.0
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.player.burp",
+                    "volume": 0.5,
+                    "pitch": 0.95
+                }
+            ]
+        },
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "snail:5hunger5saturation"
+        }, 
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "6h-8s": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:feed",
+                    "food": 6.0,
+                    "saturation": 8.0
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.player.burp",
+                    "volume": 0.5,
+                    "pitch": 0.95
+                }
+            ]
+        },
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "snail:6hunger8saturation"
+        }, 
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "7h-9s": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:feed",
+                    "food": 7.0,
+                    "saturation": 9.0
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.player.burp",
+                    "volume": 0.5,
+                    "pitch": 0.95
+                }
+            ]
+        },
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "snail:7hunger9saturation"
+        }, 
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "9h-9s": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:feed",
+                    "food": 9.0,
+                    "saturation": 9.0
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.player.burp",
+                    "volume": 0.5,
+                    "pitch": 0.95
+                }
+            ]
+        },
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "snail:9hunger9saturation"
+        }, 
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "grass-block": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:feed",
+                    "food": 1.0,
+                    "saturation": 0.1
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.player.burp",
+                    "volume": 0.5,
+                    "pitch": 0.95
+                }
+            ]
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:grass_block"
+        }, 
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:dirt"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "vines": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:feed",
+                    "food": 2.0,
+                    "saturation": 1.0
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.player.burp",
+                    "volume": 0.5,
+                    "pitch": 0.95
+                }
+            ]
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:vine"
+        }, 
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+    
+    "mycelium": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:feed",
+                    "food": 2.0,
+                    "saturation": 1.0
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.player.burp",
+                    "volume": 0.5,
+                    "pitch": 0.95
+                }
+            ]
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:mycelium"
+        }, 
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:dirt"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "nylium": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:feed",
+                    "food": 6.0,
+                    "saturation": 8.0
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.player.burp",
+                    "volume": 0.5,
+                    "pitch": 0.95
+                }
+            ]
+        },
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "snail:nylium"
+        }, 
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "sculk_vein": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:feed",
+                    "food": 3.0,
+                    "saturation": 1.0
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.player.burp",
+                    "volume": 0.5,
+                    "pitch": 0.95
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:darkness",
+                        "duration": 60,
+                        "amplifier": 0
+                    }
+                }
+            ]
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:sculk_vein"
+        }, 
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "sculk": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:feed",
+                    "food": 6.0,
+                    "saturation": 2.0
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.player.burp",
+                    "volume": 0.5,
+                    "pitch": 0.95
+                },
+                {
+                    "type": "origins:add_xp",
+                    "points": 1
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:darkness",
+                        "duration": 120,
+                        "amplifier": 0
+                    }
+                }
+            ]
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:sculk"
+        }, 
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "hay_bale": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:feed",
+                    "food": 15.0,
+                    "saturation": 18.0
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.player.burp",
+                    "volume": 0.5,
+                    "pitch": 0.95
+                }
+            ]
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:hay_block"
+        }, 
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "wither_rose": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:feed",
+                    "food": 20.0,
+                    "saturation": 0.0
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.player.burp",
+                    "volume": 0.5,
+                    "pitch": 0.95
+                },
+                {
+                    "type": "origins:exhaust",
+                    "amount": -5.0
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:wither",
+                        "duration": 160,
+                        "amplifier": 1
+                    }
+                }
+            ]
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:wither_rose"
+        }, 
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "weak_warped": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "effect": "minecraft:nausea",
+                    "duration": 200,
+                    "amplifier": 0
+                },
+                {
+                    "effect": "minecraft:speed",
+                    "duration": 200,
+                    "amplifier": 2
+                }
+            ]
+        },
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "snail:weak_warped"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "warped": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "effect": "minecraft:nausea",
+                    "duration": 400,
+                    "amplifier": 0
+                },
+                {
+                    "effect": "minecraft:speed",
+                    "duration": 400,
+                    "amplifier": 2
+                }
+            ]
+        },
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "snail:warped"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "weak_crimson": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "effect": "minecraft:strength",
+                    "duration": 200,
+                    "amplifier": 0
+                },
+                {
+                    "effect": "minecraft:haste",
+                    "duration": 200,
+                    "amplifier": 0
+                },
+                {
+                    "effect": "minecraft:hunger",
+                    "duration": 200,
+                    "amplifier": 0
+                }
+            ]
+        },
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "snail:weak_crimson"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "crimson": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "effect": "minecraft:strength",
+                    "duration": 400,
+                    "amplifier": 0
+                },
+                {
+                    "effect": "minecraft:haste",
+                    "duration": 400,
+                    "amplifier": 0
+                },
+                {
+                    "effect": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0
+                }
+            ]
+        },
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "snail:crimson"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "allium": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:fire_resistance",
+                "duration": 80,
+                "amplifier": 0
+            }
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:allium"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "azure_bluet": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:blindness",
+                "duration": 160,
+                "amplifier": 0
+            }
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:azure_bluet"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "blue_orchid_dandelion": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:saturation",
+                "duration": 6,
+                "amplifier": 1
+            }
+        },
+        "block_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:blue_orchid"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:dandelion"
+                }
+            ]
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "cornflower": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:water_breathing",
+                "duration": 160,
+                "amplifier": 0
+            }
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:cornflower"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "lily_of_the_valley": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:strength",
+                "duration": 240,
+                "amplifier": 1
+            }
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:lily_of_the_valley"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "oxeye_daisy": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:regeneration",
+                "duration": 160,
+                "amplifier": 0
+            }
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:oxeye_daisy"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "poppy_torchflower": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:night_vision",
+                "duration": 100,
+                "amplifier": 0
+            }
+        },
+        "block_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:poppy"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:torchflower"
+                }
+            ]
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "tulips": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:weakness",
+                "duration": 180,
+                "amplifier": 1
+            }
+        },
+        "block_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:white_tulip"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:orange_tulip"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:pink_tulip"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:red_tulip"
+                }
+            ]
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    },
+
+    "cactus": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:damage",
+            "amount": 6.0,
+            "damage_type": "minecraft:cactus"
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:cactus"
+        }, 
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "hands": ["main_hand"]
+    }
+}

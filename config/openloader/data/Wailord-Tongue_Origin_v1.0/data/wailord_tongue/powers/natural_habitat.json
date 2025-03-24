@@ -1,0 +1,9 @@
+{
+    "name": "§1§l§nNatural Habitat",
+    "description": "§3Due to Wailords naturally being found in the deepest waters of the ocean, you naturally spawn in deep oceans.",
+    "type": "origins:modify_player_spawn",
+    "dimension": "minecraft:overworld",
+    "biome": "minecraft:deep_ocean",
+    "spawn_strategy": "default",
+    "dimension_distance_multiplier": 1
+}

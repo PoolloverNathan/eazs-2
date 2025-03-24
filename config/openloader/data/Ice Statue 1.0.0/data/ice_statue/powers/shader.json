@@ -1,0 +1,13 @@
+{
+    "hidden": true,
+    "type": "origins:overlay",
+    "texture": "minecraft:textures/block/ice.png",
+    "strength": 0.6,
+    "red": 1,
+    "green": 1,
+    "blue": 1,
+    "draw_mode": "texture",
+    "draw_phase": "below_hud",
+    "hide_with_hud": true,
+    "visible_in_third_person": false
+}

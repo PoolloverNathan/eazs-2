@@ -1,0 +1,17 @@
+{
+	"powers": [
+        "mechbot:upgrade",
+		"mechbot:heat",
+		"mechbot:gearup",
+		"mechbot:artificial",
+		"mechbot:metalshell",
+		"mechbot:sinkingin",
+		"mechbot:shellbonus"
+	],
+	
+	"icon": "minecraft:deepslate_iron_ore",
+	"impact": 3,
+	
+	"name":"Mechanical Golem",
+	"description": "You start as a simple and weak golem, but you can upgrade yourself into something greater."
+}

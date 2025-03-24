@@ -1,0 +1,167 @@
+{
+    "name": "§1§l§nWailord's Mass",
+    "description": "§3With your massive body of a Wailord, you have an obscene amount of health. However, your size makes fitting anywhere just about impossible. Don't even bother trying to use an elytra with all of that weight.",
+    "type": "origins:multiple",
+    "hitbox": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:hitbox_height 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:eye_height 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:hitbox_width 7 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:hitbox_height 1.25 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:eye_height 0.6 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:reach 1.2 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:third_person 2 @s"
+                }
+            ]
+        },
+        "execute_chosen_when_orb": true,
+        "entity_action_gained": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:hitbox_height 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:eye_height 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:hitbox_width 7 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:hitbox_height 1.25 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:eye_height 0.6 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:reach 1.2 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:third_person 2 @s"
+                }
+            ]
+        },
+        "entity_action_lost": {
+            "type": "origins:execute_command",
+            "command": "scale reset @s"
+        },
+        "entity_action_added": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:hitbox_height 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:eye_height 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:hitbox_width 7 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:hitbox_height 1.25 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:eye_height 0.6 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:reach 1.2 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:third_person 2 @s"
+                }
+            ]
+        },
+        "entity_action_removed": {
+            "type": "origins:execute_command",
+            "command": "scale reset @s"
+        },
+        "entity_action_respawned": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:hitbox_height 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:eye_height 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:hitbox_width 7 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:hitbox_height 1.25 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:eye_height 0.6 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:reach 1.2 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:third_person 2 @s"
+                }
+            ]
+        }
+    },
+    "health": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "generic.max_health",
+            "operation": "addition",
+            "value": 80
+        },
+        "update_health": true
+    },
+    "no_kb": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "generic.knockback_resistance",
+            "operation": "addition",
+            "value": 10
+        },
+        "update_health": true
+    }
+}

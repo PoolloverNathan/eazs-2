@@ -1,0 +1,88 @@
+{
+    "name": "Archery Specialist",
+    "description": "Due to your lower body's physique, you've grown far more adapted to archery, granting archery skills surpassing those of most others.",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "§a30% increased arrow damage. Some bow & crossbow enchantments behave as 1 level higher (power/quick charge/piercing/punch).",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+    "type": "origins:multiple",
+    "projectiles": {
+        "type": "origins:modify_projectile_damage",
+        "damage_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:projectile",
+                    "projectile": "minecraft:arrow"
+                },
+                {
+                    "type": "origins:projectile",
+                    "projectile": "minecraft:spectral_arrow"
+                }
+            ]
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 0.3
+        }
+    },
+    "power": {
+        "type": "apugli:modify_enchantment_level",
+        "enchantment": "minecraft:power",
+        "item_condition": {
+            "type": "origins:enchantment",
+            "enchantment": "minecraft:power",
+            "comparison": ">=",
+            "compare_to": 1
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 1
+        }
+    },
+    "quick_charge": {
+        "type": "apugli:modify_enchantment_level",
+        "enchantment": "minecraft:quick_charge",
+        "item_condition": {
+            "type": "origins:enchantment",
+            "enchantment": "minecraft:quick_charge",
+            "comparison": ">=",
+            "compare_to": 1
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 1
+        }
+    },
+    "piercing": {
+        "type": "apugli:modify_enchantment_level",
+        "enchantment": "minecraft:piercing",
+        "item_condition": {
+            "type": "origins:enchantment",
+            "enchantment": "minecraft:piercing",
+            "comparison": ">=",
+            "compare_to": 1
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 1
+        }
+    },
+    "punch": {
+        "type": "apugli:modify_enchantment_level",
+        "enchantment": "minecraft:punch",
+        "item_condition": {
+            "type": "origins:enchantment",
+            "enchantment": "minecraft:punch",
+            "comparison": ">=",
+            "compare_to": 1
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 1
+        }
+    }
+}

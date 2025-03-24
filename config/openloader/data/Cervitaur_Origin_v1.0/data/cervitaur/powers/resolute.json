@@ -1,0 +1,11 @@
+{
+    "name": "Resolute",
+    "description": "Due to your large overall size, you have11 total hearts of health.",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "generic.max_health",
+        "operation": "addition",
+        "value": 2
+    },
+    "update_health": true
+}

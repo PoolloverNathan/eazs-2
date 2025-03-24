@@ -1,0 +1,176 @@
+
+{
+    "name": "Shell Bonus",
+    "description": "More stuff",
+	"hidden": true,
+    "type": "origins:multiple",
+
+	"protected": {
+		"type": "origins:stacking_status_effect",
+		"condition": {
+			"type": "origins:power_active",
+			"power": "mechbot:metalshell_shell_toggle"
+		},
+		"min_stacks": 0,
+		"max_stacks": 1,
+		"duration_per_stack": 11,
+		"effect": {
+			"effect": "minecraft:resistance",
+			"amplifier": 1,
+			"show_particles": false
+		}
+	},
+
+	"shellbonus_callback": {
+		"type": "origins:action_on_callback",
+		"entity_action_added": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "/attribute @s minecraft:generic.armor base set 1.0"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "/attribute @s minecraft:generic.armor_toughness base set 1.0"
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 1,
+					"action": {
+						"type": "origins:apply_effect",
+						"effect": {
+							"effect": "minecraft:absorption",
+							"duration": 9999999,
+							"is_ambient": true,
+							"show_particles": false
+						}
+					}
+				}
+			]
+		},
+		"entity_action_removed": {
+			"type": "origins:clear_effect",
+			"effect": "minecraft:absorption"
+		},
+		"entity_action_respawned": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "/attribute @s minecraft:generic.armor base set 1.0"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "/attribute @s minecraft:generic.armor_toughness base set 1.0"
+				}
+			]
+		}
+	},
+
+	"shell_armor": {
+		"type": "origins:modify_attribute",
+		"attribute": "minecraft:generic.armor",
+		"modifier": {
+			"operation": "multiply_total_multiplicative",
+			"value": 0,
+			"resource": "mechbot:upgrade_diamond_resource"
+		}
+	},
+
+	"durability_improve": {
+		"type": "origins:modify_status_effect_amplifier",
+		"status_effect": "minecraft:absorption",
+		"modifier": {
+			"operation": "add_base_early",
+			"value": 0,
+			"resource": "mechbot:upgrade_iron_resource",
+			"modifier": {
+				"operation": "multiply_total_multiplicative",
+				"value": -0.98
+			}
+		}
+	},
+
+	"luck": {
+		"type": "origins:modify_attribute",
+		"attribute": "minecraft:generic.luck",
+		"modifier": {
+			"operation": "multiply_total_multiplicative",
+			"value": 0,
+			"resource": "mechbot:upgrade_emerald_resource",
+			"modifier": {
+				"operation": "multiply_total_multiplicative",
+				"value": 1
+			}
+		}
+	},
+
+	"loot_count": {
+		"type": "origins:modify_attribute",
+		"attribute": "additionalentityattributes:bonus_loot_count_rolls",
+		"modifier": {
+			"operation": "multiply_total_multiplicative",
+			"value": 0,
+			"resource": "mechbot:upgrade_emerald_resource",
+			"modifier": {
+				"operation": "multiply_total_multiplicative",
+				"value": 1
+			}
+		}
+	},
+
+	"rare_loot": {
+		"type": "origins:modify_attribute",
+		"attribute": "additionalentityattributes:bonus_rare_loot_rolls",
+		"modifier": {
+			"operation": "multiply_total_multiplicative",
+			"value": 0,
+			"resource": "mechbot:upgrade_emerald_resource",
+			"modifier": {
+				"operation": "multiply_total_multiplicative",
+				"value": 1
+			}
+		}
+	},
+
+	"lose_shield": {
+		"type": "origins:action_over_time",
+		"condition": {
+			"type": "origins:command",
+			"command": "/data get entity @s AbsorptionAmount",
+			"comparison": "==",
+			"compare_to": 0
+		},
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:toggle",
+					"power": "mechbot:metalshell_shell_toggle"
+				},
+				{
+					"type": "origins:trigger_cooldown",
+					"power": "mechbot:metalshell_toggle_cooldown"
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:item.bundle.drop_contents"
+				},
+				{
+					"type": "origins:revoke_power",
+					"power": "mechbot:shellbonus",
+					"source": "mechbot:golem"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "/scale set pehkui:width 0.9 @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "/scale set pehkui:height 0.9 @s"
+				}
+			]
+		}
+	}
+}

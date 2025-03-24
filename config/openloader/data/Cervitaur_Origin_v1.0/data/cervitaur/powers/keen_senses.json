@@ -1,0 +1,57 @@
+{
+    "name": "Keen Senses",
+    "description": "Due to your sensitive hearing and sense of smell of a deer, you’re capable of sensing all living entities around you in a 32 block radius.",
+    "type": "origins:multiple",
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "key.origins.primary_active",
+            "continuous": false
+        },
+        "retain_state": true
+    },
+    "sense": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        },
+        "type": "origins:entity_glow",
+        "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:distance",
+                    "comparison": "<=",
+                    "compare_to": 32
+                },
+                {
+                    "type": "origins:target_condition",
+                    "condition": {
+                        "type": "origins:living"
+                    }
+                }
+            ]
+        },
+        "use_teams": false,
+        "red": 0.45,
+        "green": 0.9,
+        "blue": 0.7
+    },
+    "scent_info": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        },
+        "type": "origins:action_over_time",
+        "interval": 5,
+        "rising_action": {
+            "type": "origins:execute_command",
+            "command": "title @s actionbar [\"\",{\"text\":\"Keen Senses: \"},{\"text\":\"ON\",\"color\":\"green\"}]"
+        },
+        "falling_action": {
+            "type": "origins:execute_command",
+            "command": "title @s actionbar [\"\",{\"text\":\"Keen Senses: \"},{\"text\":\"OFF\",\"color\":\"red\"}]"
+        }
+    }
+}

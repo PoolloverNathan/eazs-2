@@ -1,0 +1,315 @@
+{
+    "name": "§a§nSlimey",
+    "description": "§2Occasionally, whenever hit, there's a chance a bit of your slime might fall off in the form of a slimeball. Furthermore, right-clicking on pistons makes them sticky!",
+    "type": "origins:multiple",
+    "slimeball_drop": {
+        "type": "origins:self_action_when_hit",
+        "entity_action": {
+            "type": "origins:chance",
+            "chance": 0.1,
+            "action": {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:execute_command",
+                        "command": "/summon item ~ ~ ~ {PickupDelay:60,Item:{id:slime_ball,Count:1}}"
+                    },
+                    {
+                        "type": "origins:modify_resource",
+                        "resource": "slime_taur:moisture_bar",
+                        "modifier": {
+                            "operation": "addition",
+                            "value": -5
+                        }
+                    }
+                ]
+            }
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "sticky_piston_east": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "slime_taur:moisture_bar",
+            "comparison": ">=",
+            "compare_to": 5
+        },
+        "type": "origins:action_on_block_use",
+        "block_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:piston"
+                },
+                {
+                    "type": "origins:block_state",
+                    "property": "facing",
+                    "enum": "east"
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "resource": "slime_taur:moisture_bar",
+            "modifier": {
+                "operation": "addition",
+                "value": -5
+            }
+        },
+        "block_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:set_block",
+                    "block": "minecraft:sticky_piston"
+                },
+                {
+                    "type": "origins:modify_block_state",
+                    "property": "facing",
+                    "operation": "add",
+                    "enum": "east"
+                }
+            ]
+        },
+        "action_result": "success"
+    },
+    "sticky_piston_west": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "slime_taur:moisture_bar",
+            "comparison": ">=",
+            "compare_to": 5
+        },
+        "type": "origins:action_on_block_use",
+        "block_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:piston"
+                },
+                {
+                    "type": "origins:block_state",
+                    "property": "facing",
+                    "enum": "west"
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "resource": "slime_taur:moisture_bar",
+            "modifier": {
+                "operation": "addition",
+                "value": -5
+            }
+        },
+        "block_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:set_block",
+                    "block": "minecraft:sticky_piston"
+                },
+                {
+                    "type": "origins:modify_block_state",
+                    "property": "facing",
+                    "operation": "add",
+                    "enum": "west"
+                }
+            ]
+        },
+        "action_result": "success"
+    },
+    "sticky_piston_north": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "slime_taur:moisture_bar",
+            "comparison": ">=",
+            "compare_to": 5
+        },
+        "type": "origins:action_on_block_use",
+        "block_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:piston"
+                },
+                {
+                    "type": "origins:block_state",
+                    "property": "facing",
+                    "enum": "north"
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "resource": "slime_taur:moisture_bar",
+            "modifier": {
+                "operation": "addition",
+                "value": -5
+            }
+        },
+        "block_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:set_block",
+                    "block": "minecraft:sticky_piston"
+                },
+                {
+                    "type": "origins:modify_block_state",
+                    "property": "facing",
+                    "operation": "add",
+                    "enum": "north"
+                }
+            ]
+        },
+        "action_result": "success"
+    },
+    "sticky_piston_south": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "slime_taur:moisture_bar",
+            "comparison": ">=",
+            "compare_to": 5
+        },
+        "type": "origins:action_on_block_use",
+        "block_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:piston"
+                },
+                {
+                    "type": "origins:block_state",
+                    "property": "facing",
+                    "enum": "south"
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "resource": "slime_taur:moisture_bar",
+            "modifier": {
+                "operation": "addition",
+                "value": -5
+            }
+        },
+        "block_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:set_block",
+                    "block": "minecraft:sticky_piston"
+                },
+                {
+                    "type": "origins:modify_block_state",
+                    "property": "facing",
+                    "operation": "add",
+                    "enum": "south"
+                }
+            ]
+        },
+        "action_result": "success"
+    },
+    "sticky_piston_up": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "slime_taur:moisture_bar",
+            "comparison": ">=",
+            "compare_to": 5
+        },
+        "type": "origins:action_on_block_use",
+        "block_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:piston"
+                },
+                {
+                    "type": "origins:block_state",
+                    "property": "facing",
+                    "enum": "up"
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "resource": "slime_taur:moisture_bar",
+            "modifier": {
+                "operation": "addition",
+                "value": -5
+            }
+        },
+        "block_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:set_block",
+                    "block": "minecraft:sticky_piston"
+                },
+                {
+                    "type": "origins:modify_block_state",
+                    "property": "facing",
+                    "operation": "add",
+                    "enum": "up"
+                }
+            ]
+        },
+        "action_result": "success"
+    },
+    "sticky_piston_down": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "slime_taur:moisture_bar",
+            "comparison": ">=",
+            "compare_to": 5
+        },
+        "type": "origins:action_on_block_use",
+        "block_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:piston"
+                },
+                {
+                    "type": "origins:block_state",
+                    "property": "facing",
+                    "enum": "down"
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "resource": "slime_taur:moisture_bar",
+            "modifier": {
+                "operation": "addition",
+                "value": -5
+            }
+        },
+        "block_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:set_block",
+                    "block": "minecraft:sticky_piston"
+                },
+                {
+                    "type": "origins:modify_block_state",
+                    "property": "facing",
+                    "operation": "add",
+                    "enum": "down"
+                }
+            ]
+        },
+        "action_result": "success"
+    }
+}
