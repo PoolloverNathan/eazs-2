@@ -1,13 +1,13 @@
 name = "Ensculked"
-filename = "ensculked-0.1-1.20.1.jar"
+filename = "ensculked-0.1.1-1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/x99jPxbz/versions/RKZSI190/ensculked-0.1-1.20.1.jar"
+url = "https://cdn.modrinth.com/data/x99jPxbz/versions/Hk41UwNx/ensculked-0.1.1-1.20.1.jar"
 hash-format = "sha1"
-hash = "53fae5259a71eaf16efdffcbdede533d3043615d"
+hash = "31b003b7080e0bfd01872e8a56b7b2e7cbba924d"
 
 [update]
 [update.modrinth]
 mod-id = "x99jPxbz"
-version = "RKZSI190"
+version = "Hk41UwNx"
