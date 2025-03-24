@@ -1,2 +1,6 @@
 mods-real/
 .fslckout
+prism/
+result
+flake.nix
+flake.lock
