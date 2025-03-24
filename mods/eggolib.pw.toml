@@ -1,0 +1,13 @@
+name = "eggolib"
+filename = "eggolib-1.20-1.10.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uFJODQCA/versions/MWFmXn1c/eggolib-1.20-1.10.4.jar"
+hash-format = "sha1"
+hash = "abc1e5feab07c92db8230a3bb520c561208418c1"
+
+[update]
+[update.modrinth]
+mod-id = "uFJODQCA"
+version = "MWFmXn1c"

@@ -99,7 +99,7 @@ metafile = true
 
 [[files]]
 file = "mods/apugli.pw.toml"
-hash = "7319fe4c12400fe2828995b54ce79339806745016e56e3cb3cfea80556d5d35a"
+hash = "a73ce171bac7be07db35d7d2f381fdab5dfcbd344a727bcff7bc1cb04d6b143c"
 metafile = true
 
 [[files]]
@@ -283,6 +283,11 @@ hash = "dcb3b041b59aa318525185fc5474887ee96bbc3487d5cc991e126c6c94ed49d9"
 metafile = true
 
 [[files]]
+file = "mods/eggolib.pw.toml"
+hash = "e756b29172dd26dae76bb5cb0e23f1a7feec2ddf47e3a6c0f9e1172247d3591c"
+metafile = true
+
+[[files]]
 file = "mods/emi.pw.toml"
 hash = "a89e2a4903a962a372882656b0bfd4c55c595e08df0a27720a8707d3db474e25"
 metafile = true
@@ -374,6 +379,11 @@ metafile = true
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "734a38253c0158a07411a28da03ade9079b8700a213508e32c5904f3a3180bad"
+metafile = true
+
+[[files]]
+file = "mods/immersiveportals.pw.toml"
+hash = "bd8506be42948470dc2ba19c93652f89345666c6a9e9a9f9fc97442bb6788ace"
 metafile = true
 
 [[files]]
