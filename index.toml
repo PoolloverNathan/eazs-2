@@ -103,6 +103,11 @@ hash = "a73ce171bac7be07db35d7d2f381fdab5dfcbd344a727bcff7bc1cb04d6b143c"
 metafile = true
 
 [[files]]
+file = "mods/aquamirae.pw.toml"
+hash = "fb29362ea01abdd6cda50ab2452e852758dec7bcf9e64c7377a953ed17ebc607"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "7aecf39b068aa52d8e8c2d65d337de3563b0fcc78a999ee62b712d01c52f75d6"
 metafile = true
@@ -175,6 +180,11 @@ metafile = true
 [[files]]
 file = "mods/cardinal-components-api.pw.toml"
 hash = "a3854546fd2f0c160a2ab8b08ae453b98b158948e92365f2e9f0b1c0808c72ec"
+metafile = true
+
+[[files]]
+file = "mods/carry-on.pw.toml"
+hash = "2a28c2274b74668e6de644c0aeda01fc5a4253b1af9436a5ad680b73188cee4d"
 metafile = true
 
 [[files]]
@@ -313,6 +323,11 @@ hash = "95cf5f912309fb28f1aeeb698037a7f9cadb3b47775d678bddfaee52aee0869a"
 metafile = true
 
 [[files]]
+file = "mods/exposure.pw.toml"
+hash = "183cda06376ef36090cfc2bab446affac8e64ad16a8d2cc461637f180ff03c69"
+metafile = true
+
+[[files]]
 file = "mods/extura-0.1.5+1.20.1-fabric-mc.jar"
 hash = "6bef658a57a363a13b1b4f742bd0408cd0d6e5155a0141c08927eca9be565ac4"
 
@@ -409,6 +424,11 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "c56f82aa24c0a311c2b953f0e6baee8bf2b7a51d965111183161ebb448178fb4"
+metafile = true
+
+[[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "9ad840f3e465a0bf5e2ddbf2ab036a019b57a17b3dc3f793dfaa96fef6fda761"
 metafile = true
 
 [[files]]
@@ -512,6 +532,11 @@ hash = "53e5c539e60b86e7c03ab2337bff1777b4f05cf152ee8aa1e6dfd1c3e3335f13"
 metafile = true
 
 [[files]]
+file = "mods/obscure-api.pw.toml"
+hash = "564e2bd0da5154d32f2c39e2f2e60f8eaecd3fb28e9b069c9d314b383667b69c"
+metafile = true
+
+[[files]]
 file = "mods/open-loader.pw.toml"
 hash = "ec277331d582b3e88b3f6bed3a77f4f526689680507d718f76a1d0fd03ffcf54"
 metafile = true
@@ -537,6 +562,11 @@ hash = "89a0416bf6a4736e868deea1cf9986a53920b1eaf048bc27224eafde511d2928"
 metafile = true
 
 [[files]]
+file = "mods/pneumono_gravestones.pw.toml"
+hash = "a750fa5d52c2834cbbcae6cb960872d0583cb31958b0c6d76870fe798fc4c559"
+metafile = true
+
+[[files]]
 file = "mods/polymorph.pw.toml"
 hash = "31de65c5ae3d69eb3aeeacdad0c53a15cac7ec8cab93821f825bc99194419743"
 metafile = true
@@ -554,6 +584,11 @@ metafile = true
 [[files]]
 file = "mods/realms-button-remover.pw.toml"
 hash = "a86dd825b3980726af45fbecb31cd242f14974dc2ec956dcd97965089ebd8e6d"
+metafile = true
+
+[[files]]
+file = "mods/rei.pw.toml"
+hash = "be3b5d3b20637a8d9b1aef673b36d2c7f13eaa46749528a98c1a6364ba45be4c"
 metafile = true
 
 [[files]]
@@ -619,6 +654,11 @@ metafile = true
 [[files]]
 file = "mods/tcdcommons.pw.toml"
 hash = "10d0efe0b1b4f1bde043812241472abd2b8a4ca3acc6ad053ef0773585f663bc"
+metafile = true
+
+[[files]]
+file = "mods/tectonic.pw.toml"
+hash = "f327d355e8408a7b1b9f5e1e6dcd3740b45f96343efca5c2e41f5ee25b6cf250"
 metafile = true
 
 [[files]]

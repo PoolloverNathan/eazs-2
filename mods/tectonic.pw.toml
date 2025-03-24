@@ -1,0 +1,16 @@
+filename = 'tectonic-fabric-1.20.1-2.4.4.jar'
+name = 'Tectonic'
+side = 'server'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b5078ffa450e152555b106ab46134a29d4aff0cba49405e029b6c500692210f2ea379cccf138ce9d67e4162ebea431beff16a8a6ff46098f194c002a451ec348'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/lWDHr9jE/versions/w19S52ln/tectonic-fabric-1.20.1-2.4.4.jar'
+
+[update.modrinth]
+mod-id = 'lWDHr9jE'
+version = 'w19S52ln'

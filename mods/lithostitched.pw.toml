@@ -1,0 +1,16 @@
+filename = 'lithostitched-fabric-1.20.1-1.4.4.jar'
+name = 'Lithostitched'
+side = 'server'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'eba73344cef6f733492a1619e097fb498318f06875fda7e05a2847ef9c039b17d9542087a44636611f569924beb4178576141e61ae6ebc5841e0b3ed6791ed71'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/XaDC71GB/versions/fFfu2FPH/lithostitched-fabric-1.20.1-1.4.4.jar'
+
+[update.modrinth]
+mod-id = 'XaDC71GB'
+version = 'fFfu2FPH'
