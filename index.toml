@@ -1459,6 +1459,11 @@ hash = "7fbf58a8c2e52f569d6dd2ef8468802008019702479e9a32083a641cb75def29"
 metafile = true
 
 [[files]]
+file = "mods/ensculked.pw.toml"
+hash = "f50edc38ed76591df79027b13ddf298c4980fa02938733d2c2ce39255e5f0056"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "7402a4d82542a640e5151bb9dbc1126f8c913f2d3c7f1c3f9ac52c771f39ad66"
 metafile = true
