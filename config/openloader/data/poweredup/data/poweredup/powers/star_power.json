@@ -97,6 +97,11 @@
                                         },
                                         {
                                             "inverted": true,
+                                            "type": "origins:entity_type",
+                                            "entity_type": "minecraft:item"
+                                        },
+                                        {
+                                            "inverted": true,
                                             "type": "origins:tamed"
                                         }
                                     ]

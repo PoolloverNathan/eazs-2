@@ -1074,7 +1074,7 @@ hash = "c63456feacb22a0daa9ade231e9005d93f00675d91c1d40a8f919ba910ec5839"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/powers/star_power.json"
-hash = "fb16c268ad727c4a5980f3058b8ae75e9ac272e1dc797f7d5ba5f2cf0ed55c92"
+hash = "21a1b0eac7930d1359e8762b8adde52ec80c9d394bff7f781018f21f1b391951"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/powers/statue.json"
@@ -1082,7 +1082,7 @@ hash = "931bc67afc583f894439c08bd4a5e2a7c18f28b59829f1b19dea26e413575fc2"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/powers/statue_form.json"
-hash = "373fba07e7f82143277d5e90843dbe1fa812a1ca682bdc74563aff72ec67e0ff"
+hash = "9b6acc6f15338222baf9cb6c4a2e8c8f5c2ab882e2d4c5a2ef4ed9a649bb6ab6"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/powers/tail_attack.json"

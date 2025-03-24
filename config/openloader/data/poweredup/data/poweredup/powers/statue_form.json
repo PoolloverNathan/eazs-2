@@ -117,6 +117,45 @@
     "no_item_use": {
         "type": "origins:prevent_item_use"
     },
+	"no_pickup": {
+		"type": "eggolib:prevent_item_pickup"
+	},
+	"no_look": {
+		"type": "eggolib:modify_mouse_sensitivity",
+		"modifier": {
+			"operation": "multiply_total_multiplicative",
+			"value": -1
+		}
+	},
+	"no_keys": {
+		"keys": [
+			"key.attack",
+			"key.use",
+			"key.sprint",
+			"key.sneak",
+			"key.jump",
+			"key.forward",
+			"key.back",
+			"key.left",
+			"key.right",
+			"key.hotbar.1",
+			"key.hotbar.2",
+			"key.hotbar.3",
+			"key.hotbar.4",
+			"key.hotbar.5",
+			"key.hotbar.6",
+			"key.hotbar.7",
+			"key.hotbar.8",
+			"key.hotbar.9",
+			"key.inventory",
+			"key.drop",
+			"key.ae2.portable_item_cell",
+			"key.ae2.guide",
+			"key.swapOffset",
+			"key.pickItem",
+			"key.ae2.wireless_terminal"
+		],
+	},
     "fast_fall": {
         "type": "origins:modify_falling",
         "velocity": 0.25,
