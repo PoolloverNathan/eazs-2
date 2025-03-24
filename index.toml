@@ -402,16 +402,6 @@ hash = "bd8506be42948470dc2ba19c93652f89345666c6a9e9a9f9fc97442bb6788ace"
 metafile = true
 
 [[files]]
-file = "mods/indium.pw.toml"
-hash = "0a86a0cba9d13505cecadd5048e35456f47236d9a43c39ba7a13dee29062d8e9"
-metafile = true
-
-[[files]]
-file = "mods/iris.pw.toml"
-hash = "88928c23cb4da3eeaa9e17c0fbb477daa30bdca46e18f7d01f4eea94f64ccc07"
-metafile = true
-
-[[files]]
 file = "mods/jade.pw.toml"
 hash = "b09f611d886674cb587fcf9e64e0e13ade46a17dec25745d83e0957dea212d18"
 metafile = true
@@ -619,11 +609,6 @@ metafile = true
 [[files]]
 file = "mods/simpletextoverlay.pw.toml"
 hash = "671bd1790c083eb0e0c541408c398fdfe1249d727c492c56ab9f01fbf6b1d932"
-metafile = true
-
-[[files]]
-file = "mods/sodium.pw.toml"
-hash = "0322981d37ebcd2b867debfd4c6ceceb9bfabca32a32761b2bc3330e5e3ca245"
 metafile = true
 
 [[files]]
