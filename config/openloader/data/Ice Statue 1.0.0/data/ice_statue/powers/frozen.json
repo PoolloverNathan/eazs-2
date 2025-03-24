@@ -27,7 +27,7 @@
             "type": "origins:target_action",
             "action": {
                 "type": "origins:execute_command",
-                "command": "kill @e[type=minecraft:block_display]"
+                "command": "kill @e[type=minecraft:block_display,distance=..0.1]"
             }
         }
     },
@@ -109,5 +109,15 @@
             "operation": "set_total",
             "value": 0
         }
-    }
+    },
+	"noitem": {
+		"type": "eggolib:prevent_item_pickup"
+	},
+	"noclick": {
+		"type": "eggolib:prevent_key_use",
+		"keys": [
+			"key.attack",
+			"key.use"
+		]
+	}
 }
