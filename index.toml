@@ -1798,6 +1798,21 @@ hash = "37e8591f6a59a8ca886f0731d5793e3bbd11319b6aec929f0238642df1c34dfc"
 metafile = true
 
 [[files]]
+file = "mods/switchy-inventories.pw.toml"
+hash = "28655405eb034aadcb7158854ea4f63fb3e6b49436869531df070904cc5c629d"
+metafile = true
+
+[[files]]
+file = "mods/switchy-teleport.pw.toml"
+hash = "f4892fc4a8da955f4da83d1eadf5fa7dd4c2e0e5e8d861a639d6e0d405c1bc3c"
+metafile = true
+
+[[files]]
+file = "mods/switchy.pw.toml"
+hash = "e60667682f394f0a9bd7a196ab35b9e31c10f08010697f82d6ea90257415aeb5"
+metafile = true
+
+[[files]]
 file = "mods/tcdcommons.pw.toml"
 hash = "10d0efe0b1b4f1bde043812241472abd2b8a4ca3acc6ad053ef0773585f663bc"
 metafile = true
