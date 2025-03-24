@@ -14,3 +14,8 @@ url = 'https://cdn.modrinth.com/data/nfn13YXA/versions/nYcMSS03/RoughlyEnoughIte
 [update.modrinth]
 mod-id = 'nfn13YXA'
 version = 'nYcMSS03'
+
+[option]
+optional = true
+default = false
+description = "Recipe viewer mod. EMI has more features, but REI is provided for those who prefer it."
