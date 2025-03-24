@@ -1,0 +1,21 @@
+{
+    "name": "P-Wing",
+    "description": "Infinite full P-Meter.",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "This power is a joke and may be buggy or extremely unbalanced.",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+
+
+    "type":"origins:action_over_time",
+    "interval": 100,
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "poweredup:p_speed_meter",
+        "change": 112,
+        "operation": "set"
+    }
+}

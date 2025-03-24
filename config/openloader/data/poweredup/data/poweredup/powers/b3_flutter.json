@@ -1,0 +1,118 @@
+{
+    "name": "Raccoon Flutter",
+    "description": "As you fall you can use your raccoon tail to slow you decent!",
+    "type":"origins:multiple",
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "text": "Repeatedly press %s while in the air to slow your fall.",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+
+
+    "fluttering": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1,
+        "hud_render": {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+            "bar_index": 22
+        }
+    },
+
+    
+    "on_ground": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:on_block"
+                },
+                {
+                    "type": "origins:power",
+                    "power": "poweredup:statue_form"
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "poweredup:b3_flutter_fluttering",
+            "change": 0,
+            "operation": "set"
+        }
+    },
+    
+
+    "flutter": {
+        "type": "origins:active_self",
+        "cooldown": 5,
+        "key": {
+            "key": "key.jump"
+        },
+        "condition": {
+            "inverted": true,
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:power",
+                    "power": "poweredup:p_boost"
+                },
+                {
+                    "type": "origins:creative_flying"
+                },
+                {
+                    "type": "origins:on_block"
+                },
+                {
+                    "type": "origins:in_block",
+                    "block_condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:water"
+                    }
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:if_else",
+                    "condition": {
+                        "type": "origins:moving"
+                    },
+                    "if_action": {
+                        "type": "origins:add_velocity",
+                        "y": 0,
+                        "z": 0.35,
+                        "space": "local_horizontal_normalized",
+                        "set": true
+                    },
+                    "else_action": {
+                        "type": "origins:add_velocity",
+                        "y": 0,
+                        "space": "local_horizontal_normalized",
+                        "set": true
+                    }
+                },
+                {
+                    "type": "origins:set_fall_distance",
+                    "fall_distance": 0
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "poweredup:b3_flutter_fluttering",
+                    "change": 1,
+                    "operation": "set"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s positioned ^ ^ ^-1 run particle minecraft:sweep_attack ~ ~ ~"
+                }
+            ]
+        }
+    }
+}

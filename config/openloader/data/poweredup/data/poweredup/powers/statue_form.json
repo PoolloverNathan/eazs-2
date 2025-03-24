@@ -1,0 +1,249 @@
+{
+    "name": "Statue Form",
+    "description": "Cannot move but invulnerable.",
+    "type":"origins:multiple",
+
+
+    "commands": {
+        "type": "origins:action_on_callback",
+        "entity_action_added": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:visibility 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:reach 0 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scoreboard objectives add statue_fall dummy"
+                }
+            ]
+        },
+        "entity_action_removed": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale reset pehkui:visibility @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale reset pehkui:reach @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scoreboard objectives remove statue_fall"
+                }
+            ]
+        }
+    },
+
+
+    "overlay": {
+        "type": "origins:overlay",
+		"texture": "minecraft:textures/misc/nausea.png",
+		"red": 0.375,
+		"green": 0.375,
+		"blue": 0.375,
+		"strength": 1,
+		"draw_mode": "nausea",
+        "draw_phase": "below_hud",
+        "hide_with_hud": false,
+        "visible_in_third_person": true
+    },
+    "recolor": {
+        "type": "origins:model_color",
+        "red": 0.4,
+        "green": 0.8,
+        "blue": 0.7
+    },
+
+
+    "fall_track": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "condition": {
+            "inverted": true,
+            "type": "origins:on_block"
+        },
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "execute store result score @s statue_fall run data get entity @s FallDistance"
+        }
+    },
+    "collision": {
+        "type": "origins:prevent_entity_collision",
+        "bientity_condition": {
+            "inverted": true,
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:player"
+            }
+        }
+    },
+    "stomp_cooldown": {
+        "type": "origins:cooldown",
+        "cooldown": 5,
+        "hud_render": {"should_render": false}
+    },
+
+
+    "freeze": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "value": -1,
+            "operation": "multiply_total"
+        }
+    },
+    "no_jump": {
+        "type": "origins:modify_jump",
+        "modifier": {
+            "value": -1,
+            "operation": "set_base"
+        }
+    },
+    "no_swim": {
+        "type": "origins:ignore_water"
+    },
+    "no_sprint": {
+        "type": "origins:prevent_sprinting"
+    },
+    "no_item_use": {
+        "type": "origins:prevent_item_use"
+    },
+    "fast_fall": {
+        "type": "origins:modify_falling",
+        "velocity": 0.25,
+        "take_fall_damage": false
+    },
+    "invulnerable": {
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "inverted": true,
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:in_tag",
+                    "tag": "minecraft:bypasses_effects"
+                },
+                {
+                    "type": "origins:in_tag",
+                    "tag": "minecraft:bypasses_invulnerability"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "lava"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "lava.player"
+                }
+            ]
+        }
+    },
+
+    
+    "stomp": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:on_block"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:in_block",
+                    "block_condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:water"
+                    }
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "statue_fall",
+                    "comparison": ">",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "poweredup:statue_form_stomp_cooldown",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:area_of_effect",
+                    "radius": 2,
+                    "bientity_condition": {
+                        "type": "origins:and",
+                        "conditions" : [
+                            {
+                                "type": "origins:target_condition",
+                                "condition": {
+                                    "type": "origins:health",
+                                    "comparison": ">",
+                                    "compare_to": 0
+                                }
+                            },
+                            {
+                                "type": "origins:actor_condition",
+                                "condition": {
+                                    "type": "origins:resource",
+                                    "resource": "poweredup:statue_form_stomp_cooldown",
+                                    "comparison": "==",
+                                    "compare_to": 0
+                                }
+                            }
+                        ]
+                    },
+                    "bientity_action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:damage",
+                                "amount": 5,
+                                "damage_type": "minecraft:cramming"
+                            },
+                            {
+                                "type": "origins:actor_action",
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:add_velocity",
+                                            "y": 0.75,
+                                            "set": true
+                                        },
+                                        {
+                                            "type": "origins:change_resource",
+                                            "resource": "poweredup:statue_form_stomp_cooldown",
+                                            "change": 1,
+                                            "operation": "set"
+                                        },
+                                        {
+                                            "type": "origins:trigger_cooldown",
+                                            "power": "poweredup:statue_form_stomp_cooldown"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

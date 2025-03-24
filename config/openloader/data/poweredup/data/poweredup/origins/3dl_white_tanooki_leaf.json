@@ -1,0 +1,16 @@
+{
+    "powers": [
+        "poweredup:star_power",
+        "poweredup:tail_attack",
+        "poweredup:b3_flutter"
+    ],
+	"icon": {
+        "item": "minecraft:golden_chestplate",
+        "tag": "{Enchantments: [{id: \"minecraft:mending\", lvl: 1s}]}"
+    },
+    "order": 2011,
+    "impact": 3,
+	"unchoosable": true,
+    "name": "White Tanooki Leaf",
+    "description": "§b§lS§r§r§e§lu§r§r§c§lp§r§r§a§le§r§r§e§lr§r§r§l §r§c§lM§r§r§a§la§r§r§e§lr§r§r§9§li§r§r§a§lo§r§r§l §r§f§l3D§r§r§l §r§b§lL§r§r§a§la§r§r§c§ln§r§r§e§ld§r§r\nReleased: 2011\n\nThis origin is a joke and may be buggy or extremely unbalanced."
+}

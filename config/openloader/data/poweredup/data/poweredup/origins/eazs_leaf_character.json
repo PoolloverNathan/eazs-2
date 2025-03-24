@@ -1,0 +1,14 @@
+{
+	"powers": [
+        "poweredup:eazs_leaf",
+		"poweredup:tail_attack",
+		"poweredup:statue",
+		"poweredup:p_speed",
+		"poweredup:b3_flight",
+		"poweredup:b3_flutter"
+	],
+	"icon": "farmersrespite:yellow_tea_leaves",
+	"impact": 0,
+	"name": "Leaf (Tanooki)",
+	"description": "§d§lEizel §r§r§land §r§5§lZacky's§r §r§r§lServer§r\nCustom origin for marleyinbloom"
+}

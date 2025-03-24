@@ -442,7 +442,7 @@ hash = "2c387ce7128279d4af2e1fb35a327033ffa9e49723ce92cf1728a9f5324a00cf"
 
 [[files]]
 file = "config/openloader/data/Ice Statue 1.0.0/data/ice_statue/powers/frozen.json"
-hash = "7566c2b7efef623450bc45f90b49a8802b48713c54c0776b1ba4b9afb8bb5704"
+hash = "7190e01970b3966125f64dc6776446fcba22311a86b44cb1e0785335ad61fd10"
 
 [[files]]
 file = "config/openloader/data/Ice Statue 1.0.0/data/ice_statue/powers/shader.json"
@@ -1009,6 +1009,94 @@ file = "config/openloader/data/foxplush/pack.mcmeta"
 hash = "899d734c4b06c908f3dbb5123432d61b8ccbd16c61c249bd19580f3f17c87fdf"
 
 [[files]]
+file = "config/openloader/data/poweredup/data/origins/origin_layers/origin.json"
+hash = "61e885ce5fea1cc6c83876bd580620b97d95d2819e681fc0d07000fbb7885c2d"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/origins/3dl_statue_leaf.json"
+hash = "1a055003297625cc6965118064e7146f05caef7f238800e073c5e5d9abc9ab05"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/origins/3dl_tanooki_leaf.json"
+hash = "2fae83c3384a49b0a9a994a85ad15cd6f5ab71ac2e941426e7bf9b13aec7e6cf"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/origins/3dl_white_tanooki_leaf.json"
+hash = "ed0b11054420670ce1537943b9465d35250b351193eb04aa1992dbf9bdb7625b"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/origins/b3_p_wing.json"
+hash = "4f107b94eb6d8cf932ce4258bd2c12fcd807a9e9acbfab9b1c2dc897e254945e"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/origins/b3_super_leaf.json"
+hash = "8473a99ee36e7af173c57a520cf2fd7f55010b697cc381500332734b06e95bba"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/origins/b3_tanooki_suit.json"
+hash = "14fb5c44294b515046752c3149586a49356fa2b4e02b802e6d808cb79c5d163d"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/origins/eazs_leaf_character.json"
+hash = "d3185ef9973869530aaed102634252981f41b95921b5741b8ff0e845dbfbfb42"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/origins/nb2_white_super_leaf.json"
+hash = "00568de3c14eeca59bab6be17e2b2d23a697aee246bbf46ccd91d5056db53bb7"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/powers/b3_flight.json"
+hash = "23f57e67fd3e42fb04cd959c539244d23d5523e2cfa4e0c9db43e5fdf01ec117"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/powers/b3_flutter.json"
+hash = "c17d407fdcb62c55205ce8f3595a98b49a73cd7c29b36fb7a5dac1009fd9d091"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/powers/eazs_leaf.json"
+hash = "1a02da68b876b36eed3eab4b7774180ae0994b11c5ed68e005f25d4bf64b2ead"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/powers/nb2_white_leaf.json"
+hash = "ab3ca4aac78ef16047a608ea5df0dc40d7479c296edc3fae2747310310507560"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/powers/p_boost.json"
+hash = "11b5f0a18e36914a0672f876f6a1e96af0d1dccba42d99ef897c25d32d897aa9"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/powers/p_speed.json"
+hash = "314bee6e9b2dc9df8d21bf4ff9dad93b380bc2cc2fedf995d4fa706181040785"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/powers/p_wing.json"
+hash = "c63456feacb22a0daa9ade231e9005d93f00675d91c1d40a8f919ba910ec5839"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/powers/star_power.json"
+hash = "fb16c268ad727c4a5980f3058b8ae75e9ac272e1dc797f7d5ba5f2cf0ed55c92"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/powers/statue.json"
+hash = "931bc67afc583f894439c08bd4a5e2a7c18f28b59829f1b19dea26e413575fc2"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/powers/statue_form.json"
+hash = "373fba07e7f82143277d5e90843dbe1fa812a1ca682bdc74563aff72ec67e0ff"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/powers/tail_attack.json"
+hash = "56be81865cc20ed3739e41e4cea0f4dcf5dded2707ea11912c2cba5d48453e3b"
+
+[[files]]
+file = "config/openloader/data/poweredup/pack.mcmeta"
+hash = "e29897a6e4fdc662f79956cc93d3df740e31ebf12e516551fe18edc37d24e7b2"
+
+[[files]]
+file = "config/openloader/data/poweredup/pack.png"
+hash = "e953674dd0e69e07945f150603639faf71e34b394d886ffc96df10f5c59c583a"
+
+[[files]]
 file = "config/openloader/data/snail/README.md"
 hash = "f28382b1859d33248a12dc45527f24ece1c2bbcadb3df169c8f801bbd113942a"
 
@@ -1412,6 +1500,11 @@ metafile = true
 [[files]]
 file = "mods/farmers-delight-refabricated.pw.toml"
 hash = "bce21d8e29640ae226ce2ca33042e7090f74e9c1fc7420d08d3f09e287bf4d6b"
+metafile = true
+
+[[files]]
+file = "mods/farmers-respite-fabric.pw.toml"
+hash = "9c227262ccd3fd4bbc6337fe29e5146ab14c76e6fc64d09454f836d34de9a53e"
 metafile = true
 
 [[files]]

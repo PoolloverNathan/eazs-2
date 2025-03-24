@@ -1,0 +1,178 @@
+{
+    "name": "Raccoon Flight",
+    "description": "When your P-Meter is full you can use your raccoon tail to fly for 4 seconds!\nIt's only natural.",
+    "type":"origins:multiple",
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "text": "Repeatedly press %s while in the air with a full P-Meter to fly.",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+
+    
+    "timer": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 80,
+        "hud_render": {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+            "bar_index": 1
+        },
+        "max_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "poweredup:p_speed_cooldown",
+                    "change": 1,
+                    "operation": "set"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "poweredup:b3_flight_timer",
+                    "change": 0,
+                    "operation": "set"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "poweredup:b3_flight_flying",
+                    "change": 0,
+                    "operation": "set"
+                }
+            ]
+        }
+    },
+    "flying": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1,
+        "hud_render": {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png",
+            "bar_index": 4
+        }
+    },
+
+
+    "on_ground": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:on_block"
+                },
+                {
+                    "type": "origins:power",
+                    "power": "poweredup:statue_form"
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "poweredup:b3_flight_flying",
+            "change": 0,
+            "operation": "set"
+        }
+    },
+    "control_timer": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:power",
+                    "power": "poweredup:p_wing"
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "poweredup:p_speed_meter",
+                    "comparison": "==",
+                    "compare_to": 112
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:if_else",
+            "condition": {
+                "type": "origins:resource",
+                "resource": "poweredup:b3_flight_flying",
+                "comparison": "==",
+                "compare_to": 1
+            },
+            "if_action": {
+                "type": "origins:change_resource",
+                "resource": "poweredup:b3_flight_timer",
+                "change": 1,
+                "operation": "add"
+            },
+            "else_action": {
+                "type": "origins:change_resource",
+                "resource": "poweredup:b3_flight_timer",
+                "change": 0,
+                "operation": "set"
+            }
+        }
+    },
+
+    
+    "fly": {
+        "type": "origins:active_self",
+        "cooldown": 5,
+        "key": {
+            "key": "key.jump"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power",
+                    "power": "poweredup:p_boost"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:creative_flying"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:on_block"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:in_block",
+                    "block_condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:water"
+                    }
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "poweredup:b3_flight_flying",
+                    "change": 1,
+                    "operation": "set"
+                },
+                {
+                    "type": "origins:add_velocity",
+                    "y": 0.5,
+                    "z": 0.35,
+                    "space": "local_horizontal_normalized",
+                    "set": true
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s positioned ^ ^1 ^-1 run particle minecraft:sweep_attack ~ ~ ~"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,278 @@
+{
+    "name": "Tail Attack",
+    "description": "You can spin around to attack with your tail!",
+    "type":"origins:multiple",
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "text": "Press %s to perform a tail attack!",
+            "sprite": "origins:textures/gui/badge/active.png"
+        }
+    ],
+    
+
+    "commands": {
+        "type": "origins:action_on_callback",
+        "execute_chosen_when_orb": true,
+        "entity_action_chosen": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "tag @s add tanooki_safe"
+                }
+            ]
+        },
+        "entity_action_added": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "tag @s add tanooki_safe"
+                }
+            ]
+        },
+        "entity_action_respawned": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "tag @s add tanooki_safe"
+                }
+            ]
+        },
+        "entity_action_removed": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "tag @s remove tanooki_safe"
+                }
+            ]
+        }
+    },
+
+
+    "progress": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 9,
+        "hud_render": {"should_render": false},
+        "max_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "poweredup:tail_attack_progress",
+                    "change": 0,
+                    "operation": "set"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "poweredup:tail_attack_attacking",
+                    "change": 0,
+                    "operation": "set"
+                }
+            ]
+        }
+    },
+    "attacking": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1,
+        "hud_render": {"should_render": false}
+    },
+
+
+    "progress_control": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "poweredup:tail_attack_attacking",
+            "comparison": "==",
+            "compare_to": 1
+        },
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "poweredup:tail_attack_progress",
+            "change": 1,
+            "operation": "add"
+        }
+    },
+
+
+    "trigger_attack": {
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.origins.primary_active"
+        },
+        "condition": {
+            "inverted": true,
+            "type": "origins:power",
+            "power": "poweredup:statue_form"
+        },
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "poweredup:tail_attack_attacking",
+            "change": 1,
+            "operation": "set"
+        }
+    },
+    
+
+    "attack_back": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "poweredup:tail_attack_progress",
+                    "comparison": "==",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "poweredup:tail_attack_progress",
+                    "comparison": "==",
+                    "compare_to": 8
+                }
+
+            ]
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s positioned ^ ^1 ^-0.5 run damage @e[tag=!tanooki_safe,type=!minecraft:item,type=!minecraft:experience_orb,distance=..1,limit=1] 6 minecraft:player_attack by @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s positioned ^ ^0.5 ^-0.5 run particle minecraft:sweep_attack ~ ~ ~"
+                }
+            ]
+        }
+    },
+    "attack_left": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "poweredup:tail_attack_progress",
+                    "comparison": "==",
+                    "compare_to": 2
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "poweredup:tail_attack_progress",
+                    "comparison": "==",
+                    "compare_to": 3
+                }
+
+            ]
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s positioned ^0.5 ^1 ^ run damage @e[tag=!tanooki_safe,type=!minecraft:item,type=!minecraft:experience_orb,distance=..1,limit=1] 6 minecraft:player_attack by @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s positioned ^0.5 ^0.5 ^ run particle minecraft:sweep_attack ~ ~ ~"
+                }
+            ]
+        }
+    },
+    "attack_front": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "poweredup:tail_attack_progress",
+                    "comparison": "==",
+                    "compare_to": 4
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "poweredup:tail_attack_progress",
+                    "comparison": "==",
+                    "compare_to": 5
+                }
+
+            ]
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s positioned ^ ^1 ^0.5 run damage @e[tag=!tanooki_safe,type=!minecraft:item,type=!minecraft:experience_orb,distance=..1,limit=1] 6 minecraft:player_attack by @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s positioned ^ ^0.5 ^0.5 run particle minecraft:sweep_attack ~ ~ ~"
+                }
+            ]
+        }
+    },
+    "attack_right": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "poweredup:tail_attack_progress",
+                    "comparison": "==",
+                    "compare_to": 6
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "poweredup:tail_attack_progress",
+                    "comparison": "==",
+                    "compare_to": 7
+                }
+
+            ]
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s positioned ^-0.5 ^1 ^ run damage @e[tag=!tanooki_safe,type=!minecraft:item,type=!minecraft:experience_orb,distance=..1,limit=1] 6 minecraft:player_attack by @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s positioned ^-0.5 ^0.5 ^ run particle minecraft:sweep_attack ~ ~ ~"
+                }
+            ]
+        }
+    },
+    "attack_center": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "poweredup:tail_attack_attacking",
+            "comparison": "==",
+            "compare_to": 1
+        },
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "execute at @s positioned ^ ^1 ^ run damage @e[tag=!tanooki_safe,type=!minecraft:item,type=!minecraft:experience_orb,distance=..2,limit=1] 6 minecraft:player_attack by @s"
+        }
+    }
+}

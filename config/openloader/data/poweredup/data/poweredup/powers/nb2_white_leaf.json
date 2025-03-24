@@ -1,0 +1,66 @@
+{
+    "name": "White Super Leaf Assist",
+    "description": "Your P-Meter charges faster and you can run on water when it's full!",
+    "type":"origins:multiple",
+    
+    "p_meter_bonus": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "poweredup:p_speed_cooldown",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:sprinting"
+                },
+                {
+                    "type": "origins:on_block"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:sneaking"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:in_block",
+                    "block_condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:water"
+                    }
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "poweredup:p_speed_meter",
+            "change": 3,
+            "operation": "add"
+        }
+    },
+
+
+    "water_run": {
+        "type": "origins:walk_on_fluid",
+        "fluid": "minecraft:water",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:sneaking"
+                },
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": "<=",
+                    "compare_to": 0.4
+                }
+            ]
+        }
+    }
+}

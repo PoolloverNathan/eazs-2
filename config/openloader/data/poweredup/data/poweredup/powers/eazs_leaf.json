@@ -1,0 +1,40 @@
+{
+    "name": "Living Power-up",
+    "description": "You are a living power-up so you are smaller than usual!",
+    "type": "origins:action_on_callback",
+    "entity_action_added": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:hitbox_height 0.5"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:hitbox_width 0.5"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:eye_height 0.5"
+            }
+        ]
+    },
+    "entity_action_chosen": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:hitbox_height 0.5"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:hitbox_width 0.5"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:eye_height 0.5"
+            }
+        ]
+    },
+    "execute_chosen_when_orb": true
+}

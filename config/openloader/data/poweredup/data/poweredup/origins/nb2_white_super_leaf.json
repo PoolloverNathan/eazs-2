@@ -1,0 +1,19 @@
+{
+	"powers": [
+		"poweredup:star_power",
+		"poweredup:tail_attack",
+		"poweredup:p_speed",
+		"poweredup:b3_flight",
+		"poweredup:b3_flutter",
+		"poweredup:nb2_white_leaf"
+	],
+	"icon": {
+        "item": "minecraft:golden_helmet",
+        "tag": "{Enchantments: [{id: \"minecraft:mending\", lvl: 1s}]}"
+    },
+	"order": 2012,
+	"impact": 3,
+	"unchoosable": true,
+	"name": "White Super Leaf",
+	"description": "§e§lNew §r§r§f§lSuper Mario Bros. §r§r§6§l2§r§r\nReleased: 2012\n\nThis origin is a joke and may be buggy or extremely unbalanced."
+}

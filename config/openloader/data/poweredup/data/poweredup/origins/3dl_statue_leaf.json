@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"poweredup:tail_attack",
+        "poweredup:statue",
+		"poweredup:b3_flutter"
+	],
+	"icon": {
+        "item": "minecraft:leather_chestplate",
+        "tag": "{display:{color:10329495}}"
+    },
+	"order": 2011,
+	"impact": 1,
+	"name": "Statue Leaf",
+	"description": "§b§lS§r§r§e§lu§r§r§c§lp§r§r§a§le§r§r§e§lr§r§r§l §r§c§lM§r§r§a§la§r§r§e§lr§r§r§9§li§r§r§a§lo§r§r§l §r§f§l3D§r§r§l §r§b§lL§r§r§a§la§r§r§c§ln§r§r§e§ld§r§r\nReleased: 2011"
+}

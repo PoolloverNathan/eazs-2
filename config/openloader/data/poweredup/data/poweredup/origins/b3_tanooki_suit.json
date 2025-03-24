@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"poweredup:tail_attack",
+		"poweredup:statue",
+		"poweredup:p_speed",
+		"poweredup:b3_flight",
+		"poweredup:b3_flutter"
+	],
+	"icon": "minecraft:leather_chestplate",
+	"order": 1988,
+	"impact": 2,
+	"name": "Tanooki Suit",
+	"description": "§9§lSuper Mario Bros.§r§r§l §r§6§l3§r§r\nReleased: 1988"
+}

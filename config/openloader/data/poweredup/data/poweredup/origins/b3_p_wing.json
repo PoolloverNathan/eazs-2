@@ -1,0 +1,18 @@
+{
+	"powers": [
+		"poweredup:p_wing",
+		"poweredup:tail_attack",
+		"poweredup:p_speed",
+		"poweredup:b3_flight",
+		"poweredup:b3_flutter"
+	],
+	"icon": {
+        "item": "minecraft:phantom_membrane",
+        "tag": "{Enchantments: [{id: \"minecraft:mending\", lvl: 1s}]}"
+    },
+	"order": 1988,
+	"impact": 3,
+	"unchoosable": true,
+	"name": "P-Wing",
+	"description": "§9§lSuper Mario Bros.§r§r§l §r§6§l3§r§r\nReleased: 1988\n\nThis origin is a joke and may be buggy or extremely unbalanced."
+}

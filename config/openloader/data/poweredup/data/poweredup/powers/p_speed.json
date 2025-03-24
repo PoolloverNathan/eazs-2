@@ -1,0 +1,171 @@
+{
+    "name": "P-Speed",
+    "description": "Sprint to charge up your P-Meter.\nWhen it's full you can run faster and jump higher!",
+    "type":"origins:multiple",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "The P-Meter is represented here as a white bar with a feather icon.",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+
+
+    "meter": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 112,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+            "bar_index": 23
+        },
+        "min_action": {
+            "type": "origins:change_resource",
+            "resource": "poweredup:p_speed_cooldown",
+            "change": 0,
+            "operation": "set"
+        }
+    },
+    "cooldown": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1,
+        "hud_render": {"should_render": false}
+    },
+
+
+    "increase": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:power",
+                    "power": "poweredup:p_wing"
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "poweredup:p_speed_cooldown",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:sprinting"
+                },
+                {
+                    "type": "origins:on_block"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:sneaking"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:in_block",
+                    "block_condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:water"
+                    }
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "poweredup:p_speed_meter",
+            "change": 5,
+            "operation": "add"
+        }
+    },
+    "decrease": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "condition": {
+            "type":"origins:and",
+            "conditions":[
+                {
+                    "inverted": true,
+                    "type": "origins:power",
+                    "power": "poweredup:p_wing"
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "poweredup:b3_flight_flying",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type":"origins:or",
+                    "conditions":[
+                        {
+                            "type": "origins:resource",
+                            "resource": "poweredup:statue_is_statue",
+                            "comparison": "==",
+                            "compare_to": 1
+                        },
+                        {
+                            "type": "origins:resource",
+                            "resource": "poweredup:p_speed_cooldown",
+                            "comparison": "==",
+                            "compare_to": 1
+                        },
+                        {
+                            "type": "origins:sneaking"
+                        },
+                        {
+                            "inverted": true,
+                            "type": "origins:sprinting"
+                        },
+                        {
+                            "type": "origins:in_block",
+                            "block_condition": {
+                                "type": "origins:block",
+                                "block": "minecraft:water"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions":[
+                {
+                    "type": "origins:change_resource",
+                    "resource": "poweredup:p_speed_meter",
+                    "change": -3,
+                    "operation": "add"
+                },
+                {
+                    "type": "origins:revoke_power",
+                    "power": "poweredup:p_boost",
+                    "source": "poweredup_bonus:p_boost_active"
+                }
+            ]
+        }
+    },
+
+
+    "boost": {
+        "type": "origins:action_over_time",
+        "interval": 2,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "poweredup:p_speed_meter",
+            "comparison": "==",
+            "compare_to": 112
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:grant_power",
+                    "power": "poweredup:p_boost",
+                    "source": "poweredup_bonus:p_boost_active"
+                }
+            ]
+        }
+    }
+}
