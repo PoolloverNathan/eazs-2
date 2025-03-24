@@ -73,6 +73,11 @@ file = "icon.png"
 hash = "133974803d7b3ec93740146787194aca03af36d63627179273969847483f921b"
 
 [[files]]
+file = "mods/ae2.pw.toml"
+hash = "0273a578ec15f3eb9a9d44996a30b969397641ed27e3d1abe0c5f73bd70a4fdc"
+metafile = true
+
+[[files]]
 file = "mods/almanac.pw.toml"
 hash = "e1f6e466fd6e494c0f74181e5f022db980533d1e87103b1b453277950c606949"
 metafile = true
