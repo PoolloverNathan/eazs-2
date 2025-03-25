@@ -1534,6 +1534,11 @@ hash = "1b6cb918ca6d9aa77d8e6a4e7520b5c67edcb011657b82cf7d00390e20f8deff"
 metafile = true
 
 [[files]]
+file = "mods/log-begone.pw.toml"
+hash = "86ce30ccc9a035c6249d8140abf8d0fae7f828472913409b3febf46394bbc34d"
+metafile = true
+
+[[files]]
 file = "mods/lootr.pw.toml"
 hash = "55e6dd457254db086dbbc23c4103bcb82d0537719623916a19ed248b66215fd0"
 metafile = true
