@@ -1,0 +1,95 @@
+{
+    "name": "Monstrous Appetite",
+    "description": "You are immune to the toxins in the Hunger and Poison effects. Rotten Flesh has increased saturation, and Spider Eyes give you temporary Night Vision.",
+    "type": "origins:multiple",
+    "bad_effects": {
+        "type": "origins:effect_immunity",
+        "effects": [
+            "minecraft:hunger",
+            "minecraft:poison"
+        ]
+    },
+    "rotten_flesh": {
+        "type": "origins:modify_food",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:rotten_flesh"
+            }
+        },
+        "saturation_modifier": {
+            "operation": "addition",
+            "value": 2.8
+        }
+    },
+    "spider_eyes": {
+        "type": "origins:modify_food",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:spider_eye"
+            }
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:if_else",
+                    "condition": {
+                        "type": "origins:status_effect",
+                        "effect": "minecraft:darkness",
+                        "min_amplifier": 1,
+                        "max_amplifier": 1
+                    },
+                    "if_action": {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:darkness"
+                    },
+                    "else_action": {
+                        "type": "origins:nothing"
+                    }
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:night_vision",
+                        "duration": 320,
+                        "amplifier": 0,
+                        "is_ambient": true,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+                }
+            ]
+        },
+        "always_edible": true
+    },
+    "fermented_eye": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:fermented_spider_eye"
+            }
+        },
+        "food_component": {
+            "hunger": 4,
+            "saturation": 8,
+            "meat": true,
+            "effect": {
+                "effect": {
+                    "effect": "minecraft:night_vision",
+                    "duration": 1800,
+                    "amplifier": 0,
+                    "is_ambient": true,
+                    "show_particles": true,
+                    "show_icon": true
+                },
+                "chance": 1
+            }
+        },
+        "consume_animation": "eat",
+        "consume_sound": "entity.generic.eat",
+        "priority": 0
+    }
+}

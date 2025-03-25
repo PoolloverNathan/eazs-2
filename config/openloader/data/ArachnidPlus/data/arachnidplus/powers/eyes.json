@@ -1,0 +1,91 @@
+{
+    "name": "Glowing Eyes",
+    "description": "You can see well in the dark, but being in direct sunlight blinds you when you're not under the Night Vision effect. You spawn with thirty seconds of Night Vision if it's the daytime.",
+    "type": "origins:multiple",
+    "dark_vision": {
+        "type": "origins:night_vision",
+        "strength": 0.3
+    },
+    "stack_blindness": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:exposed_to_sun"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:status_effect",
+                    "effect": "minecraft:night_vision"
+                }
+            ]
+        },
+        "type": "origins:stacking_status_effect",
+        "min_stacks": -40,
+        "max_stacks": 59,
+        "duration_per_stack": 3,
+        "tick_rate": 1,
+        "effect": {
+            "effect": "minecraft:darkness",
+            "duration": 40,
+            "amplifier": 1,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        }
+    },
+    "hiss": {
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:darkness",
+            "min_amplifier": 1,
+            "max_amplifier": 1
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "rising_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:play_sound",
+                    "sound": "block.redstone_torch.burnout",
+                    "volume": 0.5,
+                    "pitch": 1
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "entity.spider.hurt",
+                    "volume": 0.8,
+                    "pitch": 0.8
+                }
+            ]
+        }
+    },
+    "spawn_vision": {
+        "condition": {
+            "type": "origins:daytime"
+        },
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:night_vision",
+                "duration": 600,
+                "amplifier": 0,
+                "show_particles": true,
+                "show_icon": true
+            }
+        },
+        "execute_chosen_when_orb": true,
+        "entity_action_respawned": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:night_vision",
+                "duration": 600,
+                "amplifier": 0,
+                "show_particles": true,
+                "show_icon": true
+            }
+        }
+    }
+}

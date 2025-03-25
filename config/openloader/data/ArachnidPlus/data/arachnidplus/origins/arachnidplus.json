@@ -1,0 +1,23 @@
+{
+    "name": "Arachnid+",
+    "description": "Often seen lurking in caves, Arachnids are natural-born hunters with large appetites, but have trouble seeing in the sunlight.",
+    "powers": [
+        "arachnidplus:octadic",
+        "arachnidplus:climbing2",
+        "arachnidplus:eyes",
+        "arachnidplus:monster_food",
+        "arachnidplus:carnivore2",
+        "arachnidplus:steal",
+        "arachnidplus:place_webs",
+        "arachnidplus:master_of_webs2",
+        "origins:arthropod",
+        "origins:master_of_webs_no_slowdown",
+        "arachnidplus:climbmeter"
+    ],
+    "icon": {
+        "item": "minecraft:cobweb"
+    },
+    "order": 1,
+    "impact": 1,
+    "loading_priority": 1
+}

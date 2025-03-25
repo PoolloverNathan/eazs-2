@@ -1,0 +1,12 @@
+{
+    "pack": {
+        "name": "ArachnidPLus",
+        "id": "arachnidplus",
+        "pack_format": 18,
+        "version": "1.0.0",
+        "authors": [
+            "DansOtherClone"
+        ],
+        "description": "ArachnidPlus"
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "name": "Climbing+",
+    "description": "While crouching, climb up walls and safely slide down them without taking fall damage. Break speed is unaffected while climbing.",
+    "type": "origins:multiple",
+    "climbing": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sneaking"
+                },
+                {
+                    "type": "origins:or",
+                    "conditions": [
+                        {
+                            "type": "origins:block_collision",
+                            "offset_x": 0.01,
+                            "offset_y": 0,
+                            "offset_z": 0.01
+                        },
+                        {
+                            "type": "origins:block_collision",
+                            "offset_x": -0.01,
+                            "offset_y": 0,
+                            "offset_z": -0.01
+                        },
+                        {
+                            "type": "origins:block_collision",
+                            "offset_x": 0,
+                            "offset_y": 0.01,
+                            "offset_z": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        "type": "origins:climbing",
+        "allow_holding": true
+    },
+    "break_speed": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": ">",
+                    "compare_to": 0
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:on_block"
+                },
+                {
+                    "type": "origins:climbing"
+                }
+            ]
+        },
+        "type": "origins:modify_break_speed",
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 4
+        }
+    },
+    "wallslide": {
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:block_collision",
+                    "offset_x": 0.01,
+                    "offset_y": 0,
+                    "offset_z": 0.01
+                },
+                {
+                    "type": "origins:block_collision",
+                    "offset_x": -0.01,
+                    "offset_y": 0,
+                    "offset_z": -0.01
+                }
+            ]
+        },
+        "type": "origins:modify_falling",
+        "velocity": 0.015,
+        "take_fall_damage": false
+    }
+}

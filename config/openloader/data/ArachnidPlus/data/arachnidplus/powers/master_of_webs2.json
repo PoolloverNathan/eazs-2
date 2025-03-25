@@ -1,0 +1,158 @@
+{
+    "name": "Master of Webs+",
+    "description": "You can climb webs without needing to Sneak. Attack easily through cobwebs while uncrouched. You sense and deal bonus damage to entities inside cobwebs. Craft a cobweb using one string.",
+    "type": "origins:multiple",
+    "punch_through": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:sneaking"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:cobweb"
+                        }
+                    }
+                }
+            ]
+        },
+        "type": "origins:prevent_block_selection",
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "origins:cobwebs"
+        }
+    },
+    "sense": {
+        "type": "origins:entity_glow",
+        "entity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:in_block_anywhere",
+                    "block_condition": {
+                        "type": "origins:in_tag",
+                        "tag": "origins:cobwebs"
+                    },
+                    "comparison": ">=",
+                    "compare_to": 1
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:entity_group",
+                    "group": "arthropod"
+                }
+            ]
+        },
+        "bientity_condition": {
+            "type": "origins:distance",
+            "comparison": "<=",
+            "compare_to": 64
+        },
+        "use_teams": false,
+        "red": 0.8,
+        "green": 0.8,
+        "blue": 0.8
+    },
+    "cobweb_climber": {
+        "condition": {
+            "type": "origins:in_block_anywhere",
+            "block_condition": {
+                "type": "origins:in_tag",
+                "tag": "origins:cobwebs"
+            },
+            "comparison": ">",
+            "compare_to": 0
+        },
+        "type": "origins:climbing",
+        "allow_holding": true
+    },
+    "webcraft": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "webcraft",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "item": "minecraft:string"
+                }
+            ],
+            "result": {
+                "item": "minecraft:cobweb",
+                "count": 1
+            }
+        }
+    },
+    "stringcraft": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "unwool",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "tag": "minecraft:wool"
+                }
+            ],
+            "result": {
+                "item": "minecraft:string",
+                "count": 4
+            }
+        }
+    },
+    "doubledamage": {
+        "type": "origins:modify_damage_dealt",
+        "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:in_block_anywhere",
+                "block_condition": {
+                    "type": "origins:in_tag",
+                    "tag": "origins:cobwebs"
+                },
+                "comparison": ">=",
+                "compare_to": 1
+            }
+        },
+        "damage_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:explosive"
+                },
+                {
+                    "type": "origins:attacker"
+                }
+            ]
+        },
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 0.5
+        },
+        "self_action": {
+            "type": "origins:play_sound",
+            "sound": "entity.spider.hurt",
+            "volume": 1,
+            "pitch": 0.8
+        },
+        "target_action": {
+            "type": "origins:spawn_particles",
+            "particle": "minecraft:enchanted_hit",
+            "count": 16,
+            "spread": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            },
+            "offset_x": 0,
+            "offset_y": 0.5,
+            "offset_z": 0
+        }
+    }
+}

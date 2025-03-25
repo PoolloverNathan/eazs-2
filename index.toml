@@ -1,6 +1,54 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/openloader/data/ArachnidPlus/data/arachnidplus/origins/arachnidplus.json"
+hash = "1b274675aa85cbb10917e19ea2fcae37d5f70efbccfa197d67f449d1226f9f60"
+
+[[files]]
+file = "config/openloader/data/ArachnidPlus/data/arachnidplus/powers/carnivore2.json"
+hash = "e8852345b0e72da99bac6c7f7eb329cefa417c7a0c65edaac22d7b41ae44edf5"
+
+[[files]]
+file = "config/openloader/data/ArachnidPlus/data/arachnidplus/powers/climbing2.json"
+hash = "6a7dc1b31c423700b6906eca0b7364006cfec4c0b714aa6c228cd7e95bba365f"
+
+[[files]]
+file = "config/openloader/data/ArachnidPlus/data/arachnidplus/powers/eyes.json"
+hash = "9d50e8273b5d21c07117118fff7423709feedf6858c915f7fcf38a21b65e37e2"
+
+[[files]]
+file = "config/openloader/data/ArachnidPlus/data/arachnidplus/powers/master_of_webs2.json"
+hash = "9ca945ea9d43aecd090263e3b3b9d7a661dc7ddb082c3e929e41c628a85d92d5"
+
+[[files]]
+file = "config/openloader/data/ArachnidPlus/data/arachnidplus/powers/monster_food.json"
+hash = "a7809191324ad6d0cb55233147b7dcb9d473c78e7e33489f38e8ff5f18b3bfd4"
+
+[[files]]
+file = "config/openloader/data/ArachnidPlus/data/arachnidplus/powers/octadic.json"
+hash = "ca194baff0401a78477e88d65639d632f8afadafbeae040bdcae22af711efefc"
+
+[[files]]
+file = "config/openloader/data/ArachnidPlus/data/arachnidplus/powers/place_webs.json"
+hash = "6f980232b8336fe372dd483bac0b0e76725fe0d7f0ea391e7deba6a75ada0420"
+
+[[files]]
+file = "config/openloader/data/ArachnidPlus/data/arachnidplus/powers/steal.json"
+hash = "cf77e3decd72131f9ed55dbf90edf767bf831e46472af6f080e1dcc730a184c0"
+
+[[files]]
+file = "config/openloader/data/ArachnidPlus/data/arachnidplus/tags/items/veggie.json"
+hash = "d027a93168c3088b670c700c732c2973c0de93120a6e45158704412a02188008"
+
+[[files]]
+file = "config/openloader/data/ArachnidPlus/data/origins/origin_layers/origin.json"
+hash = "a97b129ecb39b8c61b671677d09f8bdb3f0f45922914e997c06bdb2c1ef9f299"
+
+[[files]]
+file = "config/openloader/data/ArachnidPlus/pack.mcmeta"
+hash = "0a6d15bdd7310bd8ec35880a4a7a82d17a1ad9a67af576115e86e7a80f784a7d"
+
+[[files]]
 file = "config/openloader/data/Cecaelia_Origin_v1.0/data/cecaelia/origins/cecaelia.json"
 hash = "ef3ce41f087c104c1f508b2330bb5a3030cd424d0ef67b715a83b078ef150e18"
 
