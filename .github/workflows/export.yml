@@ -14,6 +14,7 @@ jobs:
     steps:
       - run: sudo apt install golang
       - run: sudo GOBIN=/usr/local/bin go install github.com/packwiz/packwiz@latest
+      - uses: actions/checkout@v4
       - run: mkdir export
       - run: /usr/local/bin/packwiz ${{ matrix.command }} export
         working-directory: export
