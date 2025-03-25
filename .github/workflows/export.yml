@@ -16,7 +16,7 @@ jobs:
       - run: sudo GOBIN=/usr/local/bin go install github.com/packwiz/packwiz@latest
       - uses: actions/checkout@v4
       - run: mkdir export
-      - run: /usr/local/bin/packwiz ${{ matrix.command }} export
+      - run: /usr/local/bin/packwiz ${{ matrix.command }} export --pack-file /home/runner/work/eazs-2/eazs-2/pack.toml
         working-directory: export
       - uses: actions/upload-artifact@v4
         with:
