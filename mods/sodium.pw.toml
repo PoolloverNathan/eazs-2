@@ -11,3 +11,8 @@ hash = "74784e6deb72e8cdb4e3788ac3a3cfd88fc77acf"
 [update.modrinth]
 mod-id = "AANobbMI"
 version = "4OZL6q9h"
+
+[option]
+optional = true
+default = true
+description = "REQUIRES INDIUM.\n\nMinecraft rendering optimization mod, recommended but may break with portals."

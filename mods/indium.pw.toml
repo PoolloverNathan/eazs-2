@@ -11,3 +11,8 @@ hash = "8c8e6b96243155b41f2f9d29d5940ee895bcb141"
 [update.modrinth]
 mod-id = "Orvt0mRa"
 version = "Lue6O9z9"
+
+[option]
+optional = true
+default = true
+description = "REQUIRES SODIUM.\n\nGives Sodium acccess to the appropriate Fabric APIs. Using Sodium without this mod voids your warranty."

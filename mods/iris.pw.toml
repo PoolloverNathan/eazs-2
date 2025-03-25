@@ -11,3 +11,8 @@ hash = "11c22bb87b55a7991663f2187490b25ea9c9f698"
 [update.modrinth]
 mod-id = "YL57xq9U"
 version = "ogjxrwGQ"
+
+[option]
+optional = true
+default = true
+description = "REQUIRES SODIUM.\n\nAdds shaders. Shaders are not included with the modpack as of now."

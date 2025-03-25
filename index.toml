@@ -1500,12 +1500,12 @@ metafile = true
 
 [[files]]
 file = "mods/indium.pw.toml"
-hash = "0c5e71addef34c8dcd1c81dfc2ad851a3e274b9d8d3a7d388e1113d4139bf8d8"
+hash = "eb1c01069064a4fa5a4fd3972217c629b6c2971b5f13acc86b804f9a6cdacaeb"
 metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "41a3116f5642d40ed54efda3f863373fa4d3c0c3a24a447a38c8a106e9fbb079"
+hash = "6c5b369e54a1100e8ce5c1885e968b5fa28ba8c6f41ad32e48dd560de22a29f1"
 metafile = true
 
 [[files]]
@@ -1720,7 +1720,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "9a927c3e0830ba32e1b8a2e543597781724462595b8cce58f676962b442bb52b"
+hash = "bb69c0fba4e2a1baece9a63d18c2fe8d4c0aeb282905f6daa050758dd6ae6c8b"
 metafile = true
 
 [[files]]
