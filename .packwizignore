@@ -1,4 +1,5 @@
 mods-real/
+.github/
 Dockerfile
 .fslckout
 prism/
