@@ -12,9 +12,10 @@ jobs:
           - modrinth
       fail-fast: false
     steps:
-      - run: sudo apt install packwiz
+      - run: sudo apt install golang
+      - run: sudo GOBIN=/usr/local/bin go install github.com/packwiz/packwiz@latest
       - run: mkdir export
-      - run: packwiz ${{ matrix.command }} export
+      - run: /usr/local/bin/packwiz ${{ matrix.command }} export
         working-directory: export
       - uses: actions/upload-artifact@v4
         with:
