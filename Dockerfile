@@ -5,7 +5,7 @@ COPY --link . /app/pack
 COPY <<EOT /app/start.sh
 set -e
 java -jar /app/packwiz-installer-bootstrap.jar -g -s server /app/pack/pack.toml
-exec java -jar /app/fabric-server.jar nogui
+exec java -jar /app/fabric-server.jar nogui "$@"
 EOT
 
 FROM alpine
