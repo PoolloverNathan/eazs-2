@@ -1592,6 +1592,11 @@ hash = "55e6dd457254db086dbbc23c4103bcb82d0537719623916a19ed248b66215fd0"
 metafile = true
 
 [[files]]
+file = "mods/luckperms.pw.toml"
+hash = "7826b93c7f36611fbd9190481774daa349fa403875f8522d0ca4302e1345bd40"
+metafile = true
+
+[[files]]
 file = "mods/make_bubbles_pop.pw.toml"
 hash = "a606b3ca2d90e149e64085bc45fb93883d17c55067ec2f629e8bcdfbf2468e0b"
 metafile = true
@@ -1844,6 +1849,11 @@ metafile = true
 [[files]]
 file = "mods/trinkets.pw.toml"
 hash = "50d286b8c5e586afcd555f743e68d64ed96123b814683c03833b9a145469ca04"
+metafile = true
+
+[[files]]
+file = "mods/vanilla-permissions.pw.toml"
+hash = "351826e1e381ba6525d9521a968f3e76d5c985ae58464f3ae1ffcb0e05b1da7f"
 metafile = true
 
 [[files]]
