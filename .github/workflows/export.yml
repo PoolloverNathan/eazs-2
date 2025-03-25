@@ -1,0 +1,22 @@
+name: Packwiz Export
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    strategy:
+      matrix:
+        command:
+          - curseforge
+          - modrinth
+      fail-fast: false
+    steps:
+      - run: sudo apt install packwiz
+      - run: mkdir export
+      - run: packwiz ${{ matrix.command }} export
+        working-directory: export
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.command }}
+          path: export/*
