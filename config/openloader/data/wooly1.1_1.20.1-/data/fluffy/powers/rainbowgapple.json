@@ -1,0 +1,111 @@
+{
+	"type": "origins:action_on_item_use",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:apply_effect",
+				"effect": {
+					"effect": "minecraft:speed",
+					"amplifier": 2,
+					"show_particles": false,
+					"show_icon": false,
+					"duration": 100
+				}
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "function fluffy:pink"
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 10,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:red"
+				}
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 20,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:orange"
+				}
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 30,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:yellow"
+				}
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 40,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:lime"
+				}
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 50,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:green"
+				}
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 60,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:cyan"
+				}
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 70,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:light_blue"
+				}
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 80,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:blue"
+				}
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 90,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:magenta"
+				}
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 100,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:purple"
+				}
+			}
+		]
+	},
+	"item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"item": "minecraft:golden_apple"
+		}
+	},
+	"hidden": true,
+	"name": "Rainbow Road",
+	"description": ":)"
+}

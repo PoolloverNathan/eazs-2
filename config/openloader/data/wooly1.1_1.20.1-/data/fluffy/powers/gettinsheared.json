@@ -1,0 +1,73 @@
+{
+	"type": "origins:action_on_being_used",
+	"bientity_action": {
+		"type": "origins:and",
+		"actions": [
+		{
+			"type": "origins:target_action",
+			"action": {
+				"type": "origins:play_sound",
+				"sound": "minecraft:entity.sheep.shear"
+			}
+		},
+		{
+			"type": "origins:target_action",
+			"action": {
+				"type": "origins:exhaust",
+				"amount": 4
+			}
+		},
+		{
+			"type": "origins:target_action",
+			"action": {
+				"type": "origins:change_resource",
+				"resource": "fluffy:currently_fluffy",
+				"change": -1
+			}
+		}
+		]
+	},
+	"bientity_condition": {
+		"type": "origins:and",
+		"conditions": [
+		{
+			"type": "origins:target_condition",
+			"condition": {
+				"type": "origins:resource",
+				"resource": "fluffy:currently_fluffy",
+				"comparison": "==",
+				"compare_to": 1
+			}
+		},
+		{
+			"type": "origins:actor_condition",
+			"condition": {
+				"type": "origins:or",
+				"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:shears"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:shears"
+						}
+					}
+				}
+				]
+			}
+		}
+		]
+	},
+	"hidden": true
+}

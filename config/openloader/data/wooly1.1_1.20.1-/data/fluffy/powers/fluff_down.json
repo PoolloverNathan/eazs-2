@@ -1,0 +1,58 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+		{
+			"type": "origins:play_sound",
+			"sound": "minecraft:block.honey_block.break"
+		},
+		{
+			"type": "origins:change_resource",
+			"resource": "fluffy:currently_fluffy",
+			"change": -1
+		}
+		]
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+		{
+			"type": "origins:or",
+			"conditions": [
+			{
+				"type": "origins:equipped_item",
+				"equipment_slot": "mainhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:shears"
+					}
+				}
+			},
+			{
+				"type": "origins:equipped_item",
+				"equipment_slot": "mainhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:shears"
+					}
+				}
+			}
+			]
+		},
+		{
+			"type": "origins:resource",
+			"resource": "fluffy:currently_fluffy",
+			"comparison": "==",
+			"compare_to": 1
+		}
+		]
+	},
+	"cooldown": 60,
+	"hud_render": {
+		"should_render": false
+	},
+	"hidden": true
+}

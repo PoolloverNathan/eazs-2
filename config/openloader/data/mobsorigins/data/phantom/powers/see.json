@@ -1,0 +1,42 @@
+{
+    "name": "Sleepless Hunter",
+    "description": "You can see restless players and all villagers at night.",
+    "type": "origins:multiple",
+    "outline": {
+        "type": "origins:entity_glow",
+        "entity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:daytime",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:or",
+                    "conditions": [
+                        {
+                            "type": "origins:and",
+                            "conditions": [
+                                {
+                                    "type": "origins:entity_type",
+                                    "entity_type": "minecraft:player"
+                                },
+                                {
+                                    "type": "origins:resource",
+                                    "resource": "minecraft:time_since_rest",
+                                    "comparison": ">=",
+                                    "compare_to": 72000
+                                }
+                            ]
+                        },
+                        {
+                            "type": "origins:entity_type",
+                            "entity_type": "minecraft:villager"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+    
+}

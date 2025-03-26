@@ -1,0 +1,96 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+		{
+			"type": "origins:delay",
+			"ticks": 20,
+			"action": {
+				"type": "origins:feed",
+				"food": 3,
+				"saturation": 0.2
+			}
+		},
+		{
+			"type": "origins:delay",
+			"ticks": 20,
+			"action": {
+				"type": "origins:equipped_item_action",
+				"equipment_slot": "mainhand",
+				"action": {
+					"type": "origins:consume",
+					"amount": 1
+				}
+			}
+		},
+		{
+			"type": "origins:delay",
+			"ticks": 20,
+			"action": {
+				"type": "origins:change_resource",
+				"resource": "fluffy:currently_fluffy",
+				"change": 1
+			}
+		},
+		{
+			"type": "origins:play_sound",
+			"sound": "minecraft:entity.generic.eat"
+		},
+		{
+			"type": "origins:delay",
+			"ticks": 10,
+			"action": {
+				"type": "origins:play_sound",
+				"sound": "minecraft:entity.generic.eat"
+			}
+		},
+		{
+			"type": "origins:delay",
+			"ticks": 20,
+			"action": {
+				"type": "origins:play_sound",
+				"sound": "minecraft:entity.player.burp"
+			}
+		},
+		{
+			"type": "origins:apply_effect",
+			"effect": {
+				"effect": "minecraft:slowness",
+				"duration": 20,
+				"amplifier": 0,
+				"show_icon": false,
+				"show_particles": false
+			}
+		}
+		]
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+		{
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:fern"
+				}
+			}
+		},
+		{
+			"type": "origins:food_level",
+			"comparison": "<",
+			"compare_to": "20"
+		}
+		]
+	},
+	"key": {
+		"key": "key.origins.secondary_active"
+	},
+	"cooldown": 20,
+	"hud_render": {
+		"should_render": false
+	},
+	"hidden": true
+}		

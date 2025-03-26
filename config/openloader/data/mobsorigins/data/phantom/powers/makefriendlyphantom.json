@@ -1,0 +1,81 @@
+{
+    "type": "origins:multiple",
+    "hidden": true,
+    "friendermen_make_friends": {
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join phantom @e[type=spider]"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join phantom @e[type=creeper]"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join phantom @e[type=drowned]"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join phantom @e[type=evoker]"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join phantom @e[type=husk]"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join phantom @e[type=phantom]"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join phantom @e[type=pillager]"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join phantom @e[type=ravager]"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join phantom @e[type=silverfish]"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join phantom @e[type=skeleton]"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join phantom @e[type=slime]"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join phantom @e[type=stray]"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join phantom @e[type=vex]"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join phantom @e[type=vindicator]"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join phantom @e[type=witch]"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join phantom @e[type=zombie]"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join phantom @e[type=zombie_villager]"
+                }
+            ]
+        }
+    }
+}

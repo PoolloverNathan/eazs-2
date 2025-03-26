@@ -1,0 +1,35 @@
+{
+        "type": "origins:multiple",
+        "float": {
+            "type": "origins:modify_falling",
+            "take_fall_damage": false,
+            "velocity": 0.075
+        },
+        "fly": {
+            "type": "origins:elytra_flight",
+            "render_elytra": true
+        },
+        "levitate": {
+            "type": "origins:active_self",
+            "key": {
+                "key": "key.origins.primary_active"
+            },
+            "entity_action": {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:levitation",
+                    "duration": 100,
+                    "amplifier": 6
+                }
+            },
+            "hud_render": {
+                "should_render": true,
+                "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+                "bar_index": 0
+            }
+        },
+	
+	"name": "Fly",
+	"description": "You have permanent wings. You also fall slowly. You can use [Primary] to float 30 blocks into the air."
+	
+}

@@ -1,0 +1,207 @@
+{
+	"type": "origins:multiple",
+	"no_fall": {
+		"type": "origins:invulnerability",
+		"damage_condition": {
+			"type": "origins:name",
+			"name": "fall"
+		},
+		"condition": {
+			"type": "origins:in_block",
+			"block_condition": {
+				"type": "origins:offset",
+				"y": -1,
+				"condition": {
+					"type": "origins:in_tag",
+					"tag": "minecraft:wool"
+				}
+			}
+		}
+	},
+	"fall_bounce": {
+		"type": "origins:action_on_land",
+		"entity_action": {
+			"type": "origins:add_velocity",
+			"y": 0.5
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+			{
+				"type": "origins:fall_distance",
+				"comparison": ">=",
+				"compare_to": 4
+			},
+			{
+				"type": "origins:sneaking",
+				"inverted": true
+			},
+			{
+				"type": "origins:resource",
+				"resource": "fluffy:currently_fluffy",
+				"comparison": "==",
+				"compare_to": 1
+			},
+			{
+				"type": "origins:in_block",
+				"block_condition": {
+					"type": "origins:and",
+					"conditions": [
+					{
+						"type": "origins:offset",
+						"y": -1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:wool"
+						}
+					}
+				]
+				},
+				"inverted": true
+			}
+			]
+		}
+	},
+	"big_bounce": {
+		"type": "origins:action_on_land",
+		"entity_action": {
+			"type": "origins:add_velocity",
+			"y": 0.7
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+			{
+				"type": "origins:fall_distance",
+				"comparison": ">=",
+				"compare_to": 4
+			},
+			{
+				"type": "origins:sneaking"
+			},
+			{
+				"type": "origins:resource",
+				"resource": "fluffy:currently_fluffy",
+				"comparison": "==",
+				"compare_to": 1
+			},
+			{
+				"type": "origins:in_block",
+				"block_condition": {
+					"type": "origins:and",
+					"conditions": [
+					{
+						"type": "origins:offset",
+						"y": -1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:wool"
+						}
+					}
+				]
+				},
+				"inverted": true
+			}
+			]
+		}
+	},
+	"woolfall_bounce": {
+		"type": "origins:action_on_land",
+		"entity_action": {
+			"type": "origins:add_velocity",
+			"y": 0.7
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+			{
+				"type": "origins:fall_distance",
+				"comparison": ">=",
+				"compare_to": 4
+			},
+			{
+				"type": "origins:sneaking",
+				"inverted": true
+			},
+			{
+				"type": "origins:resource",
+				"resource": "fluffy:currently_fluffy",
+				"comparison": "==",
+				"compare_to": 1
+			},
+			{
+				"type": "origins:in_block",
+				"block_condition": {
+					"type": "origins:and",
+					"conditions": [
+					{
+						"type": "origins:offset",
+						"y": -1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:wool"
+						}
+					}
+				]
+				}
+			}
+			]
+		}
+	},
+	"woolbig_bounce": {
+		"type": "origins:action_on_land",
+		"entity_action": {
+			"type": "origins:add_velocity",
+			"y": 1.0
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+			{
+				"type": "origins:fall_distance",
+				"comparison": ">=",
+				"compare_to": 4
+			},
+			{
+				"type": "origins:sneaking"
+			},
+			{
+				"type": "origins:resource",
+				"resource": "fluffy:currently_fluffy",
+				"comparison": "==",
+				"compare_to": 1
+			},
+			{
+				"type": "origins:in_block",
+				"block_condition": {
+					"type": "origins:and",
+					"conditions": [
+					{
+						"type": "origins:offset",
+						"y": -1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:wool"
+						}
+					}
+				]
+				}
+			}
+			]
+		}
+	},
+	"slight_resistance": {
+		"type": "origins:modify_damage_taken",
+		"damage_condition": {
+			"type": "origins:name",
+			"name": "fall"
+		},
+		"modifier": {
+			"name": "bouncy wool hehe",
+			"operation": "multiply_base_multiplicative",
+			"value": -0.9
+		}
+	},
+	"name": "Soft Landing",
+	"description": "Your wool helps cushion your falls a bit, and mitigates damage completely when landing on wool. Landing on wool also causes you to bounce a bit."
+}

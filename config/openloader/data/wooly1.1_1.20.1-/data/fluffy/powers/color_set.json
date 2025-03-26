@@ -1,0 +1,984 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:if_else_list",
+		"actions": [
+		{
+			"action": {
+				"type": "origins:and",
+				"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "resource set @s fluffy:current_color 0"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "clear @s minecraft:white_dye 1"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle dust 1.0 1.0 1.0 1 ~ ~1.5 ~ 0.2 0.0 0.3 0 5 normal"
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 2,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 1.0 1.0 1.0 1 ~ ~1 ~ 0.2 0.0 0.3 0 20 normal"
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 4,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 1.0 1.0 1.0 1 ~ ~0.5 ~ 0.2 0.0 0.3 0 5 normal"
+					}
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:or",
+				"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:white_dye"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "offhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:white_dye"
+						}
+					}
+				}
+				]
+			}
+		},
+		{
+			"action": {
+				"type": "origins:and",
+				"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "resource set @s fluffy:current_color 1"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "clear @s minecraft:pink_dye 1"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle dust 1.0 0.6 0.8 1 ~ ~1.5 ~ 0.2 0.0 0.3 0 5 normal"
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 2,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 1.0 0.6 0.8 1 ~ ~1 ~ 0.2 0.0 0.3 0 20 normal"
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 4,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 1.0 0.6 0.8 1 ~ ~0.5 ~ 0.2 0.0 0.3 0 5 normal"
+					}
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:or",
+				"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:pink_dye"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "offhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:pink_dye"
+						}
+					}
+				}
+				]
+			}
+		},
+		{
+			"action": {
+				"type": "origins:and",
+				"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "resource set @s fluffy:current_color 2"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "clear @s minecraft:red_dye 1"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle dust 0.8 0.2 0.1 1 ~ ~1.5 ~ 0.2 0.0 0.3 0 5 normal"
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 2,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 0.8 0.2 0.1 1 ~ ~1 ~ 0.2 0.0 0.3 0 20 normal"
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 4,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 0.8 0.2 0.1 1 ~ ~0.5 ~ 0.2 0.0 0.3 0 5 normal"
+					}
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:or",
+				"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:red_dye"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "offhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:red_dye"
+						}
+					}
+				}
+				]
+			}
+		},
+		{
+			"action": {
+				"type": "origins:and",
+				"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "resource set @s fluffy:current_color 3"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "clear @s minecraft:orange_dye 1"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle dust 1.0 0.6 0.1 1 ~ ~1.5 ~ 0.2 0.0 0.3 0 5 normal"
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 2,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 1.0 0.6 0.1 1 ~ ~1 ~ 0.2 0.0 0.3 0 20 normal"
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 4,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 1.0 0.6 0.1 1 ~ ~1.5 ~ 0.2 0.0 0.3 0 5 normal"
+					}
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:or",
+				"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:orange_dye"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "offhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:orange_dye"
+						}
+					}
+				}
+				]
+			}
+		},
+		{
+			"action": {
+				"type": "origins:and",
+				"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "resource set @s fluffy:current_color 4"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "clear @s minecraft:yellow_dye 1"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle dust 1.0 0.8 0.1 1 ~ ~1.5 ~ 0.2 0.0 0.3 0 5 normal"
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 2,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 1.0 0.8 0.1 1 ~ ~1 ~ 0.2 0.0 0.3 0 20 normal"
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 4,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 1.0 0.8 0.1 1 ~ ~0.5 ~ 0.2 0.0 0.3 0 5 normal"
+					}
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:or",
+				"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:yellow_dye"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "offhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:yellow_dye"
+						}
+					}
+				}
+				]
+			}
+		},
+		{
+			"action": {
+				"type": "origins:and",
+				"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "resource set @s fluffy:current_color 5"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "clear @s minecraft:lime_dye 1"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle dust 0.4 0.9 0.2 1 ~ ~1.5 ~ 0.2 0.0 0.3 0 5 normal"
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 2,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 0.4 0.9 0.2 1 ~ ~1 ~ 0.2 0.0 0.3 0 20 normal"
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 4,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 0.4 0.9 0.2 1 ~ ~0.5 ~ 0.2 0.0 0.3 0 5 normal"
+					}
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:or",
+				"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:lime_dye"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "offhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:lime_dye"
+						}
+					}
+				}
+				]
+			}
+		},
+		{
+			"action": {
+				"type": "origins:and",
+				"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "resource set @s fluffy:current_color 6"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "clear @s minecraft:green_dye 1"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle dust 0.0 0.5 0.0 1 ~ ~1.5 ~ 0.2 0.0 0.3 0 5 normal"
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 2,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 0.0 0.5 0.0 1 ~ ~1 ~ 0.2 0.0 0.3 0 20 normal"
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 4,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 0.0 0.5 0.0 1 ~ ~0.5 ~ 0.2 0.0 0.3 0 5 normal"
+					}
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:or",
+				"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:green_dye"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "offhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:green_dye"
+						}
+					}
+				}
+				]
+			}
+		},
+		{
+			"action": {
+				"type": "origins:and",
+				"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "resource set @s fluffy:current_color 7"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "clear @s minecraft:cyan_dye 1"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle dust 0.2 0.5 0.5 0.0 1 ~ ~1.5 ~ 0.2 0.0 0.3 0 5 normal"
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 2,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 0.2 0.5 0.5 1 ~ ~1 ~ 0.2 0.0 0.3 0 20 normal"
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 4,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 0.2 0.5 0.5 1 ~ ~0.5 ~ 0.2 0.0 0.3 0 5 normal"
+					}
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:or",
+				"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:cyan_dye"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "offhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:cyan_dye"
+						}
+					}
+				}
+				]
+			}
+		},
+		{
+			"action": {
+				"type": "origins:and",
+				"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "resource set @s fluffy:current_color 8"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "clear @s minecraft:light_blue_dye 1"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle dust 0.4 0.9 1.0 1 ~ ~1.5 ~ 0.2 0.0 0.3 0 5 normal"
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 2,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 0.4 0.9 1.0 1 ~ ~1 ~ 0.2 0.0 0.3 0 20 normal"
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 4,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 0.4 0.9 1.0 1 ~ ~0.5 ~ 0.2 0.0 0.3 0 5 normal"
+					}
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:or",
+				"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:light_blue_dye"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "offhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:light_blue_dye"
+						}
+					}
+				}
+				]
+			}
+		},
+		{
+			"action": {
+				"type": "origins:and",
+				"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "resource set @s fluffy:current_color 9"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "clear @s minecraft:blue_dye 1"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle dust 0.2 0.2 0.7 1 ~ ~1.5 ~ 0.2 0.0 0.3 0 5 normal"
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 2,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 0.2 0.2 0.7 1 ~ ~1 ~ 0.2 0.0 0.3 0 20 normal"
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 4,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 0.2 0.2 0.7 1 ~ ~0.5 ~ 0.2 0.0 0.3 0 5 normal"
+					}
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:or",
+				"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:blue_dye"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "offhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:blue_dye"
+						}
+					}
+				}
+				]
+			}
+		},
+		{
+			"action": {
+				"type": "origins:and",
+				"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "resource set @s fluffy:current_color 10"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "clear @s minecraft:magenta_dye 1"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle dust 0.9 0.2 0.8 1 ~ ~1.5 ~ 0.2 0.0 0.3 0 5 normal"
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 2,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 0.9 0.2 0.8 1 ~ ~1 ~ 0.2 0.0 0.3 0 20 normal"
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 4,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 0.9 0.2 0.8 1 ~ ~0.5 ~ 0.2 0.0 0.3 0 5 normal"
+					}
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:or",
+				"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:magenta_dye"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "offhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:magenta_dye"
+						}
+					}
+				}
+				]
+			}
+		},
+		{
+			"action": {
+				"type": "origins:and",
+				"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "resource set @s fluffy:current_color 11"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "clear @s minecraft:purple_dye 1"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle dust 0.6 0.0 0.8 1 ~ ~1.5 ~ 0.2 0.0 0.3 0 5 normal"
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 2,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 0.6 0.0 0.8 1 ~ ~1 ~ 0.2 0.0 0.3 0 20 normal"
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 4,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 0.6 0.0 0.8 1 ~ ~0.5 ~ 0.2 0.0 0.3 0 5 normal"
+					}
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:or",
+				"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:purple_dye"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "offhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:purple_dye"
+						}
+					}
+				}
+				]
+			}
+		},
+		{
+			"action": {
+				"type": "origins:and",
+				"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "resource set @s fluffy:current_color 12"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "clear @s minecraft:light_gray_dye 1"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle dust 0.7 0.7 0.7 1 ~ ~1.5 ~ 0.2 0.0 0.3 0 5 normal"
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 2,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 0.7 0.7 0.7 1 ~ ~1 ~ 0.2 0.0 0.3 0 20 normal"
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 4,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 0.7 0.7 0.7 1 ~ ~0.5 ~ 0.2 0.0 0.3 0 5 normal"
+					}
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:or",
+				"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:light_gray_dye"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "offhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:light_gray_dye"
+						}
+					}
+				}
+				]
+			}
+		},
+		{
+			"action": {
+				"type": "origins:and",
+				"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "resource set @s fluffy:current_color 13"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "clear @s minecraft:gray_dye 1"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle dust 0.4 0.4 0.4 1 ~ ~1.5 ~ 0.2 0.0 0.3 0 5 normal"
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 2,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 0.4 0.4 0.4 1 ~ ~1 ~ 0.2 0.0 0.3 0 20 normal"
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 4,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 0.4 0.4 0.4 1 ~ ~0.5 ~ 0.2 0.0 0.3 0 5 normal"
+					}
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:or",
+				"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:gray_dye"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "offhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:gray_dye"
+						}
+					}
+				}
+				]
+			}
+		},
+		{
+			"action": {
+				"type": "origins:and",
+				"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "resource set @s fluffy:current_color 14"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "clear @s minecraft:brown_dye 1"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle dust 0.5 0.3 0.1 1 ~ ~1.5 ~ 0.2 0.0 0.3 0 5 normal"
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 2,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 0.5 0.3 0.1 1 ~ ~1 ~ 0.2 0.0 0.3 0 20 normal"
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 4,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 0.5 0.3 0.1 1 ~ ~0.5 ~ 0.2 0.0 0.3 0 5 normal"
+					}
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:or",
+				"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:brown_dye"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "offhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:brown_dye"
+						}
+					}
+				}
+				]
+			}
+		},
+		{
+			"action": {
+				"type": "origins:and",
+				"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "resource set @s fluffy:current_color 15"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "clear @s minecraft:black_dye 1"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle dust 0.0 0.0 0.0 1 ~ ~1.5 ~ 0.2 0.0 0.3 0 5 normal"
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 2,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 0.0 0.0 0.0 1 ~ ~1 ~ 0.2 0.0 0.3 0 20 normal"
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 4,
+					"action": {
+					"type": "origins:execute_command",
+					"command": "particle dust 0.0 0.0 0.0 1 ~ ~0.5 ~ 0.2 0.0 0.3 0 5 normal"
+					}
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:or",
+				"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:black_dye"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "offhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:black_dye"
+						}
+					}
+				}
+				]
+			}
+		}
+		]
+	},
+	"condition": {
+		"type": "origins:resource",
+		"resource": "fluffy:currently_fluffy",
+		"comparison": "==",
+		"compare_to": 1
+	},
+	"key": {
+		"key": "key.origins.primary_active"
+	},
+	"cooldown": 60,
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"bar_index": 12
+	},
+	"hidden": true
+}

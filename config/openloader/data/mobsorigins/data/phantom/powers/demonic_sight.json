@@ -1,0 +1,7 @@
+{
+
+    "type": "origins:night_vision",
+    "strength": 0.25,
+        "name": "Predator's Sight",
+		"description": "You possess Night Vision."
+}

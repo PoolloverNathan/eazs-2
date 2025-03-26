@@ -1,0 +1,30 @@
+{
+	"powers": [
+		"fluffy:stuffduringshear",
+		"fluffy:fluff_down",
+		"fluffy:beingsheared",
+		"fluffy:gettinsheared",
+		"fluffy:getshearedeffects",
+		"fluffy:color_set",
+		"fluffy:currently_fluffy",
+		"fluffy:soft_landing",
+		"fluffy:vegetarianism",
+		"fluffy:current_color",
+		"fluffy:rainbowgapple",
+		"fluffy:rainbowgodapple",
+		"fluffy:grassblock",
+		"fluffy:grass",
+		"fluffy:tallgrass",
+		"fluffy:fern",
+		"fluffy:largefern",
+		"origins:extra_reach",
+		"origins:throw_ender_pearl",
+		"origins:water_vulnerability",
+		"origins:pumpkin_hate"
+	],
+	"icon": "minecraft:pink_wool",
+	"order": 5,
+	"impact": 1,
+	"name": "Wooly",
+	"description": "Woolies have the softest fluff around, being distant kin of the friendly sheep"
+}

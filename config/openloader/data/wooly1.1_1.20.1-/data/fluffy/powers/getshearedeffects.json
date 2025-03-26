@@ -1,0 +1,339 @@
+{
+	"type": "origins:action_on_being_used",
+	"bientity_action": {
+		"type": "origins:if_else_list",
+		"actions": [
+		{
+			"action": {
+				"type": "origins:target_action",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:white"
+				}
+			},
+			"condition": {
+				"type": "origins:target_condition",
+				"condition": {
+					"type": "origins:resource",
+					"resource": "fluffy:current_color",
+					"comparison": "==",
+					"compare_to": 0
+				}
+			}
+		},
+		{
+			"action": {
+				"type": "origins:target_action",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:pink"
+				}
+			},
+			"condition": {
+				"type": "origins:target_condition",
+				"condition": {
+					"type": "origins:resource",
+					"resource": "fluffy:current_color",
+					"comparison": "==",
+					"compare_to": 1
+				}
+			}
+		},
+		{
+			"action": {
+				"type": "origins:target_action",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:red"
+				}
+			},
+			"condition": {
+				"type": "origins:target_condition",
+				"condition": {
+					"type": "origins:resource",
+					"resource": "fluffy:current_color",
+					"comparison": "==",
+					"compare_to": 2
+				}
+			}
+		},
+		{
+			"action": {
+				"type": "origins:target_action",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:orange"
+				}
+			},
+			"condition": {
+				"type": "origins:target_condition",
+				"condition": {
+					"type": "origins:resource",
+					"resource": "fluffy:current_color",
+					"comparison": "==",
+					"compare_to": 3
+				}
+			}
+		},
+		{
+			"action": {
+				"type": "origins:target_action",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:yellow"
+				}
+			},
+			"condition": {
+				"type": "origins:target_condition",
+				"condition": {
+					"type": "origins:resource",
+					"resource": "fluffy:current_color",
+					"comparison": "==",
+					"compare_to": 4
+				}
+			}
+		},
+		{
+			"action": {
+				"type": "origins:target_action",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:lime"
+				}
+			},
+			"condition": {
+				"type": "origins:target_condition",
+				"condition": {
+					"type": "origins:resource",
+					"resource": "fluffy:current_color",
+					"comparison": "==",
+					"compare_to": 5
+				}
+			}
+		},
+		{
+			"action": {
+				"type": "origins:target_action",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:green"
+				}
+			},
+			"condition": {
+				"type": "origins:target_condition",
+				"condition": {
+					"type": "origins:resource",
+					"resource": "fluffy:current_color",
+					"comparison": "==",
+					"compare_to": 6
+				}
+			}
+		},
+		{
+			"action": {
+				"type": "origins:target_action",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:cyan"
+				}
+			},
+			"condition": {
+				"type": "origins:target_condition",
+				"condition": {
+					"type": "origins:resource",
+					"resource": "fluffy:current_color",
+					"comparison": "==",
+					"compare_to": 7
+				}
+			}
+		},
+		{
+			"action": {
+				"type": "origins:target_action",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:light_blue"
+				}
+			},
+			"condition": {
+				"type": "origins:target_condition",
+				"condition": {
+					"type": "origins:resource",
+					"resource": "fluffy:current_color",
+					"comparison": "==",
+					"compare_to": 8
+				}
+			}
+		},
+		{
+			"action": {
+				"type": "origins:target_action",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:blue"
+				}
+			},
+			"condition": {
+				"type": "origins:target_condition",
+				"condition": {
+					"type": "origins:resource",
+					"resource": "fluffy:current_color",
+					"comparison": "==",
+					"compare_to": 9
+				}
+			}
+		},
+		{
+			"action": {
+				"type": "origins:target_action",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:magenta"
+				}
+			},
+			"condition": {
+				"type": "origins:target_condition",
+				"condition": {
+					"type": "origins:resource",
+					"resource": "fluffy:current_color",
+					"comparison": "==",
+					"compare_to": 10
+				}
+			}
+		},
+		{
+			"action": {
+				"type": "origins:target_action",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:purple"
+				}
+			},
+			"condition": {
+				"type": "origins:target_condition",
+				"condition": {
+					"type": "origins:resource",
+					"resource": "fluffy:current_color",
+					"comparison": "==",
+					"compare_to": 11
+				}
+			}
+		},
+		{
+			"action": {
+				"type": "origins:target_action",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:light_gray"
+				}
+			},
+			"condition": {
+				"type": "origins:target_condition",
+				"condition": {
+					"type": "origins:resource",
+					"resource": "fluffy:current_color",
+					"comparison": "==",
+					"compare_to": 12
+				}
+			}
+		},
+		{
+			"action": {
+				"type": "origins:target_action",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:gray"
+				}
+			},
+			"condition": {
+				"type": "origins:target_condition",
+				"condition": {
+					"type": "origins:resource",
+					"resource": "fluffy:current_color",
+					"comparison": "==",
+					"compare_to": 13
+				}
+			}
+		},
+		{
+			"action": {
+				"type": "origins:target_action",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:brown"
+				}
+			},
+			"condition": {
+				"type": "origins:target_condition",
+				"condition": {
+					"type": "origins:resource",
+					"resource": "fluffy:current_color",
+					"comparison": "==",
+					"compare_to": 14
+				}
+			}
+		},
+		{
+			"action": {
+				"type": "origins:target_action",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "function fluffy:black"
+				}
+			},
+			"condition": {
+				"type": "origins:target_condition",
+				"condition": {
+					"type": "origins:resource",
+					"resource": "fluffy:current_color",
+					"comparison": "==",
+					"compare_to": 15
+				}
+			}
+		}
+		]
+	},
+	"bientity_condition": {
+		"type": "origins:and",
+		"conditions": [
+		{
+			"type": "origins:target_condition",
+			"condition": {
+				"type": "origins:resource",
+				"resource": "fluffy:currently_fluffy",
+				"comparison": "==",
+				"compare_to": 1
+			}
+		},
+		{
+			"type": "origins:actor_condition",
+			"condition": {
+				"type": "origins:or",
+				"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:shears"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:shears"
+						}
+					}
+				}
+				]
+			}
+		}
+		]
+	},
+	"hidden": true
+}

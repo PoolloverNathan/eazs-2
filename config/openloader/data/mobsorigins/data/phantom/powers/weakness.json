@@ -1,0 +1,36 @@
+{
+    "name": "Ground Weakness",
+    "description": "Slow while on the ground.",
+    "type": "origins:multiple",
+    "ground": {
+        "type": "origins:action_over_time",
+        "interval": 5,
+        "condition": {
+            "type": "origins:on_block"
+        },
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "effect": "minecraft:slowness",
+                    "amplifier": 1,
+                    "duration": -1,
+                    "show_particles": false
+                }
+            ]
+        }
+    },
+    "noground": {
+        "type": "origins:action_over_time",
+        "interval": 5,
+        "condition": {
+            "type": "origins:elytra_flight_possible",
+            "check_state": true,
+            "check_abilities": true
+        },
+        "entity_action": {
+            "type": "origins:clear_effect",
+            "effect": "minecraft:slowness"
+        }
+    }
+}

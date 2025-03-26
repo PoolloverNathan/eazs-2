@@ -1,0 +1,12 @@
+{
+	"type": "origins:resource",
+	"min": 0,
+	"max": 15,
+	"start_value": 0,
+	"hud_render": {
+		"should_render": false,
+		"bar_index": 10
+	},
+	"name": "Exhausting Effort",
+	"description": "Getting all that wool sheared is quite the effort, and tends to drain your hunger."
+}

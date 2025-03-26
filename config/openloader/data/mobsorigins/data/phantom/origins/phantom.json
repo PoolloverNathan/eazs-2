@@ -1,0 +1,18 @@
+{
+    "powers": [
+        "phantom:fly",
+        "phantom:friendlyphantom",
+        "phantom:makefriendlyphantom",
+        "phantom:burn",
+        "phantom:weakness",
+        "phantom:see",
+        "phantom:demonic_sight",
+        "origins:carnivore",
+        "origins:cat_vision"
+    ],
+    "icon": "minecraft:phantom_membrane",
+    "order": 10,
+    "impact": 3,
+    "name": "Phantom",
+    "description": "Flying hunter of the sleepless."
+}

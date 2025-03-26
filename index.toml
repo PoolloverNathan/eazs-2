@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".dockerignore"
+hash = "ded68c2f70604ac4e2c22860bbd84c505a0bf3b8b24a197c975bb6ec81d3f272"
+
+[[files]]
 file = "config/fabric_loader_dependencies.json"
 hash = "944cdbf3bbb65e1fd0f7043826db271cc1cfbcfa5cea8b71ded37ea5bae5c1eb"
 
@@ -1001,6 +1005,106 @@ file = "config/openloader/data/foxplush/pack.mcmeta"
 hash = "a86aefaf84d2f28c609ff286a47dd1e6147c49d1bb577ff4fc275e58bdb717c2"
 
 [[files]]
+file = "config/openloader/data/mobsorigins/data/minecraft/tags/functions/load.json"
+hash = "8268e7fa923eff5eefe988d9657b2e3c8a78a6033811bad9563d2b33e6ce154a"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/impl/clear.mcfunction"
+hash = "2f60b759a060cbedf9620f8c01fa70cd0805bc82c1bc0b191733ca377a9f64b4"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/impl/compare_pos.mcfunction"
+hash = "6732b29a54acb557c4948202a465479b9047761c41e6bc83ffc029b627b18845"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/impl/compare_pos/determine_scale.mcfunction"
+hash = "f66a19211e2e7feaf01864b95b49965184b90ffd61f76edae919d41fe786e809"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/impl/remove_tags.mcfunction"
+hash = "6ecdab6b8acb9098605420c32ff10c5e88cd09764ad2ade5b8fe412c1b74e25d"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/impl/scale/by_10/x.mcfunction"
+hash = "d35c21c82e44fae7f5611758717818393f6410e2db1adf0391b95fa83c6a0d43"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/impl/scale/by_10/y.mcfunction"
+hash = "37c1e6161330a6f09d907274b9912ad8feda6150ac24e7a13f28566a812139fd"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/impl/scale/by_10/z.mcfunction"
+hash = "07b9a943f4b2bdae44a24997fdd08afb3541f6d392a172ba3599b4ce7ca520f3"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/impl/scale/by_100/x.mcfunction"
+hash = "2caaa1cc2f6d6ae521238bb1755d9a993e61c34043f34133a96fadfb355fd678"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/impl/scale/by_100/y.mcfunction"
+hash = "3ddc35d82de11677102076015627123f83c831e9db7afc7a440e2bc423542127"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/impl/scale/by_100/z.mcfunction"
+hash = "7962574030608a23d3891e2979976e2d5614a8fce2eb644b63ae249e2b59bbb2"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/load.mcfunction"
+hash = "40db4fed21bbd01f0ce3fd4ac1fdd2198b83b93e276eb8a4d7bdaab6a24f1244"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/state/horizontally.mcfunction"
+hash = "89ccad472d818569237f9016504db265543e77ef0e681eb4f61d5e93380f784a"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/state/vertically.mcfunction"
+hash = "562b6cdeb6a6a5a81feff78031d8e59e7205783d14b8618d43197c40badfe8e8"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/powers/state.json"
+hash = "8b0695a54fd8a9c66211825e3357a36b6701e56ac21823048262b505728d8b98"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/origins/origin_layers/origin.json"
+hash = "3f6abe6451a97c96fbd3f73f7cc9cb61fcaca5e88816715733b02a8651fd856e"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/phantom/origins/phantom.json"
+hash = "fc13fb0d15eac3edeac40c079459615f03559f815f5830b14c573714bcb4a981"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/phantom/powers/burn.json"
+hash = "0de55e3ecdd08676eebef10f167ac4321efed4079750c86ebf2c8f2faefd9bac"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/phantom/powers/demonic_sight.json"
+hash = "ec8aa90e28a6fddc4b5ecda3c52b3078c7288f7b4dca2d0f2c9bc0e1ad9f2696"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/phantom/powers/fly.json"
+hash = "49c5a80698e37a1f09b746f1fa97b417da464ee8e6894cd9775990ed1e70c265"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/phantom/powers/friendlyphantom.json"
+hash = "3634a776db96f1ab9979c0db09713c680d30f264b4053117c1de0c50db5039e9"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/phantom/powers/makefriendlyphantom.json"
+hash = "f56d1132b86b0ac29bc2bb731fac6c9e320c15e51c123a63d267bc4057d9d093"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/phantom/powers/see.json"
+hash = "d5c18c7b1c6a8b0c53789c3ea78520e085db78fe113dd88373415918f73f3420"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/phantom/powers/weakness.json"
+hash = "ba60dfe7813d58aa8ab0b6ad2e18f06fb82df5874fee8b09cf2cf4268313778f"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/pack.mcmeta"
+hash = "56ce13f122f371eb58ad5edf175a106e9e45e96394bf1c25fcbbd06f95951799"
+
+[[files]]
 file = "config/openloader/data/poweredup/data/minecraft/tags/functions/tick.json"
 hash = "8e0e0885a6b4ba3f6300e0b2811582861724765a6d1f4c2d44daf2de783ec39c"
 
@@ -1203,6 +1307,158 @@ hash = "09642e66ad9f7b3ebf3f6da085198ba1123cf58edae097f6028dca04d2d9553a"
 [[files]]
 file = "config/openloader/data/snail/pack.mcmeta"
 hash = "09190d1db5e21ae3096c9f7c01f903cbc2015f575398bfc0caeb42b22853abf8"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/black.mcfunction"
+hash = "b52d74744c8019d783a4a55b6c1f7dd8e0159c290fa332dc989b4504fa6cc447"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/blue.mcfunction"
+hash = "13a053825c457eeb795e7619415413f227e26ea407554146925bbd6056510857"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/brown.mcfunction"
+hash = "024efeddc0fca12c1583d30c202679e9c17594d08b5c26123aa7532805b55c6f"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/cyan.mcfunction"
+hash = "338c76ad9c10cfdd13691d8c7462d5e90d57a89d3fea60ae77b1e6cf8b71da2c"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/green.mcfunction"
+hash = "b3e4cf4bd6975697fe918fc05691e62aba6711fe114eab6062f41d10a9489364"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/grey.mcfunction"
+hash = "58b23d44107b700bf1b621559c4ecc44970e02aa09229e2c0a5b39c04d3cc117"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/light_blue.mcfunction"
+hash = "1322a55793d18e321a2fe75de5c02abd9abc15cf323725e62255ce7af10bd703"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/light_grey.mcfunction"
+hash = "9383b428b03dab347ef350433ba5cbee5d1774f4d2adcb5d0a3175d87fd0c60d"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/lime.mcfunction"
+hash = "a8e7df4bfec90ada5c249587bbaa4832f960af90bae202bbbf33f03b93238267"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/magenta.mcfunction"
+hash = "e5a25bc064e1fb5edc8bbcb8149b2b034b24309623f4fe340f5fa2f8e38be99f"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/orange.mcfunction"
+hash = "85459297073c7f3854be6ff899d9f20cc8a757c5affdd33a282e5929c4f5a68a"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/pink.mcfunction"
+hash = "8b320b57ebff9b3081dd2253740205591fa792423431afb104d53d35abc22fed"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/purple.mcfunction"
+hash = "5b2a48ec108de2a78e384d445d778c606b7fdaae1b69d444a0947cd798c9a48c"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/red.mcfunction"
+hash = "a9063497235f1b722ed8b8689f4701e354932fa6a9b586fe1568228bfb377149"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/white.mcfunction"
+hash = "e98647726055ed1440e2601c28e4a207a224fd5570b7339928c34a5c07234886"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/yellow.mcfunction"
+hash = "9268b7d1185e6fa7a2a160cf4e1368965013670a71439d796c4e3273bfa55878"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/origins/baaa.json"
+hash = "199ffa84e06e3266a601218b348ae2fc50ec5c7cc21260a7cc31817063d2e354"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/beingsheared.json"
+hash = "84f934b20bb9d15ff7e29c78c2e92e69af6cf15a03eed77ed2924f73c51d699c"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/color_set.json"
+hash = "087125b74de69a1ed93034af8a99569853869cf28eee6011e9ef4433fdb43e5e"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/current_color.json"
+hash = "fd88f855d87a5caf4e06c04beb8e324063255959a0cee2a51d997d73f36e0a37"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/currently_fluffy.json"
+hash = "1292fe46dcc6d640c4170beea581aeba2e888045115d449726f369cf1e7d68c9"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/fern.json"
+hash = "77ed1febf57b5a364cc595dbec355622c2bd18aa7b75901861954a17247facfe"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/fluff_down.json"
+hash = "0df9eea392bd1ec5be73316b8c360d03f4eff66f463bafb68fb0065c5f3d1457"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/getshearedeffects.json"
+hash = "2b51b919d9f865206dac8faf623250f46345af26f200751784f867f7d97627eb"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/gettinsheared.json"
+hash = "06e1bf543ede9818fbf69997c2d8fbc21d49c3671b9d11df3df6aa39ee53568a"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/grass.json"
+hash = "230e40dc43aa8c67692ae598966a05ba6760c3e4906f58c465d089038a025a33"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/grassblock.json"
+hash = "4f9acf0702a02dbcadfc7f8c7782d85ee318697e6d0256696cb85b9e055339f0"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/largefern.json"
+hash = "e38a4724282d3159d1e5252835b8f775ee1e6d2dd2743bf538a198f4d5096302"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/rainbowgapple.json"
+hash = "a2890c64dd52121fe30e5001450c27cbce7606d3ec0cd9b9787c2c5bd0fb9deb"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/rainbowgodapple.json"
+hash = "d5a545066e6c93ea34bd6d10749852079eeff587052c444aa54d55ec4a42f98d"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/soft_landing.json"
+hash = "9dd62a7cde06fef76a8386b587a16253af640ec9fee075e849c92a0720c13732"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/stuffduringshear.json"
+hash = "2c5b8e0c48c47df050722e8be8f0a866a96d482cbcdfb2563a64bb1a8e50fe19"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/tallgrass.json"
+hash = "e93d0aed28504cb1de99af0b1a026e7d1bb859825384d26752743c541ed8c521"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/vegetarianism.json"
+hash = "142819b03f964ec44ce061eda20bb4cbf65df55578771f70f557c45876db7b4a"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/tags/items/dyes.json"
+hash = "2cb6e8ecffb6eb54cda39f838ccf7d4f1a4ee7cf21d9861c45c77f8c9abc2acd"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/origins/origin_layers/origin.json"
+hash = "1422710a8b1482fadf68aec1a5a334d4c29430fd4a3dabf3178103822960d568"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/pack.mcmeta"
+hash = "e29897a6e4fdc662f79956cc93d3df740e31ebf12e516551fe18edc37d24e7b2"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/pack.png"
+hash = "7b1b27c79e74f393a8f500846d286d15d5d1b302ec62b22d1a2faed5d2d7f0c7"
 
 [[files]]
 file = "icon.png"
