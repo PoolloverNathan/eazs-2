@@ -1209,6 +1209,11 @@ file = "icon.png"
 hash = "133974803d7b3ec93740146787194aca03af36d63627179273969847483f921b"
 
 [[files]]
+file = "mods/\"limitless\"-banners.pw.toml"
+hash = "b2d2b260f31b66a7cddb0cc701092a0f7fe492f78f58db7a0204cb2cdf617f3b"
+metafile = true
+
+[[files]]
 file = "mods/ae2.pw.toml"
 hash = "0273a578ec15f3eb9a9d44996a30b969397641ed27e3d1abe0c5f73bd70a4fdc"
 metafile = true
