@@ -1,0 +1,7 @@
+{
+    "origins": [
+        "mermaid_origin:mermaid"
+    ],
+    "enabled": true,
+    "loading_priority": 1
+}

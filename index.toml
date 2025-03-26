@@ -721,6 +721,74 @@ file = "config/openloader/data/Mechanical Golem/pack.png"
 hash = "9260935f2e1555648d97cf39e7660b86af5945dfa258208bc92aa988389f7518"
 
 [[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/Makefile"
+hash = "df16e0e7a5ff9770237d818b27e457b424f67fd74461f9bd431f8663e6a0684b"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/origins/mermaid.json"
+hash = "02da25c5156a8a6b6fb61747727771bc1f876bce5661a57177ff8ec00cfd9caf"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/bait_diet.json"
+hash = "5c8a27a32214290aaebed0d6d7db7d82c56e28af11b2c46974974711f299050a"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/bettertrades.json"
+hash = "21a30b91831c96e830f1b7df65d541cf4b68ea39865e18ea77ca9c590afb1982"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/breatheunderwater.json"
+hash = "ed56852f0d10eacdb293b2d88f56f978b084161d8c02aeaa59431d97e9a1cb96"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/fish_diet.json"
+hash = "ca4615b449772c8b31d9ec8b6cb84b92d5ad31299b15d858b728c2a5e7cf3797"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/flammable.json"
+hash = "93c7af03652985822e6f96d62c434d64d02bcd66eb955ce4f2e29c7e865454bb"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/hydration.json"
+hash = "efcfa323e66099bebd5a5d1f00720f30e1f4b661a7061c46980c956d015fb2b1"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/hydrationgain.json"
+hash = "204acfefe9b3a846add81c55c031b341c92545d6995cce943c8e3fe12dd1574b"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/nolegs.json"
+hash = "f8c7026a3b879fc760ef732aaf670968f9fa7a7f9e0b3c5502aa846b5bc88246"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/slowonland.json"
+hash = "1916a2eb7d0d40ed87893b2b7899c1486d67bc56193fcbeec28aa651e70d274c"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/song.json"
+hash = "a978cdf0a737ddef3c41fb8772ced5e799a91c79e1149628127e58288efad376"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/tags/items/bait.json"
+hash = "a3a8feabe19b6ef553b5fc239849f355c838a44474985b09b4c673730625cfd4"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/tags/items/fish.json"
+hash = "94ab1f8cc75a0f29a7024b1f38be662c55f27cd16e082c60988395670f41e6fd"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/origins/origin_layers/origin.json"
+hash = "1874fd84ed7f5d366dd3292fe3b08c7ec6aed7f9e480a765fa0cc051bd93feed"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/gen_bait.py"
+hash = "47baa6271adce140d9bcc20676e8e5d32b41a6a71613a453691b41076ff2ff4e"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/pack.mcmeta"
+hash = "6e42449f0cc99c87dea659f2a51234abbe6080c8d2e1ddc3c4daf631c87d60a2"
+
+[[files]]
 file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/origins/origin_layers/origin.json"
 hash = "7f0c3b4970ce2782e5f1068856e597e504164ac029e20604977ebc45eae14fe7"
 

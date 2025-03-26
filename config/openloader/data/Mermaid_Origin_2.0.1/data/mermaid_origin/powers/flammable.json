@@ -1,0 +1,14 @@
+{
+    "name": "Flammable",
+    "description": "You take triple damage from fire.",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:in_tag",
+        "tag": "is_fire"
+    },
+    "modifier": {
+        "operation": "multiply_total_multiplicative",
+        "value": 2,
+        "name": "Triple Fire"
+    }
+}

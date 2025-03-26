@@ -1,0 +1,12 @@
+{
+    "name": "Slow On Land",
+    "description": "You're much slower on land.",
+    "hidden": true,
+    "type": "origins:modify_attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "modifier": {
+        "operation": "multiply_base_additive",
+        "value": -0.4,
+        "name": "Slowonland"
+    }
+}

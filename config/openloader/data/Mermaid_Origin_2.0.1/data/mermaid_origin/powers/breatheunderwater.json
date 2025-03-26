@@ -1,0 +1,14 @@
+{
+    "name": "Versatile Lungs",
+    "description": "You're able to breathe both underwater and on land.",
+    "condition": {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
+    },
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:gain_air",
+        "value": 40
+    }
+}

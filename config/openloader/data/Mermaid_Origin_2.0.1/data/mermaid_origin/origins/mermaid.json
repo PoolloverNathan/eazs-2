@@ -1,0 +1,25 @@
+{
+    "name": "Mermaid",
+    "description": "Able to breathe both underwater and on land, these creatures can charm their foes to weaken them, but are very flammable and not fully used to living on land.",
+    "powers": [
+        "origins:water_vision",
+        "origins:aqua_affinity",
+        "origins:swim_speed",
+        "origins:like_water",
+        "origins:aquatic",
+        "mermaid_origin:hydration",
+        "mermaid_origin:hydrationgain",
+        "mermaid_origin:song",
+        "mermaid_origin:bettertrades",
+        "mermaid_origin:breatheunderwater",
+        "mermaid_origin:flammable",
+        "mermaid_origin:nolegs",
+        "mermaid_origin:slowonland",
+		"mermaid_origin:bait_diet"
+    ],
+    "icon": {
+        "item": "minecraft:prismarine_crystals"
+    },
+    "impact": 2,
+    "loading_priority": 1
+}

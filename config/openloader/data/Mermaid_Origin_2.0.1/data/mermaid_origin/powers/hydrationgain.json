@@ -1,0 +1,95 @@
+{
+    "name": "Hydration Gain",
+    "description": "Gain hydration when in water",
+    "hidden": true,
+    "type": "origins:multiple",
+    "inwater": {
+        "condition": {
+            "type": "origins:block_collision",
+            "block_condition": {
+                "type": "origins:block",
+                "block": "minecraft:water"
+            },
+            "offset_x": 0,
+            "offset_y": 0,
+            "offset_z": 0
+        },
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "mermaid_origin:hydration",
+            "change": 1,
+            "operation": "add"
+        }
+    },
+    "inrain": {
+        "condition": {
+            "type": "origins:in_rain"
+        },
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "mermaid_origin:hydration",
+            "change": 1,
+            "operation": "add"
+        }
+    },
+    "drink": {
+        "type": "origins:action_on_item_use",
+        "item_condition": {
+            "type": "origins:nbt",
+            "nbt": "{Potion: \"minecraft:water\"}"
+        },
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "mermaid_origin:hydration",
+            "change": 60,
+            "operation": "add"
+        }
+    },
+    "tempdrying": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:biome",
+                    "condition": {
+                        "type": "origins:temperature",
+                        "comparison": ">=",
+                        "compare_to": 0.8
+                    }
+                },
+                {
+                    "type": "origins:biome",
+                    "condition": {
+                        "type": "origins:precipitation",
+                        "precipitation": "none"
+                    }
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 75,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "mermaid_origin:hydration",
+            "change": -1,
+            "operation": "add"
+        }
+    },
+    "firedrying": {
+        "condition": {
+            "type": "origins:on_fire"
+        },
+        "type": "origins:action_over_time",
+        "interval": 25,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "mermaid_origin:hydration",
+            "change": -1,
+            "operation": "add"
+        }
+    }
+}

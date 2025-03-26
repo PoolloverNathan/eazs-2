@@ -1,0 +1,145 @@
+{
+    "name": "Mermaid's Song",
+    "description": "If crouching, use a half of full hydration and give strength II and regeneration to nearby players and yourself. Otherwise, use a third of full hydration to weaken and slow nearby entities.",
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "text": "Active ability, use with %s.",
+            "sprite": "origins:textures/gui/badge/active.png"
+        }
+    ],
+    "type": "origins:multiple",
+    "attract": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "mermaid_origin:hydration",
+                    "comparison": ">=",
+                    "compare_to": 40
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:sneaking"
+                }
+            ]
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "mermaid_origin:hydration",
+                    "change": -40,
+                    "operation": "add"
+                },
+                {
+                    "type": "origins:area_of_effect",
+                    "radius": 32,
+                    "bientity_condition": {
+                        "type": "origins:target_condition",
+                        "condition": {
+                            "inverted": true,
+                            "type": "origins:entity_type",
+                            "entity_type": "player"
+                        }
+                    },
+                    "bientity_action": {
+                        "type": "origins:target_action",
+                        "action": {
+                            "type": "origins:apply_effect",
+                            "effects": [
+                                {
+                                    "effect": "minecraft:slowness",
+                                    "duration": 300,
+                                    "amplifier": 1,
+                                    "show_particles": true,
+                                    "show_icon": true
+                                },
+                                {
+                                    "effect": "minecraft:weakness",
+                                    "duration": 600,
+                                    "amplifier": 0,
+                                    "show_particles": true,
+                                    "show_icon": true
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "cooldown": 20,
+        "key": {
+            "key": "key.origins.secondary_active"
+        }
+    },
+    "empower": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "mermaid_origin:hydration",
+                    "comparison": ">=",
+                    "compare_to": 60
+                },
+                {
+                    "type": "origins:sneaking"
+                }
+            ]
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "mermaid_origin:hydration",
+                    "change": -60,
+                    "operation": "add"
+                },
+                {
+                    "type": "origins:area_of_effect",
+                    "radius": 16,
+                    "include_target": true,
+                    "bientity_condition": {
+                        "type": "origins:target_condition",
+                        "condition": {
+                            "type": "origins:entity_type",
+                            "entity_type": "player"
+                        }
+                    },
+                    "bientity_action": {
+                        "type": "origins:target_action",
+                        "action": {
+                            "type": "origins:apply_effect",
+                            "effects": [
+                                {
+                                    "effect": "minecraft:regeneration",
+                                    "duration": 300,
+                                    "amplifier": 0,
+                                    "show_particles": true,
+                                    "show_icon": true
+                                },
+                                {
+                                    "effect": "minecraft:strength",
+                                    "duration": 600,
+                                    "amplifier": 1,
+                                    "show_particles": true,
+                                    "show_icon": true
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "cooldown": 20,
+        "key": {
+            "key": "key.origins.secondary_active"
+        }
+    }
+}

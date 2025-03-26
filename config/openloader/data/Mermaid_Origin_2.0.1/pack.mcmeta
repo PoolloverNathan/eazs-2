@@ -1,0 +1,12 @@
+{
+    "pack": {
+        "name": "Mermaid Origin",
+        "id": "mermaid_origin",
+        "pack_format": 15,
+        "version": "2.0.1",
+        "authors": [
+            "LukasKEKW"
+        ],
+        "description": "Adds the mermaid origin."
+    }
+}

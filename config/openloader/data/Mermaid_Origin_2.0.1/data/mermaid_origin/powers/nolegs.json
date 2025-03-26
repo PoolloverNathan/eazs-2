@@ -1,0 +1,40 @@
+{
+    "name": "No Legs",
+    "description": "Due to not having legs, you can't wear leggings or boots, and you're forced to crawl on land.",
+	"type": "origins:multiple",
+	"armor": {
+		"type": "origins:restrict_armor",
+		"legs": {
+			"inverted": true,
+			"type": "origins:empty"
+		},
+		"feet": {
+			"inverted": true,
+			"type": "origins:empty"
+		}
+	},
+	"hitbox": {
+		"type": "origins:action_on_callback",
+		"entity_action_added": {
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:hitbox_height 0.65"
+		},
+		"entity_action_chosen": {
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:hitbox_height 0.65"
+		},
+		"execute_chosen_when_orb": true
+	},
+	"eyelevel": {
+		"type": "origins:action_on_callback",
+		"entity_action_added": {
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:eye_height 0.55"
+		},
+		"entity_action_chosen": {
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:eye_height 0.55"
+		},
+		"execute_chosen_when_orb": true
+	}
+}
