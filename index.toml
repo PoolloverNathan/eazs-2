@@ -13,6 +13,10 @@ file = "config/figura.json"
 hash = "e33217b64ebac624ceaa9535e46655afd6fca322366dd620c4a9e358792bc0d8"
 
 [[files]]
+file = "config/immersive_portals.json"
+hash = "e6e0f76f875019b848cf8a1ce8b0ab51bb18e752bef3120e7bc4c983f9d81367"
+
+[[files]]
 file = "config/openloader/data/ArachnidPlus/data/arachnidplus/origins/arachnidplus.json"
 hash = "1b274675aa85cbb10917e19ea2fcae37d5f70efbccfa197d67f449d1226f9f60"
 
