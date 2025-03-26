@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/fabric_loader_dependencies.json"
+hash = "944cdbf3bbb65e1fd0f7043826db271cc1cfbcfa5cea8b71ded37ea5bae5c1eb"
+
+[[files]]
 file = "config/openloader/data/ArachnidPlus/data/arachnidplus/origins/arachnidplus.json"
 hash = "1b274675aa85cbb10917e19ea2fcae37d5f70efbccfa197d67f449d1226f9f60"
 
@@ -997,8 +1001,16 @@ file = "config/openloader/data/foxplush/pack.mcmeta"
 hash = "a86aefaf84d2f28c609ff286a47dd1e6147c49d1bb577ff4fc275e58bdb717c2"
 
 [[files]]
+file = "config/openloader/data/poweredup/data/minecraft/tags/functions/tick.json"
+hash = "8e0e0885a6b4ba3f6300e0b2811582861724765a6d1f4c2d44daf2de783ec39c"
+
+[[files]]
 file = "config/openloader/data/poweredup/data/origins/origin_layers/origin.json"
 hash = "61e885ce5fea1cc6c83876bd580620b97d95d2819e681fc0d07000fbb7885c2d"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/functions/area_effect_fix.mcfunction"
+hash = "54a682cef802224399cb64aef1ad429d44484e881d35ce64b008ad2f0cefbf58"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/origins/3dl_statue_leaf.json"
