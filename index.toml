@@ -1856,6 +1856,11 @@ hash = "50d286b8c5e586afcd555f743e68d64ed96123b814683c03833b9a145469ca04"
 metafile = true
 
 [[files]]
+file = "mods/universal-perms.pw.toml"
+hash = "067f76a3a854f3b1c776d0c62b4f70c3d26447ce69857e5f1dca52f81d54efee"
+metafile = true
+
+[[files]]
 file = "mods/vanilla-permissions.pw.toml"
 hash = "351826e1e381ba6525d9521a968f3e76d5c985ae58464f3ae1ffcb0e05b1da7f"
 metafile = true

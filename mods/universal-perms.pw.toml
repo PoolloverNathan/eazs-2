@@ -1,0 +1,13 @@
+name = "Universal Perms"
+filename = "UniversalPerms-1.0.3.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/GyrkNvLS/versions/wF7sVc5J/UniversalPerms-1.0.3.jar"
+hash-format = "sha1"
+hash = "422f024108273b707b5e6fa39d241ee38ca699eb"
+
+[update]
+[update.modrinth]
+mod-id = "GyrkNvLS"
+version = "wF7sVc5J"
