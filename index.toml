@@ -1556,11 +1556,6 @@ hash = "eb1c01069064a4fa5a4fd3972217c629b6c2971b5f13acc86b804f9a6cdacaeb"
 metafile = true
 
 [[files]]
-file = "mods/iris.pw.toml"
-hash = "6c5b369e54a1100e8ce5c1885e968b5fa28ba8c6f41ad32e48dd560de22a29f1"
-metafile = true
-
-[[files]]
 file = "mods/jade.pw.toml"
 hash = "b09f611d886674cb587fcf9e64e0e13ade46a17dec25745d83e0957dea212d18"
 metafile = true
