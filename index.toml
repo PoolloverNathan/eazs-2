@@ -6,7 +6,7 @@ hash = "ded68c2f70604ac4e2c22860bbd84c505a0bf3b8b24a197c975bb6ec81d3f272"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
-hash = "944cdbf3bbb65e1fd0f7043826db271cc1cfbcfa5cea8b71ded37ea5bae5c1eb"
+hash = "76715f0162cc2858abc82e96037fb2696b6581bd80862fd4bad5d7e97a55acac"
 
 [[files]]
 file = "config/openloader/data/ArachnidPlus/data/arachnidplus/origins/arachnidplus.json"
@@ -1711,7 +1711,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "a89e2a4903a962a372882656b0bfd4c55c595e08df0a27720a8707d3db474e25"
+hash = "eed2ca363d2a22f2f95950ad9f5033925003145b3c6064f3eee41ae8bdd35f0b"
 metafile = true
 
 [[files]]
@@ -2020,7 +2020,7 @@ metafile = true
 
 [[files]]
 file = "mods/rei.pw.toml"
-hash = "bc55c55da441f83bad0380d57eb7d6c703934b5ad5de3e1ed1a8d471278dff43"
+hash = "972eed86eaaf00c612d4b195598c6ca5ad380899e8420c0c9bb013fdfca1e08d"
 metafile = true
 
 [[files]]

@@ -1,9 +1,19 @@
 {
   "version": 1,
   "overrides": {
+    "minecraft": {
+      "+breaks": {
+        "estrogen": "*"
+      }
+    },
     "dimdoors": {
       "+breaks": {
         "iris": "*"
+      }
+    },
+    "emi": {
+      "+breaks": {
+        "roughlyenoughitems": "*"
       }
     }
   }

@@ -18,4 +18,4 @@ version = 'nYcMSS03'
 [option]
 optional = true
 default = false
-description = "Recipe viewer mod. EMI has more features, but REI is provided for those who prefer it."
+description = "BREAKS EMI.\n\nRecipe viewer mod. EMI has more features, but REI is provided for those who prefer it."

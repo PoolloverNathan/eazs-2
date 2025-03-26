@@ -11,3 +11,8 @@ hash = "b4ceb725727c247626453130e8ef84b6f41e4ebb"
 [update.modrinth]
 mod-id = "fRiHVvU7"
 version = "DXUtDziE"
+
+[option]
+optional = true
+default = true
+description = "BREAKS REI.\n\nRecipe viewer mod with support for advanced features such as recipe trees."
