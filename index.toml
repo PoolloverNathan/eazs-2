@@ -9,6 +9,10 @@ file = "config/fabric_loader_dependencies.json"
 hash = "76715f0162cc2858abc82e96037fb2696b6581bd80862fd4bad5d7e97a55acac"
 
 [[files]]
+file = "config/figura.json"
+hash = "e33217b64ebac624ceaa9535e46655afd6fca322366dd620c4a9e358792bc0d8"
+
+[[files]]
 file = "config/openloader/data/ArachnidPlus/data/arachnidplus/origins/arachnidplus.json"
 hash = "1b274675aa85cbb10917e19ea2fcae37d5f70efbccfa197d67f449d1226f9f60"
 
