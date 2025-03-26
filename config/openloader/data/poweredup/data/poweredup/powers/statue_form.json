@@ -154,7 +154,7 @@
 			"key.swapOffset",
 			"key.pickItem",
 			"key.ae2.wireless_terminal"
-		],
+		]
 	},
     "fast_fall": {
         "type": "origins:modify_falling",

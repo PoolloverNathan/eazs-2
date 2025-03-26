@@ -1066,7 +1066,7 @@ hash = "931bc67afc583f894439c08bd4a5e2a7c18f28b59829f1b19dea26e413575fc2"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/powers/statue_form.json"
-hash = "9b6acc6f15338222baf9cb6c4a2e8c8f5c2ab882e2d4c5a2ef4ed9a649bb6ab6"
+hash = "9fd2469a666ec52d8fa62ee82ea46fdf0799f7eae69062a428d9bf33c44c3e07"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/powers/tail_attack.json"
@@ -1191,6 +1191,10 @@ hash = "09190d1db5e21ae3096c9f7c01f903cbc2015f575398bfc0caeb42b22853abf8"
 [[files]]
 file = "icon.png"
 hash = "133974803d7b3ec93740146787194aca03af36d63627179273969847483f921b"
+
+[[files]]
+file = "mods/Kilt-0.0.1+mc1.20.1+build.6c269f.jar"
+hash = "eb1f78c72d9169a83b3f2992583a6c67ff7b1e5ad8bacbe2df616601ffbdbb29"
 
 [[files]]
 file = "mods/ae2.pw.toml"
