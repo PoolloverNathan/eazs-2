@@ -3,7 +3,7 @@ scale delay set pehkui:width 0
 scale delay set pehkui:height 0
 scale delay set pehkui:drops 0
 
-scale set pehkui:visibility 0.5
-scale set pehkui:width 0.5
-scale set pehkui:height 0.5
-scale set pehkui:drops 0.5
+scale reset
+scale set 0.25
+scale set pehkui:motion 4
+scale set pehkui:reach 2

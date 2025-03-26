@@ -941,12 +941,16 @@ file = "config/openloader/data/chestling/pack.mcmeta"
 hash = "f7c073c008fe2e582321bac0183ba738400f7ba6ab2f9488c252d202b6ce38d5"
 
 [[files]]
+file = "config/openloader/data/foxplush/Catalyst SMP SEASON 5 (1).zip"
+hash = "c8e4b697fdfb53edebe064fc5c617f2b0733240ad65846895eca63a21be1b360"
+
+[[files]]
 file = "config/openloader/data/foxplush/data/origins/origin_layers/origin.json"
-hash = "4fbbf6a51ffcc8727a9c3e1fc219bfab7d17378dfe7a763aeb3807831ebcb404"
+hash = "7cc9d513d971f4a19161d759531ad9d20028a3e45b658cad31d76442785cd02d"
 
 [[files]]
 file = "config/openloader/data/foxplush/data/pin/functions/size.mcfunction"
-hash = "ec093a7bb64a3cd2e057fe768e8477741e177388232cd3ada8dd80181c2c1a5c"
+hash = "5cd9631079bd5c75a8c17add204e54aeba30288f2ea0a7e912ee2fd427456d2e"
 
 [[files]]
 file = "config/openloader/data/foxplush/data/pin/origins/fox_plush.json"
@@ -954,35 +958,35 @@ hash = "fe636bfe94fb33567f79cf66986762e3d532bf5def938d5f088345fde23a9b44"
 
 [[files]]
 file = "config/openloader/data/foxplush/data/pin/powers/death.json"
-hash = "8251aabcc338e0d6dbfa01286276120debcecc466a2c4210b05e532765bb50d6"
+hash = "6b1d2a8a4900278f85d6d3152f1ca1d2b2f73e19916c90e54d05cf50248063db"
 
 [[files]]
 file = "config/openloader/data/foxplush/data/pin/powers/featherweight.json"
-hash = "fab9630b617f54e84372f898450c85b1eac54ac12f675d491f0449907616012d"
+hash = "a79aa89df6c9b60d0b87af41b7edbdfa75556422342d78aa19aa712a08bbc15b"
 
 [[files]]
 file = "config/openloader/data/foxplush/data/pin/powers/food.json"
-hash = "e00df3c49ad739cb08c4e627f4024926bb15adc2fcf77d27a1dd14f530c19647"
+hash = "606afe94d677743166b7497b8a48f622e167ed8a0222c1f80f4eed39e3d38c8b"
 
 [[files]]
 file = "config/openloader/data/foxplush/data/pin/powers/hike.json"
-hash = "9d809c1d7649cc8555c544d029adad78885e8d2e911fc80b64c0703c6ebdea54"
+hash = "d1fa163780a4437c5bb6c8e4d2ad6e27d6b69d720c39c0f9d2252ab82794664c"
 
 [[files]]
 file = "config/openloader/data/foxplush/data/pin/powers/pounce.json"
-hash = "a33dcc4b747f05d0a32d41233b389c8d2854223f04bfa69b7545d1b94957e3dd"
+hash = "ade0fc8431c7cace195b78bd5dfcb8d2dfe8c3c445ab5ba5432ffd267b3a2385"
 
 [[files]]
 file = "config/openloader/data/foxplush/data/pin/powers/shelfsize.json"
-hash = "e37b5393e809dd4ec1b6b6db9aec1e5d75282a62ec438b64fef5f867bf804c72"
+hash = "c042a072ae2238e6ef68101f17fca94a9da095ae16d8ce7fcbc02ca4a35dc650"
 
 [[files]]
 file = "config/openloader/data/foxplush/data/pin/powers/stolen_life.json"
-hash = "9c17cdcb567cfc9a336fdd45959ba3cb79b0bdecd76218ccf121b7038649eb03"
+hash = "f30ee0b74b41530b5db5594ce067f433b7064be49f7be60867cb7b3e4293f5df"
 
 [[files]]
 file = "config/openloader/data/foxplush/data/pin/powers/sugar.json"
-hash = "6b69e52d7a845302eb2abae6c56e1d3276293b38cef9c10c3da5b43f1fb3032f"
+hash = "8b6ee12783e5ee2bc7697e7c3f26b07a19a68fa7fad689b3df2b02e3b08ef21a"
 
 [[files]]
 file = "config/openloader/data/foxplush/index.png"
@@ -990,7 +994,7 @@ hash = "2ce3f00f7ce90f8178f7d04f77e1d21bd05c8e0f784a6717689ed086b4d59345"
 
 [[files]]
 file = "config/openloader/data/foxplush/pack.mcmeta"
-hash = "899d734c4b06c908f3dbb5123432d61b8ccbd16c61c249bd19580f3f17c87fdf"
+hash = "a86aefaf84d2f28c609ff286a47dd1e6147c49d1bb577ff4fc275e58bdb717c2"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/origins/origin_layers/origin.json"
@@ -1191,10 +1195,6 @@ hash = "09190d1db5e21ae3096c9f7c01f903cbc2015f575398bfc0caeb42b22853abf8"
 [[files]]
 file = "icon.png"
 hash = "133974803d7b3ec93740146787194aca03af36d63627179273969847483f921b"
-
-[[files]]
-file = "mods/Kilt-0.0.1+mc1.20.1+build.6c269f.jar"
-hash = "eb1f78c72d9169a83b3f2992583a6c67ff7b1e5ad8bacbe2df616601ffbdbb29"
 
 [[files]]
 file = "mods/ae2.pw.toml"
