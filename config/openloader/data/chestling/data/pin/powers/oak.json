@@ -23,6 +23,14 @@
 			"name": "fall"
 		}
 	},
+	"slow": {
+		"type": "origins:attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.movement_speed",
+			"operation": "multiply_total",
+			"value": -0.5
+		}
+	},
 	"nowater": {
 		"type": "origins:ignore_water"
 	},
