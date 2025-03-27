@@ -23,6 +23,9 @@
 			"name": "fall"
 		}
 	},
+	"nowater": {
+		"type": "origins:ignore_water"
+	},
 	"nojump": {
 		"condition": {
 			"type": "origins:on_block",
