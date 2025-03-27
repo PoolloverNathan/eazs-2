@@ -1,0 +1,1308 @@
+{
+  "name": "Omophagic Piscivore",
+  "description": "Your body has not evolved to digest cooked food or any vegetables or land-based animals. You can only eat raw fish or living fish from a bucket.",
+  "type": "origins:multiple",
+  "restrict": {
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:food"
+        },
+        {
+          "inverted": true,
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "mermaid_origin:bait"
+          }
+        }
+      ]
+    }
+  },
+  "worm": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:worm"
+      }
+    },
+    "food_component": {
+      "hunger": 3,
+      "saturation": 0.7,
+      "meat": true
+    }
+  },
+  "leech": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:leech"
+      }
+    },
+    "food_component": {
+      "hunger": 4,
+      "saturation": 0.4,
+      "meat": true,
+      "effect": {
+        "chance": 0.8,
+        "effect": {
+          "effect": "minecraft:hunger",
+          "amplifier": 0,
+          "duration": 400
+        }
+      }
+    }
+  },
+  "minnow": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:minnow"
+      }
+    },
+    "food_component": {
+      "hunger": 6,
+      "saturation": 1,
+      "meat": true
+    }
+  },
+  "cod_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:cod_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 6,
+      "saturation": 0.7,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:comfort",
+          "amplifier": 0,
+          "duration": 3600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "salmon_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:salmon_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 7,
+      "saturation": 0.7,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:comfort",
+          "amplifier": 0,
+          "duration": 3600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pufferfish_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:pufferfish_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 6,
+      "saturation": 0.4,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "minecraft:poison",
+          "amplifier": 1,
+          "duration": 600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "tropical_fish_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:tropical_fish_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 6,
+      "saturation": 0.7,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:comfort",
+          "amplifier": 0,
+          "duration": 3600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "atlantic_cod_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:atlantic_cod_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 10,
+      "saturation": 1,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:nourishment",
+          "amplifier": 0,
+          "duration": 4200
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "blackfish_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:blackfish_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 6,
+      "saturation": 0.7,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:comfort",
+          "amplifier": 0,
+          "duration": 3600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pacific_halibut_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:pacific_halibut_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 14,
+      "saturation": 1,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:nourishment",
+          "amplifier": 0,
+          "duration": 4200
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "atlantic_halibut_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:atlantic_halibut_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 14,
+      "saturation": 1,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:nourishment",
+          "amplifier": 0,
+          "duration": 4200
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "atlantic_herring_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:atlantic_herring_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 6,
+      "saturation": 0.7,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:comfort",
+          "amplifier": 0,
+          "duration": 3600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pink_salmon_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:pink_salmon_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 6,
+      "saturation": 0.7,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:comfort",
+          "amplifier": 0,
+          "duration": 3600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pollock_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:pollock_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 6,
+      "saturation": 0.7,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:comfort",
+          "amplifier": 0,
+          "duration": 3600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "rainbow_trout_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:rainbow_trout_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 6,
+      "saturation": 0.7,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:comfort",
+          "amplifier": 0,
+          "duration": 3600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "bayad_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:bayad_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 8,
+      "saturation": 0.7,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:comfort",
+          "amplifier": 0,
+          "duration": 3600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "boulti_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:boulti_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 6,
+      "saturation": 0.7,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:comfort",
+          "amplifier": 0,
+          "duration": 3600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "capitaine_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:capitaine_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 14,
+      "saturation": 1,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:nourishment",
+          "amplifier": 0,
+          "duration": 4200
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "synodontis_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:synodontis_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 6,
+      "saturation": 0.7,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:comfort",
+          "amplifier": 0,
+          "duration": 3600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "smallmouth_bass_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:smallmouth_bass_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 6,
+      "saturation": 0.7,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:comfort",
+          "amplifier": 0,
+          "duration": 3600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "bluegill_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:bluegill_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 6,
+      "saturation": 0.7,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:comfort",
+          "amplifier": 0,
+          "duration": 3600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "brown_trout_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:brown_trout_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 6,
+      "saturation": 0.7,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:comfort",
+          "amplifier": 0,
+          "duration": 3600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "carp_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:carp_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 6,
+      "saturation": 0.7,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:comfort",
+          "amplifier": 0,
+          "duration": 3600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "catfish_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:catfish_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 10,
+      "saturation": 1,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:nourishment",
+          "amplifier": 0,
+          "duration": 4200
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "gar_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:gar_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 8,
+      "saturation": 0.7,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:comfort",
+          "amplifier": 0,
+          "duration": 3600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "minnow_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:minnow_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 10,
+      "saturation": 1,
+      "meat": true,
+      "effect": 7
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "muskellunge_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:muskellunge_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 7,
+      "saturation": 0.7,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:comfort",
+          "amplifier": 0,
+          "duration": 3600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "perch_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:perch_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 6,
+      "saturation": 0.7,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:comfort",
+          "amplifier": 0,
+          "duration": 3600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "arapaima_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:arapaima_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 10,
+      "saturation": 12,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:nourishment",
+          "amplifier": 0,
+          "duration": 4200
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "piranha_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:piranha_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 6,
+      "saturation": 0.7,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:comfort",
+          "amplifier": 0,
+          "duration": 3600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "tambaqui_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:tambaqui_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 7,
+      "saturation": 0.7,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:comfort",
+          "amplifier": 0,
+          "duration": 3600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "brown_shrooma_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:brown_shrooma_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 10,
+      "saturation": 1,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:nourishment",
+          "amplifier": 0,
+          "duration": 4200
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "red_shrooma_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:red_shrooma_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 10,
+      "saturation": 1,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:nourishment",
+          "amplifier": 0,
+          "duration": 4200
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "jellyfish_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:jellyfish_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 6,
+      "saturation": 0.4,
+      "meat": true,
+      "effect": {
+        "chance": 0.8,
+        "effect": {
+          "effect": "ars_elemental:static_charged",
+          "amplifier": 0,
+          "duration": 200
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "red_grouper_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:red_grouper_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 7,
+      "saturation": 0.7,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:comfort",
+          "amplifier": 0,
+          "duration": 3600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "tuna_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "aquaculture:tuna_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 10,
+      "saturation": 12,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:nourishment",
+          "amplifier": 0,
+          "duration": 4200
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "lobster_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "alexsmobs:lobster_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 10,
+      "saturation": 1,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:nourishment",
+          "amplifier": 0,
+          "duration": 4200
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "blobfish_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "alexsmobs:blobfish_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 7,
+      "saturation": 0.4,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "minecraft:poison",
+          "amplifier": 1,
+          "duration": 300
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "frilled_shark_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "alexsmobs:frilled_shark_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 12,
+      "saturation": 1,
+      "meat": true,
+      "effect": {
+        "chance": 0.5,
+        "effect": {
+          "effect": "ageofweapons:bleeding",
+          "amplifier": 0,
+          "duration": 300
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "mimic_octopus_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "alexsmobs:mimic_octopus_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 7,
+      "saturation": 0.7,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "minecraft:nausea",
+          "amplifier": 2,
+          "duration": 300
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "cosmic_cod_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "alexsmobs:cosmic_cod_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 8,
+      "saturation": 0.4,
+      "meat": true,
+      "effect": {
+        "chance": 0.15,
+        "effect": {
+          "effect": "alexsmobs:ender_flu",
+          "amplifier": 0,
+          "duration": 600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "comb_jelly_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "alexsmobs:comb_jelly_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 6,
+      "saturation": 0.4,
+      "meat": true,
+      "effect": {
+        "chance": 0.8,
+        "effect": {
+          "effect": "ars_elemental:static_charged",
+          "amplifier": 0,
+          "duration": 200
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "devils_hole_pupfish_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "alexsmobs:devils_hole_pupfish_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 14,
+      "saturation": 1,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:nourishment",
+          "amplifier": 0,
+          "duration": 4200
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "small_catfish_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "alexsmobs:small_catfish_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 8,
+      "saturation": 0.7,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:comfort",
+          "amplifier": 0,
+          "duration": 3600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "medium_catfish_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "alexsmobs:medium_catfish_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 10,
+      "saturation": 1,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:nourishment",
+          "amplifier": 0,
+          "duration": 4200
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "large_catfish_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "alexsmobs:large_catfish_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 12,
+      "saturation": 1,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:nourishment",
+          "amplifier": 0,
+          "duration": 4200
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "flying_fish_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "alexsmobs:flying_fish_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 10,
+      "saturation": 1,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:nourishment",
+          "amplifier": 0,
+          "duration": 4200
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "mudskipper_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "alexsmobs:mudskipper_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 7,
+      "saturation": 0.7,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:comfort",
+          "amplifier": 0,
+          "duration": 3600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "triops_bucket": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "alexsmobs:triops_bucket"
+      }
+    },
+    "food_component": {
+      "hunger": 6,
+      "saturation": 0.7,
+      "meat": true,
+      "effect": {
+        "chance": 1,
+        "effect": {
+          "effect": "farmersdelight:comfort",
+          "amplifier": 0,
+          "duration": 3600
+        }
+      }
+    },
+    "use_action": "drink",
+    "sound": "item.bucket.fill_fish",
+    "return_stack": {
+      "item": "minecraft:water_bucket"
+    }
+  }
+}
