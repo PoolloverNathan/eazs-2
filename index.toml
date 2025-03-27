@@ -1905,6 +1905,11 @@ hash = "b09f611d886674cb587fcf9e64e0e13ade46a17dec25745d83e0957dea212d18"
 metafile = true
 
 [[files]]
+file = "mods/kubejs-create-for-fabric-1-20-1.pw.toml"
+hash = "d752a2ffe4a829eb74644552aa8034f840f2e1cba6f429d59380ea5e3b773d42"
+metafile = true
+
+[[files]]
 file = "mods/kubejs.pw.toml"
 hash = "424ec31aec85a288c85f101fd5f05c8b02bffbb0215d7e1c06502538139278e8"
 metafile = true
