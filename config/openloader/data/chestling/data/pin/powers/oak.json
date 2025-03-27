@@ -1,10 +1,39 @@
 {
     "type": "origins:multiple",
     "name": "Crafted from Oak",
-    "description": "Since your chest half was made from oak, you are more flammable. You also don't have legs so you can't run or swim.",
+    "description": "Since your chest half was made from oak, you are more flammable. You also don't have legs so you can't run or swim. However, it provides natural armor and makes you immune to fall damage.",
     "sprint": {
         "type": "origins:prevent_sprinting"
     },
+	"armor": {
+		"type": "origins:restrict_armor",
+		"legs": {
+			"inverted": true,
+			"type": "origins:empty"
+		},
+		"feet": {
+			"inverted": true,
+			"type": "origins:empty"
+		}
+	},
+	"nofall": {
+		"type": "origins:invulnerability",
+		"damage_condition": {
+			"type": "origins:name",
+			"name": "fall"
+		}
+	},
+	"natural_armor": {
+		"hidden": true,
+		"type": "origins:attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.armor",
+			"operation": "addition",
+			"value": 4,
+			"name": "Natural Armor toughness bonus"
+		},
+		"update_health": false
+	},
     "oak": {
         "type": "origins:modify_damage_taken",
         "damage_condition": {
