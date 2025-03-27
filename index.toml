@@ -1014,7 +1014,7 @@ hash = "5dda5be935aedc6743258c5083499ffb0d8e36468ade0a294cbb1deaca6a3834"
 
 [[files]]
 file = "config/openloader/data/chestling/data/pin/powers/oak.json"
-hash = "d7ec25fc505f2d3c9ec56a0958a3939841172c9738022d03d5b19a6d83cfc13c"
+hash = "23727b7da112d38ef22937617b7d64ea6d39e26a2d8a5ce3787dc854f8a0598b"
 
 [[files]]
 file = "config/openloader/data/chestling/data/pin/structures/debugblocks.nbt"

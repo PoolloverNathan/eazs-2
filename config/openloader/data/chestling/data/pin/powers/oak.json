@@ -1,7 +1,7 @@
 {
     "type": "origins:multiple",
     "name": "Crafted from Oak",
-    "description": "Since your chest half was made from oak, you are more flammable. You also don't have legs so you can't run or swim. However, it provides natural armor and makes you immune to fall damage.",
+    "description": "Since your chest half was made from oak, you are more flammable. You also don't have legs so you can't run or swim, and its density slows you down and makes it impossible to double-jump or fly. However, it provides natural armor and makes you immune to fall damage.",
     "sprint": {
         "type": "origins:prevent_sprinting"
     },
@@ -22,6 +22,14 @@
 			"type": "origins:name",
 			"name": "fall"
 		}
+	},
+	"nojump": {
+		"condition": {
+			"type": "origins:on_block",
+			"inverted": true
+		},
+		"type": "eggolib:prevent_key_use",
+		"key": "key.jump"
 	},
 	"natural_armor": {
 		"hidden": true,
