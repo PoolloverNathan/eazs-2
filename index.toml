@@ -1910,6 +1910,16 @@ hash = "b09f611d886674cb587fcf9e64e0e13ade46a17dec25745d83e0957dea212d18"
 metafile = true
 
 [[files]]
+file = "mods/kubejs-create-for-fabric-1-20-1.pw.toml"
+hash = "d752a2ffe4a829eb74644552aa8034f840f2e1cba6f429d59380ea5e3b773d42"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+hash = "424ec31aec85a288c85f101fd5f05c8b02bffbb0215d7e1c06502538139278e8"
+metafile = true
+
+[[files]]
 file = "mods/lazydfu.pw.toml"
 hash = "1a5cd03008ca7ce028479312bbbe858996d08015db3028ac9c7a839be9e8560e"
 metafile = true
@@ -2112,6 +2122,11 @@ metafile = true
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "04309568425eb622ffab10178d2fae3543788be54aa427ab640aea0c0dd5a4b9"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+hash = "029acab7ef100720cf537fcb676e706b61fd289add0f712185ec81ceff944804"
 metafile = true
 
 [[files]]
