@@ -1676,6 +1676,16 @@ hash = "2a28c2274b74668e6de644c0aeda01fc5a4253b1af9436a5ad680b73188cee4d"
 metafile = true
 
 [[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "49055d88cda332d0454a3ae925b46b095f354100330c379723fe5372617e8378"
+metafile = true
+
+[[files]]
+file = "mods/cccbridge.pw.toml"
+hash = "d94da74c5f4dce9b7b6586f04b3bfe99ff2b2b5298258b8ab9b111c1c126bb67"
+metafile = true
+
+[[files]]
 file = "mods/cherished-worlds.pw.toml"
 hash = "eb0a40486a66d164bc532ac890cd62f0c2a69000333fb860331cb61525842c09"
 metafile = true
