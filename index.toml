@@ -1086,7 +1086,7 @@ hash = "0de6de7c4f89b3375a105199e53efdeba4741fbcddd246e87062d74af9369e35"
 
 [[files]]
 file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/superweighted.json"
-hash = "5101cd09a85c22c70e9c410778ba9bc6c8e2fba9b8afb0cf631c6399eefff448"
+hash = "c005919c2eb19dc14dc72319cf950c01dd62cb98eb1d6622ba4ab8987c3e63e7"
 
 [[files]]
 file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/thick_blubber.json"

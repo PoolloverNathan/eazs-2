@@ -18,6 +18,10 @@
         "tick_rate": 4,
         "update_health": true
     },
+    "jump_key": {
+        "type": "eggolib:prevent_key_use",
+		"key": "key.jump"
+	},
     "jump": {
         "type": "origins:modify_jump",
         "modifier": {
@@ -26,10 +30,6 @@
         }
     },
     "air_speed": {
-        "condition": {
-            "inverted": true,
-            "type": "origins:creative_flying"
-        },
         "type": "origins:modify_air_speed",
         "modifier": {
             "operation": "set_total",
