@@ -1,0 +1,13 @@
+name = "Item Filters"
+filename = "item-filters-fabric-2001.1.0-build.53.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1KLyhGRz/versions/LoyNhXfF/item-filters-fabric-2001.1.0-build.53.jar"
+hash-format = "sha1"
+hash = "a56c539c3fadaf1efffa99dc72689d24cfbbafc2"
+
+[update]
+[update.modrinth]
+mod-id = "1KLyhGRz"
+version = "LoyNhXfF"

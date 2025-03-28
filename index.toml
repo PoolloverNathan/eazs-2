@@ -1880,6 +1880,26 @@ hash = "3c498611b1464ef647695bbb1ea766565d845e3d092e462bcc5bc61267b6de40"
 metafile = true
 
 [[files]]
+file = "mods/ftb-library-fabric.pw.toml"
+hash = "0ecc01cccbeb605112e074ecccebbfc9d0ef16a34636bebafb982123f6bdc212"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-fabric.pw.toml"
+hash = "b075b2e48e20130ee1679aa511ccae269689e4e0084c7a58bcdb57b36d6cd270"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-fabric.pw.toml"
+hash = "8c16d26d5b9bb03da0982af0d7ff7e2aaba6b91e99ab39e5f5b49fc52b1159cf"
+metafile = true
+
+[[files]]
+file = "mods/ftb-xmod-compat.pw.toml"
+hash = "5e705846974b110889772a144bfea048fd253f4186c42b59fe9e2b94d43c41ad"
+metafile = true
+
+[[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "6ad02f5c928af668b5bd4ac5f07e4cec686aca9117fbddfa2d3d87e2790bb324"
 metafile = true
@@ -1912,6 +1932,11 @@ metafile = true
 [[files]]
 file = "mods/indium.pw.toml"
 hash = "eb1c01069064a4fa5a4fd3972217c629b6c2971b5f13acc86b804f9a6cdacaeb"
+metafile = true
+
+[[files]]
+file = "mods/item-filters.pw.toml"
+hash = "9a49f144999c394f731e0d0796f9a6dfa655d02a1784db42eaa4f61f069821e3"
 metafile = true
 
 [[files]]
