@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#C#",
+        "AGD"
+    ],
+    "key": {
+        "#": {
+            "item": "create:golden_sheet"
+        },
+        "C": {
+            "item": "create:electron_tube"
+        },
+        "A": {
+            "item": "ae2:logic_processor"
+        },
+        "G": {
+            "tag": "c:glass_panes"
+        },
+        "D": {
+            "item": "ae2:calculation_processor"
+        }
+    },
+    "result": {
+    }
+}
