@@ -1,5 +1,6 @@
 {
-    "type": "minecraft:crafting_shaped",
+    "type": "computercraft:computer_upgrade",
+    "category": "redstone",
     "pattern": [
         "###",
         "#C#",
@@ -19,5 +20,6 @@
     "result": {
         "item": "computercraft:computer_advanced",
         "count": 1
-    }
+    },
+    "show_notification": true
 }
