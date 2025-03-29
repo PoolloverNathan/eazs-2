@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {"#": {"item": "minecraft:ender_pearl"}, "R": {"item": "create:redstone_link"}, "C": {"item":"ae2:calculation_processor"}, "E": {"item":"create:electron_tube"}, "I":{"item":"create:iron_sheet"}},
+  "pattern": ["IEI", "#R#", "ICI"],
+  "result": {"item": "computercraft:wireless_modem_normal"},
+  "show_notification": true
+}

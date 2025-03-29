@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {"#": {"item": "create:iron_sheet"}, "R": {"tag": "c:redstone_dusts"}, "L": {"item":"ae2:calculation_processor"}},
+  "pattern": ["###", "#R#", "#L#"],
+  "result": {"item": "computercraft:disk_drive"},
+  "show_notification": true
+}

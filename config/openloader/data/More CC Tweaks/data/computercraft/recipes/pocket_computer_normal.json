@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+      "A#D",
+      "#C#",
+      " G "
+  ],
+  "key": {
+      "#": {
+          "item": "create:iron_sheet"
+      },
+      "C": {
+          "item": "create:polished_rose_quartz"
+      },
+      "A": {
+          "item": "ae2:logic_processor"
+      },
+      "G": {
+          "tag": "c:glass_panes"
+      },
+      "D": {
+          "item": "ae2:calculation_processor"
+      }
+  },
+  "result": {
+      "item": "computercraft:pocket_computer_normal",
+      "count": 1
+  },
+  "show_notification": true
+}

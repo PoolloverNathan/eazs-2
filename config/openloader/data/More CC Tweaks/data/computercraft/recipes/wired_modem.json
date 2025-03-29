@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item":"create:iron_sheet"
+    },
+    "P": {
+      "item":"create:electron_tube"
+    },
+    "C": {
+      "item":"ae2:calculation_processor"
+    },
+    "L": {
+      "item":"ae2:logic_processor"
+    },
+    "R": {
+      "tag":"c:redstone_dusts"
+    }
+  },
+  "pattern": ["#P#", "CLC", "#R#"],
+  "result": {"item": "computercraft:wired_modem"},
+  "show_notification": true
+}

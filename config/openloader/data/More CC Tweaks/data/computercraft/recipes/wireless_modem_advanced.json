@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {"#": {"item": "minecraft:ender_eye"}, "E": {"item": "computercraft:wireless_modem_normal"}, "L": {"item":"ae2:engineering_processor"}, "C": {"item":"ae2:logic_processor"}, "B": {"item":"ae2:wireless_booster"}, "G": {"item":"create:golden_sheet"}},
+  "pattern": ["GBG", "LEC", "G#G"],
+  "result": {"item": "computercraft:wireless_modem_advanced"},
+  "show_notification": true
+}

@@ -2,23 +2,23 @@
     "type": "computercraft:computer_upgrade",
     "category": "redstone",
     "pattern": [
-        "###",
+        " # ",
         "#C#",
-        "#G#"
+        " G "
     ],
     "key": {
         "#": {
             "item": "create:golden_sheet"
         },
         "C": {
-            "item": "computercraft:computer_normal"
+            "item": "computercraft:pocket_computer_normal"
         },
         "G": {
             "item": "ae2:engineering_processor"
         }
     },
     "result": {
-        "item": "computercraft:computer_advanced",
+        "item": "computercraft:pocket_computer_advanced",
         "count": 1
     },
     "show_notification": true
