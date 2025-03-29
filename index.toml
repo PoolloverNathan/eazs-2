@@ -1915,6 +1915,11 @@ hash = "065e2cd3cf2cf9108ffc7122381132abfa99c3c0edc408a6df40c33b5fbc22f4"
 metafile = true
 
 [[files]]
+file = "mods/gobber-fabric.pw.toml"
+hash = "7a6ade7bfddfb33b5e8c0843f582b3654deacca74b1633c0676d19b82ecc30cd"
+metafile = true
+
+[[files]]
 file = "mods/gravity-api-fork.pw.toml"
 hash = "e743be67111f67f273c8dd7227d24dfe4276f018f1c40de28e75d2b3294422eb"
 metafile = true
