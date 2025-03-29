@@ -1,27 +1,25 @@
 {
-    "type": "minecraft:crafting_shaped",
+    "type": "computercraft:computer_upgrade",
+    "category": "redstone",
     "pattern": [
         "###",
         "#C#",
-        "AGD"
+        "#G#"
     ],
     "key": {
         "#": {
             "item": "create:golden_sheet"
         },
         "C": {
-            "item": "create:electron_tube"
-        },
-        "A": {
-            "item": "ae2:logic_processor"
+            "item": "computercraft:computer_normal"
         },
         "G": {
-            "tag": "c:glass_panes"
-        },
-        "D": {
-            "item": "ae2:calculation_processor"
+            "item": "ae2:engineering_processor"
         }
     },
     "result": {
-    }
+        "item": "computercraft:computer_advanced",
+        "count": 1
+    },
+    "show_notification": true
 }
