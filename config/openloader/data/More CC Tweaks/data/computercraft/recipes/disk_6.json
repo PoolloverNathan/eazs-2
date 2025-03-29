@@ -1,0 +1,7 @@
+{
+  "type": "computercraft:impostor_shapeless",
+  "category": "redstone",
+  "group": "computercraft:disk",
+  "ingredients": [{"tag": "c:redstone_dusts"}, {"item": "minecraft:dried_kelp"}, {"item": "minecraft:purple_dye"}],
+  "result": {"item": "computercraft:disk", "nbt": "{Color:11691749}"}
+}

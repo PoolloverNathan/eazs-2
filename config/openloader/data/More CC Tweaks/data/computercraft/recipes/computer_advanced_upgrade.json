@@ -1,0 +1,25 @@
+{
+    "type": "computercraft:computer_upgrade",
+    "category": "redstone",
+    "pattern": [
+        "###",
+        "#C#",
+        "#G#"
+    ],
+    "key": {
+        "#": {
+            "item": "create:golden_sheet"
+        },
+        "C": {
+            "item": "computercraft:computer_normal"
+        },
+        "G": {
+            "item": "ae2:engineering_processor"
+        }
+    },
+    "result": {
+        "item": "computercraft:computer_advanced",
+        "count": 1
+    },
+    "show_notification": true
+}
