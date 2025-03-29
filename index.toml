@@ -1676,6 +1676,16 @@ hash = "2a28c2274b74668e6de644c0aeda01fc5a4253b1af9436a5ad680b73188cee4d"
 metafile = true
 
 [[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "49055d88cda332d0454a3ae925b46b095f354100330c379723fe5372617e8378"
+metafile = true
+
+[[files]]
+file = "mods/cccbridge.pw.toml"
+hash = "d94da74c5f4dce9b7b6586f04b3bfe99ff2b2b5298258b8ab9b111c1c126bb67"
+metafile = true
+
+[[files]]
 file = "mods/cherished-worlds.pw.toml"
 hash = "eb0a40486a66d164bc532ac890cd62f0c2a69000333fb860331cb61525842c09"
 metafile = true
@@ -1870,6 +1880,26 @@ hash = "3c498611b1464ef647695bbb1ea766565d845e3d092e462bcc5bc61267b6de40"
 metafile = true
 
 [[files]]
+file = "mods/ftb-library-fabric.pw.toml"
+hash = "0ecc01cccbeb605112e074ecccebbfc9d0ef16a34636bebafb982123f6bdc212"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-fabric.pw.toml"
+hash = "b075b2e48e20130ee1679aa511ccae269689e4e0084c7a58bcdb57b36d6cd270"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-fabric.pw.toml"
+hash = "8c16d26d5b9bb03da0982af0d7ff7e2aaba6b91e99ab39e5f5b49fc52b1159cf"
+metafile = true
+
+[[files]]
+file = "mods/ftb-xmod-compat.pw.toml"
+hash = "5e705846974b110889772a144bfea048fd253f4186c42b59fe9e2b94d43c41ad"
+metafile = true
+
+[[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "6ad02f5c928af668b5bd4ac5f07e4cec686aca9117fbddfa2d3d87e2790bb324"
 metafile = true
@@ -1882,6 +1912,11 @@ metafile = true
 [[files]]
 file = "mods/glitchcore.pw.toml"
 hash = "065e2cd3cf2cf9108ffc7122381132abfa99c3c0edc408a6df40c33b5fbc22f4"
+metafile = true
+
+[[files]]
+file = "mods/gobber-fabric.pw.toml"
+hash = "7a6ade7bfddfb33b5e8c0843f582b3654deacca74b1633c0676d19b82ecc30cd"
 metafile = true
 
 [[files]]
@@ -1902,6 +1937,11 @@ metafile = true
 [[files]]
 file = "mods/indium.pw.toml"
 hash = "eb1c01069064a4fa5a4fd3972217c629b6c2971b5f13acc86b804f9a6cdacaeb"
+metafile = true
+
+[[files]]
+file = "mods/item-filters.pw.toml"
+hash = "9a49f144999c394f731e0d0796f9a6dfa655d02a1784db42eaa4f61f069821e3"
 metafile = true
 
 [[files]]

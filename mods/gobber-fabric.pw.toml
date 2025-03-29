@@ -1,0 +1,13 @@
+name = "Gobber [FABRIC]"
+filename = "Gobber2-Fabric-1.20.1-2.9.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e8a6c7067560aeeddd37150e60c3fab28ce67ec9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5279837
+project-id = 427177

@@ -1,0 +1,13 @@
+name = "FTB XMod Compat"
+filename = "ftb-xmod-compat-fabric-2.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9679f79b4d1faef392504356146d92fefd7ba108"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6046019
+project-id = 889915
