@@ -2466,6 +2466,11 @@ hash = "4723c107321fb36bd0d6a16f4a47fe6df812af33ac9209076b63bef137787c31"
 metafile = true
 
 [[files]]
+file = "mods/xxl-packets.pw.toml"
+hash = "325279cd87d2e995a8315240a50439a28dbc35c5022022e8fb99f5e3ad899c78"
+metafile = true
+
+[[files]]
 file = "mods/yungs-api.pw.toml"
 hash = "46cd46bdfc8af55ffb2eb8dafaf2cc6426c6efc7bafbec68d88a9a006d5b9043"
 metafile = true
