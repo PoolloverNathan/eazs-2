@@ -1853,6 +1853,11 @@ hash = "431b2535a04fd1095f30904d35d29d3264692362567d3204562d001e51db7732"
 metafile = true
 
 [[files]]
+file = "mods/createaddition.pw.toml"
+hash = "d7efd7d686ed6465c3eb2a71a5be177876a774388fbb31804c29f3c55141b8df"
+metafile = true
+
+[[files]]
 file = "mods/damagenumbers.pw.toml"
 hash = "0bdeec888374e2f7568f213bffcf44f4fb277b758b758837d3dd7dec8a7df715"
 metafile = true
