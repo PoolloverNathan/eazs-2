@@ -1853,6 +1853,11 @@ hash = "431b2535a04fd1095f30904d35d29d3264692362567d3204562d001e51db7732"
 metafile = true
 
 [[files]]
+file = "mods/create-steam-n-rails.pw.toml"
+hash = "33dd378a7f5fea00272cd663d8ca33af66be20801778a668a51b636440366fc6"
+metafile = true
+
+[[files]]
 file = "mods/createaddition.pw.toml"
 hash = "d7efd7d686ed6465c3eb2a71a5be177876a774388fbb31804c29f3c55141b8df"
 metafile = true
@@ -2047,6 +2052,11 @@ hash = "e743be67111f67f273c8dd7227d24dfe4276f018f1c40de28e75d2b3294422eb"
 metafile = true
 
 [[files]]
+file = "mods/guard-villagers-(fabricquilt).pw.toml"
+hash = "5c66a9e286d7c01b75f7e923a14d89e061aae51a2e66d65eda47ff5d20983131"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "734a38253c0158a07411a28da03ade9079b8700a213508e32c5904f3a3180bad"
 metafile = true
@@ -2060,6 +2070,10 @@ metafile = true
 file = "mods/indium.pw.toml"
 hash = "eb1c01069064a4fa5a4fd3972217c629b6c2971b5f13acc86b804f9a6cdacaeb"
 metafile = true
+
+[[files]]
+file = "mods/inkling-1.0.0.jar"
+hash = "af441928cf30dd46300c278340657d748b41d80860daa387c357024252f155fa"
 
 [[files]]
 file = "mods/item-filters.pw.toml"
@@ -2209,6 +2223,11 @@ metafile = true
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "1f82071636589ba00c1a9dd8816d5aa4dda62cea1f128b133fea56d40e829c71"
+metafile = true
+
+[[files]]
+file = "mods/numismatics.pw.toml"
+hash = "84ef5b315910a0ebb77307feab6e2b2985c2695354c5e102e07c7241f1ecb5b9"
 metafile = true
 
 [[files]]
