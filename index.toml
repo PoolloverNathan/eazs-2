@@ -1873,11 +1873,6 @@ hash = "20efb349020b2ded8f727e11263580693cd1f26d666d268165a5670c9d74144d"
 metafile = true
 
 [[files]]
-file = "mods/defile.pw.toml"
-hash = "c9da260ef521566429ccec0ae7339a93b5df06cd4cb72cb832744da022b218d4"
-metafile = true
-
-[[files]]
 file = "mods/dimensionaldoors.pw.toml"
 hash = "0312d8931c87828985eeb58bbf2c2dd33d40a7c81582a8843a1b6431f7167687"
 metafile = true
@@ -2070,10 +2065,6 @@ metafile = true
 file = "mods/indium.pw.toml"
 hash = "eb1c01069064a4fa5a4fd3972217c629b6c2971b5f13acc86b804f9a6cdacaeb"
 metafile = true
-
-[[files]]
-file = "mods/inkling-1.0.0.jar"
-hash = "af441928cf30dd46300c278340657d748b41d80860daa387c357024252f155fa"
 
 [[files]]
 file = "mods/item-filters.pw.toml"
