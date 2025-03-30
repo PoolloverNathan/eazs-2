@@ -793,6 +793,114 @@ file = "config/openloader/data/Mermaid_Origin_2.0.1/pack.mcmeta"
 hash = "6e42449f0cc99c87dea659f2a51234abbe6080c8d2e1ddc3c4daf631c87d60a2"
 
 [[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/computer_advanced.json"
+hash = "ecde9f86eb0c3fdf1fc302d4692bbc74e857b927bc8368385be38b3de4099193"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/computer_advanced_upgrade.json"
+hash = "749ccbd6b02f679a70889d7fa589b63c93977dd98ed2d393a87e3b74ef2edee5"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/computer_normal.json"
+hash = "8447ffea0af568af28b391b47ac0af765b9271e45ba1a0106f20484afa680db7"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_1.json"
+hash = "47985d1c1c2e78038692c3b5343a6b09d05d456f6b8979dbd0ab988b0d5c1cdc"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_10.json"
+hash = "156d87451bf6f0f68475695e084610a924badc7bb1db9f7d724b69a534c572cf"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_11.json"
+hash = "cc755cbb0639a29f160a8005ebb806046e4537807db5017437b0517ccd45b4dd"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_12.json"
+hash = "3ac0415e1668084b017141e08b0701d63c8fb283a429352dca882065f44c3c6c"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_13.json"
+hash = "33ce2c85171ab803b2109d49aa13d998c781f49b726826201fd969467c821113"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_14.json"
+hash = "88d5939a2a95ac1c087293b3c9dc118a115a56eee13e57bd7fd1344212a3597f"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_15.json"
+hash = "b9816ce4c7468255e43747b4693713ea7be8e5c2365ef410f79851627f30fe17"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_16.json"
+hash = "61e3c7e97bc53d95e8a312ee8d12fedc3a30e886b6d4eeaef7a68003d27ebad8"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_2.json"
+hash = "93390faaa7de3130bb2c1d5edcd1a764e436985d3b900316164f759bff388685"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_3.json"
+hash = "b4a92c4e417a63bd252ca8edb700dd7788d181d1846a2fb5f8bfbd3b12bc35a1"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_4.json"
+hash = "c1aa9788721b639e5fdb31d4fc54447b26a528975c464bcdcc924c01cceb951e"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_5.json"
+hash = "330ff8c529c9df5e1554891e934798147dba5b069da143404a7a01f5a0a90270"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_6.json"
+hash = "1df2a2ab865830518df8fef445a20030147bca0c28bf7c65176300830ce95f9c"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_7.json"
+hash = "1f48138ce61f2fcb98eba6ad06136b3e63a8524e97673056cc0bef55182f54ad"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_8.json"
+hash = "1625670ca00067deed155d0afe060447d78e515f83b18fb31e6dacee7fdaad69"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_9.json"
+hash = "66c2d3a543f5a35fdc46d4e340d4274abd324d7a31b8222f82f43a8e9f14d61e"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_drive.json"
+hash = "b3c978219e034561dae9964caf636e7ea76a13701df29a8997732e7d94e6db9e"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/pocket_computer_advanced.json"
+hash = "a314a3889dff8f60d1ebb329eee1f56365618467092c9926cb7d52bd14aaf2a8"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/pocket_computer_advanced_upgrade.json"
+hash = "4ecf43528b4de5a607d877152528aa1064a301627dda567bc9cc2925f7def242"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/pocket_computer_normal.json"
+hash = "e8e2bedd69c99969976a24289818b7db4ca2ba708a224686db65362fe908f74c"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/wired_modem.json"
+hash = "d76a8b79857724185a90418512277f3b58c3835eed06ac81f3c61495250f8066"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/wireless_modem_advanced.json"
+hash = "e4e90fa7bf938ee25742529490bcd19f4b95c76c5715bb429f6db6d62976500d"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/wireless_modem_normal.json"
+hash = "8d8f157f87b694f16456c0184d9216c0bf1957d871cd1a96aadd0474c2f22252"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/pack.mcmeta"
+hash = "a3abd44726b3d4234242bb3773513544c3b62a45c04a1a98a79a8f57dcbd9f66"
+
+[[files]]
 file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/origins/origin_layers/origin.json"
 hash = "7f0c3b4970ce2782e5f1068856e597e504164ac029e20604977ebc45eae14fe7"
 
