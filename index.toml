@@ -1645,6 +1645,10 @@ file = "config/openloader/data/wooly1.1_1.20.1-/pack.png"
 hash = "7b1b27c79e74f393a8f500846d286d15d5d1b302ec62b22d1a2faed5d2d7f0c7"
 
 [[files]]
+file = "config/vowels-packwiz.json"
+hash = "7c0b7b1f7f3ec940f8510f5224ac1ce26d7a68d9ffadd1ab1159f091c32cb616"
+
+[[files]]
 file = "icon.png"
 hash = "ac14fa6665fd908d8230e516e7d2d53367ec31a406d18dcce0c0c3bae1119697"
 
@@ -1856,6 +1860,11 @@ metafile = true
 [[files]]
 file = "mods/decorative-blocks.pw.toml"
 hash = "20efb349020b2ded8f727e11263580693cd1f26d666d268165a5670c9d74144d"
+metafile = true
+
+[[files]]
+file = "mods/defile.pw.toml"
+hash = "c9da260ef521566429ccec0ae7339a93b5df06cd4cb72cb832744da022b218d4"
 metafile = true
 
 [[files]]
@@ -2073,6 +2082,11 @@ hash = "1a5cd03008ca7ce028479312bbbe858996d08015db3028ac9c7a839be9e8560e"
 metafile = true
 
 [[files]]
+file = "mods/ledger.pw.toml"
+hash = "84defc8f8116d5c0e4210934ed1f555641a1db71b767fa4beddee21c47118868"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "c56f82aa24c0a311c2b953f0e6baee8bf2b7a51d965111183161ebb448178fb4"
 metafile = true
@@ -2218,8 +2232,18 @@ hash = "dc28c48150e7d7bab5bb453ac6f371acc9a3ce2beac95bbf557e1823b99d7f9e"
 metafile = true
 
 [[files]]
+file = "mods/origins-plus-plus.pw.toml"
+hash = "7544cbd3c839606eca3c3d5019de82364b2345893758c74e9a161a69d78e779c"
+metafile = true
+
+[[files]]
 file = "mods/origins.pw.toml"
 hash = "5a6925865c33b9512c7683c15adbd7626a53ee234f7f5c43d09e41484972149d"
+metafile = true
+
+[[files]]
+file = "mods/paragraphs.pw.toml"
+hash = "b98e202aa188cc46dd42b82e7f155653bb0eac9676bc294e28bd30cda29f381d"
 metafile = true
 
 [[files]]
@@ -2405,6 +2429,11 @@ metafile = true
 [[files]]
 file = "mods/vanilla-permissions.pw.toml"
 hash = "351826e1e381ba6525d9521a968f3e76d5c985ae58464f3ae1ffcb0e05b1da7f"
+metafile = true
+
+[[files]]
+file = "mods/vowels.pw.toml"
+hash = "d99cf24e6b9b01e0acdaa665cad6cf537e046b55d714121995526c4e60a0cb4b"
 metafile = true
 
 [[files]]
