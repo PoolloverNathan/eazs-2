@@ -1,5 +1,6 @@
 name = "vowels"
 filename = "vowels-1.0.0.jar"
+side = "server"
 
 [download]
 url = "https://github.com/PoolloverNathan/eeriea3/raw/refs/heads/main/mods/vowels-1.0.0.jar"

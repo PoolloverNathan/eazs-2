@@ -1646,7 +1646,7 @@ hash = "7b1b27c79e74f393a8f500846d286d15d5d1b302ec62b22d1a2faed5d2d7f0c7"
 
 [[files]]
 file = "config/vowels-packwiz.json"
-hash = "7c0b7b1f7f3ec940f8510f5224ac1ce26d7a68d9ffadd1ab1159f091c32cb616"
+hash = "7f6b0e0a412311b6d0cb5d9df856547ee60048b516535de5e849d4134c8b87e9"
 
 [[files]]
 file = "icon.png"
@@ -2443,7 +2443,7 @@ metafile = true
 
 [[files]]
 file = "mods/vowels.pw.toml"
-hash = "d99cf24e6b9b01e0acdaa665cad6cf537e046b55d714121995526c4e60a0cb4b"
+hash = "ee95ee126c2f7ae461c6b876e6246d2a6dd272aa91febb859a78e638c67ce834"
 metafile = true
 
 [[files]]

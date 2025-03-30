@@ -1,3 +1,4 @@
 {
-	"skipUpdate": true
+	"skipUpdate": true,
+	"forceVanilla": true
 }
