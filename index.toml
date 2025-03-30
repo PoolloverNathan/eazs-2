@@ -6,7 +6,7 @@ hash = "ded68c2f70604ac4e2c22860bbd84c505a0bf3b8b24a197c975bb6ec81d3f272"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
-hash = "4b272d27c90ef68d33f6fe29f97a714f0a371f1bfe9fab3911d47e52fe065ed3"
+hash = "9b809c0cc06fef65fb5b7350a7eed6f2e8182c91f58c2494add0e64ca8bc0552"
 
 [[files]]
 file = "config/figura.json"
@@ -1910,7 +1910,7 @@ hash = "ac14fa6665fd908d8230e516e7d2d53367ec31a406d18dcce0c0c3bae1119697"
 
 [[files]]
 file = "index.toml.orig"
-hash = "79f223a4f60d38f5eccffd0cb86958c45f1f822ff8b4dd36b03e9ea0fe95efe5"
+hash = "26207422c81907abb5563708e18054bccd106404052ce3a526ee12df785901b7"
 
 [[files]]
 file = "kubejs/data/kubejs/origins/statue.json"
@@ -2802,4 +2802,4 @@ metafile = true
 
 [[files]]
 file = "pack.toml.orig"
-hash = "342eb3944ddfbd7517830201ff281ff07353a5981b96a54cf4d44e08bf39d3d8"
+hash = "69310a911da9db270dbf76568629fd042d878110ec85800f2145b20e6fdebfc8"

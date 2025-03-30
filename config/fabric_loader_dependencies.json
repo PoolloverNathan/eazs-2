@@ -16,6 +16,11 @@
         "immersive_portals": "*"
       }
     },
+    "sodium": {
+      "-breaks": {
+        "immersiveportals": "*"
+      }
+    },
     "emi": {
       "+breaks": {
         "roughlyenoughitems": "*"
