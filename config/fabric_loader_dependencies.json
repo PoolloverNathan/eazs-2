@@ -9,9 +9,6 @@
     "dimdoors": {
       "+depends": {
         "immersive_portals": "*"
-      },
-      "+breaks": {
-        "iris": "*"
       }
     },
     "axiom": {

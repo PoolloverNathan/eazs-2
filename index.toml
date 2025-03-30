@@ -6,7 +6,7 @@ hash = "ded68c2f70604ac4e2c22860bbd84c505a0bf3b8b24a197c975bb6ec81d3f272"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
-hash = "96b4b82e606c1d644e4981afc82902676c68844beb79e58369ecbf191fd770fd"
+hash = "4b272d27c90ef68d33f6fe29f97a714f0a371f1bfe9fab3911d47e52fe065ed3"
 
 [[files]]
 file = "config/figura.json"
@@ -1909,12 +1909,12 @@ file = "icon.png"
 hash = "ac14fa6665fd908d8230e516e7d2d53367ec31a406d18dcce0c0c3bae1119697"
 
 [[files]]
-file = "kubejs/data/kubejs/origins/statue.json"
-hash = "61182c311408df1bcac96a1ad9e8111f363dfcf25a37bcfc60ac658264383575"
+file = "index.toml.orig"
+hash = "79f223a4f60d38f5eccffd0cb86958c45f1f822ff8b4dd36b03e9ea0fe95efe5"
 
 [[files]]
-file = "kubejs/data/kubejs/powers/S-statue.vim"
-hash = "b792483ee59194edbba3824b00f69fe73887e0fe958093ea73df5850613eeed2"
+file = "kubejs/data/kubejs/origins/statue.json"
+hash = "61182c311408df1bcac96a1ad9e8111f363dfcf25a37bcfc60ac658264383575"
 
 [[files]]
 file = "kubejs/data/kubejs/powers/statue_immobile.json"
@@ -2347,13 +2347,18 @@ hash = "734a38253c0158a07411a28da03ade9079b8700a213508e32c5904f3a3180bad"
 metafile = true
 
 [[files]]
-file = "mods/immersiveportals.pw.toml"
-hash = "bd8506be42948470dc2ba19c93652f89345666c6a9e9a9f9fc97442bb6788ace"
+file = "mods/immersive-portals-continued.pw.toml"
+hash = "537931e9e7e54fb0801417349b9f0f99824811f1a4c54ed94764f6853a5393b1"
 metafile = true
 
 [[files]]
 file = "mods/indium.pw.toml"
-hash = "eb1c01069064a4fa5a4fd3972217c629b6c2971b5f13acc86b804f9a6cdacaeb"
+hash = "ff4043240f349d5967c4d28a5de7b3a7d08c43652c06d59e0c1d43597c5c0269"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "0c76ff10971db8501866e5d2f855e6a466838e5b123fbd72bbf35ed3dd4a32ad"
 metafile = true
 
 [[files]]
@@ -2628,7 +2633,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "bb69c0fba4e2a1baece9a63d18c2fe8d4c0aeb282905f6daa050758dd6ae6c8b"
+hash = "40dd67622fef76c44cedcc945b97e9d4944124f0a6a3cc56bffa87e595a6735a"
 metafile = true
 
 [[files]]
@@ -2794,3 +2799,7 @@ metafile = true
 file = "mods/yungs-bridges.pw.toml"
 hash = "245426d680ffe00f7723224e89670c18bda71f387d43143f9e076112e5f7c3b9"
 metafile = true
+
+[[files]]
+file = "pack.toml.orig"
+hash = "63da50f732a26373dfdb5709f9ae25e1b6cb99d65226efeb236841113dd805e5"
