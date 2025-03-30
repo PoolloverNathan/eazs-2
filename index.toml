@@ -2358,7 +2358,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "0c76ff10971db8501866e5d2f855e6a466838e5b123fbd72bbf35ed3dd4a32ad"
+hash = "6c5b369e54a1100e8ce5c1885e968b5fa28ba8c6f41ad32e48dd560de22a29f1"
 metafile = true
 
 [[files]]
@@ -2802,4 +2802,4 @@ metafile = true
 
 [[files]]
 file = "pack.toml.orig"
-hash = "63da50f732a26373dfdb5709f9ae25e1b6cb99d65226efeb236841113dd805e5"
+hash = "342eb3944ddfbd7517830201ff281ff07353a5981b96a54cf4d44e08bf39d3d8"
