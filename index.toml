@@ -1718,6 +1718,11 @@ hash = "e09ceae04e73831b93c43e6a1f12da063fc24e1074f39fab1e00234a8de8a1e2"
 metafile = true
 
 [[files]]
+file = "mods/axiom.pw.toml"
+hash = "a0abd84c11722528fa4d08534de5d2705acf591e19ff70b579628ebd2d92b875"
+metafile = true
+
+[[files]]
 file = "mods/barbeques-delight.pw.toml"
 hash = "1255f07706f3e0944d5d57e0fb69b29237c69c1e3b9985ce8849468aebc2a239"
 metafile = true
