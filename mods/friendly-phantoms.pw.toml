@@ -1,0 +1,13 @@
+name = "Friendly Phantoms"
+filename = "Phantoms-0.1.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/SLrCKKlV/versions/sohK0g2u/Phantoms-0.1.1.jar"
+hash-format = "sha1"
+hash = "e4266ee31aaf81a1992a120cec1c3da3467100f7"
+
+[update]
+[update.modrinth]
+mod-id = "SLrCKKlV"
+version = "sohK0g2u"

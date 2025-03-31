@@ -2002,6 +2002,11 @@ hash = "3c498611b1464ef647695bbb1ea766565d845e3d092e462bcc5bc61267b6de40"
 metafile = true
 
 [[files]]
+file = "mods/friendly-phantoms.pw.toml"
+hash = "072e3ad526495a5ab17553ecb0e4d55b5c7310d01458a6d31a37cbdb98090669"
+metafile = true
+
+[[files]]
 file = "mods/ftb-library-fabric.pw.toml"
 hash = "0ecc01cccbeb605112e074ecccebbfc9d0ef16a34636bebafb982123f6bdc212"
 metafile = true
