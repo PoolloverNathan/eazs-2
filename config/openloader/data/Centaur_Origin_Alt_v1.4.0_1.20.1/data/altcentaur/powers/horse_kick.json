@@ -1,0 +1,75 @@
+{
+    "name": "Horse Kick",
+    "description": "As a centaur, you are capable of throwing your hind legs up into the air and forcefully kicking any enemy behind you, dealing considerable damage.",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:raycast",
+                "distance": -4,
+                "block": true,
+                "entity": true,
+                "shape_type": "collider",
+                "fluid_handling": "none",
+                "bientity_action": {
+                    "type": "origins:target_action",
+                    "action": {
+                        "type": "origins:delay",
+                        "action": {
+                            "type": "origins:and",
+                            "actions": [
+                                {
+                                    "type": "origins:damage",
+                                    "amount": 12,
+                                    "damage_type": "player_attack"
+                                },
+                                {
+                                    "type": "origins:add_velocity",
+                                    "y": 0.4,
+                                    "z": -0.7,
+                                    "space": "local_horizontal_normalized",
+                                    "client": true,
+                                    "server": true
+                                },
+                                {
+                                    "type": "origins:play_sound",
+                                    "sound": "minecraft:block.mud_bricks.break",
+                                    "volume": 1,
+                                    "pitch": 0.7
+                                }
+                            ]
+                        },
+                        "ticks": 5
+                    }
+                },
+                "direction": {
+                    "x": 0,
+                    "y": 0.7,
+                    "z": 1
+                },
+                "space": "local_horizontal_normalized"
+            },
+            {
+                "type": "origins:delay",
+                "action": {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.player.attack.sweep",
+                    "volume": 1,
+                    "pitch": 1
+                },
+                "ticks": 5
+            }
+        ]
+    },
+    "cooldown": 40,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+        "bar_index": 4
+    },
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": true
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "name": "Rideable",
+    "description": "Due to your lower body of a horse, other players are capable of riding on you.",
+    "type": "origins:multiple",
+    "mounting": {
+        "type": "origins:action_on_being_used",
+        "bientity_action": {
+            "type": "origins:mount"
+        },
+        "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:target_condition",
+                    "condition": {
+                        "type": "origins:passenger",
+                        "comparison": "==",
+                        "compare_to": 0
+                    }
+                },
+                {
+                    "type": "origins:actor_condition",
+                    "condition": {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "mainhand",
+                        "item_condition": {
+                            "type": "origins:empty"
+                        }
+                    }
+                }
+            ]
+        },
+        "action_result": "success",
+        "priority": 0
+    },
+    "hitbox_resizing_normal": {
+        "condition": {
+            "type": "origins:passenger",
+            "comparison": "==",
+            "compare_to": 0
+        },
+        "type": "origins:action_over_time",
+        "interval": 5,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:hitbox_height 1.43"
+        }
+    },
+    "hitbox_resizine_mount": {
+        "type": "origins:action_on_being_used",
+        "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:hitbox_height 0.83"
+            }
+        },
+        "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:target_condition",
+                    "condition": {
+                        "type": "origins:passenger",
+                        "comparison": "==",
+                        "compare_to": 0
+                    }
+                },
+                {
+                    "type": "origins:actor_condition",
+                    "condition": {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "mainhand",
+                        "item_condition": {
+                            "type": "origins:empty"
+                        }
+                    }
+                }
+            ]
+        },
+        "action_result": "success",
+        "priority": 0
+    },
+    "sneaking_dismount": {
+        "condition": {
+            "type": "origins:sneaking"
+        },
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:passenger_action",
+            "action": {
+                "type": "origins:dismount"
+            }
+        }
+    }
+}

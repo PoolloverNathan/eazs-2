@@ -1,0 +1,9 @@
+{
+	"name": "Can't Swim",
+	"description": "Unfortunately, your horse lower half was not made for the water, and you're unable to swim efficiently.",
+	"type": "origins:prevent_sprinting",
+	"condition": {
+		"type": "origins:submerged_in",
+		"fluid": "minecraft:water"
+    }
+}
