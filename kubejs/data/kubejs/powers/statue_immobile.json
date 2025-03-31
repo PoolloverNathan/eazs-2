@@ -1,0 +1,42 @@
+{
+	"name": "Solid",
+	"description": "Your stone limbs wre no longer capable of movement — not even your mouth.",
+	"type": "origins:multiple",
+	"no_pickup": {
+		"type": "eggolib:prevent_item_pickup"
+	},
+    "no_swim": {
+        "type": "origins:ignore_water"
+    },
+	"no_keys": {
+		"keys": [
+			"key.attack",
+			"key.use",
+			"key.sprint",
+			"key.sneak",
+			"key.jump",
+			"key.forward",
+			"key.chat",
+			"key.command",
+			"key.back",
+			"key.left",
+			"key.right",
+			"key.hotbar.1",
+			"key.hotbar.2",
+			"key.hotbar.3",
+			"key.hotbar.4",
+			"key.hotbar.5",
+			"key.hotbar.6",
+			"key.hotbar.7",
+			"key.hotbar.8",
+			"key.hotbar.9",
+			"key.inventory",
+			"key.drop",
+			"key.ae2.portable_item_cell",
+			"key.ae2.guide",
+			"key.swapOffset",
+			"key.pickItem",
+			"key.ae2.wireless_terminal"
+		]
+	}
+}

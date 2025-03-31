@@ -1,0 +1,9 @@
+{
+	"name": "Sturdy",
+	"description": "Your stone body is impenetrable to damage.",
+	"type": "origins:multiple",
+	
+    "invulnerable": {
+        "type": "origins:invulnerability"
+	}
+}

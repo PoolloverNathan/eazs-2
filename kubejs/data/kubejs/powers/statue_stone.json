@@ -1,0 +1,19 @@
+{
+	"name": "Stoneskin",
+	"description": "Your body is made of stone, and certain player traits are no longer visible.",
+	"type": "origins:multiple", 
+	"skin": {
+		"type": "apugli:entity_texture_overlay",
+		"texture_location": "ensculked:textures/item/sculk_skin_regular.png",
+		"show_first_person": true,
+		"render_original_model": false,
+		"render_player_outer_layer": false,
+		"condition": {
+			"type": "apugli:player_model_type",
+			"model_type": "default"
+		}
+	},
+	"prevent_label": {
+		"type": "apugli:prevent_label_render"
+	}
+}

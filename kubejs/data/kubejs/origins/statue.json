@@ -1,0 +1,10 @@
+{
+	"name": "Statue",
+	"description": "You are a petrified ex-player, trapped forever in your stone body.",
+	"impact": 3,
+	"powers": [
+		"kubejs:statue_stone",
+		"kubejs:statue_immobile",
+		"kubejs:statue_solid"
+	]
+}

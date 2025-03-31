@@ -1653,6 +1653,26 @@ file = "icon.png"
 hash = "ac14fa6665fd908d8230e516e7d2d53367ec31a406d18dcce0c0c3bae1119697"
 
 [[files]]
+file = "kubejs/data/kubejs/origins/statue.json"
+hash = "61182c311408df1bcac96a1ad9e8111f363dfcf25a37bcfc60ac658264383575"
+
+[[files]]
+file = "kubejs/data/kubejs/powers/statue_immobile.json"
+hash = "948e76d0125323edd18cd5bc52757e966616864f7c84d89240ad5d4558d1837a"
+
+[[files]]
+file = "kubejs/data/kubejs/powers/statue_solid.json"
+hash = "a6df4f67612cf91fbc61928ea68b027290ce9a6672e1187ed37b9dd508625f9b"
+
+[[files]]
+file = "kubejs/data/kubejs/powers/statue_stone.json"
+hash = "6ef2b99b1bcde3f26edefb4d81a17721a2b66ce80d740f298c606f7f4d03951d"
+
+[[files]]
+file = "kubejs/data/origins/origin_layers/origin.json"
+hash = "2303425790327d56ac634048e7d91949762d8769d565aee81ed58dfd04645128"
+
+[[files]]
 file = "mods/\"limitless\"-banners.pw.toml"
 hash = "b2d2b260f31b66a7cddb0cc701092a0f7fe492f78f58db7a0204cb2cdf617f3b"
 metafile = true
