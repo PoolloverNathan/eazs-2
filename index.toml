@@ -6,7 +6,7 @@ hash = "ded68c2f70604ac4e2c22860bbd84c505a0bf3b8b24a197c975bb6ec81d3f272"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
-hash = "76715f0162cc2858abc82e96037fb2696b6581bd80862fd4bad5d7e97a55acac"
+hash = "85bf7ada15970a0fc57703ad26003868a80a385ed32d2d3dc082927f013e2709"
 
 [[files]]
 file = "config/figura.json"
