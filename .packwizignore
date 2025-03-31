@@ -7,3 +7,4 @@ result
 flake.nix
 flake.lock
 root
+*@
