@@ -1,0 +1,176 @@
+{
+    "name": "Robust",
+    "description": "Your lower body of a horse boasts mobility like that of a horse, granting you the movement speed, jump height, step height, and fall distance modifiers of one.",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "§aGolden foods, especially rarer ones, temporarily boost your speed and jump to be equivalent to perfect stat horses!",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+    "type": "origins:multiple",
+    "jump_height": {
+        "type": "origins:modify_jump",
+        "modifier": {
+            "operation": "addition",
+            "value": 0.27
+        }
+    },
+    "step_height": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:step_height 1.7 @s"
+        },
+        "execute_chosen_when_orb": true,
+        "entity_action_lost": {
+            "type": "origins:execute_command",
+            "command": "scale reset @s"
+        },
+        "entity_action_added": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:step_height 1.7 @s"
+        },
+        "entity_action_removed": {
+            "type": "origins:execute_command",
+            "command": "scale reset @s"
+        },
+        "entity_action_respawned": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:step_height 1.7 @s"
+        }
+    },
+    "sprinting": {
+        "condition": {
+            "type": "origins:sprinting"
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "generic.movement_speed",
+            "operation": "addition",
+            "value": 0.075
+        },
+        "tick_rate": 1,
+        "update_health": true
+    },
+    "walking": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "generic.movement_speed",
+            "operation": "addition",
+            "value": 0.05
+        },
+        "update_health": true
+    },
+    "fall_height": {
+        "condition": {
+            "type": "origins:fall_distance",
+            "comparison": "<=",
+            "compare_to": 6
+        },
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:from_falling"
+        }
+    },
+    "fall_damage": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:from_falling"
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -0.5
+        }
+    },
+    "golden_carrots": {
+        "type": "origins:action_on_item_use",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "effect": "minecraft:speed",
+                    "duration": 600,
+                    "amplifier": 1,
+                    "show_particles": true,
+                    "show_icon": true
+                },
+                {
+                    "effect": "minecraft:jump_boost",
+                    "duration": 600,
+                    "amplifier": 2,
+                    "show_particles": true,
+                    "show_icon": true
+                }
+            ]
+        },
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:golden_carrot"
+            }
+        },
+        "trigger": "finish",
+        "priority": 0
+    },
+    "golden_apple": {
+        "type": "origins:action_on_item_use",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "effect": "minecraft:speed",
+                    "duration": 2400,
+                    "amplifier": 1,
+                    "show_particles": true,
+                    "show_icon": true
+                },
+                {
+                    "effect": "minecraft:jump_boost",
+                    "duration": 2400,
+                    "amplifier": 2,
+                    "show_particles": true,
+                    "show_icon": true
+                }
+            ]
+        },
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:golden_apple"
+            }
+        },
+        "trigger": "finish",
+        "priority": 0
+    },
+    "enchanted_golden_apple": {
+        "type": "origins:action_on_item_use",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "effect": "minecraft:speed",
+                    "duration": 9600,
+                    "amplifier": 1,
+                    "show_particles": true,
+                    "show_icon": true
+                },
+                {
+                    "effect": "minecraft:jump_boost",
+                    "duration": 9600,
+                    "amplifier": 2,
+                    "show_particles": true,
+                    "show_icon": true
+                }
+            ]
+        },
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:enchanted_golden_apple"
+            }
+        },
+        "trigger": "finish",
+        "priority": 0
+    }
+}
