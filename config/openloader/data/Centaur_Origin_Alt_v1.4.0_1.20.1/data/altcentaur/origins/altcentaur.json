@@ -7,7 +7,7 @@
         "altcentaur:rideable",
         "altcentaur:large_stance",
         "altcentaur:horse_kick",
-		"altcentaur:no_swimming"
+	"altcentaur:no_swimming"
     ],
     "icon": {
         "item": "minecraft:saddle"
