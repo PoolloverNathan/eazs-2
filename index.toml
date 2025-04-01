@@ -2472,9 +2472,8 @@ hash = "351826e1e381ba6525d9521a968f3e76d5c985ae58464f3ae1ffcb0e05b1da7f"
 metafile = true
 
 [[files]]
-file = "mods/vowels.pw.toml"
-hash = "ee95ee126c2f7ae461c6b876e6246d2a6dd272aa91febb859a78e638c67ce834"
-metafile = true
+file = "mods/vowels-1.0.0+1.20.1.jar"
+hash = "d0bfb1ca4f7914b2a84a5d13ceefe87163dd634cf4cbfbd24137f88f9e9b612a"
 
 [[files]]
 file = "mods/worldedit.pw.toml"
