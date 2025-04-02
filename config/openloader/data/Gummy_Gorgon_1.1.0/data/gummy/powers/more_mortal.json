@@ -1,0 +1,19 @@
+{
+    "name": "More Mortal",
+    "description": "You are more mortal than other players, and will die permanently when killed by another player.",
+    "type": "origins:action_on_death",
+    "bientity_action": {
+        "type": "origins:target_action",
+        "action": {
+        "type": "origins:execute_command",
+        "command": "gamemode spectator @s"
+            }
+    },
+    "bientity_condition": {
+        "type": "origins:actor_condition",
+        "condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:player"
+        }
+    }
+}

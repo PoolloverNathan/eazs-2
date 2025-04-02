@@ -1,0 +1,24 @@
+{
+    "name": "Progressing Affliction",
+    "description": "Your transformation has not yet reached its final form. This stage lasts for longer, though, so you have some time before you're fully transformed.",
+    "type": "origins:multiple",
+    "time": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 480,
+        "start_value": 0,
+        "max_action": {
+                "type":"origins:execute_command",
+                "command":"origin set @s origins:gummyfication gum:stage3"
+            }
+    },
+    "fill": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_time",
+            "change": 1
+        },
+        "interval": 500
+    }
+}

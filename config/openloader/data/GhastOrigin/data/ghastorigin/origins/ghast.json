@@ -1,0 +1,18 @@
+{
+    "powers": [
+        "origins:fire_immunity",
+        "origins:nether_spawn",
+        "origins:fragile",
+        "origins:aerial_combatant",
+        "origins:slow_falling",
+        "origins:launch_into_air",
+        "ghastorigin:throw_fire_charge"
+    ],
+    "icon": {
+        "id": "ghast_tear"
+    },
+    "order": 10,
+    "impact": 3,
+    "name": "Ghast",
+    "description": "A ghast origin test thing."
+}

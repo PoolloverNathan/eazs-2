@@ -1,0 +1,17 @@
+{
+"name": "Snake Eyes",
+"description": "Even a gummy snake's eyes have better light vision, and so you see the world as much brighter. Plus, your vision can't be blinded or darkened",
+"type":"origins:multiple",
+"brightness":{
+    "type": "origins:overlay",
+    "texture": "minecraft:textures/block/water_overlay.png",
+    "strength": 0.5,
+    "red": 1.0,
+    "green": 1.0,
+    "blue": 1.0,
+    "draw_mode": "nausea",
+    "draw_phase": "below_hud",
+    "hide_with_hud": false,
+    "visible_in_third_person": true
+}
+}

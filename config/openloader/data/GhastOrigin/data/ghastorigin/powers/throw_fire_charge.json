@@ -1,0 +1,17 @@
+{
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:fireball",
+    "cooldown": 100,
+    "speed": 0.5,
+    "divergeance": 1,
+    "sound": "minecraft:item.firecharge.use",
+    "hud_render": {
+        "bar_index": 7
+    },
+    "key": {
+        "key": "key.origins.secondary_active",
+        "continuous": false
+    },
+    "name": "Fireball",
+    "description": "You can shoot an explosive fireball."
+  }

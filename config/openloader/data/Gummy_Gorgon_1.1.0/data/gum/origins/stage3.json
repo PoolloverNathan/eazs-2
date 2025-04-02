@@ -1,0 +1,32 @@
+{
+    "name": "Fully Gummyfied",
+    "description": "Your body has been entirely transformed into a gummy. It's gonna be a lot harder to do things like this, but you can't go back.",
+    "powers": [
+    "gum:atrophied",
+	"gum:edible",
+    "gum:malleable_body",
+	"gum:moisture",
+	"gum:varied_sizing2",
+	"gum:wormify",
+	"gum:moisture_changing",
+	"gum:moisture_food",
+    "gum:sticky_body",
+	"gum:soft_body",
+	"gum:no_muscles_off",
+	"gum:no_muscles_main",
+	"gum:no_muscles_helmet",
+	"gum:no_muscles_chestplate",
+	"gum:no_muscles_leggings",
+	"gum:no_muscles_boots",
+	"gum:shrinking3",
+	"gum:squishy_feet",
+	"origins:translucent",
+	"origins:climbing"
+    ],
+    "icon": {
+        "item": "minecraft:slime_block"
+    },
+    "order": 3,
+    "impact": 3,
+    "loading_priority": 10
+}

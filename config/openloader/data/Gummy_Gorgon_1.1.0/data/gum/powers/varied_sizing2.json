@@ -1,0 +1,524 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "set_delays": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:execute_command",
+            "command": "scale delay set 0"
+        },
+        "execute_chosen_when_orb": true,
+        "entity_action_lost": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay reset"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale reset"
+                }
+            ]
+        },
+        "entity_action_added": {
+            "type": "origins:execute_command",
+            "command": "scale delay set 0"
+        },
+        "entity_action_removed": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay reset"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale reset"
+                }
+            ]
+        },
+        "entity_action_respawned": {
+            "type": "origins:execute_command",
+            "command": "scale delay set 0"
+        }
+    },
+    "resizing": {
+        "type": "origins:action_over_time",
+        "interval": 5,
+        "entity_action": {
+            "type": "origins:if_else_list",
+            "actions": [
+                {
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "gum:moisture_bar",
+                        "comparison": ">=",
+                        "compare_to": 90
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:height 2"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:width 2"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:reach 2"
+                            },
+			    {
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:step_height 2"
+			    },
+			    {
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:motion 1"
+			    },
+                {
+                    "type": "origins:execute_command",
+                    "command":"scale set pehkui:jump_height 1.75"
+                }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "gum:moisture_bar",
+                                "comparison": ">=",
+                                "compare_to": 80
+                            },
+                            {
+                                "type": "origins:resource",
+                                "resource": "gum:moisture_bar",
+                                "comparison": "<",
+                                "compare_to": 90
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:height 1.75"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:width 1.75"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:reach 1.75"
+                            },
+			    {
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:step_height 1.75"
+			    },
+			    {
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:motion 1"
+			    },
+                {
+                    "type": "origins:execute_command",
+                    "command":"scale set pehkui:jump_height 1.75"
+                }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "gum:moisture_bar",
+                                "comparison": ">=",
+                                "compare_to": 70
+                            },
+                            {
+                                "type": "origins:resource",
+                                "resource": "gum:moisture_bar",
+                                "comparison": "<",
+                                "compare_to": 80
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:height 1.5"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:width 1.5"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:reach 1.5"
+                            },
+			    {
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:step_height 1.5"
+			    },
+			    {
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:motion 1"
+			    },
+                {
+                    "type": "origins:execute_command",
+                    "command":"scale set pehkui:jump_height 1.75"
+                }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "gum:moisture_bar",
+                                "comparison": ">=",
+                                "compare_to": 60
+                            },
+                            {
+                                "type": "origins:resource",
+                                "resource": "gum:moisture_bar",
+                                "comparison": "<",
+                                "compare_to": 70
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:height 1.25"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:width 1.25"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:reach 1.25"
+                            },
+			    {
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:step_height 1.25"
+			    },
+			    {
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:motion 1"
+			    },
+                {
+                    "type": "origins:execute_command",
+                    "command":"scale set pehkui:jump_height 1.75"
+                }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "gum:moisture_bar",
+                                "comparison": ">=",
+                                "compare_to": 50
+                            },
+                            {
+                                "type": "origins:resource",
+                                "resource": "gum:moisture_bar",
+                                "comparison": "<",
+                                "compare_to": 60
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:height 1"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:width 1"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:reach 1"
+                            },
+			    {
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:step_height 1"
+			    },
+			    {
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:motion 1"
+			    },
+                {
+                    "type": "origins:execute_command",
+                    "command":"scale set pehkui:jump_height 1.75"
+                }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "gum:moisture_bar",
+                                "comparison": ">=",
+                                "compare_to": 40
+                            },
+                            {
+                                "type": "origins:resource",
+                                "resource": "gum:moisture_bar",
+                                "comparison": "<",
+                                "compare_to": 50
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:height 0.9"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:width 0.9"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:reach 1"
+                            },
+			    {
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:step_height 0.8"
+			    },
+			    {
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:motion 1.2"
+			    },
+                {
+                    "type": "origins:execute_command",
+                    "command":"scale set pehkui:jump_height 1.75"
+                }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "gum:moisture_bar",
+                                "comparison": ">=",
+                                "compare_to": 30
+                            },
+                            {
+                                "type": "origins:resource",
+                                "resource": "gum:moisture_bar",
+                                "comparison": "<",
+                                "compare_to": 40
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:height 0.8"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:width 0.8"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:reach 1"
+                            },
+			    {
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:step_height 0.6"
+			    },
+			    {
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:motion 1.4"
+			    },
+                {
+                    "type": "origins:execute_command",
+                    "command":"scale set pehkui:jump_height 1.75"
+                }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "gum:moisture_bar",
+                                "comparison": ">=",
+                                "compare_to": 20
+                            },
+                            {
+                                "type": "origins:resource",
+                                "resource": "gum:moisture_bar",
+                                "comparison": "<",
+                                "compare_to": 30
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:height 0.7"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:width 0.7"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:reach 1"
+                            },
+			    {
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:step_height 0.4"
+			    },
+			    {
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:motion 1.6"
+			    },
+                {
+                    "type": "origins:execute_command",
+                    "command":"scale set pehkui:jump_height 1.75"
+                }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "gum:moisture_bar",
+                                "comparison": ">=",
+                                "compare_to": 10
+                            },
+                            {
+                                "type": "origins:resource",
+                                "resource": "gum:moisture_bar",
+                                "comparison": "<",
+                                "compare_to": 20
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:height 0.6"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:width 0.6"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:reach 1"
+                            },
+			    {
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:step_height 0.2"
+			    },
+			    {
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:motion 1.8"
+			    },
+                {
+                    "type": "origins:execute_command",
+                    "command":"scale set pehkui:jump_height 1.75"
+                }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "gum:moisture_bar",
+                                "comparison": ">=",
+                                "compare_to": 0
+                            },
+                            {
+                                "type": "origins:resource",
+                                "resource": "gum:moisture_bar",
+                                "comparison": "<",
+                                "compare_to": 10
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:height 0.1"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:width 0.1"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "scale set pehkui:reach 0.001"
+                            },
+			    {
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:step_height 0.001"
+			    },
+			    {
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:motion 0.5"
+			    },
+                {
+                    "type": "origins:execute_command",
+                    "command":"scale set pehkui:jump_height 0.0001"
+                }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

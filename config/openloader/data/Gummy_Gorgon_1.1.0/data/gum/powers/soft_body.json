@@ -1,0 +1,7 @@
+{
+    "name": "Soft Body",
+    "description": "Your body now absorbs all damage from falling.",
+    "loading_priority": 5,
+    "type": "origins:modify_falling",
+    "take_fall_damage": false
+}

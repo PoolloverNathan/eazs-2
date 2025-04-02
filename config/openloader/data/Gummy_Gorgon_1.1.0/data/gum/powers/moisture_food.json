@@ -1,0 +1,181 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "moisture_tooltip_big": {
+        "type": "origins:tooltip",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "gum:moisture_food_big"
+            }
+        },
+        "text": "§a+15 Moisture",
+        "order": 0
+    },
+    "consume_wet_big": {
+        "type": "origins:action_on_item_use",
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "resource": "gum:moisture_bar",
+            "modifier": {
+                "operation": "addition",
+                "value": 15
+            }
+        },
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "gum:moisture_food_big"
+            }
+        },
+        "trigger": "finish",
+        "priority": 0
+    },
+    "moisture_tooltip_med": {
+        "type": "origins:tooltip",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "gum:moisture_food_med"
+            }
+        },
+        "text": "§a+10 Moisture",
+        "order": 0
+    },
+    "consume_wet_med": {
+        "type": "origins:action_on_item_use",
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "resource": "gum:moisture_bar",
+            "modifier": {
+                "operation": "addition",
+                "value": 10
+            }
+        },
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "gum:moisture_food_med"
+            }
+        },
+        "trigger": "finish",
+        "priority": 0
+    },
+    "consume_wet_small": {
+        "type": "origins:action_on_item_use",
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "resource": "gum:moisture_bar",
+            "modifier": {
+                "operation": "addition",
+                "value": 5
+            }
+        },
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "gum:moisture_food_small"
+            }
+        },
+        "trigger": "finish",
+        "priority": 0
+    },
+    "moisture_tooltip_small": {
+        "type": "origins:tooltip",
+        "item_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "gum:moisture_food_small"
+                    }
+                },
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:slime_ball"
+                    }
+                }
+            ]
+        },
+        "text": "§a+5 Moisture",
+        "order": 0
+    },
+    "consume_slimeballs": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:slime_ball"
+            }
+        },
+        "food_component": {
+            "hunger": 0,
+            "saturation": 0,
+            "always_edible": true,
+            "snack": true
+        },
+        "consume_animation": "drink",
+        "consume_sound": "minecraft:block.honey_block.slide",
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "resource": "gum:moisture_bar",
+            "modifier": {
+                "operation": "addition",
+                "value": 5
+            }
+        },
+        "priority": 0
+    },
+    "consume_slime_block": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:raycast",
+            "distance": 4.5,
+            "block": true,
+            "entity": false,
+            "shape_type": "outline",
+            "fluid_handling": "none",
+            "space": "world"
+        },
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:slime_block"
+            }
+        },
+        "food_component": {
+            "hunger": 0,
+            "saturation": 0,
+            "always_edible": true
+        },
+        "consume_animation": "drink",
+        "consume_sound": "minecraft:block.honey_block.slide",
+        "consuming_time_modifier": {
+            "operation": "set_total",
+            "value": 160
+        },
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "resource": "gum:moisture_bar",
+            "modifier": {
+                "operation": "addition",
+                "value": 45
+            }
+        },
+        "priority": 0
+    },
+    "moisture_tooltip_massive": {
+        "type": "origins:tooltip",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:slime_block"
+            }
+        },
+        "text": "§a+45 Moisture",
+        "order": 0
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Magic Guard",
+    "description": "Your body is inherently magical, giving it great resistance to magical damage.",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "magic"
+    },
+    "modifier": {
+        "name": "Magical Resistance",
+        "operation": "multiplication",
+        "value": 0.5
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Absorbant Body",
+    "description": "Due to your now-gummy body being very pourous, you can absorb a lot of water, increasing your size but not inreasing your movement speed, and you can lose that moisture to gain speed at the cost of size.",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "Various factors, such as the biome you're in, the weather, your diet, and being on fire contribute to your base and max absorbed water levels.",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+    "type": "origins:multiple",
+    "bar": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 100,
+        "start_value": 50,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/resource_bar.png",
+            "bar_index": 1
+        }
+    }
+}

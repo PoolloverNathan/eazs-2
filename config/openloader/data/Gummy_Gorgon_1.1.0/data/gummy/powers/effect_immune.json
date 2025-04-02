@@ -1,0 +1,12 @@
+{
+  "name": "Natural Antivenom",
+  "description": "Your snake-like body provides a natural immunity to poisons and food poisoning.",
+  "type":"origins:effect_immunity",
+  "effects":[
+    "minecraft:blindness",
+    "minecraft:darkness",
+    "minecraft:hunger",
+    "minecraft:poison",
+    "minecraft:slowness"
+  ]
+}

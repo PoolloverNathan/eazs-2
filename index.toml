@@ -101,6 +101,42 @@ file = "config/openloader/data/Cecaelia_Origin_v1.0/pack.mcmeta"
 hash = "696106b650e4e40450210d52401a48eb544d7df115c1d22ad9cf17566645a028"
 
 [[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/origins/altcentaur.json"
+hash = "a32c4e3c1f9a6c87cede87e603a6f8c954b42b8ca740606610b5b75cb413cadd"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/powers/horse_kick.json"
+hash = "460d6684a272451bff2b0a19ec5b7038cfb4a735ea8e2a82bcae9b12ad920cc7"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/powers/imposing.json"
+hash = "e9061d6c925fc6ae928950ed342c6ff86002441aa27eb6d10baeffdd6e349f4b"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/powers/large_stance.json"
+hash = "de87f665868dca05afdbc6b60e4cf069af31dbabcffe635bd03220a58c2ddbe2"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/powers/no_swimming.json"
+hash = "7439f954cb20cd1bec51fe5dbb01e69c2bfea00a22ecc4005abb6f5754824561"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/powers/rideable.json"
+hash = "98f286616a845ab0208538c72bfba8ce85c6b7aae855b24105350f2f9deef9b8"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/powers/robust.json"
+hash = "60a99bb027610cadf2c3ea7353d096b5ae3823ccfa448e55b59a2f4b93785cdb"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/Centaur_Origin_Alt_v1.4.0_1.20.1/data/origins/origin_layers/origin.json"
+hash = "7e83f068fac76afdc9916ae20b83c539184053c74740a8a85023b4d8596907a2"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/Centaur_Origin_Alt_v1.4.0_1.20.1/pack.mcmeta"
+hash = "d59cf7e50c8b287189c9c656ea7c77ad393d8784bd971b3568108be1eb851df0"
+
+[[files]]
 file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/origins/centaur.json"
 hash = "d526c3e28431ec24cbcf71b27de4a45a09a7ddf485813375a85bea3c37e2afff"
 
@@ -417,6 +453,26 @@ file = "config/openloader/data/Furrettaur_Origin_v1.1/pack.mcmeta"
 hash = "4ef413706b68b502c1be7313d4cb8a252a160b35cfb9a2cabe1f9deb180c5942"
 
 [[files]]
+file = "config/openloader/data/GhastOrigin/data/ghastorigin/origins/ghast.json"
+hash = "1f9b22aa1c0a530ca71231a2daed7206209213573297098a71ece033acfe62a5"
+
+[[files]]
+file = "config/openloader/data/GhastOrigin/data/ghastorigin/powers/throw_fire_charge.json"
+hash = "cfdeeff6be8a7edaf709c3e0b614a5a5503b1e0c3e12870ded582fa872c12974"
+
+[[files]]
+file = "config/openloader/data/GhastOrigin/data/origins/origin_layers/origin.json"
+hash = "f43c0431cff6e77c37acad6d1c8314b6d67ae6ccc7cc31daa706cfa08ab45fc2"
+
+[[files]]
+file = "config/openloader/data/GhastOrigin/pack.mcmeta"
+hash = "4382b010a318c2f900a6d097bd139671261042463b9546c477486582f7a9fd12"
+
+[[files]]
+file = "config/openloader/data/GhastOrigin/pack.png"
+hash = "2947eca21d63a5fef1e6e45b328ddda9f8c1e591f52b102178ac13b92a287f44"
+
+[[files]]
 file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/giraffetaur/origins/giraffetaur.json"
 hash = "fd70fef0602cbc196e4a3437558915b43a9a4ca0c0857305b69b0126078b70c2"
 
@@ -471,6 +527,206 @@ hash = "197c3af1819d2334ba8da61fe06a1ba99af677707ff2a0d906a6ad5ce1bad2a5"
 [[files]]
 file = "config/openloader/data/Giraffetaur_Origin_v1.0/pack.mcmeta"
 hash = "a154a6f5b5ebf975e2e48290992d8ac29b5b3c8145e8b97b734666a920aaf415"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/CREDITS.txt"
+hash = "139460b6c9600fa8ada7273d0eb82c4af3096104bf13cedcc9dc4b38b39a603b"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/origins/stage0.json"
+hash = "539408351035a06a6713026072ed7048c1bb765e9b960b9a3e7cfda9aff174d9"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/origins/stage1.json"
+hash = "23c3da78649ccb398055a7604bd5bca5b12bd4a1608dafc349891e2be24d0bf6"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/origins/stage2.json"
+hash = "3fff327d2d1988ede773046fe173dfed61cd3b3bb422fee10d767738124e0a7f"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/origins/stage3.json"
+hash = "3ef23927202addea55756609e6e7c71d6e87af96d336c9bcce0086035c9009b8"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/origins/stage4.json"
+hash = "7543ff0f02c68e6627cbcd5314ae1d2b118d15679e56206f531d0e0ae6d35f25"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/powers/atrophied.json"
+hash = "1ed5b1d2ef34a6b97312bf8921863c50e360aea16cc3ae738c5f317ebdd0e651"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/powers/edible.json"
+hash = "176640724c696ebac3af6e4e70676e985fbf55e851d4db77de4b72d345691124"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/powers/malleable_body.json"
+hash = "ef993bb06a6a91b823ec29b9739ddec04fa94e6a9b71bd9623ebefd0dd8a7111"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/powers/moisture.json"
+hash = "9369f85c2da0ef5e51e85fa15625f7213a830c8d01efc83b606f87c9f631e043"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/powers/moisture_changing.json"
+hash = "35656ac0cfe1e7287ec324a188fcf7e922256ce20f927059289fde9995c9a487"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/powers/moisture_food.json"
+hash = "8fc3e67b236f470946605a9e64c26b0df50282dff4ad79d9d6f719d39f412b01"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/powers/no_muscles_boots.json"
+hash = "9f09619314d8da9639f5f46b67b76331845ec18af7b75b057639b9de5e7de295"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/powers/no_muscles_chestplate.json"
+hash = "a61ef385e997c653f3cd23ef26901380ccaea331524a86d5228b3e2716ce58e1"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/powers/no_muscles_helmet.json"
+hash = "8fae376e81a9b6c9787f7b6c5c749510854bec24d7a193001d97cde067efc7ae"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/powers/no_muscles_leggings.json"
+hash = "397e901306ec13791d7662423873c2d68362f1213035fe88a54e440cd41fca3e"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/powers/no_muscles_main.json"
+hash = "690d399081b114bb0ffe168c2b3543f8ba4c79c67a71f56bb8e567eea87c9ba7"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/powers/no_muscles_off.json"
+hash = "1716f27bec6bd6483f6526125bdeb452d6b6835ba7753433c9de39be639bcd29"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/powers/shrinking1.json"
+hash = "1aff44fdcf9271e4e785200316b4e5830221140c324f830a552b38eadcb8fd39"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/powers/shrinking2.json"
+hash = "fc06628775008a30daa26b5125f2df4631444e5b0e516f77fda8b95361ab2fda"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/powers/shrinking3.json"
+hash = "0e52e24cd2c76cd778908490243e40f91f58645a5d0364bdc067944eb8447154"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/powers/soft_body.json"
+hash = "37f0a54820af8982076576d1005a08ecad9ff48e70a2a8034e1ebe07c08a3cdb"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/powers/squishy_feet.json"
+hash = "552eee3cf3854ad589269320f6130c14739006c190d866a2ea8d874cd8b6943e"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/powers/stage1trigger.json"
+hash = "b7bef47f1a5e81194fbc75f8b62be502b6f6b4f2362015f398a3ba176c476232"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/powers/stage2trigger.json"
+hash = "d54d0ef5bc5e46f74535790b19d2e61dd9774c1f820792916a9a255d5e6c9f81"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/powers/stage3trigger.json"
+hash = "94e0622709693d4a154d10dbda7ef207de14ee7a062dccd1a8f02f0204bf26ed"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/powers/sticky_body.json"
+hash = "18f5355db35b2d8935d14bd9707f0f3693fa753ddf195cfe74eb103d66ed98f1"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/powers/varied_sizing.json"
+hash = "78f6defa5b0f9d3ee24cf76b35ec6fe89203ad18298946227e1b6260a83e7d72"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/powers/varied_sizing2.json"
+hash = "5af3887ef7bbeeb5f9f87d7aefa0eae205eb63f6c5a4f3a81aefc8a882cb0c48"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/powers/wormify.json"
+hash = "e9dbf95051bf9a6a86f5898dcf85e0e1b73383acf08c34f9b2053c6dff96a84e"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/tags/blocks/slippery_default.json"
+hash = "cdc2d40a56f9862e92069d7a5f851537540b72de2c2df0572d33cb1d3ba7984f"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/tags/items/moisture_food_big.json"
+hash = "11895535cf5e696f0a3949ac2e25d98e0d70f017576f3661ed8404ee8752a685"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/tags/items/moisture_food_med.json"
+hash = "ab90364336f61a48a290369f4628f785792bf40128da51989dd803216620b1ce"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gum/tags/items/moisture_food_small.json"
+hash = "b9ea2c6503f94b2b706d4de1a579107c2375b349e6b02f5c6fe855fc26d03cea"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gummy/origins/gorgon.json"
+hash = "4e03b3e416f4e389a240ec467e65aeda9804fbbcf4e39e3ac08d687aff1a8403"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gummy/powers/delicate_snakes.json"
+hash = "a2e3e6069c95e0fc1239d725e5bfd0d29d6e834789b959bfb08aeebf5d24446a"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gummy/powers/diet.json"
+hash = "de3c7a7c382cb31bac64d1c82cd89481902d8c7fa9f53fa9700357b82d0994bf"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gummy/powers/eatingyum.json"
+hash = "5c967f9d58dc401d5d8820306de470f28d9bff899b2420d8fb7ddfe22c62b276"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gummy/powers/effect_immune.json"
+hash = "7e3fb339e48098f331f62e2f9d04a4a7369cdb831c8980f1f9e169db7a559f0a"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gummy/powers/gummy_sight.json"
+hash = "4df8f96fb29f6eeb1957c560c25751f6f7da894627449d1bd5f6c7b31f2d34d6"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gummy/powers/hard_scales.json"
+hash = "b2a9e78611fe52726fac47d3f49dc39de7c109f88c841724d9b93f52778cc12d"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gummy/powers/magic_guard.json"
+hash = "63ef7e73ad43f1818a81cdc8f9f66ab94b8f4ff3dd008f9e259703274f18a7b3"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gummy/powers/melted_hair.json"
+hash = "f9add5057242e3404ef4f181becc93d7f68d370e466846dba4f609638f5adf2e"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gummy/powers/more_mortal.json"
+hash = "def270e97c76f5303fefc2bacdcba78af7dbbd1b60b9a6cd2a260eea1aada2d9"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gummy/powers/snake_eyes.json"
+hash = "108a816381acbc4b2156e16cbcc1490c89fd8c4a8a87b6717cef146a0efe4e51"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gummy/powers/sticky_slash.json"
+hash = "71fbba0bbeccfc9e9546ef7fa9d7950938fe1c3d1171f4451aa32535e24acd40"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/gummy/powers/swamp_spawn.json"
+hash = "36c95c14729a3ff9caf7a1e8884903b328827c3e456124d1b86c448888da6578"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/origins/origin_layers/gummyfication.json"
+hash = "a664dc25b6139c0d4aae4014b9c927af94a26eb1fc7de854d92f22a3d04ffb30"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/data/origins/origin_layers/origin.json"
+hash = "192982f4b28e339237e2d9b32a71f97d14fcc76e6695b62660f72a622f71c22d"
+
+[[files]]
+file = "config/openloader/data/Gummy_Gorgon_1.1.0/pack.mcmeta"
+hash = "44ee0677b771bbb69523542bfd9de9652c03f0473721d7f4ffaee1c9e1023d8c"
 
 [[files]]
 file = "config/openloader/data/Ice Statue 1.0.0/data/ice_statue/functions/ice.mcfunction"
@@ -1655,6 +1911,10 @@ hash = "ac14fa6665fd908d8230e516e7d2d53367ec31a406d18dcce0c0c3bae1119697"
 [[files]]
 file = "kubejs/data/kubejs/origins/statue.json"
 hash = "61182c311408df1bcac96a1ad9e8111f363dfcf25a37bcfc60ac658264383575"
+
+[[files]]
+file = "kubejs/data/kubejs/powers/S-statue.vim"
+hash = "b792483ee59194edbba3824b00f69fe73887e0fe958093ea73df5850613eeed2"
 
 [[files]]
 file = "kubejs/data/kubejs/powers/statue_immobile.json"

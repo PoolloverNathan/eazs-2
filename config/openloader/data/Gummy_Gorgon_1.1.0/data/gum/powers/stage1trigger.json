@@ -1,0 +1,82 @@
+{
+    "name": "Convertable",
+    "description": "If you look at the gummy gorgon, your body will undergo a transformation. Prevent this by wearing a pumpkin while looking at it!",
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+        "type": "origins:area_of_effect",
+        "radius": 20,
+        "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:can_see"
+                },
+                {
+                    "type": "origins:actor_condition",
+                    "condition": {
+                        "type": "origins:raycast",
+                        "distance": 20,
+                        "block": false,
+                        "entity": true,
+                        "shape_type": "outline",
+                        "fluid_handling": "any",
+                        "hit_bientity_condition": {
+                            "type": "origins:and",
+                            "conditions": [
+                                {
+                                    "type": "origins:target_condition",
+                                    "condition": {
+                                        "type": "origins:entity_type",
+                                        "entity_type": "minecraft:player"
+                                    }
+                                }
+			    ]
+                        }
+                    }
+                },
+		{
+		"type": "origins:actor_condition",
+		"condition": {
+		    "type": "origins:equipped_item",
+		    "equipment_slot": "head",
+		    "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+			    "item": "minecraft:carved_pumpkin"
+			        },
+		    "inverted": true
+			}
+		    }
+		},
+                {
+                    "type": "origins:target_condition",
+                    "condition": {
+                        "type": "origins:origin",
+                        "origin": "gummy:gorgon"
+                    }
+                },
+		{
+		    "type": "origins:actor_condition",
+		    "condition": {
+			"type": "origins:origin",
+			"origin": "gummy:gorgon",
+			"inverted": true
+		    }
+		}
+            ]
+        },
+        "bientity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:actor_action",
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "origin set @s origins:gummyfication gum:stage1"
+                    }
+                }
+            ]
+        }
+    }
+}

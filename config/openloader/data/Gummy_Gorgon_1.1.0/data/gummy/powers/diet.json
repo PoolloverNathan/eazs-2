@@ -1,0 +1,81 @@
+{
+    "type": "origins:modify_food",
+    "item_condition": {
+		"type": "origins:or",
+		"conditions": [
+		{
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:apple"
+        }
+		},
+		{
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:golden_apple"
+        }
+		},
+		{
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:enchanted_golden_apple"
+        }
+		},
+		{
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:cake"
+        }
+		},
+		{
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:cookie"
+        }
+		},
+		{
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:sweet_berries"
+        }
+		},
+		{
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:honey_bottle"
+        }
+		},
+		{
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:glow_berries"
+        }
+		},
+		{
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:pumpkin_pie"
+        }
+		}
+		],
+		"inverted": true
+    },
+    "food_modifier": {
+        "name": "no food points",
+        "operation": "multiply_base",
+        "value": -1
+    },
+    "saturation_modifier": {
+        "name": "no saturation points",
+        "operation": "multiply_base",
+        "value": -1
+    },
+	"name": "Sugary Diet",
+	"description": "Only sweet foods or items that contain sugar can fill you up.",
+	"badges": [
+	{
+		"sprite": "origins:textures/gui/badge/info.png",
+		"text": "Sneak to place sugar cane instead of eating it."
+	}
+	]
+}

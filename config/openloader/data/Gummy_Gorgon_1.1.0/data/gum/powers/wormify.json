@@ -1,0 +1,36 @@
+{
+    "name": "Gummy Wormify",
+    "description": "If your body doesn't have enough moisture, it will automatically transform into a gummy worm to conserve what moisture it has left.",
+    "type": "origins:conditioned_attribute",
+	"badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "While you're a gummy worm you are much smaller, are much slower, cannot interact with blocks or entities, and your jump is replaced with a short dash.",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
+    "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "multiply_base",
+            "value": -0.80
+		},
+	    "condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:resource",
+				"resource": "gum:moisture_bar",
+				"comparison": ">=",
+				"compare_to": 0
+			},
+			{
+				"type": "origins:resource",
+				"resource": "gum:moisture_bar",
+				"comparison": "<",
+				"compare_to": 10
+			}
+			
+		]
+	
+    }
+}

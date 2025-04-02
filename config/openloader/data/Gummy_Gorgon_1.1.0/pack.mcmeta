@@ -1,0 +1,9 @@
+{
+    "pack": {
+        "name": "Gummy Medusa",
+        "id": "gummygorgon",
+        "pack_format": 18,
+        "version": "v1.0",
+        "description": "A gorgon which converts not to stone, but candy."
+    }
+}

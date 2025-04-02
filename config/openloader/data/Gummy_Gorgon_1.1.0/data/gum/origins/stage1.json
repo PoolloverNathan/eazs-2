@@ -1,0 +1,16 @@
+{
+    "name": "Newly Transforming",
+    "description": "You looked in the Gummy Gorgons eyes. You feel your body becoming more sticky, and you know there's no going back.",
+    "powers": [
+        "gum:atrophied",
+        "gum:sticky_body",
+	"gum:shrinking1",
+	"gum:stage2trigger"
+    ],
+    "icon": {
+        "item": "minecraft:lime_dye"
+    },
+    "order": 1,
+    "impact": 1,
+    "loading_priority": 8
+}

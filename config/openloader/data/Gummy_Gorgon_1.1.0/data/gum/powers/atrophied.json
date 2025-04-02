@@ -1,0 +1,12 @@
+{
+	"name": "Weaker Arms",
+	"description": "Your hands are not strong enough to hold up a shield anymore.",
+    
+	"type": "origins:prevent_item_use",
+	"item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"tag": "origins:shields"
+		}
+	}
+}
