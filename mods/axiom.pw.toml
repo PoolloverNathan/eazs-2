@@ -1,0 +1,18 @@
+name = "Axiom"
+filename = "Axiom-4.7.1-for-MC1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/N6n5dqoA/versions/V2yrnNhH/Axiom-4.7.1-for-MC1.20.1.jar"
+hash-format = "sha1"
+hash = "9e048c03c84ed36cd587d9aaf05f52dc3186ee7c"
+
+[update]
+[update.modrinth]
+mod-id = "N6n5dqoA"
+version = "V2yrnNhH"
+
+[option]
+optional = true
+description = "Adds a lot of creative mode utilities for building and terraforming in single-player worlds."
+default = true

@@ -14,6 +14,11 @@
         "iris": "*"
       }
     },
+    "axiom": {
+      "-breaks": {
+        "immersive_portals": "*"
+      }
+    },
     "emi": {
       "+breaks": {
         "roughlyenoughitems": "*"

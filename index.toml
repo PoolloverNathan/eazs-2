@@ -6,7 +6,7 @@ hash = "ded68c2f70604ac4e2c22860bbd84c505a0bf3b8b24a197c975bb6ec81d3f272"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
-hash = "85bf7ada15970a0fc57703ad26003868a80a385ed32d2d3dc082927f013e2709"
+hash = "96b4b82e606c1d644e4981afc82902676c68844beb79e58369ecbf191fd770fd"
 
 [[files]]
 file = "config/figura.json"
@@ -1715,6 +1715,11 @@ metafile = true
 [[files]]
 file = "mods/athena-ctm.pw.toml"
 hash = "e09ceae04e73831b93c43e6a1f12da063fc24e1074f39fab1e00234a8de8a1e2"
+metafile = true
+
+[[files]]
+file = "mods/axiom.pw.toml"
+hash = "1ed4ba17d39f35bfdf8df8b1a4c51b0d7ebba3b4ff6191f71ba1ea3bfb7eb93b"
 metafile = true
 
 [[files]]
