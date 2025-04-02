@@ -1913,10 +1913,6 @@ file = "kubejs/data/kubejs/origins/statue.json"
 hash = "61182c311408df1bcac96a1ad9e8111f363dfcf25a37bcfc60ac658264383575"
 
 [[files]]
-file = "kubejs/data/kubejs/powers/S-statue.vim"
-hash = "b792483ee59194edbba3824b00f69fe73887e0fe958093ea73df5850613eeed2"
-
-[[files]]
 file = "kubejs/data/kubejs/powers/statue_immobile.json"
 hash = "948e76d0125323edd18cd5bc52757e966616864f7c84d89240ad5d4558d1837a"
 

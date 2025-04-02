@@ -8,3 +8,4 @@ flake.nix
 flake.lock
 root
 *@
+S-*.vim
