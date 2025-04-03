@@ -1,0 +1,3 @@
+[submodule "config/openloader/data/gummy-gorgon-origin"]
+	path = config/openloader/data/gummy-gorgon-origin
+	url = git@github.com:T3rra-Cat/gummy-gorgon-origin
