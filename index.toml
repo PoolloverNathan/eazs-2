@@ -1322,15 +1322,15 @@ hash = "02637db8b8082180afb068a4fa8513aa952bce4d1078f3c20c74fdf6a9a9e34f"
 
 [[files]]
 file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/shrinking1.json"
-hash = "1aff44fdcf9271e4e785200316b4e5830221140c324f830a552b38eadcb8fd39"
+hash = "6cab34e2893e38a1ac5512f2c7669cdf4542c980a8ce4aa36e1942659246ceab"
 
 [[files]]
 file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/shrinking2.json"
-hash = "fc06628775008a30daa26b5125f2df4631444e5b0e516f77fda8b95361ab2fda"
+hash = "085dbfffb50ee2c7c3e5f69c046cd6e5e0cec2569302b6b5cdb35fb0a39df542"
 
 [[files]]
 file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/shrinking3.json"
-hash = "0e52e24cd2c76cd778908490243e40f91f58645a5d0364bdc067944eb8447154"
+hash = "745485f89b316206c95a7f380d1c1e9ae14c87bf5204a311b4d50f83ed442073"
 
 [[files]]
 file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/soft_body.json"
@@ -1366,7 +1366,7 @@ hash = "5af3887ef7bbeeb5f9f87d7aefa0eae205eb63f6c5a4f3a81aefc8a882cb0c48"
 
 [[files]]
 file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/wormify.json"
-hash = "e9dbf95051bf9a6a86f5898dcf85e0e1b73383acf08c34f9b2053c6dff96a84e"
+hash = "d66904e6044f5fe6abc89d6201e9fe63f294110ea8f56a6882c937c355d84162"
 
 [[files]]
 file = "config/openloader/data/gummy-gorgon-origin/data/gum/tags/blocks/slippery_default.json"
