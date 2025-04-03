@@ -2123,6 +2123,11 @@ hash = "f8e21759ee41748a4366917e1e24223b8d9b21d76aafbd5a5fd1f11dcb132404"
 metafile = true
 
 [[files]]
+file = "mods/craterlib.pw.toml"
+hash = "6318cda6594318937d45d687888f6816d019bbc4c4155b0b4c8dc569d1985598"
+metafile = true
+
+[[files]]
 file = "mods/create-contraption-terminals.pw.toml"
 hash = "2dcd4795e07f45549294178c0d793a62cf165c2740a2347e9e896480e5c191b9"
 metafile = true
@@ -2604,6 +2609,11 @@ metafile = true
 [[files]]
 file = "mods/screenshot-viewer.pw.toml"
 hash = "2936b1ac0996a3bd5174cd29fdbae558985baf7015355ee53ba5d89116f901ac"
+metafile = true
+
+[[files]]
+file = "mods/sdlink.pw.toml"
+hash = "e321dbe610a10d741e21c0ea9e06842ecc640f0b7b10a7b2416b5d2858201a5d"
 metafile = true
 
 [[files]]
