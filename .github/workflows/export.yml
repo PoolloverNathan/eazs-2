@@ -17,6 +17,7 @@ jobs:
       - uses: cachix/install-nix-action@v31
         with:
           nix_path: nixpkgs=channel:nixos-unstable
+      - run: bash -c "rm -rf $(cat .packwizignore | xargs)"
       - run: /usr/local/bin/packwiz refresh --build
       - uses: actions/upload-pages-artifact@v3
         with:
