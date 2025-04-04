@@ -1933,6 +1933,14 @@ file = "kubejs/data/origins/origin_layers/origin.json"
 hash = "2303425790327d56ac634048e7d91949762d8769d565aee81ed58dfd04645128"
 
 [[files]]
+file = "kubejs/server_scripts/slabs.js"
+hash = "f5026f47cee720fb69803527678c062d8287751e74f249f2ecb4a744af7342b2"
+
+[[files]]
+file = "kubejs/server_scripts/uncrafting.js"
+hash = "4f5601585b7044b6fd98c19cc24ad31a1d599f5d098f241e37ff415160cac2a0"
+
+[[files]]
 file = "mods/\"limitless\"-banners.pw.toml"
 hash = "b2d2b260f31b66a7cddb0cc701092a0f7fe492f78f58db7a0204cb2cdf617f3b"
 metafile = true
@@ -2743,7 +2751,7 @@ metafile = true
 
 [[files]]
 file = "mods/vowels-1.0.0+1.20.1.jar"
-hash = "d0bfb1ca4f7914b2a84a5d13ceefe87163dd634cf4cbfbd24137f88f9e9b612a"
+hash = "00df8086093a6b1725ab0f1082eaf5c60fe95a29b94bd470ddb54424c043fc95"
 
 [[files]]
 file = "mods/worldedit.pw.toml"
