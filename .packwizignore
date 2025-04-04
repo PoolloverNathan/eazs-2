@@ -9,3 +9,5 @@ flake.lock
 root
 *@
 S-*.vim
+item
+slab.json
