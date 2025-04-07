@@ -2,2833 +2,2019 @@ hash-format = "sha256"
 
 [[files]]
 file = ".dockerignore"
-hash = "ded68c2f70604ac4e2c22860bbd84c505a0bf3b8b24a197c975bb6ec81d3f272"
 
 [[files]]
 file = ".gitmodules"
-hash = "aaba4e368f194f42b94447914784a48d7e68c011f0e59af87e33a44223b28587"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
-hash = "96b4b82e606c1d644e4981afc82902676c68844beb79e58369ecbf191fd770fd"
 
 [[files]]
 file = "config/figura.json"
-hash = "e33217b64ebac624ceaa9535e46655afd6fca322366dd620c4a9e358792bc0d8"
 
 [[files]]
 file = "config/immersive_portals.json"
-hash = "e6e0f76f875019b848cf8a1ce8b0ab51bb18e752bef3120e7bc4c983f9d81367"
 
 [[files]]
 file = "config/openloader/data/ArachnidPlus/data/arachnidplus/origins/arachnidplus.json"
-hash = "1b274675aa85cbb10917e19ea2fcae37d5f70efbccfa197d67f449d1226f9f60"
 
 [[files]]
 file = "config/openloader/data/ArachnidPlus/data/arachnidplus/powers/carnivore2.json"
-hash = "e8852345b0e72da99bac6c7f7eb329cefa417c7a0c65edaac22d7b41ae44edf5"
 
 [[files]]
 file = "config/openloader/data/ArachnidPlus/data/arachnidplus/powers/climbing2.json"
-hash = "6a7dc1b31c423700b6906eca0b7364006cfec4c0b714aa6c228cd7e95bba365f"
 
 [[files]]
 file = "config/openloader/data/ArachnidPlus/data/arachnidplus/powers/eyes.json"
-hash = "9d50e8273b5d21c07117118fff7423709feedf6858c915f7fcf38a21b65e37e2"
 
 [[files]]
 file = "config/openloader/data/ArachnidPlus/data/arachnidplus/powers/master_of_webs2.json"
-hash = "9ca945ea9d43aecd090263e3b3b9d7a661dc7ddb082c3e929e41c628a85d92d5"
 
 [[files]]
 file = "config/openloader/data/ArachnidPlus/data/arachnidplus/powers/monster_food.json"
-hash = "a7809191324ad6d0cb55233147b7dcb9d473c78e7e33489f38e8ff5f18b3bfd4"
 
 [[files]]
 file = "config/openloader/data/ArachnidPlus/data/arachnidplus/powers/octadic.json"
-hash = "ca194baff0401a78477e88d65639d632f8afadafbeae040bdcae22af711efefc"
 
 [[files]]
 file = "config/openloader/data/ArachnidPlus/data/arachnidplus/powers/place_webs.json"
-hash = "6f980232b8336fe372dd483bac0b0e76725fe0d7f0ea391e7deba6a75ada0420"
 
 [[files]]
 file = "config/openloader/data/ArachnidPlus/data/arachnidplus/powers/steal.json"
-hash = "cf77e3decd72131f9ed55dbf90edf767bf831e46472af6f080e1dcc730a184c0"
 
 [[files]]
 file = "config/openloader/data/ArachnidPlus/data/arachnidplus/tags/items/veggie.json"
-hash = "d027a93168c3088b670c700c732c2973c0de93120a6e45158704412a02188008"
 
 [[files]]
 file = "config/openloader/data/ArachnidPlus/data/origins/origin_layers/origin.json"
-hash = "a97b129ecb39b8c61b671677d09f8bdb3f0f45922914e997c06bdb2c1ef9f299"
 
 [[files]]
 file = "config/openloader/data/ArachnidPlus/pack.mcmeta"
-hash = "0a6d15bdd7310bd8ec35880a4a7a82d17a1ad9a67af576115e86e7a80f784a7d"
 
 [[files]]
 file = "config/openloader/data/Cecaelia_Origin_v1.0/data/cecaelia/origins/cecaelia.json"
-hash = "ef3ce41f087c104c1f508b2330bb5a3030cd424d0ef67b715a83b078ef150e18"
 
 [[files]]
 file = "config/openloader/data/Cecaelia_Origin_v1.0/data/cecaelia/powers/boneless.json"
-hash = "10110178929559432c8df5cfd162574c6d8d952ad144e8ee6764131c1b4c461f"
 
 [[files]]
 file = "config/openloader/data/Cecaelia_Origin_v1.0/data/cecaelia/powers/ink_sac.json"
-hash = "5034d762d33266914be448dbc20bee20a0af0668b9e310ff9c9f385bab99549d"
 
 [[files]]
 file = "config/openloader/data/Cecaelia_Origin_v1.0/data/cecaelia/powers/invertebrate.json"
-hash = "2df89589f014538881a36c6247e010c6b082ac502d587720018950c44139ef86"
 
 [[files]]
 file = "config/openloader/data/Cecaelia_Origin_v1.0/data/cecaelia/powers/suction_cups.json"
-hash = "0ec393a84903b5fecf2359ad791f4b7dad17b8c68b26b73dba54f1c79eb3c94b"
 
 [[files]]
 file = "config/openloader/data/Cecaelia_Origin_v1.0/data/cecaelia/powers/tentacles.json"
-hash = "08304b9af75b840b975d9241d0a38a422efd96e6056d66e6920ba157ad096f14"
 
 [[files]]
 file = "config/openloader/data/Cecaelia_Origin_v1.0/data/cecaelia/powers/water_vision.json"
-hash = "b7dadd046294747c4b5e4b86be06309379ac9f3fab6de28745e3913bcf80c15d"
 
 [[files]]
 file = "config/openloader/data/Cecaelia_Origin_v1.0/data/origins/origin_layers/origin.json"
-hash = "7bcac771e3a54f385a5c8fc7442de7419f9a753e8b683b9444761fdf92c6f8ef"
 
 [[files]]
 file = "config/openloader/data/Cecaelia_Origin_v1.0/pack.mcmeta"
-hash = "696106b650e4e40450210d52401a48eb544d7df115c1d22ad9cf17566645a028"
 
 [[files]]
 file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/origins/altcentaur.json"
-hash = "a32c4e3c1f9a6c87cede87e603a6f8c954b42b8ca740606610b5b75cb413cadd"
 
 [[files]]
 file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/powers/horse_kick.json"
-hash = "460d6684a272451bff2b0a19ec5b7038cfb4a735ea8e2a82bcae9b12ad920cc7"
 
 [[files]]
 file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/powers/imposing.json"
-hash = "e9061d6c925fc6ae928950ed342c6ff86002441aa27eb6d10baeffdd6e349f4b"
 
 [[files]]
 file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/powers/large_stance.json"
-hash = "de87f665868dca05afdbc6b60e4cf069af31dbabcffe635bd03220a58c2ddbe2"
 
 [[files]]
 file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/powers/no_swimming.json"
-hash = "7439f954cb20cd1bec51fe5dbb01e69c2bfea00a22ecc4005abb6f5754824561"
 
 [[files]]
 file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/powers/rideable.json"
-hash = "98f286616a845ab0208538c72bfba8ce85c6b7aae855b24105350f2f9deef9b8"
 
 [[files]]
 file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/powers/robust.json"
-hash = "60a99bb027610cadf2c3ea7353d096b5ae3823ccfa448e55b59a2f4b93785cdb"
 
 [[files]]
 file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/Centaur_Origin_Alt_v1.4.0_1.20.1/data/origins/origin_layers/origin.json"
-hash = "7e83f068fac76afdc9916ae20b83c539184053c74740a8a85023b4d8596907a2"
 
 [[files]]
 file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/Centaur_Origin_Alt_v1.4.0_1.20.1/pack.mcmeta"
-hash = "d59cf7e50c8b287189c9c656ea7c77ad393d8784bd971b3568108be1eb851df0"
 
 [[files]]
 file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/origins/centaur.json"
-hash = "d526c3e28431ec24cbcf71b27de4a45a09a7ddf485813375a85bea3c37e2afff"
 
 [[files]]
 file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/powers/archery_specialist.json"
-hash = "fadba27c5a3d4e8daa4c9c1893cb0b4e0abf83470d40eb263ed5c269114792e6"
 
 [[files]]
 file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/powers/equine_diet.json"
-hash = "b1b8e6291ed527928b436eac33233acf03bd17793503ca858ae8ad4d094b1284"
 
 [[files]]
 file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/powers/horse_kick.json"
-hash = "460d6684a272451bff2b0a19ec5b7038cfb4a735ea8e2a82bcae9b12ad920cc7"
 
 [[files]]
 file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/powers/imposing.json"
-hash = "e9061d6c925fc6ae928950ed342c6ff86002441aa27eb6d10baeffdd6e349f4b"
 
 [[files]]
 file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/powers/large_stance.json"
-hash = "de87f665868dca05afdbc6b60e4cf069af31dbabcffe635bd03220a58c2ddbe2"
 
 [[files]]
 file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/powers/melee_inaptitude.json"
-hash = "f223b8c0b5d14af0af1d38ec03889537adffbe4257d84b7ed076235bdcdea0e4"
 
 [[files]]
 file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/powers/prevent_eat.json"
-hash = "90e81ff06a17df2ab9801b5c64c706dd10f2a4cf1d38292c666ad5354f9e7b74"
 
 [[files]]
 file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/powers/ranged_enchanter.json"
-hash = "311486e8480ae83c6d3a920aea6b22570f36f3a28bdd5fe3da2323e3358eeab2"
 
 [[files]]
 file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/powers/rideable.json"
-hash = "98f286616a845ab0208538c72bfba8ce85c6b7aae855b24105350f2f9deef9b8"
 
 [[files]]
 file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/powers/robust.json"
-hash = "60a99bb027610cadf2c3ea7353d096b5ae3823ccfa448e55b59a2f4b93785cdb"
 
 [[files]]
 file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/tags/items/equine_diet_foods.json"
-hash = "b10bda5af80047eb96c5c43a6c3f8072c328c87bd4a408cae85031da20fe09fc"
 
 [[files]]
 file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/tags/items/vanilla_edible_foods.json"
-hash = "f30292dd322dcbef4c783572f3c13edb64b754e4ee9e7d003b6424a3501d1495"
 
 [[files]]
 file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/origins/origin_layers/origin.json"
-hash = "dcab530e5cbe2bd499c6a945c056a9a045be16a792616f8176c726b4368c281a"
 
 [[files]]
 file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/pack.mcmeta"
-hash = "d59cf7e50c8b287189c9c656ea7c77ad393d8784bd971b3568108be1eb851df0"
 
 [[files]]
 file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/origins/cervitaur.json"
-hash = "93b71d1a9a46ed37017a27588f59f54e4d454c8fb80aa89e3ff310e3d9a3bc74"
 
 [[files]]
 file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/powers/cervid_agility.json"
-hash = "875d257fdb044d749eb5094146c8ad3e86f68635bc930c098a2208ea8123cb6a"
 
 [[files]]
 file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/powers/cervid_diet.json"
-hash = "ec6867161c6892230f5cc7f9531bec057e34513bb2494cf7370f2ee812403d43"
 
 [[files]]
 file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/powers/get_out_of_there.json"
-hash = "016e0c5340bfc5a70c86b3f97e95eceb190d99aa783bdea184da8a78c1235610"
 
 [[files]]
 file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/powers/get_out_of_there_tooltip.json"
-hash = "95efe20b8851d3e5597e5e0af9d37a83a89391fc585c7eed4cac1cd6025fcc46"
 
 [[files]]
 file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/powers/graceful_stance.json"
-hash = "d2388ad4769e2da1a130363ba3b5f3439858cdd9c86f4e09ec9ed085f2afdd09"
 
 [[files]]
 file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/powers/intriguing_lights.json"
-hash = "d264f5be009d276f06745c59c6ec4351b6f2422986d2674bbb1bea12a53a87c4"
 
 [[files]]
 file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/powers/keen_senses.json"
-hash = "cfb21eea0ffe78a464b0a965f1f38822f53d4999a4c1b5aaf39ad1bbf904b856"
 
 [[files]]
 file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/powers/light_hypnosis.json"
-hash = "a254af07b9d76e39be3219455f1f27642393090e5488ac413ca8a4094cf439a6"
 
 [[files]]
 file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/powers/prevent_eat.json"
-hash = "ad54bb00ff3df6e2cb56f341c63408d9e4d1836c0f90cb70b0b5998d1aff29fb"
 
 [[files]]
 file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/powers/resolute.json"
-hash = "e0377b854864e04ac09b472e8620525e6f6d9cc2010afd72588f23857ef6f8fe"
 
 [[files]]
 file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/powers/victim_of_the_hunt.json"
-hash = "3d51fbd87621264b607f90dc5ed16380b70edaa58ebfe69696144f739b545b70"
 
 [[files]]
 file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/tags/items/cervid_diet_foods.json"
-hash = "6b0195934e92056f6aeff5d7958b88db633f3ebf5a243191a008c0c8c8bebef2"
 
 [[files]]
 file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/tags/items/vanilla_edible_foods.json"
-hash = "b4ad34598c75eb5c7f2e897a179064c50ce75d5a8631cb63870c6c5fcf3ac939"
 
 [[files]]
 file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/tags/items/weapons.json"
-hash = "3095a88e87544c57992af225bd7cbf97b68b50c40e8d6c75cf58e0c61790328c"
 
 [[files]]
 file = "config/openloader/data/Cervitaur_Origin_v1.0/data/origins/origin_layers/origin.json"
-hash = "3b072901922cdc460d3a8dc877d40b13b7780ffe167a0bd79b480a612ab9312a"
 
 [[files]]
 file = "config/openloader/data/Cervitaur_Origin_v1.0/pack.mcmeta"
-hash = "52beae96aa264647013962bc75cbd942a06dc1e24df1f9ab8a467e02991c3770"
 
 [[files]]
 file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/origins/charizard.json"
-hash = "f53220e48171f08796525acbeaa3d80c97a70777eb9df51b4467d9ec4ba88bdc"
 
 [[files]]
 file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/berry_devourer.json"
-hash = "ed71a848a2eba015e31e3732c190eb4affb2b173b0bc46f9f7d7dbb7737c65b0"
 
 [[files]]
 file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_aerial_vulnerability.json"
-hash = "849323f89a33eed2a3c991eea8f3b4b9157d35dcb15ac912a9d5f8621becc009"
 
 [[files]]
 file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_appetite.json"
-hash = "680cd880cd42689bb9691a0a7b8401e833425bdbf147f016ce81ed2a5185aeb5"
 
 [[files]]
 file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_bulk.json"
-hash = "b4daecef5ef11d8707044004efd01595a151bdd9b14aea0e7e8d383da5029ee4"
 
 [[files]]
 file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_creative_flight.json"
-hash = "9ca290d2e5a9a78d6ec2ccac323d34016bb08d8fd0367b562a535fcb31c3eebe"
 
 [[files]]
 file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_fire_type.json"
-hash = "237b9dd3734173a44d656e0ad96feb2d66ae5de3c695dc9388f8cf53852e39aa"
 
 [[files]]
 file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_flamethrower.json"
-hash = "ad83fcc260c26040bee50f24febe8b9bbc1a66a9c4fcfb8e053ee97be6d357cb"
 
 [[files]]
 file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_flamethrower_fuel.json"
-hash = "4fd2791ff12ba20ba91881abf34a100ec4ce1f7ece2674159c887f53217f0f0c"
 
 [[files]]
 file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_hurricane.json"
-hash = "183ac8cdf4061348fb4b2986461111c6006e207b87d516d03b25cb97bc1eaa26"
 
 [[files]]
 file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_hurricane_fuel.json"
-hash = "0edf4e37bc69fb6bbf9a93bc075a680d78a57ae83b6287ab538f26c30a8f666a"
 
 [[files]]
 file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_hurricane_strong_and_weak.json"
-hash = "b8e7367f0c10684b90f2f85c24af39941d900bacbc0dc9c054c0cf5db0fdb4f9"
 
 [[files]]
 file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_size.json"
-hash = "98cbbb5881448405844f53df6b80da6681ec1f214e7a664b697a73651a279eb0"
 
 [[files]]
 file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_transport.json"
-hash = "0efcf90bc1277b2e6114592e76d31b50c4f31c17990347da708560ccd3706fe5"
 
 [[files]]
 file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_winged.json"
-hash = "c3b8c297682df6d5518bbf91390c3a4b648354f73327e16eb92ec5276e472be1"
 
 [[files]]
 file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/light.json"
-hash = "607e758ef7642ea19802c09a50a9a7df795a78acc27b933552a1766b8c4f4352"
 
 [[files]]
 file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/origins/origin_layers/origin.json"
-hash = "6aa6e599bb8d04af3ef7a7d1568a4e1ceafa9a2d3d06594fafa704ee87472fbb"
 
 [[files]]
 file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/pack.mcmeta"
-hash = "b8401042d627c9aa949081b50a9e83369cf14f638402043f771edf85cf8568a3"
 
 [[files]]
 file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/origins/dexterous_elf.json"
-hash = "80d2d30aa3663f3111a0305dd88fbfc373a3237dfd8724bb8daf6e771490d4a0"
 
 [[files]]
 file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/powers/backpack.json"
-hash = "4035060e4e930708f9130565b8b1d764d51b3f95b0536d2f91229fdcfc723b68"
 
 [[files]]
 file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/powers/body.json"
-hash = "fca39083145e2b7ad371511a01964d9a2fae82532ea5af2080e51c9ec224f4fd"
 
 [[files]]
 file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/powers/cave.json"
-hash = "1a6d23bfb5c60a297453307e808ecd104fb0e5c9b678193a58171ecd197c0c09"
 
 [[files]]
 file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/powers/dash.json"
-hash = "1a651a874ae0618242351ecbfa4cf61b52fbefc83f4deb2b826c803071a83534"
 
 [[files]]
 file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/powers/diet.json"
-hash = "346c22074b79fa7c69eb8f524fe9ac1d13f2c7af103f6a46dc154aa8622ec796"
 
 [[files]]
 file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/powers/hide.json"
-hash = "06184f43c1f512b07e0302aa458dba29a11d59191c5a7c4636797ade0592c13a"
 
 [[files]]
 file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/powers/incompetence.json"
-hash = "ee4ffb1b504413305cb112f44a6ce7498264aa0067eaba7ca4373241bcdcbbd7"
 
 [[files]]
 file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/powers/nature.json"
-hash = "18242f5d69adca657c2674d9c9aaeee89dcb40f523cfaf033a33b7f84369bb15"
 
 [[files]]
 file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/powers/particles.json"
-hash = "2d637cf99d3c38ef3064f39979b90133aefa01489e139ed04e84de7347653fd3"
 
 [[files]]
 file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/powers/proficiency.json"
-hash = "a2adcebb256fec0025549d8fd62fcb72a988d10aa9f9bd375ef9b6bd305738ee"
 
 [[files]]
 file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/powers/pyrophobia.json"
-hash = "c3a0393563c847614ca934ceaab2bdaa2eccec88d2f695f80c994b847ebb7ebf"
 
 [[files]]
 file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/powers/senses.json"
-hash = "8e4ccc5c1ab8ae9294c0d95e4633584387716a52788ba2b85fbb875f9e213b89"
 
 [[files]]
 file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/tags/items/heavy_weapons.json"
-hash = "bf558b3c030dd190a7de8b1571504f633dcc1da487f510364501e6cfca93dced"
 
 [[files]]
 file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/tags/items/swords.json"
-hash = "3012fd534f938b8b7dacf9825a89a2d5f726b8b0e0ff7caad565d21465712f62"
 
 [[files]]
 file = "config/openloader/data/Dexterous_Elf_1.0.1/data/origins/origin_layers/origin.json"
-hash = "8709400ccdc83615d1e4b58ecc75a51db8876a598f50440bc738d65330cc8cc9"
 
 [[files]]
 file = "config/openloader/data/Dexterous_Elf_1.0.1/pack.mcmeta"
-hash = "4c61264badbd8173b6bf71e08a933c26cc43a28b2c5c715bcafd6fe53ebc4427"
 
 [[files]]
 file = "config/openloader/data/Furrettaur_Origin_v1.1/data/furret/origins/furrettaur.json"
-hash = "a5094fdfc815acfa7a480fce92c00ee509455edca2643f15fbff4b571e28ffb1"
 
 [[files]]
 file = "config/openloader/data/Furrettaur_Origin_v1.1/data/furret/powers/defense_curl.json"
-hash = "2728cc2c297f94093efbd82781d9befb46f0b9dce0aac8bb046cc8231e743275"
 
 [[files]]
 file = "config/openloader/data/Furrettaur_Origin_v1.1/data/furret/powers/furret_agility.json"
-hash = "1e5c278fc637a2937cb846c3ac484ffe5ef81fe372a2dfb58a76a9f06e4bc4d3"
 
 [[files]]
 file = "config/openloader/data/Furrettaur_Origin_v1.1/data/furret/powers/fury_swipes.json"
-hash = "268bc74c11eccfa73f1eb0e7bb1b9160f92eaf5223f1ed20ab3faa66cda75276"
 
 [[files]]
 file = "config/openloader/data/Furrettaur_Origin_v1.1/data/furret/powers/noodley_body.json"
-hash = "7744f3b2e8ffcde26c1be3d15cb1dc650f02a6110901fe940a8acccfc6faaf42"
 
 [[files]]
 file = "config/openloader/data/Furrettaur_Origin_v1.1/data/furret/powers/quick_paws.json"
-hash = "c75e57561d471fb0002e686d0b8b734bd8355dbefb5ea6acd720369d361ad397"
 
 [[files]]
 file = "config/openloader/data/Furrettaur_Origin_v1.1/data/furret/powers/rapid_metabolism.json"
-hash = "edde962fbd3976401038554da9b2e8778591519f9798a9aa12210f18318ba1ab"
 
 [[files]]
 file = "config/openloader/data/Furrettaur_Origin_v1.1/data/furret/powers/run_away.json"
-hash = "c1b563534968eebcaf6f3b4b845aea8a468f4f898c5c19dceee96d4124932a9f"
 
 [[files]]
 file = "config/openloader/data/Furrettaur_Origin_v1.1/data/furret/powers/short_legs.json"
-hash = "df2ecae74ca8514f758d8352ef8c2d51ac4eb59d87e10a448cb9de9c9c3b6dc1"
 
 [[files]]
 file = "config/openloader/data/Furrettaur_Origin_v1.1/data/furret/powers/unequipped_frame.json"
-hash = "ed67146f9c10763c50fac8a745f5fa3a37c68f013acd3e07aa314f45f2e899dd"
 
 [[files]]
 file = "config/openloader/data/Furrettaur_Origin_v1.1/data/origins/origin_layers/origin.json"
-hash = "c1f36fce5b02d17247906885344e5b5c0dd9ef08244b83a351df0497d2785819"
 
 [[files]]
 file = "config/openloader/data/Furrettaur_Origin_v1.1/pack.mcmeta"
-hash = "4ef413706b68b502c1be7313d4cb8a252a160b35cfb9a2cabe1f9deb180c5942"
 
 [[files]]
 file = "config/openloader/data/GhastOrigin/data/ghastorigin/origins/ghast.json"
-hash = "1f9b22aa1c0a530ca71231a2daed7206209213573297098a71ece033acfe62a5"
 
 [[files]]
 file = "config/openloader/data/GhastOrigin/data/ghastorigin/powers/throw_fire_charge.json"
-hash = "cfdeeff6be8a7edaf709c3e0b614a5a5503b1e0c3e12870ded582fa872c12974"
 
 [[files]]
 file = "config/openloader/data/GhastOrigin/data/origins/origin_layers/origin.json"
-hash = "f43c0431cff6e77c37acad6d1c8314b6d67ae6ccc7cc31daa706cfa08ab45fc2"
 
 [[files]]
 file = "config/openloader/data/GhastOrigin/pack.mcmeta"
-hash = "4382b010a318c2f900a6d097bd139671261042463b9546c477486582f7a9fd12"
 
 [[files]]
 file = "config/openloader/data/GhastOrigin/pack.png"
-hash = "2947eca21d63a5fef1e6e45b328ddda9f8c1e591f52b102178ac13b92a287f44"
 
 [[files]]
 file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/giraffetaur/origins/giraffetaur.json"
-hash = "fd70fef0602cbc196e4a3437558915b43a9a4ca0c0857305b69b0126078b70c2"
 
 [[files]]
 file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/giraffetaur/powers/chiropractors_nightmare.json"
-hash = "b5a644f15d62905252eb91c568891d76ff77d9a197fa3e8cdfd047803703dec1"
 
 [[files]]
 file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/giraffetaur/powers/disclaimer.json"
-hash = "7ac98ccb359dc3e365702b8f0be4b10c9080346d9f8f5544ca5bfd1839c3f46b"
 
 [[files]]
 file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/giraffetaur/powers/folivore.json"
-hash = "723c622857c95245f7683e2ac506348482746bf96b4b7f789545fcdb0c254d31"
 
 [[files]]
 file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/giraffetaur/powers/folivore_generics.json"
-hash = "636ee1dbf23659e1e137dca1e350d5614bf7446a7911881578527a95bd0a69a2"
 
 [[files]]
 file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/giraffetaur/powers/folivore_tooltips.json"
-hash = "72d7bbfbd875ee44e03de73c83123eac0fb67d6f71cd5cabb82cb7f98c9e50ed"
 
 [[files]]
 file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/giraffetaur/powers/giraffes_hide.json"
-hash = "77a8de1aa997c656d2ec00562f7de2a20e64a2ac127981b2bcd85711a57dd268"
 
 [[files]]
 file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/giraffetaur/powers/giraffes_vitality.json"
-hash = "d3159ad3d77e257b5a1c816ed20b67d413eff734c170a0f5a1143ec4769d3c29"
 
 [[files]]
 file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/giraffetaur/powers/lanky_legs.json"
-hash = "50ef76d2f9fcef2686693278bbefbef461043075a4a7a96f009cd4de37e91a83"
 
 [[files]]
 file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/giraffetaur/powers/prevent_eat.json"
-hash = "c137b01069ccb27b6ed3c4c461392087446741b20f6b7c961eb508a2d308c076"
 
 [[files]]
 file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/giraffetaur/powers/savanna_acclimation.json"
-hash = "a76794f62c3936ff5e648a5b84e60b8e9ccddf6bfe32a03584da7d137d63b4a6"
 
 [[files]]
 file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/giraffetaur/powers/silk_touch_leaves.json"
-hash = "4928c0748f7804f22d60e65240a93eaf906454c84af98bcd295436a2c33c857c"
 
 [[files]]
 file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/origins/origin_layers/origin.json"
-hash = "197c3af1819d2334ba8da61fe06a1ba99af677707ff2a0d906a6ad5ce1bad2a5"
 
 [[files]]
 file = "config/openloader/data/Giraffetaur_Origin_v1.0/pack.mcmeta"
-hash = "a154a6f5b5ebf975e2e48290992d8ac29b5b3c8145e8b97b734666a920aaf415"
 
 [[files]]
 file = "config/openloader/data/Ice Statue 1.0.0/data/ice_statue/functions/ice.mcfunction"
-hash = "07f689435ebac96387179040da151112e34ece090d3edf0c47389c897b297fbf"
 
 [[files]]
 file = "config/openloader/data/Ice Statue 1.0.0/data/ice_statue/origins/statue.json"
-hash = "6a24e5193c9effb2f42c639e63abbd96ebdc8d16c8e66d8a6a429e217c847b69"
 
 [[files]]
 file = "config/openloader/data/Ice Statue 1.0.0/data/ice_statue/powers/break.json"
-hash = "9d5e7f350be6d7bd58b0ba7c20c8edd12b941372dd8fbe52870c1331489eaaf5"
 
 [[files]]
 file = "config/openloader/data/Ice Statue 1.0.0/data/ice_statue/powers/desc1.json"
-hash = "3846a4524c507e0da7a4bff33188378bec1d7ccddaebc398034b2c39408403fc"
 
 [[files]]
 file = "config/openloader/data/Ice Statue 1.0.0/data/ice_statue/powers/desc2.json"
-hash = "e353989fed91714884aa161c5b9c4a9cc8078e17eafb1fe05c76539328bb3c86"
 
 [[files]]
 file = "config/openloader/data/Ice Statue 1.0.0/data/ice_statue/powers/desc3.json"
-hash = "bb7bf9a621e6d4de9b8b0f0d0c39afcc4686098e3d2375bd44ef4ff454335591"
 
 [[files]]
 file = "config/openloader/data/Ice Statue 1.0.0/data/ice_statue/powers/desc4.json"
-hash = "a1862ef0fdb88142d3e638a5db5b975b137106b0c8d693f6790ff1be63a6c755"
 
 [[files]]
 file = "config/openloader/data/Ice Statue 1.0.0/data/ice_statue/powers/frosty.json"
-hash = "2c387ce7128279d4af2e1fb35a327033ffa9e49723ce92cf1728a9f5324a00cf"
 
 [[files]]
 file = "config/openloader/data/Ice Statue 1.0.0/data/ice_statue/powers/frozen.json"
-hash = "7190e01970b3966125f64dc6776446fcba22311a86b44cb1e0785335ad61fd10"
 
 [[files]]
 file = "config/openloader/data/Ice Statue 1.0.0/data/ice_statue/powers/shader.json"
-hash = "ee438c67aebd040215a4ef34e0251352f6b386c92e70648eb32ce1791201463a"
 
 [[files]]
 file = "config/openloader/data/Ice Statue 1.0.0/data/origins/origin_layers/origin.json"
-hash = "862ea4d2bb88d1c3d3916b58d86d354b692c68a31cc893747916bddad3202188"
 
 [[files]]
 file = "config/openloader/data/Ice Statue 1.0.0/pack.mcmeta"
-hash = "d5b70127dd9b52c76c8992c523864e3c800fbf6cb666cd8217135fea465b9be3"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/origins/lapras.json"
-hash = "97c0faab85d611c6d7c1f7e433fe09f5cbe6e43af511f6bc84bf27c25c50ec3b"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/berry_devourer.json"
-hash = "789d3170d146c654f91fd0051a16f56158ecfca526510e3f9193ac7dc493c0b2"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_appetite.json"
-hash = "9eba41701d5d84d9bcaaa409bdec517aaad2f36ac828a940414148e0f2fc01d3"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_bulk.json"
-hash = "728dc797b81c506e3d875ff5f84a5d1d8ace31c439a4d1001c68d6d54061fbf0"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_depth_strider_one.json"
-hash = "a47cef041fd5f9238c8ff062cc2ba15e0600812c35079e4eabc6e53c6789de4e"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_depth_strider_three.json"
-hash = "3931b199cd8711875df6f67924a1b281db95dd58277867d9d375cefab7293a0d"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_depth_strider_two.json"
-hash = "54b85c92a029ae9d6355bb5f7b2dc36cc7a41f89669f7690ab2b9abe1720c904"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_dismount.json"
-hash = "51c7315d4acdf9fd5356e48a7fd818e1d456f4d849a20c50f49b4185010e3620"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_flippers.json"
-hash = "345af2fe7a9954d58fabb656424dc77a9a8f4ef9710136a009b133f6d4c13eca"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_hydration.json"
-hash = "e4b62fba1527a520730a8544c6be48be14a1db219ef183f3d73c8e43f6345e6b"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_hydration_bottle.json"
-hash = "22ed1417177e3d0e4a2e54708d0a0b46c55396b43c471efb3cc7ac3f7919e5fa"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_hydration_effects.json"
-hash = "5ba84e58047abd437244bb33d43a82e0cb31a13181906d33cd6c3d7ab6e9895c"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_ice_type.json"
-hash = "426a0ab0d8bafec983b565d3f2ea8a6108d550b8b9bc9634aba7c155c016bd60"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_invincibility.json"
-hash = "504647ad43489e36068b8bdd26990d0581d06c79b4cb5479bc6afd06ebcf2b86"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_jumpspeed.json"
-hash = "864d719bf6437a132f9beb9954eef6c0b3f26a26a38a906f4e59af54de5120a7"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_no_elytra.json"
-hash = "1371db3f8a006c62ab8a0d88ab5df876be72d004d3b3f411316d5c456197020e"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_no_knockback.json"
-hash = "f6806631ac05488373eaee6794eec3baf89ac9182082fce3b7c0df4b751a3f19"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_rain_speed.json"
-hash = "b9d0632f52405b921fa6c6be01f08122bd2bbb25a9303f2b34962f54230cad7b"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_rehydrate.json"
-hash = "6eb521e9ea5ceb1dcc31982c61748d878ffa6d386ba8c50ef9c4c716ddadf968"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_remove_hydration.json"
-hash = "f605ffc1237261f04a6697b12febf84f6323268f8d55e3eceddf433bc608358c"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_remove_hydration_cold.json"
-hash = "c441b3ade7d5e9149d5ed898ac237564b238fdaec4897e35f2b647b9df1616fc"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_shell.json"
-hash = "8e9c0f64c2ea6f9a3931afabbffa18781453f9bb2bd482017072478b505f9350"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_shell_toughness.json"
-hash = "b5a1b44be0cee50d9c5c2a1ebd01a7235a6ecdf8cda5fcf66a129ecad4a47f42"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_size.json"
-hash = "515b301eef646c5576eaefb5bb0add4ac8a989492fa0d8e91e1e8e6011fb33ee"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_swim.json"
-hash = "ea982a52d3c67576d5e8397c9491aef50b06dcd613fac005b61e23a7e92c2f7d"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_transport.json"
-hash = "138f71ef1a2e3626183fb51513d1825ab445e89def12ae9af246d89bc47ad0c9"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_water_absorb.json"
-hash = "8ec2feec46a993d4454e6f4d02ef0b767c0deaf16500f7128a04a7d30a63ae0e"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_water_type.json"
-hash = "5ac95d5031f8c9918176485559ecf23515048560ca6615cdd026016d9adf17c2"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_water_type_cold.json"
-hash = "0cec93abea75da39eb52fdd881beb91d934dfb28c122919aafb9a6fd9f19b81e"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_water_type_cold_strong_against.json"
-hash = "7c8a2eb22cfa70fa7641c80fdefddbcd9929f5ff2c4e89768cfb634d56515419"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_water_type_cold_weak_against.json"
-hash = "2e8d29c69545c9838499935533c6c7cacab1486b9036263f169bdd3aab8ac038"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_water_type_strong_against.json"
-hash = "d6cc29b1ec68a6de3ec24a2450087d4561e6501e7a8550910dd51b7666ba374d"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_water_type_weak_against.json"
-hash = "37c6ec0acf3cfeee9ed84d77459e6fbbe7d4fe2250fea79ff1505f5edd2d72d5"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/pokemon_of_the_seas.json"
-hash = "2ffd0505bac8edf159ec1f680b9aa0e440b7e61aa2c92d16542b2ecdd6eb52e2"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/pokemon_of_the_seas_turtle_helmet.json"
-hash = "08824427c5b67ad70a69fc4a263ada8272acf93297796243c22ac495a0cf0d49"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/tags/entity_types/weak_to_lapras_ice_beam.json"
-hash = "72b58fc555864a8e56262b064e3c594018ec51f743e1e956dcb6aa723f9dbcf6"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/tags/entity_types/weak_to_lapras_water_gun.json"
-hash = "078b509b196200a08d664fe65f3c5757b258d28866ed75390045af7ce8a3528e"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/origins/origin_layers/origin.json"
-hash = "aa69631f4984ae71fb77df919cc863da3b2cf0ffc608ab815fc7c605f00e2731"
 
 [[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/pack.mcmeta"
-hash = "4c3ac4f56c645ac825e1008f0e8e4aa4dd67eae73d4dc03d276845ce7ee107a8"
 
 [[files]]
 file = "config/openloader/data/Mechanical Golem/data/mechbot/origins/golem.json"
-hash = "6dc8edc4db83b925f5e19a083f68e6ccdd65ca4828c097c7f0694b15eef91a59"
 
 [[files]]
 file = "config/openloader/data/Mechanical Golem/data/mechbot/powers/artificial.json"
-hash = "34a13c8f3f8e72c7c01ca1b3c84089e86f1af535b4edcfbfab958ff5db0057b6"
 
 [[files]]
 file = "config/openloader/data/Mechanical Golem/data/mechbot/powers/burnout.json"
-hash = "1a883fa7f1b9d8799f0c7c1deef63702799b02858c3688471215801567d89bd5"
 
 [[files]]
 file = "config/openloader/data/Mechanical Golem/data/mechbot/powers/gearup.json"
-hash = "f5a14ec45ba93f6d3c20cd86ee1f000cb87547ea20153571cc414906c0db9e79"
 
 [[files]]
 file = "config/openloader/data/Mechanical Golem/data/mechbot/powers/heat.json"
-hash = "51807d5df0963bcc406c7e2fdf0955b18e01d7453f8f1ea1aedb1f3e095cc96a"
 
 [[files]]
 file = "config/openloader/data/Mechanical Golem/data/mechbot/powers/metalshell.json"
-hash = "2ddc30ef0162d7c4dc89d7472bc952d68ef0e18c32afeb48e7ab96e7a94e7d41"
 
 [[files]]
 file = "config/openloader/data/Mechanical Golem/data/mechbot/powers/shellbonus.json"
-hash = "ba7f5dad5c67def7559b1c97eb9e9b1c308be0c03c13ffd836b7905be08d85b7"
 
 [[files]]
 file = "config/openloader/data/Mechanical Golem/data/mechbot/powers/sinkingin.json"
-hash = "de2291700d087883f44ba3a56c37e320a36578a869c98a86a119bd39e58eb4f7"
 
 [[files]]
 file = "config/openloader/data/Mechanical Golem/data/mechbot/powers/upgrade.json"
-hash = "c800ac5e892909feb40ddf14ba5759c4fb23b8e6560281275552290b05d187a2"
 
 [[files]]
 file = "config/openloader/data/Mechanical Golem/data/origins/origin_layers/origin.json"
-hash = "98d2dafe4c27aa19d94b6a2f0640ac7871601f8d1239b245813af49c3e682a7d"
 
 [[files]]
 file = "config/openloader/data/Mechanical Golem/pack.mcmeta"
-hash = "060bdfa6e83773d191d5ecf0122e3be155a0604c646b0243bd7aa28fa0ad7e30"
 
 [[files]]
 file = "config/openloader/data/Mechanical Golem/pack.png"
-hash = "9260935f2e1555648d97cf39e7660b86af5945dfa258208bc92aa988389f7518"
 
 [[files]]
 file = "config/openloader/data/Mermaid_Origin_2.0.1/Makefile"
-hash = "df16e0e7a5ff9770237d818b27e457b424f67fd74461f9bd431f8663e6a0684b"
 
 [[files]]
 file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/origins/mermaid.json"
-hash = "02da25c5156a8a6b6fb61747727771bc1f876bce5661a57177ff8ec00cfd9caf"
 
 [[files]]
 file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/bait_diet.json"
-hash = "5c8a27a32214290aaebed0d6d7db7d82c56e28af11b2c46974974711f299050a"
 
 [[files]]
 file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/bettertrades.json"
-hash = "21a30b91831c96e830f1b7df65d541cf4b68ea39865e18ea77ca9c590afb1982"
 
 [[files]]
 file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/breatheunderwater.json"
-hash = "ed56852f0d10eacdb293b2d88f56f978b084161d8c02aeaa59431d97e9a1cb96"
 
 [[files]]
 file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/fish_diet.json"
-hash = "ca4615b449772c8b31d9ec8b6cb84b92d5ad31299b15d858b728c2a5e7cf3797"
 
 [[files]]
 file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/flammable.json"
-hash = "93c7af03652985822e6f96d62c434d64d02bcd66eb955ce4f2e29c7e865454bb"
 
 [[files]]
 file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/hydration.json"
-hash = "efcfa323e66099bebd5a5d1f00720f30e1f4b661a7061c46980c956d015fb2b1"
 
 [[files]]
 file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/hydrationgain.json"
-hash = "204acfefe9b3a846add81c55c031b341c92545d6995cce943c8e3fe12dd1574b"
 
 [[files]]
 file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/nolegs.json"
-hash = "f8c7026a3b879fc760ef732aaf670968f9fa7a7f9e0b3c5502aa846b5bc88246"
 
 [[files]]
 file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/slowonland.json"
-hash = "1916a2eb7d0d40ed87893b2b7899c1486d67bc56193fcbeec28aa651e70d274c"
 
 [[files]]
 file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/song.json"
-hash = "a978cdf0a737ddef3c41fb8772ced5e799a91c79e1149628127e58288efad376"
 
 [[files]]
 file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/tags/items/bait.json"
-hash = "a3a8feabe19b6ef553b5fc239849f355c838a44474985b09b4c673730625cfd4"
 
 [[files]]
 file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/tags/items/fish.json"
-hash = "94ab1f8cc75a0f29a7024b1f38be662c55f27cd16e082c60988395670f41e6fd"
 
 [[files]]
 file = "config/openloader/data/Mermaid_Origin_2.0.1/data/origins/origin_layers/origin.json"
-hash = "1874fd84ed7f5d366dd3292fe3b08c7ec6aed7f9e480a765fa0cc051bd93feed"
 
 [[files]]
 file = "config/openloader/data/Mermaid_Origin_2.0.1/gen_bait.py"
-hash = "47baa6271adce140d9bcc20676e8e5d32b41a6a71613a453691b41076ff2ff4e"
 
 [[files]]
 file = "config/openloader/data/Mermaid_Origin_2.0.1/pack.mcmeta"
-hash = "6e42449f0cc99c87dea659f2a51234abbe6080c8d2e1ddc3c4daf631c87d60a2"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/computer_advanced.json"
-hash = "ecde9f86eb0c3fdf1fc302d4692bbc74e857b927bc8368385be38b3de4099193"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/computer_advanced_upgrade.json"
-hash = "749ccbd6b02f679a70889d7fa589b63c93977dd98ed2d393a87e3b74ef2edee5"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/computer_normal.json"
-hash = "8447ffea0af568af28b391b47ac0af765b9271e45ba1a0106f20484afa680db7"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_1.json"
-hash = "47985d1c1c2e78038692c3b5343a6b09d05d456f6b8979dbd0ab988b0d5c1cdc"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_10.json"
-hash = "156d87451bf6f0f68475695e084610a924badc7bb1db9f7d724b69a534c572cf"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_11.json"
-hash = "cc755cbb0639a29f160a8005ebb806046e4537807db5017437b0517ccd45b4dd"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_12.json"
-hash = "3ac0415e1668084b017141e08b0701d63c8fb283a429352dca882065f44c3c6c"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_13.json"
-hash = "33ce2c85171ab803b2109d49aa13d998c781f49b726826201fd969467c821113"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_14.json"
-hash = "88d5939a2a95ac1c087293b3c9dc118a115a56eee13e57bd7fd1344212a3597f"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_15.json"
-hash = "b9816ce4c7468255e43747b4693713ea7be8e5c2365ef410f79851627f30fe17"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_16.json"
-hash = "61e3c7e97bc53d95e8a312ee8d12fedc3a30e886b6d4eeaef7a68003d27ebad8"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_2.json"
-hash = "93390faaa7de3130bb2c1d5edcd1a764e436985d3b900316164f759bff388685"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_3.json"
-hash = "b4a92c4e417a63bd252ca8edb700dd7788d181d1846a2fb5f8bfbd3b12bc35a1"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_4.json"
-hash = "c1aa9788721b639e5fdb31d4fc54447b26a528975c464bcdcc924c01cceb951e"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_5.json"
-hash = "330ff8c529c9df5e1554891e934798147dba5b069da143404a7a01f5a0a90270"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_6.json"
-hash = "1df2a2ab865830518df8fef445a20030147bca0c28bf7c65176300830ce95f9c"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_7.json"
-hash = "1f48138ce61f2fcb98eba6ad06136b3e63a8524e97673056cc0bef55182f54ad"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_8.json"
-hash = "1625670ca00067deed155d0afe060447d78e515f83b18fb31e6dacee7fdaad69"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_9.json"
-hash = "66c2d3a543f5a35fdc46d4e340d4274abd324d7a31b8222f82f43a8e9f14d61e"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_drive.json"
-hash = "b3c978219e034561dae9964caf636e7ea76a13701df29a8997732e7d94e6db9e"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/pocket_computer_advanced.json"
-hash = "a314a3889dff8f60d1ebb329eee1f56365618467092c9926cb7d52bd14aaf2a8"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/pocket_computer_advanced_upgrade.json"
-hash = "4ecf43528b4de5a607d877152528aa1064a301627dda567bc9cc2925f7def242"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/pocket_computer_normal.json"
-hash = "e8e2bedd69c99969976a24289818b7db4ca2ba708a224686db65362fe908f74c"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/wired_modem.json"
-hash = "d76a8b79857724185a90418512277f3b58c3835eed06ac81f3c61495250f8066"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/wireless_modem_advanced.json"
-hash = "e4e90fa7bf938ee25742529490bcd19f4b95c76c5715bb429f6db6d62976500d"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/wireless_modem_normal.json"
-hash = "8d8f157f87b694f16456c0184d9216c0bf1957d871cd1a96aadd0474c2f22252"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/pack.mcmeta"
-hash = "a3abd44726b3d4234242bb3773513544c3b62a45c04a1a98a79a8f57dcbd9f66"
 
 [[files]]
 file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/origins/origin_layers/origin.json"
-hash = "7f0c3b4970ce2782e5f1068856e597e504164ac029e20604977ebc45eae14fe7"
 
 [[files]]
 file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/origins/serperior.json"
-hash = "8c6f97c9dd80e598b2afdcf295287c4d8a1a84a4df3bd9a06831d8b6a5defb72"
 
 [[files]]
 file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/powers/berry_devourer.json"
-hash = "e8353a7797d6568b842346f264e4d2a69dba47ff258b0799adb6006527295ed4"
 
 [[files]]
 file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/powers/serperior_anti_jump.json"
-hash = "9f8a8f5a7f96ce65e2056e41be3f5ba453355c2e785e74fd273e35efa982b251"
 
 [[files]]
 file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/powers/serperior_coiling.json"
-hash = "f8cc5b3aa18c4fc20726742d8961fdb0c30ab90e711eb27f7a6d3c7e9100758d"
 
 [[files]]
 file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/powers/serperior_grass_type.json"
-hash = "9c7f40edf98b519069e837e632347a03a195c04c4ddeb543dfa39d3c71e208c2"
 
 [[files]]
 file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/powers/serperior_hesitation.json"
-hash = "dad3626502b3a590574ea8b2f32b984634856fe8d234bc0cb9d061d46edd0a2f"
 
 [[files]]
 file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/powers/serperior_leaf_storm.json"
-hash = "d66e8323286356c092f7bc920300b1d8187893b8272e6802c66ae0ae526c337f"
 
 [[files]]
 file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/powers/serperior_leaf_storm_fuel.json"
-hash = "80aeea52aead1903f487da77e0951dd39a34aac510a438301748553eab07e8f2"
 
 [[files]]
 file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/powers/serperior_leaf_storm_strong_and_weak.json"
-hash = "900ef290144397d38815e6c0f2fc0169e989999d40bfadf79587a2097cc74ad1"
 
 [[files]]
 file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/powers/serperior_overgrow.json"
-hash = "7308c11502cca07ae285078a9d27d6a908cc0b02a33794bc87a4df5e23d9bb91"
 
 [[files]]
 file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/powers/serperior_photosynthesis.json"
-hash = "5c2ecf1d5a76b615b2f9431b648a2e783d57e54e672b97c11efefaa564b3ae96"
 
 [[files]]
 file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/powers/serperior_prevent_coil_damaging.json"
-hash = "5caa023cb4b67b26b6bd427b27775ddb3eb0ba547a3551faf10d3a7c1b64f1f7"
 
 [[files]]
 file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/powers/serperior_slithering_serpent.json"
-hash = "7abd9dd4073878536fba4df58abfca05fd3334ba851ed5dc7371c64480d078a7"
 
 [[files]]
 file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/tags/entity_types/serperior_coilable.json"
-hash = "d37fa14ee8d8ea43e6fccac13f9775bf22b01c312f231f633f3105e0a4897475"
 
 [[files]]
 file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/tags/entity_types/serperior_hesitant.json"
-hash = "43016e7135a8feaacea7950f5e45c7c4e0bdc9e508d7568dea1700045e1e57ff"
 
 [[files]]
 file = "config/openloader/data/Serperiortaur_Origin_v1.0/pack.mcmeta"
-hash = "e5953047a29440af1e57cd0bbe1538b0821218d87174236d93fc24e2f7c36f44"
 
 [[files]]
 file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/origins/origin_layers/origin.json"
-hash = "e9e540ba025c76cf71285aaf33425d62643bd33f057ae0dccd9d68b27f8afc6c"
 
 [[files]]
 file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/origins/slime_taur.json"
-hash = "ba8bd7d064d847140112aaac71bb8a135a511cebe147cf348de3853eed06ed1c"
 
 [[files]]
 file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/powers/bouncy.json"
-hash = "bbec471b503493d80db508e946572d1da8e820575415fd1b4bda1599d8e2cb45"
 
 [[files]]
 file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/powers/buoyant.json"
-hash = "d6d0b00ef3dac458103551881452d724d6e9613c229b2d7bc0d64974a10f0448"
 
 [[files]]
 file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/powers/cold_sensitive.json"
-hash = "58c48b002f7e5b048b234c0c22cd32db4ea5d66d20040e6c481e8022183b5251"
 
 [[files]]
 file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/powers/legless.json"
-hash = "75c9bbf401760741857d1148f874f79e94de52d69e3d5223b351879ea2734bdf"
 
 [[files]]
 file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/powers/moisture.json"
-hash = "2e64fb26f8044c3c5b425466a3effa656a61749f699086701b1301d0bd216fa4"
 
 [[files]]
 file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/powers/moisture_changing.json"
-hash = "c2b23c66676d1fec47c0c7707f259c4b8fcf50630a7c46958a5a19af7e4f39e3"
 
 [[files]]
 file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/powers/moisture_food.json"
-hash = "1cd330def3be37893d977953608457fd314875b4413eafc811260fa8743ba589"
 
 [[files]]
 file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/powers/one_in_the_same.json"
-hash = "bee9b71fa2ed6f067611a8dc1d30ea4f5a2be03930aa8e7a8bdd667cd1e5e0f3"
 
 [[files]]
 file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/powers/slimey.json"
-hash = "ee958ca78edd76518888ea892a0e4c264cad9f2da9d7167144e25a3ab4026eb5"
 
 [[files]]
 file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/powers/varied_sizing.json"
-hash = "662327fa7f35dbfe0beb772c2d30ea97edb52deec20553047edfa844484d325e"
 
 [[files]]
 file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/tags/blocks/slippery_default.json"
-hash = "cdc2d40a56f9862e92069d7a5f851537540b72de2c2df0572d33cb1d3ba7984f"
 
 [[files]]
 file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/tags/items/moisture_food_big.json"
-hash = "11895535cf5e696f0a3949ac2e25d98e0d70f017576f3661ed8404ee8752a685"
 
 [[files]]
 file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/tags/items/moisture_food_med.json"
-hash = "ab90364336f61a48a290369f4628f785792bf40128da51989dd803216620b1ce"
 
 [[files]]
 file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/tags/items/moisture_food_small.json"
-hash = "b9ea2c6503f94b2b706d4de1a579107c2375b349e6b02f5c6fe855fc26d03cea"
 
 [[files]]
 file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/pack.mcmeta"
-hash = "1220f4c6352c3c661c43cd25ec3805d24b35d1815f4ce99fbc612fb396ac08c3"
 
 [[files]]
 file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/origins/origin_layers/origin.json"
-hash = "bff00055547968dd17d159d29e1ab820bd22cbee93591f852f5467ea2f895722"
 
 [[files]]
 file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/origins/wailordtaur.json"
-hash = "2cd1b1b4758f4a76379c2846a9a188c88ff1294ba0857730d9e060bd4f3545d4"
 
 [[files]]
 file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/colossal_diet.json"
-hash = "15f196265c7246548bdfc17617e4ffdc9698f784e2f867ec987fc4d5089bd3d7"
 
 [[files]]
 file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/fish_only.json"
-hash = "41e1e5033d25e48746a3c8a36d306ea9ce0cd9ddc735e241be5354eeb07ce801"
 
 [[files]]
 file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/gargantuan_lungs.json"
-hash = "85c5c553f6a77074ad25e188afd5bb7183c324446a5ab8b84ec9dc58df3623c2"
 
 [[files]]
 file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/natural_habitat.json"
-hash = "198073c0c1108a552e7b02963daf4a5412cd5aeaaf7b1e057e17f80788840985"
 
 [[files]]
 file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/no_elytra.json"
-hash = "0aecccc995b51679a2bee6c33f75c6fac40452141bfc4791602ad49444720746"
 
 [[files]]
 file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/no_mounting.json"
-hash = "1efad4cd561b9cf4c972ef33c9c57ef2f67ab0de0420763377d5b5c071521477"
 
 [[files]]
 file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/piscivore.json"
-hash = "e560c0f8911435d8e0aeef77f8957275f80c31157b496cea70226f755f67bf96"
 
 [[files]]
 file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/rain_dance.json"
-hash = "1662e15131b74542baea04579902925e187d155b8116bd9d4351f6bd43f13a7d"
 
 [[files]]
 file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/soak.json"
-hash = "970c5f481f417b8c6a908a50ff90939f438e453557bdf9c919705ed1c6428ac9"
 
 [[files]]
 file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/soaked.json"
-hash = "0de6de7c4f89b3375a105199e53efdeba4741fbcddd246e87062d74af9369e35"
 
 [[files]]
 file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/superweighted.json"
-hash = "c005919c2eb19dc14dc72319cf950c01dd62cb98eb1d6622ba4ab8987c3e63e7"
 
 [[files]]
 file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/thick_blubber.json"
-hash = "84ab93543ee42027cd25ea9215f5d6951752ca7c59786a68bb10af9ec6bc41bf"
 
 [[files]]
 file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/wailord_fins.json"
-hash = "088c20f764583a1927619ffcce1d4ab10ed0fab54cac01444b5b14a37ec2f211"
 
 [[files]]
 file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/wailord_mass.json"
-hash = "07e674fa4aca5a20934ea3ba9a681d8b005440d85e6778f12cc5861ce2a4339f"
 
 [[files]]
 file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/pack.mcmeta"
-hash = "9041d0fac0f7c8043a694216503b3a6e50816b58b1822ae0a64ea40a1d007256"
 
 [[files]]
 file = "config/openloader/data/chestling/data/origins/origin_layers/origin.json"
-hash = "fb1b27840e6c73d4f0652df8de62ee2874c29cfa37f53a6a88a2d52272f690d6"
 
 [[files]]
 file = "config/openloader/data/chestling/data/pin/origins/chest.json"
-hash = "f35b32b3e6f73d4626cd12c045050dbf15e6feff2a8667a668d1e371bb7f89cc"
 
 [[files]]
 file = "config/openloader/data/chestling/data/pin/powers/bodystore.json"
-hash = "cb5ce125401f1a69e680daca227a6e292e56ad61bf63a3a3b028285f93e6f08f"
 
 [[files]]
 file = "config/openloader/data/chestling/data/pin/powers/food.json"
-hash = "b6e82adf2a5fca040e6a13f5b2641d556814df7e893c4621fb79deccaf6488b1"
 
 [[files]]
 file = "config/openloader/data/chestling/data/pin/powers/oak.json"
-hash = "2f9b48b862de9b2c178f5e169a67297f95d9fd4aaf6efa1abe66e8e39d43a75a"
 
 [[files]]
 file = "config/openloader/data/chestling/data/pin/structures/debugblocks.nbt"
-hash = "1be34e8f9ac9061a674672e15b6b24dc78f0029d7c9c04cd1dc802e78b5c95bb"
 
 [[files]]
 file = "config/openloader/data/chestling/pack.mcmeta"
-hash = "2194dcb74e42c892303ad5d22f6275f8f21afdb130146e96ea03d138aa8fffcd"
 
 [[files]]
 file = "config/openloader/data/foxplush/Catalyst SMP SEASON 5 (1).zip"
-hash = "c8e4b697fdfb53edebe064fc5c617f2b0733240ad65846895eca63a21be1b360"
 
 [[files]]
 file = "config/openloader/data/foxplush/data/origins/origin_layers/origin.json"
-hash = "7cc9d513d971f4a19161d759531ad9d20028a3e45b658cad31d76442785cd02d"
 
 [[files]]
 file = "config/openloader/data/foxplush/data/pin/functions/size.mcfunction"
-hash = "5cd9631079bd5c75a8c17add204e54aeba30288f2ea0a7e912ee2fd427456d2e"
 
 [[files]]
 file = "config/openloader/data/foxplush/data/pin/origins/fox_plush.json"
-hash = "fe636bfe94fb33567f79cf66986762e3d532bf5def938d5f088345fde23a9b44"
 
 [[files]]
 file = "config/openloader/data/foxplush/data/pin/powers/death.json"
-hash = "6b1d2a8a4900278f85d6d3152f1ca1d2b2f73e19916c90e54d05cf50248063db"
 
 [[files]]
 file = "config/openloader/data/foxplush/data/pin/powers/featherweight.json"
-hash = "a79aa89df6c9b60d0b87af41b7edbdfa75556422342d78aa19aa712a08bbc15b"
 
 [[files]]
 file = "config/openloader/data/foxplush/data/pin/powers/food.json"
-hash = "606afe94d677743166b7497b8a48f622e167ed8a0222c1f80f4eed39e3d38c8b"
 
 [[files]]
 file = "config/openloader/data/foxplush/data/pin/powers/hike.json"
-hash = "d1fa163780a4437c5bb6c8e4d2ad6e27d6b69d720c39c0f9d2252ab82794664c"
 
 [[files]]
 file = "config/openloader/data/foxplush/data/pin/powers/pounce.json"
-hash = "ade0fc8431c7cace195b78bd5dfcb8d2dfe8c3c445ab5ba5432ffd267b3a2385"
 
 [[files]]
 file = "config/openloader/data/foxplush/data/pin/powers/shelfsize.json"
-hash = "c042a072ae2238e6ef68101f17fca94a9da095ae16d8ce7fcbc02ca4a35dc650"
 
 [[files]]
 file = "config/openloader/data/foxplush/data/pin/powers/stolen_life.json"
-hash = "f30ee0b74b41530b5db5594ce067f433b7064be49f7be60867cb7b3e4293f5df"
 
 [[files]]
 file = "config/openloader/data/foxplush/data/pin/powers/sugar.json"
-hash = "8b6ee12783e5ee2bc7697e7c3f26b07a19a68fa7fad689b3df2b02e3b08ef21a"
 
 [[files]]
 file = "config/openloader/data/foxplush/index.png"
-hash = "2ce3f00f7ce90f8178f7d04f77e1d21bd05c8e0f784a6717689ed086b4d59345"
 
 [[files]]
 file = "config/openloader/data/foxplush/pack.mcmeta"
-hash = "a86aefaf84d2f28c609ff286a47dd1e6147c49d1bb577ff4fc275e58bdb717c2"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/CREDITS.txt"
-hash = "e18591e45fb07281b327b3d2d021680550d226b3d8dc6543178bf7f20a7d2c11"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/origins/stage0.json"
-hash = "c28b742f741c5b3ced612f68d9ddcc41333b3256a9e3b11fc2c53fca4efe6741"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/origins/stage1.json"
-hash = "343d08d842cfa7db169dd8733bc372d6ccb0a00ac0bab648645b636f50968954"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/origins/stage2.json"
-hash = "3607310a81336fe908697e88d4c9f9cfab3301305ff36548bb792f3215fb6292"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/origins/stage3.json"
-hash = "8e557c8543460dadab170c1bbdd909becc9972ce44008fc7c8941e87ccb56e10"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/origins/stage4.json"
-hash = "f94cc35fde9fe9ef8b723128bf80f4646cadba9366a4897161286b44ff318a2b"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/atrophied.json"
-hash = "17bb8e70e3656c603d7230943f2f30ca21af9b57c4f6e4a10cb6b497ba3a152b"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/edible.json"
-hash = "f183450f1fdd851a3a7a347c437fa437d960f84810047c8ad0a7e004fe94d076"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/malleable_body.json"
-hash = "3c3d6b9b8b7cdeb44e9745975e9c6c30640746c6023d75250ec314bff9c3ad48"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/moisture.json"
-hash = "172fb364b5831c53177f903ca739a7eddfbb8ddbf5a1076fd5bdfd554f348644"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/moisture_changing.json"
-hash = "35656ac0cfe1e7287ec324a188fcf7e922256ce20f927059289fde9995c9a487"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/moisture_food.json"
-hash = "8fc3e67b236f470946605a9e64c26b0df50282dff4ad79d9d6f719d39f412b01"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/no_muscles_boots.json"
-hash = "c23234d5367d996ea4a72f7f165a6272d02d06a87acc6a287483515c46d6c88d"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/no_muscles_chestplate.json"
-hash = "dc5e4847b5a3894f2671e4792ca43650cd4cdbba16b567226d54afcac223ba37"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/no_muscles_helmet.json"
-hash = "5b60bfe982f5ab656837ecab0bb5fd3d7f476d85344bf956050eebb036d89283"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/no_muscles_leggings.json"
-hash = "0f21e579ce18d8715710b632ea4a47014675639869bb59d8059d348f130e1a3d"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/no_muscles_main.json"
-hash = "b93e0f70a874de5749c0018764f820f9887005bf8008ac55af8ec6b723b57785"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/no_muscles_off.json"
-hash = "02637db8b8082180afb068a4fa8513aa952bce4d1078f3c20c74fdf6a9a9e34f"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/shrinking1.json"
-hash = "6cab34e2893e38a1ac5512f2c7669cdf4542c980a8ce4aa36e1942659246ceab"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/shrinking2.json"
-hash = "085dbfffb50ee2c7c3e5f69c046cd6e5e0cec2569302b6b5cdb35fb0a39df542"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/shrinking3.json"
-hash = "745485f89b316206c95a7f380d1c1e9ae14c87bf5204a311b4d50f83ed442073"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/soft_body.json"
-hash = "37f0a54820af8982076576d1005a08ecad9ff48e70a2a8034e1ebe07c08a3cdb"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/squishy_feet.json"
-hash = "eaa0f0e29fe0eb4529aca86c829c67b5a7f6043e473497237daa4297c948c86f"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/stage1trigger.json"
-hash = "64c92a8d7a676c73a08f046b235a7f27768ddbad713c5bc6d9ab293387c75273"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/stage2trigger.json"
-hash = "cba74d9d3ecc405ba3c31b89e79277dc952bd97f1b82179c180118bb4f0ef8d5"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/stage3trigger.json"
-hash = "360faa6f216992482fb5b24ad8a2f866fff2bd76b0dc7a0dbce85f060668e8e9"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/sticky_body.json"
-hash = "18f5355db35b2d8935d14bd9707f0f3693fa753ddf195cfe74eb103d66ed98f1"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/varied_sizing.json"
-hash = "78f6defa5b0f9d3ee24cf76b35ec6fe89203ad18298946227e1b6260a83e7d72"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/varied_sizing2.json"
-hash = "5af3887ef7bbeeb5f9f87d7aefa0eae205eb63f6c5a4f3a81aefc8a882cb0c48"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/wormify.json"
-hash = "d66904e6044f5fe6abc89d6201e9fe63f294110ea8f56a6882c937c355d84162"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/tags/blocks/slippery_default.json"
-hash = "cdc2d40a56f9862e92069d7a5f851537540b72de2c2df0572d33cb1d3ba7984f"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/tags/items/moisture_food_big.json"
-hash = "11895535cf5e696f0a3949ac2e25d98e0d70f017576f3661ed8404ee8752a685"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/tags/items/moisture_food_med.json"
-hash = "ab90364336f61a48a290369f4628f785792bf40128da51989dd803216620b1ce"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gum/tags/items/moisture_food_small.json"
-hash = "b9ea2c6503f94b2b706d4de1a579107c2375b349e6b02f5c6fe855fc26d03cea"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gummy/origins/gorgon.json"
-hash = "4e03b3e416f4e389a240ec467e65aeda9804fbbcf4e39e3ac08d687aff1a8403"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/delicate_snakes.json"
-hash = "a2e3e6069c95e0fc1239d725e5bfd0d29d6e834789b959bfb08aeebf5d24446a"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/diet.json"
-hash = "18473879e31627c630765e90dbf8f56e3a5941aa4718e2dcaef2f66bc5724746"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/eatingyum.json"
-hash = "9bbd5ddaaab384c63bd4eae05ffd847e56b5354962bbaa182968b4eb66f2d42b"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/effect_immune.json"
-hash = "d55d6e9ac7e69cc074c232d58ec65b3de77028c49a90b02fdf95a96e6ac8d908"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/gummy_sight.json"
-hash = "4df8f96fb29f6eeb1957c560c25751f6f7da894627449d1bd5f6c7b31f2d34d6"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/hard_scales.json"
-hash = "c2206d806c71baad6fee50a1d457f483fb0c50b8d9e2c9d1bfff141270cf5f80"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/magic_guard.json"
-hash = "93dbb1ab41c462c260a222f355b2362cf43e76bda4a4144930b898e794d67fa3"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/melted_hair.json"
-hash = "f9add5057242e3404ef4f181becc93d7f68d370e466846dba4f609638f5adf2e"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/more_mortal.json"
-hash = "def270e97c76f5303fefc2bacdcba78af7dbbd1b60b9a6cd2a260eea1aada2d9"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/snake_eyes.json"
-hash = "4eae95abf64d52036e45d75d20ca78cce755a36c1d869102bddff3102ecf7ddb"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/sticky_slash.json"
-hash = "984441ec3f46b4e71e1e3108586f8682b12f9a88e0ab7c634c39b94c93a40341"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/swamp_spawn.json"
-hash = "c95ab68603dcfced0aa8c934053f4af4ad1f08319d6c746fbddc5ae5e66397f3"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/origins/origin_layers/gummyfication.json"
-hash = "a664dc25b6139c0d4aae4014b9c927af94a26eb1fc7de854d92f22a3d04ffb30"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/data/origins/origin_layers/origin.json"
-hash = "192982f4b28e339237e2d9b32a71f97d14fcc76e6695b62660f72a622f71c22d"
-
-[[files]]
-file = "config/openloader/data/gummy-gorgon-origin/pack.mcmeta"
-hash = "44ee0677b771bbb69523542bfd9de9652c03f0473721d7f4ffaee1c9e1023d8c"
 
 [[files]]
 file = "config/openloader/data/mobsorigins/data/minecraft/tags/functions/load.json"
-hash = "8268e7fa923eff5eefe988d9657b2e3c8a78a6033811bad9563d2b33e6ce154a"
 
 [[files]]
 file = "config/openloader/data/mobsorigins/data/moving/functions/impl/clear.mcfunction"
-hash = "2f60b759a060cbedf9620f8c01fa70cd0805bc82c1bc0b191733ca377a9f64b4"
 
 [[files]]
 file = "config/openloader/data/mobsorigins/data/moving/functions/impl/compare_pos.mcfunction"
-hash = "6732b29a54acb557c4948202a465479b9047761c41e6bc83ffc029b627b18845"
 
 [[files]]
 file = "config/openloader/data/mobsorigins/data/moving/functions/impl/compare_pos/determine_scale.mcfunction"
-hash = "f66a19211e2e7feaf01864b95b49965184b90ffd61f76edae919d41fe786e809"
 
 [[files]]
 file = "config/openloader/data/mobsorigins/data/moving/functions/impl/remove_tags.mcfunction"
-hash = "6ecdab6b8acb9098605420c32ff10c5e88cd09764ad2ade5b8fe412c1b74e25d"
 
 [[files]]
 file = "config/openloader/data/mobsorigins/data/moving/functions/impl/scale/by_10/x.mcfunction"
-hash = "d35c21c82e44fae7f5611758717818393f6410e2db1adf0391b95fa83c6a0d43"
 
 [[files]]
 file = "config/openloader/data/mobsorigins/data/moving/functions/impl/scale/by_10/y.mcfunction"
-hash = "37c1e6161330a6f09d907274b9912ad8feda6150ac24e7a13f28566a812139fd"
 
 [[files]]
 file = "config/openloader/data/mobsorigins/data/moving/functions/impl/scale/by_10/z.mcfunction"
-hash = "07b9a943f4b2bdae44a24997fdd08afb3541f6d392a172ba3599b4ce7ca520f3"
 
 [[files]]
 file = "config/openloader/data/mobsorigins/data/moving/functions/impl/scale/by_100/x.mcfunction"
-hash = "2caaa1cc2f6d6ae521238bb1755d9a993e61c34043f34133a96fadfb355fd678"
 
 [[files]]
 file = "config/openloader/data/mobsorigins/data/moving/functions/impl/scale/by_100/y.mcfunction"
-hash = "3ddc35d82de11677102076015627123f83c831e9db7afc7a440e2bc423542127"
 
 [[files]]
 file = "config/openloader/data/mobsorigins/data/moving/functions/impl/scale/by_100/z.mcfunction"
-hash = "7962574030608a23d3891e2979976e2d5614a8fce2eb644b63ae249e2b59bbb2"
 
 [[files]]
 file = "config/openloader/data/mobsorigins/data/moving/functions/load.mcfunction"
-hash = "40db4fed21bbd01f0ce3fd4ac1fdd2198b83b93e276eb8a4d7bdaab6a24f1244"
 
 [[files]]
 file = "config/openloader/data/mobsorigins/data/moving/functions/state/horizontally.mcfunction"
-hash = "89ccad472d818569237f9016504db265543e77ef0e681eb4f61d5e93380f784a"
 
 [[files]]
 file = "config/openloader/data/mobsorigins/data/moving/functions/state/vertically.mcfunction"
-hash = "562b6cdeb6a6a5a81feff78031d8e59e7205783d14b8618d43197c40badfe8e8"
 
 [[files]]
 file = "config/openloader/data/mobsorigins/data/moving/powers/state.json"
-hash = "8b0695a54fd8a9c66211825e3357a36b6701e56ac21823048262b505728d8b98"
 
 [[files]]
 file = "config/openloader/data/mobsorigins/data/origins/origin_layers/origin.json"
-hash = "3f6abe6451a97c96fbd3f73f7cc9cb61fcaca5e88816715733b02a8651fd856e"
 
 [[files]]
 file = "config/openloader/data/mobsorigins/data/phantom/origins/phantom.json"
-hash = "fc13fb0d15eac3edeac40c079459615f03559f815f5830b14c573714bcb4a981"
 
 [[files]]
 file = "config/openloader/data/mobsorigins/data/phantom/powers/burn.json"
-hash = "0de55e3ecdd08676eebef10f167ac4321efed4079750c86ebf2c8f2faefd9bac"
 
 [[files]]
 file = "config/openloader/data/mobsorigins/data/phantom/powers/demonic_sight.json"
-hash = "ec8aa90e28a6fddc4b5ecda3c52b3078c7288f7b4dca2d0f2c9bc0e1ad9f2696"
 
 [[files]]
 file = "config/openloader/data/mobsorigins/data/phantom/powers/fly.json"
-hash = "49c5a80698e37a1f09b746f1fa97b417da464ee8e6894cd9775990ed1e70c265"
 
 [[files]]
 file = "config/openloader/data/mobsorigins/data/phantom/powers/friendlyphantom.json"
-hash = "3634a776db96f1ab9979c0db09713c680d30f264b4053117c1de0c50db5039e9"
 
 [[files]]
 file = "config/openloader/data/mobsorigins/data/phantom/powers/makefriendlyphantom.json"
-hash = "f56d1132b86b0ac29bc2bb731fac6c9e320c15e51c123a63d267bc4057d9d093"
 
 [[files]]
 file = "config/openloader/data/mobsorigins/data/phantom/powers/see.json"
-hash = "d5c18c7b1c6a8b0c53789c3ea78520e085db78fe113dd88373415918f73f3420"
 
 [[files]]
 file = "config/openloader/data/mobsorigins/data/phantom/powers/weakness.json"
-hash = "ba60dfe7813d58aa8ab0b6ad2e18f06fb82df5874fee8b09cf2cf4268313778f"
 
 [[files]]
 file = "config/openloader/data/mobsorigins/pack.mcmeta"
-hash = "56ce13f122f371eb58ad5edf175a106e9e45e96394bf1c25fcbbd06f95951799"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/minecraft/tags/functions/tick.json"
-hash = "8e0e0885a6b4ba3f6300e0b2811582861724765a6d1f4c2d44daf2de783ec39c"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/origins/origin_layers/origin.json"
-hash = "61e885ce5fea1cc6c83876bd580620b97d95d2819e681fc0d07000fbb7885c2d"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/functions/area_effect_fix.mcfunction"
-hash = "54a682cef802224399cb64aef1ad429d44484e881d35ce64b008ad2f0cefbf58"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/origins/3dl_statue_leaf.json"
-hash = "1a055003297625cc6965118064e7146f05caef7f238800e073c5e5d9abc9ab05"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/origins/3dl_tanooki_leaf.json"
-hash = "2fae83c3384a49b0a9a994a85ad15cd6f5ab71ac2e941426e7bf9b13aec7e6cf"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/origins/3dl_white_tanooki_leaf.json"
-hash = "ed0b11054420670ce1537943b9465d35250b351193eb04aa1992dbf9bdb7625b"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/origins/b3_p_wing.json"
-hash = "4f107b94eb6d8cf932ce4258bd2c12fcd807a9e9acbfab9b1c2dc897e254945e"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/origins/b3_super_leaf.json"
-hash = "8473a99ee36e7af173c57a520cf2fd7f55010b697cc381500332734b06e95bba"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/origins/b3_tanooki_suit.json"
-hash = "14fb5c44294b515046752c3149586a49356fa2b4e02b802e6d808cb79c5d163d"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/origins/eazs_leaf_character.json"
-hash = "d3185ef9973869530aaed102634252981f41b95921b5741b8ff0e845dbfbfb42"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/origins/nb2_white_super_leaf.json"
-hash = "00568de3c14eeca59bab6be17e2b2d23a697aee246bbf46ccd91d5056db53bb7"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/powers/b3_flight.json"
-hash = "23f57e67fd3e42fb04cd959c539244d23d5523e2cfa4e0c9db43e5fdf01ec117"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/powers/b3_flutter.json"
-hash = "c17d407fdcb62c55205ce8f3595a98b49a73cd7c29b36fb7a5dac1009fd9d091"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/powers/eazs_leaf.json"
-hash = "1a02da68b876b36eed3eab4b7774180ae0994b11c5ed68e005f25d4bf64b2ead"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/powers/nb2_white_leaf.json"
-hash = "ab3ca4aac78ef16047a608ea5df0dc40d7479c296edc3fae2747310310507560"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/powers/p_boost.json"
-hash = "11b5f0a18e36914a0672f876f6a1e96af0d1dccba42d99ef897c25d32d897aa9"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/powers/p_speed.json"
-hash = "314bee6e9b2dc9df8d21bf4ff9dad93b380bc2cc2fedf995d4fa706181040785"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/powers/p_wing.json"
-hash = "c63456feacb22a0daa9ade231e9005d93f00675d91c1d40a8f919ba910ec5839"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/powers/star_power.json"
-hash = "21a1b0eac7930d1359e8762b8adde52ec80c9d394bff7f781018f21f1b391951"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/powers/statue.json"
-hash = "931bc67afc583f894439c08bd4a5e2a7c18f28b59829f1b19dea26e413575fc2"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/powers/statue_form.json"
-hash = "9fd2469a666ec52d8fa62ee82ea46fdf0799f7eae69062a428d9bf33c44c3e07"
 
 [[files]]
 file = "config/openloader/data/poweredup/data/poweredup/powers/tail_attack.json"
-hash = "56be81865cc20ed3739e41e4cea0f4dcf5dded2707ea11912c2cba5d48453e3b"
 
 [[files]]
 file = "config/openloader/data/poweredup/pack.mcmeta"
-hash = "e29897a6e4fdc662f79956cc93d3df740e31ebf12e516551fe18edc37d24e7b2"
 
 [[files]]
 file = "config/openloader/data/poweredup/pack.png"
-hash = "e953674dd0e69e07945f150603639faf71e34b394d886ffc96df10f5c59c583a"
 
 [[files]]
 file = "config/openloader/data/snail/README.md"
-hash = "f28382b1859d33248a12dc45527f24ece1c2bbcadb3df169c8f801bbd113942a"
 
 [[files]]
 file = "config/openloader/data/snail/data/origins/origin_layers/origin.json"
-hash = "4a86a41c199eaf6530bc0613f23422f7859313457f331597910b9a26f91dcc10"
 
 [[files]]
 file = "config/openloader/data/snail/data/snail/origins/snail.json"
-hash = "71b061436eaa14dad2cb6a508747f3a70a09c41b774b987124f76300c91331e8"
 
 [[files]]
 file = "config/openloader/data/snail/data/snail/powers/Block hunger values.txt"
-hash = "f4c85358ba272fd4d6f0da2749baf5beefaa68a62495308fe67699654bcd7cd9"
 
 [[files]]
 file = "config/openloader/data/snail/data/snail/powers/ceiling_climb.json"
-hash = "8df9a102e2ee2b509a3b89e65573786a1e4213887c58274b7ed72ccd7c1e839c"
 
 [[files]]
 file = "config/openloader/data/snail/data/snail/powers/mega_slowpoke.json"
-hash = "1943044a4d8ed59f8b7bf8c73f263eb42bd5f8511564afd785be8657e3c85f06"
 
 [[files]]
 file = "config/openloader/data/snail/data/snail/powers/no_legs.json"
-hash = "4b5517bb891b09512211b161fbdb3302257a20d06beeae47ec747be3c5ff7dc0"
 
 [[files]]
 file = "config/openloader/data/snail/data/snail/powers/plant_eating.json"
-hash = "7d061af5c59ce20520bf2b454bda3fe95d39ffc8e531fa8450f29c467269234f"
 
 [[files]]
 file = "config/openloader/data/snail/data/snail/powers/poor_vision.json"
-hash = "e96b21641e2b948aa669038e0c04058b79522ff6f7d7c027fc1c824abed64295"
 
 [[files]]
 file = "config/openloader/data/snail/data/snail/powers/ride_buff.json"
-hash = "0b9c28656cae5d9e57e05b16df226df74e3a6e22a57fe7dca2cfa20d3d921b8a"
 
 [[files]]
 file = "config/openloader/data/snail/data/snail/powers/smol.json"
-hash = "cc6fa81ea542530361b7f5d89d4baa8724c7efbe7ec17a51270d71a82972fb5d"
 
 [[files]]
 file = "config/openloader/data/snail/data/snail/powers/solid_shell.json"
-hash = "8628909bc0c52be4a77aaa6d5b5ebec33b35de680a743b1ea87152f840de4654"
 
 [[files]]
 file = "config/openloader/data/snail/data/snail/tags/blocks/1hunger1saturation.json"
-hash = "7cdf0b0afb6ac1aa9db1fb9b04f4e05a864cf77307d03d7a6e4094b7106b7711"
 
 [[files]]
 file = "config/openloader/data/snail/data/snail/tags/blocks/2hunger2saturation.json"
-hash = "8557170ebaffb778bca78c04271e94f97ba27d3e2bd48b07bb9be5db54549ec7"
 
 [[files]]
 file = "config/openloader/data/snail/data/snail/tags/blocks/3hunger1saturation.json"
-hash = "13c5617642a89fb685876a60604fbd97616f0e18b9eb562bfa33562bc302da04"
 
 [[files]]
 file = "config/openloader/data/snail/data/snail/tags/blocks/3hunger3saturation.json"
-hash = "f1c5eeb6977f44a414e3c02da57f433291976c5a48e7ed4a6ece916a6cdb7a53"
 
 [[files]]
 file = "config/openloader/data/snail/data/snail/tags/blocks/4hunger2saturation.json"
-hash = "6ba36445e0c6395986b0c2882e72747638a10d8562a2f75d37c7fd4cc83019e2"
 
 [[files]]
 file = "config/openloader/data/snail/data/snail/tags/blocks/5hunger5saturation.json"
-hash = "30136291f9d2158f756b6101bcb13d75a0e02e30d232e4290b4b1c128b3cd9c5"
 
 [[files]]
 file = "config/openloader/data/snail/data/snail/tags/blocks/6hunger8saturation.json"
-hash = "3a85c40f428754f25e88689ff4fbea45ab3a8c559e93eaff1e3d16a9d6405f39"
 
 [[files]]
 file = "config/openloader/data/snail/data/snail/tags/blocks/7hunger9saturation.json"
-hash = "0e4ec7eebb0e7de37bbf03e4f99a07ab94141f59d230c942bc29dcb628f3c277"
 
 [[files]]
 file = "config/openloader/data/snail/data/snail/tags/blocks/9hunger9saturation.json"
-hash = "3f6b1294c4e7e157beb22902386a429508ad3945269d1e90727c339ff7fb2fab"
 
 [[files]]
 file = "config/openloader/data/snail/data/snail/tags/blocks/crimson.json"
-hash = "33f179d1d0089c36d0b19dcb30397968199fe11dd1e05228ae3e3ef4a0858e7a"
 
 [[files]]
 file = "config/openloader/data/snail/data/snail/tags/blocks/crimson_weak.json"
-hash = "dab440cf4f9ec273d73e0304c03a319f493068231b46f8bd49400d5ed2f09381"
 
 [[files]]
 file = "config/openloader/data/snail/data/snail/tags/blocks/nylium.json"
-hash = "a8d1103e678ab294067396898fef3c082f4634cbf62aafe12e3cd12d0efe363c"
 
 [[files]]
 file = "config/openloader/data/snail/data/snail/tags/blocks/warped.json"
-hash = "ffdb5c18fdd385ac6f8e3a0e039f540529082f6dec1586f1c3db434cc1e71241"
 
 [[files]]
 file = "config/openloader/data/snail/data/snail/tags/blocks/warped_weak.json"
-hash = "75175c8388b16224ad122237fb5399f0b0a4787de8f949580dde3a20db0d8940"
 
 [[files]]
 file = "config/openloader/data/snail/pack.mcmeta"
-hash = "319e6363eacda2ee77dfc072b50d8d69ed46b889248499401d676a53357ee666"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/black.mcfunction"
-hash = "b52d74744c8019d783a4a55b6c1f7dd8e0159c290fa332dc989b4504fa6cc447"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/blue.mcfunction"
-hash = "13a053825c457eeb795e7619415413f227e26ea407554146925bbd6056510857"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/brown.mcfunction"
-hash = "024efeddc0fca12c1583d30c202679e9c17594d08b5c26123aa7532805b55c6f"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/cyan.mcfunction"
-hash = "338c76ad9c10cfdd13691d8c7462d5e90d57a89d3fea60ae77b1e6cf8b71da2c"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/green.mcfunction"
-hash = "b3e4cf4bd6975697fe918fc05691e62aba6711fe114eab6062f41d10a9489364"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/grey.mcfunction"
-hash = "58b23d44107b700bf1b621559c4ecc44970e02aa09229e2c0a5b39c04d3cc117"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/light_blue.mcfunction"
-hash = "1322a55793d18e321a2fe75de5c02abd9abc15cf323725e62255ce7af10bd703"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/light_grey.mcfunction"
-hash = "9383b428b03dab347ef350433ba5cbee5d1774f4d2adcb5d0a3175d87fd0c60d"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/lime.mcfunction"
-hash = "a8e7df4bfec90ada5c249587bbaa4832f960af90bae202bbbf33f03b93238267"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/magenta.mcfunction"
-hash = "e5a25bc064e1fb5edc8bbcb8149b2b034b24309623f4fe340f5fa2f8e38be99f"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/orange.mcfunction"
-hash = "85459297073c7f3854be6ff899d9f20cc8a757c5affdd33a282e5929c4f5a68a"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/pink.mcfunction"
-hash = "8b320b57ebff9b3081dd2253740205591fa792423431afb104d53d35abc22fed"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/purple.mcfunction"
-hash = "5b2a48ec108de2a78e384d445d778c606b7fdaae1b69d444a0947cd798c9a48c"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/red.mcfunction"
-hash = "a9063497235f1b722ed8b8689f4701e354932fa6a9b586fe1568228bfb377149"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/white.mcfunction"
-hash = "e98647726055ed1440e2601c28e4a207a224fd5570b7339928c34a5c07234886"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/yellow.mcfunction"
-hash = "9268b7d1185e6fa7a2a160cf4e1368965013670a71439d796c4e3273bfa55878"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/origins/baaa.json"
-hash = "199ffa84e06e3266a601218b348ae2fc50ec5c7cc21260a7cc31817063d2e354"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/beingsheared.json"
-hash = "84f934b20bb9d15ff7e29c78c2e92e69af6cf15a03eed77ed2924f73c51d699c"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/color_set.json"
-hash = "087125b74de69a1ed93034af8a99569853869cf28eee6011e9ef4433fdb43e5e"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/current_color.json"
-hash = "fd88f855d87a5caf4e06c04beb8e324063255959a0cee2a51d997d73f36e0a37"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/currently_fluffy.json"
-hash = "1292fe46dcc6d640c4170beea581aeba2e888045115d449726f369cf1e7d68c9"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/fern.json"
-hash = "77ed1febf57b5a364cc595dbec355622c2bd18aa7b75901861954a17247facfe"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/fluff_down.json"
-hash = "0df9eea392bd1ec5be73316b8c360d03f4eff66f463bafb68fb0065c5f3d1457"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/getshearedeffects.json"
-hash = "2b51b919d9f865206dac8faf623250f46345af26f200751784f867f7d97627eb"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/gettinsheared.json"
-hash = "06e1bf543ede9818fbf69997c2d8fbc21d49c3671b9d11df3df6aa39ee53568a"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/grass.json"
-hash = "230e40dc43aa8c67692ae598966a05ba6760c3e4906f58c465d089038a025a33"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/grassblock.json"
-hash = "4f9acf0702a02dbcadfc7f8c7782d85ee318697e6d0256696cb85b9e055339f0"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/largefern.json"
-hash = "e38a4724282d3159d1e5252835b8f775ee1e6d2dd2743bf538a198f4d5096302"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/rainbowgapple.json"
-hash = "a2890c64dd52121fe30e5001450c27cbce7606d3ec0cd9b9787c2c5bd0fb9deb"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/rainbowgodapple.json"
-hash = "d5a545066e6c93ea34bd6d10749852079eeff587052c444aa54d55ec4a42f98d"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/soft_landing.json"
-hash = "9dd62a7cde06fef76a8386b587a16253af640ec9fee075e849c92a0720c13732"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/stuffduringshear.json"
-hash = "2c5b8e0c48c47df050722e8be8f0a866a96d482cbcdfb2563a64bb1a8e50fe19"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/tallgrass.json"
-hash = "e93d0aed28504cb1de99af0b1a026e7d1bb859825384d26752743c541ed8c521"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/vegetarianism.json"
-hash = "142819b03f964ec44ce061eda20bb4cbf65df55578771f70f557c45876db7b4a"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/tags/items/dyes.json"
-hash = "2cb6e8ecffb6eb54cda39f838ccf7d4f1a4ee7cf21d9861c45c77f8c9abc2acd"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/origins/origin_layers/origin.json"
-hash = "1422710a8b1482fadf68aec1a5a334d4c29430fd4a3dabf3178103822960d568"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/pack.mcmeta"
-hash = "e29897a6e4fdc662f79956cc93d3df740e31ebf12e516551fe18edc37d24e7b2"
 
 [[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/pack.png"
-hash = "7b1b27c79e74f393a8f500846d286d15d5d1b302ec62b22d1a2faed5d2d7f0c7"
 
 [[files]]
 file = "config/vowels-packwiz.json"
-hash = "7f6b0e0a412311b6d0cb5d9df856547ee60048b516535de5e849d4134c8b87e9"
 
 [[files]]
 file = "icon.png"
-hash = "ac14fa6665fd908d8230e516e7d2d53367ec31a406d18dcce0c0c3bae1119697"
 
 [[files]]
 file = "kubejs/data/kubejs/origins/statue.json"
-hash = "61182c311408df1bcac96a1ad9e8111f363dfcf25a37bcfc60ac658264383575"
 
 [[files]]
 file = "kubejs/data/kubejs/powers/statue_immobile.json"
-hash = "948e76d0125323edd18cd5bc52757e966616864f7c84d89240ad5d4558d1837a"
 
 [[files]]
 file = "kubejs/data/kubejs/powers/statue_solid.json"
-hash = "a6df4f67612cf91fbc61928ea68b027290ce9a6672e1187ed37b9dd508625f9b"
 
 [[files]]
 file = "kubejs/data/kubejs/powers/statue_stone.json"
-hash = "6ef2b99b1bcde3f26edefb4d81a17721a2b66ce80d740f298c606f7f4d03951d"
 
 [[files]]
 file = "kubejs/data/origins/origin_layers/origin.json"
-hash = "2303425790327d56ac634048e7d91949762d8769d565aee81ed58dfd04645128"
 
 [[files]]
 file = "kubejs/server_scripts/slabs.js"
-hash = "f5026f47cee720fb69803527678c062d8287751e74f249f2ecb4a744af7342b2"
 
 [[files]]
 file = "kubejs/server_scripts/uncrafting.js"
-hash = "4f5601585b7044b6fd98c19cc24ad31a1d599f5d098f241e37ff415160cac2a0"
 
 [[files]]
 file = "mods/\"limitless\"-banners.pw.toml"
-hash = "b2d2b260f31b66a7cddb0cc701092a0f7fe492f78f58db7a0204cb2cdf617f3b"
 metafile = true
 
 [[files]]
 file = "mods/advancement-plaques.pw.toml"
-hash = "75df667bf44ea3d1272430e259339d69f55db196d0d42d2baf60ada15ef18f3b"
 metafile = true
 
 [[files]]
 file = "mods/ae2.pw.toml"
-hash = "0273a578ec15f3eb9a9d44996a30b969397641ed27e3d1abe0c5f73bd70a4fdc"
 metafile = true
 
 [[files]]
 file = "mods/almanac.pw.toml"
-hash = "e1f6e466fd6e494c0f74181e5f022db980533d1e87103b1b453277950c606949"
 metafile = true
 
 [[files]]
 file = "mods/altorigingui.pw.toml"
-hash = "6dc6db63ef3e66d503041e01b0d45bdf0e3b4c4e45fbd929436b9e67a730f34f"
 metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "1c5a6113c06dc556f0e251642596d1a687d7160dbf627336dfacfe1730f69b13"
 metafile = true
 
 [[files]]
 file = "mods/another-furniture.pw.toml"
-hash = "f9781fd109d0ffa0720e4168f5d8a7d85dd8d5c640ddccdfa77114f79ba42a26"
 metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
-hash = "c40cb22a60e02eee6dc7354f172b261913aa54bc774162911520aa892cb34265"
 metafile = true
 
 [[files]]
 file = "mods/apugli.pw.toml"
-hash = "a73ce171bac7be07db35d7d2f381fdab5dfcbd344a727bcff7bc1cb04d6b143c"
 metafile = true
 
 [[files]]
 file = "mods/aquamirae.pw.toml"
-hash = "fb29362ea01abdd6cda50ab2452e852758dec7bcf9e64c7377a953ed17ebc607"
 metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "7aecf39b068aa52d8e8c2d65d337de3563b0fcc78a999ee62b712d01c52f75d6"
 metafile = true
 
 [[files]]
 file = "mods/arsenal.pw.toml"
-hash = "bc28822a2fdbd4b2233ca190d40902350565ba8018cc1c53b3ae1172a2006714"
 metafile = true
 
 [[files]]
 file = "mods/artifacts.pw.toml"
-hash = "bd2333096d222d7937fb5db2a053e5e0de9a8a133c5bbd240c5bb3070b734b72"
 metafile = true
 
 [[files]]
 file = "mods/athena-ctm.pw.toml"
-hash = "e09ceae04e73831b93c43e6a1f12da063fc24e1074f39fab1e00234a8de8a1e2"
 metafile = true
 
 [[files]]
 file = "mods/axiom.pw.toml"
-hash = "1ed4ba17d39f35bfdf8df8b1a4c51b0d7ebba3b4ff6191f71ba1ea3bfb7eb93b"
 metafile = true
 
 [[files]]
 file = "mods/barbeques-delight.pw.toml"
-hash = "1255f07706f3e0944d5d57e0fb69b29237c69c1e3b9985ce8849468aebc2a239"
 metafile = true
 
 [[files]]
 file = "mods/basicweapons.pw.toml"
-hash = "2e866158b7a031d82f43c6d55c2affb5c8c0d8bebefb92279545b46b103ff3ca"
 metafile = true
 
 [[files]]
 file = "mods/better-ping-display-fabric.pw.toml"
-hash = "a3f02bb9c11cbe8ee592884e2a739e95135146635d49d08bccdfcfb8f8f995d6"
 metafile = true
 
 [[files]]
 file = "mods/better-stats.pw.toml"
-hash = "2a74c6cba2cfdf8c962f652caac214aecf3b5fa89139f335413edf7c0acc67ef"
 metafile = true
 
 [[files]]
 file = "mods/better-third-person.pw.toml"
-hash = "571b740030954db87fff6ded8dd36f9f3fb0301a6853e9ccab444ad17ed52f91"
 metafile = true
 
 [[files]]
 file = "mods/betterf3.pw.toml"
-hash = "9b4caa235f691df572aa224d2d4023371315490822af79a18665f7641fc7cc46"
 metafile = true
 
 [[files]]
 file = "mods/biomes-o-plenty.pw.toml"
-hash = "c88f942cf2ed80ea859ff595f9adc7170b7b784fad6bfc76a09b456a4ecf5314"
 metafile = true
 
 [[files]]
 file = "mods/blahaj-fabric.pw.toml"
-hash = "3be4d8184379525c27fee02066e56149bc701189a4b8b4c5ec5deff189f1422d"
 metafile = true
 
 [[files]]
 file = "mods/bookshelf-lib.pw.toml"
-hash = "c6746edec1a7bcbca3f93ad88bca75eb418d3d702571d9a3e3b960c63a6a6e72"
 metafile = true
 
 [[files]]
 file = "mods/bosses-of-mass-destruction.pw.toml"
-hash = "2fa74ede48258bcd6a3515e0c4a85eba7ba6da217a3b8dd025655c826b164608"
 metafile = true
 
 [[files]]
 file = "mods/cardinal-components-api.pw.toml"
-hash = "a3854546fd2f0c160a2ab8b08ae453b98b158948e92365f2e9f0b1c0808c72ec"
 metafile = true
 
 [[files]]
 file = "mods/carpet-extra.pw.toml"
-hash = "5aa266498f131bf7b9d764d608b6416f36555c228110c0d5126bcd7c8bec9f9c"
 metafile = true
 
 [[files]]
 file = "mods/carpet.pw.toml"
-hash = "8c47daba91f742d52311a9df66bae3296246ecba7ca6f1650579e5739d152d0f"
 metafile = true
 
 [[files]]
 file = "mods/carry-on.pw.toml"
-hash = "2a28c2274b74668e6de644c0aeda01fc5a4253b1af9436a5ad680b73188cee4d"
 metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "49055d88cda332d0454a3ae925b46b095f354100330c379723fe5372617e8378"
 metafile = true
 
 [[files]]
 file = "mods/cccbridge.pw.toml"
-hash = "d94da74c5f4dce9b7b6586f04b3bfe99ff2b2b5298258b8ab9b111c1c126bb67"
 metafile = true
 
 [[files]]
 file = "mods/cherished-worlds.pw.toml"
-hash = "eb0a40486a66d164bc532ac890cd62f0c2a69000333fb860331cb61525842c09"
 metafile = true
 
 [[files]]
 file = "mods/chipped.pw.toml"
-hash = "41c81f095b5a96775d2cf261dc8350e8214ef3a12bfa608f2761634e8560cfb9"
 metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "d9b48516b87e17d60ec034df10555ce9cd29fb2c125daa7835e6b155a58eb137"
 metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "debb91915653177cd4f1f579af7795d4db74fd605ee48748da9241ee446ff99d"
 metafile = true
 
 [[files]]
 file = "mods/continue.pw.toml"
-hash = "ff94c377c11290f80b7017f470299477c3904e6542720223183af524a508798f"
 metafile = true
 
 [[files]]
 file = "mods/controlling.pw.toml"
-hash = "3e8e2864e6d6439455985d988389fd982ae6b11b9e1e023e5e95811240ef841f"
 metafile = true
 
 [[files]]
 file = "mods/copycats.pw.toml"
-hash = "16b4b5ef6737f6cc0fb90933600935e0aa10573b7c84c9e9ff0fef9b83914902"
 metafile = true
 
 [[files]]
 file = "mods/cosmetic-armor.pw.toml"
-hash = "f8e21759ee41748a4366917e1e24223b8d9b21d76aafbd5a5fd1f11dcb132404"
 metafile = true
 
 [[files]]
 file = "mods/craterlib.pw.toml"
-hash = "6318cda6594318937d45d687888f6816d019bbc4c4155b0b4c8dc569d1985598"
 metafile = true
 
 [[files]]
 file = "mods/crawl.pw.toml"
-hash = "d3e3831377b8282db35ffe8446d535f30e011367b3187b2c96b5f179a1a77c59"
 metafile = true
 
 [[files]]
 file = "mods/create-contraption-terminals.pw.toml"
-hash = "2dcd4795e07f45549294178c0d793a62cf165c2740a2347e9e896480e5c191b9"
 metafile = true
 
 [[files]]
 file = "mods/create-deco.pw.toml"
-hash = "cb5b55935e85b9b225d21c18646ba3c1340e7e3b204e9ba3e5ac5395a53f4751"
 metafile = true
 
 [[files]]
 file = "mods/create-fabric.pw.toml"
-hash = "431b2535a04fd1095f30904d35d29d3264692362567d3204562d001e51db7732"
 metafile = true
 
 [[files]]
 file = "mods/create-steam-n-rails.pw.toml"
-hash = "33dd378a7f5fea00272cd663d8ca33af66be20801778a668a51b636440366fc6"
 metafile = true
 
 [[files]]
 file = "mods/createaddition.pw.toml"
-hash = "d7efd7d686ed6465c3eb2a71a5be177876a774388fbb31804c29f3c55141b8df"
 metafile = true
 
 [[files]]
 file = "mods/damagenumbers.pw.toml"
-hash = "0bdeec888374e2f7568f213bffcf44f4fb277b758b758837d3dd7dec8a7df715"
 metafile = true
 
 [[files]]
 file = "mods/decorative-blocks.pw.toml"
-hash = "20efb349020b2ded8f727e11263580693cd1f26d666d268165a5670c9d74144d"
 metafile = true
 
 [[files]]
 file = "mods/dimensionaldoors.pw.toml"
-hash = "0312d8931c87828985eeb58bbf2c2dd33d40a7c81582a8843a1b6431f7167687"
 metafile = true
 
 [[files]]
 file = "mods/dungeon-now-loading.pw.toml"
-hash = "b01e31b46612baae12b0b5aa27010792a96b034237d3bc81946e65a83c1e774f"
 metafile = true
 
 [[files]]
 file = "mods/dungeons+-more-spawners.pw.toml"
-hash = "a267accfab6c8c269b04df79d9fa81a7a7dd2a57bcd6dfebe7e25fb59df8434d"
 metafile = true
 
 [[files]]
 file = "mods/dungeons+-towers.pw.toml"
-hash = "def557d503341473382dabb197ad3be47da8cdc76e293a742a51bb2696fed8e7"
 metafile = true
 
 [[files]]
 file = "mods/dungeons-and-taverns.pw.toml"
-hash = "3c97a49f0ebb7af81ba3dfa2f4710afc480f801fbde22ece441f2cb454e84f46"
 metafile = true
 
 [[files]]
 file = "mods/e4mc.pw.toml"
-hash = "d12cfc1de0d460744c32cc2dff05984eb5656a67300023347cc9acd8b3e276d8"
 metafile = true
 
 [[files]]
 file = "mods/eating-animation.pw.toml"
-hash = "dcb3b041b59aa318525185fc5474887ee96bbc3487d5cc991e126c6c94ed49d9"
 metafile = true
 
 [[files]]
 file = "mods/eggolib.pw.toml"
-hash = "e756b29172dd26dae76bb5cb0e23f1a7feec2ddf47e3a6c0f9e1172247d3591c"
 metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "eed2ca363d2a22f2f95950ad9f5033925003145b3c6064f3eee41ae8bdd35f0b"
 metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "7fbf58a8c2e52f569d6dd2ef8468802008019702479e9a32083a641cb75def29"
 metafile = true
 
 [[files]]
 file = "mods/ensculked.pw.toml"
-hash = "1613044a4d39ca4b893dbc5e0842928dff6d940f04ea42c5ce080176055c6720"
 metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "7402a4d82542a640e5151bb9dbc1126f8c913f2d3c7f1c3f9ac52c771f39ad66"
 metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "027238a92d45f95caeb90591ba761e6536a49a850f82ae57ae9042e0130ecaab"
 metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "95cf5f912309fb28f1aeeb698037a7f9cadb3b47775d678bddfaee52aee0869a"
 metafile = true
 
 [[files]]
 file = "mods/exposure.pw.toml"
-hash = "183cda06376ef36090cfc2bab446affac8e64ad16a8d2cc461637f180ff03c69"
 metafile = true
 
 [[files]]
 file = "mods/extura-0.1.5+1.20.1-fabric-mc.jar"
-hash = "6bef658a57a363a13b1b4f742bd0408cd0d6e5155a0141c08927eca9be565ac4"
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "a004bfb5092b1a3300e47c2ca63f1eab25a277a6e15554ba5e7de5bb580a69e8"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "4155a710d4e5135a22dfc273b774f78f6cbe3c114f6d98cb346b589b1e71586b"
 metafile = true
 
 [[files]]
 file = "mods/fabric-seasons-delight-compat.pw.toml"
-hash = "c72e7fd14e7258c27677cb6b8d7529bb777d62a145d6976a81a4622262f56379"
 metafile = true
 
 [[files]]
 file = "mods/fabric-seasons.pw.toml"
-hash = "9b7bd9861fbb759f8097aadc7ea7db457740c10292046a682deb5119745e07e1"
 metafile = true
 
 [[files]]
 file = "mods/fallingleaves.pw.toml"
-hash = "d641d6d228462557aa81ec10d21f5d6d0d87bd51c4ea659973e8f649cfec62a5"
 metafile = true
 
 [[files]]
 file = "mods/farmers-delight-refabricated.pw.toml"
-hash = "bce21d8e29640ae226ce2ca33042e7090f74e9c1fc7420d08d3f09e287bf4d6b"
 metafile = true
 
 [[files]]
 file = "mods/farmers-respite-fabric.pw.toml"
-hash = "9c227262ccd3fd4bbc6337fe29e5146ab14c76e6fc64d09454f836d34de9a53e"
 metafile = true
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
-hash = "390276efb32f3934621f010265059d8ee67c276a88682d0be22aa6e8556d9223"
 metafile = true
 
 [[files]]
 file = "mods/first-person-model.pw.toml"
-hash = "93580111cae16d426c57e0dccacea6e1ce8216c9d022111b2cca99b105f02c3e"
 metafile = true
 
 [[files]]
 file = "mods/forge-config-api-port.pw.toml"
-hash = "3c498611b1464ef647695bbb1ea766565d845e3d092e462bcc5bc61267b6de40"
 metafile = true
 
 [[files]]
 file = "mods/friendly-phantoms.pw.toml"
-hash = "072e3ad526495a5ab17553ecb0e4d55b5c7310d01458a6d31a37cbdb98090669"
 metafile = true
 
 [[files]]
 file = "mods/ftb-library-fabric.pw.toml"
-hash = "0ecc01cccbeb605112e074ecccebbfc9d0ef16a34636bebafb982123f6bdc212"
 metafile = true
 
 [[files]]
 file = "mods/ftb-quests-fabric.pw.toml"
-hash = "b075b2e48e20130ee1679aa511ccae269689e4e0084c7a58bcdb57b36d6cd270"
 metafile = true
 
 [[files]]
 file = "mods/ftb-teams-fabric.pw.toml"
-hash = "8c16d26d5b9bb03da0982af0d7ff7e2aaba6b91e99ab39e5f5b49fc52b1159cf"
 metafile = true
 
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
-hash = "5e705846974b110889772a144bfea048fd253f4186c42b59fe9e2b94d43c41ad"
 metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "6ad02f5c928af668b5bd4ac5f07e4cec686aca9117fbddfa2d3d87e2790bb324"
 metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "eb8d55090e28b5c33e0e0970be3f5ee011c413357c0155f7b038f8115e832606"
 metafile = true
 
 [[files]]
 file = "mods/glitchcore.pw.toml"
-hash = "065e2cd3cf2cf9108ffc7122381132abfa99c3c0edc408a6df40c33b5fbc22f4"
 metafile = true
 
 [[files]]
 file = "mods/gobber-fabric.pw.toml"
-hash = "7a6ade7bfddfb33b5e8c0843f582b3654deacca74b1633c0676d19b82ecc30cd"
 metafile = true
 
 [[files]]
 file = "mods/gravity-api-fork.pw.toml"
-hash = "e743be67111f67f273c8dd7227d24dfe4276f018f1c40de28e75d2b3294422eb"
 metafile = true
 
 [[files]]
 file = "mods/guard-villagers-(fabricquilt).pw.toml"
-hash = "5c66a9e286d7c01b75f7e923a14d89e061aae51a2e66d65eda47ff5d20983131"
 metafile = true
 
 [[files]]
 file = "mods/iceberg.pw.toml"
-hash = "0c834a933a2ff246cf07d630a2de85a2a6235322d53b5da65747699f12a6ba8f"
 metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "734a38253c0158a07411a28da03ade9079b8700a213508e32c5904f3a3180bad"
 metafile = true
 
 [[files]]
 file = "mods/immersiveportals.pw.toml"
-hash = "bd8506be42948470dc2ba19c93652f89345666c6a9e9a9f9fc97442bb6788ace"
 metafile = true
 
 [[files]]
 file = "mods/indium.pw.toml"
-hash = "eb1c01069064a4fa5a4fd3972217c629b6c2971b5f13acc86b804f9a6cdacaeb"
 metafile = true
 
 [[files]]
 file = "mods/item-filters.pw.toml"
-hash = "9a49f144999c394f731e0d0796f9a6dfa655d02a1784db42eaa4f61f069821e3"
 metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "b09f611d886674cb587fcf9e64e0e13ade46a17dec25745d83e0957dea212d18"
 metafile = true
 
 [[files]]
 file = "mods/kubejs-create-for-fabric-1-20-1.pw.toml"
-hash = "d752a2ffe4a829eb74644552aa8034f840f2e1cba6f429d59380ea5e3b773d42"
 metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "424ec31aec85a288c85f101fd5f05c8b02bffbb0215d7e1c06502538139278e8"
 metafile = true
 
 [[files]]
 file = "mods/lazydfu.pw.toml"
-hash = "1a5cd03008ca7ce028479312bbbe858996d08015db3028ac9c7a839be9e8560e"
 metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "c56f82aa24c0a311c2b953f0e6baee8bf2b7a51d965111183161ebb448178fb4"
 metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "9ad840f3e465a0bf5e2ddbf2ab036a019b57a17b3dc3f793dfaa96fef6fda761"
 metafile = true
 
 [[files]]
 file = "mods/lmd.pw.toml"
-hash = "1b6cb918ca6d9aa77d8e6a4e7520b5c67edcb011657b82cf7d00390e20f8deff"
 metafile = true
 
 [[files]]
 file = "mods/log-begone.pw.toml"
-hash = "86ce30ccc9a035c6249d8140abf8d0fae7f828472913409b3febf46394bbc34d"
 metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
-hash = "55e6dd457254db086dbbc23c4103bcb82d0537719623916a19ed248b66215fd0"
 metafile = true
 
 [[files]]
 file = "mods/luckperms.pw.toml"
-hash = "7826b93c7f36611fbd9190481774daa349fa403875f8522d0ca4302e1345bd40"
 metafile = true
 
 [[files]]
 file = "mods/make_bubbles_pop.pw.toml"
-hash = "a606b3ca2d90e149e64085bc45fb93883d17c55067ec2f629e8bcdfbf2468e0b"
 metafile = true
 
 [[files]]
 file = "mods/mc-dungeons-enchanting.pw.toml"
-hash = "b014c933e0f5adb5804fe01e9c37e319c28e8192665d71744e265b8cdfbed55f"
 metafile = true
 
 [[files]]
 file = "mods/mcda.pw.toml"
-hash = "beb00f3633de2d0059656d4be6a0a70b659897f5bc547946571b3931ac4f6b73"
 metafile = true
 
 [[files]]
 file = "mods/mcdar.pw.toml"
-hash = "5c103ec8d34f7535f0afd4c1fb838a4ecb6b8958c2fe8525882f63c72f8d21ec"
 metafile = true
 
 [[files]]
 file = "mods/mcdw.pw.toml"
-hash = "48246b04904c52ade46d355c33d59a727ab84615a67650a9e76f7246604715e3"
 metafile = true
 
 [[files]]
 file = "mods/medieval-deco.pw.toml"
-hash = "538d601c0a688d8cac7230bcce9828f6a00588ce3a40602e499bad0b3d1f6dae"
 metafile = true
 
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
-hash = "522a01918e2d824546f35556323927967c8bc70200647766b2de5e18693aef90"
 metafile = true
 
 [[files]]
 file = "mods/mmmmmmmmmmmm.pw.toml"
-hash = "08d146f2f38a7ee828707d44756f1b5794a7debcb12fbe1d92109fa1188d5fe1"
 metafile = true
 
 [[files]]
 file = "mods/modelfix.pw.toml"
-hash = "a027af62f48524e699c77b698a64eea7c10ff2fa6387c5a6df1878816f071339"
 metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "27b9275145105e3c3346fd0ba05d59ead64fc5d72426065ece6bb67319bcf08c"
 metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "a03ac45394499a2c7b21ab0d6b6fee296656b7079721701268320d6ba952906b"
 metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "5164f069fb0fb568dc3629307aae87dcdeeac4235cc4c46d32c3e40935f5c0b2"
 metafile = true
 
 [[files]]
 file = "mods/morechathistory.pw.toml"
-hash = "010cd3262fc4ce0a62b1ca95baf5e6d303ea31ac3006305ff3b4f60f27081439"
 metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "e80c057861e7d5c22ab49e771ab51cb16d9a69eaf6bc76a0f1cdeb7aa57871e5"
 metafile = true
 
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
-hash = "ae7e17f4b672f8db1f526e294a903122f06cc1cd6f7bfe5607c9f429766d2c3d"
 metafile = true
 
 [[files]]
 file = "mods/natures-compass.pw.toml"
-hash = "5ec7e0e8cb5d8cd6b09f49f9a8eff32a4f7c8f95af37e076644f15ea0011583f"
 metafile = true
 
 [[files]]
 file = "mods/neruina.pw.toml"
-hash = "a82da1610bdfd8c87f0553b4e95e0026bba7e7436249b04a9eae641068be29f6"
 metafile = true
 
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
-hash = "218e7b9a51dccc3981cc1a38b538391b5407157faa2eed12915cc42259599abc"
 metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "1f82071636589ba00c1a9dd8816d5aa4dda62cea1f128b133fea56d40e829c71"
 metafile = true
 
 [[files]]
 file = "mods/numismatics.pw.toml"
-hash = "84ef5b315910a0ebb77307feab6e2b2985c2695354c5e102e07c7241f1ecb5b9"
 metafile = true
 
 [[files]]
 file = "mods/oakspaintings.pw.toml"
-hash = "53e5c539e60b86e7c03ab2337bff1777b4f05cf152ee8aa1e6dfd1c3e3335f13"
 metafile = true
 
 [[files]]
 file = "mods/obscure-api.pw.toml"
-hash = "564e2bd0da5154d32f2c39e2f2e60f8eaecd3fb28e9b069c9d314b383667b69c"
 metafile = true
 
 [[files]]
 file = "mods/open-loader.pw.toml"
-hash = "ec277331d582b3e88b3f6bed3a77f4f526689680507d718f76a1d0fd03ffcf54"
 metafile = true
 
 [[files]]
 file = "mods/origins-classes.pw.toml"
-hash = "c751349148b3f2b8f2987de2dbf6a7443d4082fb3cc7278d127cb767b8d2fe56"
 metafile = true
 
 [[files]]
 file = "mods/origins-extra-keybinds-fabric.pw.toml"
-hash = "dc28c48150e7d7bab5bb453ac6f371acc9a3ce2beac95bbf557e1823b99d7f9e"
 metafile = true
 
 [[files]]
 file = "mods/origins-plus-plus.pw.toml"
-hash = "7544cbd3c839606eca3c3d5019de82364b2345893758c74e9a161a69d78e779c"
 metafile = true
 
 [[files]]
 file = "mods/origins.pw.toml"
-hash = "5a6925865c33b9512c7683c15adbd7626a53ee234f7f5c43d09e41484972149d"
 metafile = true
 
 [[files]]
 file = "mods/paragraphs.pw.toml"
-hash = "b98e202aa188cc46dd42b82e7f155653bb0eac9676bc294e28bd30cda29f381d"
 metafile = true
 
 [[files]]
 file = "mods/pehkui.pw.toml"
-hash = "89a0416bf6a4736e868deea1cf9986a53920b1eaf048bc27224eafde511d2928"
 metafile = true
 
 [[files]]
 file = "mods/pneumono_gravestones.pw.toml"
-hash = "a750fa5d52c2834cbbcae6cb960872d0583cb31958b0c6d76870fe798fc4c559"
 metafile = true
 
 [[files]]
 file = "mods/polymorph.pw.toml"
-hash = "31de65c5ae3d69eb3aeeacdad0c53a15cac7ec8cab93821f825bc99194419743"
 metafile = true
 
 [[files]]
 file = "mods/polymorphic-toms-simple-storag.pw.toml"
-hash = "523dcb2157432bffc4af3600b22baf00312f04de43ba2625346a209c9bc885d0"
 metafile = true
 
 [[files]]
 file = "mods/ratatouille.pw.toml"
-hash = "a3416bb606a7a719629c8e3851d3a90a5ca11fd8690b317d2f730c9e80588fe2"
 metafile = true
 
 [[files]]
 file = "mods/realms-button-remover.pw.toml"
-hash = "a86dd825b3980726af45fbecb31cd242f14974dc2ec956dcd97965089ebd8e6d"
 metafile = true
 
 [[files]]
 file = "mods/rechiseled-create.pw.toml"
-hash = "41f18dab192c79a4f4ec38422b38c3d6198ebae71abab86cfbf305a1d008c051"
 metafile = true
 
 [[files]]
 file = "mods/rechiseled.pw.toml"
-hash = "a8e48a0dadfaa8492f5e46ed3555dcaa2f6cb15bf7b7819fef018ec3e60d3706"
 metafile = true
 
 [[files]]
 file = "mods/rei.pw.toml"
-hash = "972eed86eaaf00c612d4b195598c6ca5ad380899e8420c0c9bb013fdfca1e08d"
 metafile = true
 
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
-hash = "04309568425eb622ffab10178d2fae3543788be54aa427ab640aea0c0dd5a4b9"
 metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
-hash = "029acab7ef100720cf537fcb676e706b61fd289add0f712185ec81ceff944804"
 metafile = true
 
 [[files]]
 file = "mods/screenshot-viewer.pw.toml"
-hash = "2936b1ac0996a3bd5174cd29fdbae558985baf7015355ee53ba5d89116f901ac"
 metafile = true
 
 [[files]]
 file = "mods/sdlink.pw.toml"
-hash = "e321dbe610a10d741e21c0ea9e06842ecc640f0b7b10a7b2416b5d2858201a5d"
 metafile = true
 
 [[files]]
 file = "mods/searchables.pw.toml"
-hash = "4106590136e394ed5d7958fa8addeb04ea1ca22943ae76474e04761d4f4a9322"
 metafile = true
 
 [[files]]
 file = "mods/ships.pw.toml"
-hash = "f96eb8b5fe90c26a44b2ca7cafb2986778adb39885330fb401e07f521c3f5492"
 metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "2675e5c8838dc8029d2739132af32c82fad98c02198baf59967f511a5cc950ce"
 metafile = true
 
 [[files]]
 file = "mods/simpletextoverlay.pw.toml"
-hash = "671bd1790c083eb0e0c541408c398fdfe1249d727c492c56ab9f01fbf6b1d932"
 metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "bb69c0fba4e2a1baece9a63d18c2fe8d4c0aeb282905f6daa050758dd6ae6c8b"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "ab66e8369b14b278abb066dc06a3c31de623948cc99dd63482c2242eb8b4cf87"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "ca7c05109d8a8e9f30cd9561b9913c049219af26899ab8a9524ffc031aa34575"
 metafile = true
 
 [[files]]
 file = "mods/spark.pw.toml"
-hash = "3d6c099cf62c0df13b800759c67bbf1f5e94af968a6d478915eeabb0f60d6442"
 metafile = true
 
 [[files]]
 file = "mods/starlight.pw.toml"
-hash = "e7acdbaef7d8626ddc8db2dfd0163e5268678c69e97cdc767a36817befda4bf9"
 metafile = true
 
 [[files]]
 file = "mods/starter-kit.pw.toml"
-hash = "becfbc18091720bb1ad7f79042c2642158b32265a619828441b0f4f5ee4d7ce3"
 metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
-hash = "075b0a946ee6bc32d2eadde90257bdf53d09493978b3b7add5af49716691799e"
 metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "745688ee68f89316effdf7c93df1153282b8c1cd87ecb27767041de79482d5e3"
 metafile = true
 
 [[files]]
 file = "mods/supplementaries-squared.pw.toml"
-hash = "fc3756220214cddeb48771311b9ba2f262a1a3a2d56ae53388633d908e155d3a"
 metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "37e8591f6a59a8ca886f0731d5793e3bbd11319b6aec929f0238642df1c34dfc"
 metafile = true
 
 [[files]]
 file = "mods/switchy-inventories.pw.toml"
-hash = "28655405eb034aadcb7158854ea4f63fb3e6b49436869531df070904cc5c629d"
 metafile = true
 
 [[files]]
 file = "mods/switchy-teleport.pw.toml"
-hash = "f4892fc4a8da955f4da83d1eadf5fa7dd4c2e0e5e8d861a639d6e0d405c1bc3c"
 metafile = true
 
 [[files]]
 file = "mods/switchy.pw.toml"
-hash = "e60667682f394f0a9bd7a196ab35b9e31c10f08010697f82d6ea90257415aeb5"
 metafile = true
 
 [[files]]
 file = "mods/tcdcommons.pw.toml"
-hash = "10d0efe0b1b4f1bde043812241472abd2b8a4ca3acc6ad053ef0773585f663bc"
 metafile = true
 
 [[files]]
 file = "mods/tectonic.pw.toml"
-hash = "f327d355e8408a7b1b9f5e1e6dcd3740b45f96343efca5c2e41f5ee25b6cf250"
 metafile = true
 
 [[files]]
 file = "mods/terrablender.pw.toml"
-hash = "6eaaba33dd0f4aae53474cd64ace99b3323c55f98ab3dca673df0e5682092393"
 metafile = true
 
 [[files]]
 file = "mods/toms-storage.pw.toml"
-hash = "fe8606e1460f437fda644e62162e78962e0f9ffdead5ebcab12285beba335680"
 metafile = true
 
 [[files]]
 file = "mods/tree-harvester.pw.toml"
-hash = "fb79296cbd2a9baa4f31a8664dff569e2490f14ea0334a82bcd3935d568d1471"
 metafile = true
 
 [[files]]
 file = "mods/trinkets.pw.toml"
-hash = "50d286b8c5e586afcd555f743e68d64ed96123b814683c03833b9a145469ca04"
 metafile = true
 
 [[files]]
 file = "mods/universal-perms.pw.toml"
-hash = "067f76a3a854f3b1c776d0c62b4f70c3d26447ce69857e5f1dca52f81d54efee"
 metafile = true
 
 [[files]]
 file = "mods/vanilla-permissions.pw.toml"
-hash = "351826e1e381ba6525d9521a968f3e76d5c985ae58464f3ae1ffcb0e05b1da7f"
 metafile = true
 
 [[files]]
 file = "mods/vowels-1.0.0+1.20.1.jar"
-hash = "00df8086093a6b1725ab0f1082eaf5c60fe95a29b94bd470ddb54424c043fc95"
 
 [[files]]
 file = "mods/worldedit.pw.toml"
-hash = "bd1dc13316e2aa9b56c89e7e974057f8da8d6bbfe707ba4210109fc612b782e3"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "589da42cefd63b093666d44622d3fecbd5e40e1a0d0a8ec6c1793b14b9aa46e8"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "4723c107321fb36bd0d6a16f4a47fe6df812af33ac9209076b63bef137787c31"
 metafile = true
 
 [[files]]
 file = "mods/xxl-packets.pw.toml"
-hash = "325279cd87d2e995a8315240a50439a28dbc35c5022022e8fb99f5e3ad899c78"
 metafile = true
 
 [[files]]
 file = "mods/yungs-api.pw.toml"
-hash = "46cd46bdfc8af55ffb2eb8dafaf2cc6426c6efc7bafbec68d88a9a006d5b9043"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-dungeons.pw.toml"
-hash = "85efdc178903f40388296399ae66248398403bad9f6e1e617c1b02d9cd49f4f0"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-jungle-temples.pw.toml"
-hash = "c6b88dfac5ecc2b00da4216606a011680f98685101012cb89a6ce25d984b52d3"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-mineshafts.pw.toml"
-hash = "bf1141be32797847819c43feba5d9fa7f3ecc18821b7a8eb199301fb50192632"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-ocean-monuments.pw.toml"
-hash = "be6fa4198eb90fb9c03a3cff479e95635bf3f54b54868a18142d3ada3d4d474a"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-strongholds.pw.toml"
-hash = "102fa678d8a1cc515264a8aac83647c47c2443107ee08032f42c20416aaca7ea"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-witch-huts.pw.toml"
-hash = "9d87f500cb6beb05d5fef408428a1c9665ce2b62c5eafc39791e48a5b057530e"
 metafile = true
 
 [[files]]
 file = "mods/yungs-bridges.pw.toml"
-hash = "245426d680ffe00f7723224e89670c18bda71f387d43143f9e076112e5f7c3b9"
 metafile = true
