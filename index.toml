@@ -1455,7 +1455,15 @@ file = "mods/create-fabric.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/create-railways-navigator.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/create-steam-n-rails.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-trims.pw.toml"
 metafile = true
 
 [[files]]
@@ -1626,6 +1634,10 @@ file = "mods/immediatelyfast.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/immersive-paintings.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/immersiveportals.pw.toml"
 metafile = true
 
@@ -1663,6 +1675,10 @@ metafile = true
 
 [[files]]
 file = "mods/lmd.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/lodestone-update-backport.pw.toml"
 metafile = true
 
 [[files]]
