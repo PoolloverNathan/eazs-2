@@ -1946,6 +1946,11 @@ hash = "b2d2b260f31b66a7cddb0cc701092a0f7fe492f78f58db7a0204cb2cdf617f3b"
 metafile = true
 
 [[files]]
+file = "mods/advancement-plaques.pw.toml"
+hash = "75df667bf44ea3d1272430e259339d69f55db196d0d42d2baf60ada15ef18f3b"
+metafile = true
+
+[[files]]
 file = "mods/ae2.pw.toml"
 hash = "0273a578ec15f3eb9a9d44996a30b969397641ed27e3d1abe0c5f73bd70a4fdc"
 metafile = true
@@ -2133,6 +2138,11 @@ metafile = true
 [[files]]
 file = "mods/craterlib.pw.toml"
 hash = "6318cda6594318937d45d687888f6816d019bbc4c4155b0b4c8dc569d1985598"
+metafile = true
+
+[[files]]
+file = "mods/crawl.pw.toml"
+hash = "d3e3831377b8282db35ffe8446d535f30e011367b3187b2c96b5f179a1a77c59"
 metafile = true
 
 [[files]]
@@ -2355,6 +2365,11 @@ hash = "5c66a9e286d7c01b75f7e923a14d89e061aae51a2e66d65eda47ff5d20983131"
 metafile = true
 
 [[files]]
+file = "mods/iceberg.pw.toml"
+hash = "0c834a933a2ff246cf07d630a2de85a2a6235322d53b5da65747699f12a6ba8f"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "734a38253c0158a07411a28da03ade9079b8700a213508e32c5904f3a3180bad"
 metafile = true
@@ -2497,6 +2512,11 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "ae7e17f4b672f8db1f526e294a903122f06cc1cd6f7bfe5607c9f429766d2c3d"
+metafile = true
+
+[[files]]
+file = "mods/natures-compass.pw.toml"
+hash = "5ec7e0e8cb5d8cd6b09f49f9a8eff32a4f7c8f95af37e076644f15ea0011583f"
 metafile = true
 
 [[files]]
