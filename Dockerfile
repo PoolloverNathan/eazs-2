@@ -1,7 +1,15 @@
 FROM alpine
+RUN apk add go
+ENV GOBIN=/usr/local/bin
+RUN go install github.com/packwiz/packwiz@latest
+COPY --link . /pack
+WORKDIR /pack
+RUN packwiz refresh --build
+
+FROM alpine
 ADD https://meta.fabricmc.net/v2/versions/loader/1.20.1/0.16.10/1.0.1/server/jar /app/fabric-server.jar
 ADD https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar /app/packwiz-installer-bootstrap.jar
-COPY --link . /app/pack
+COPY --link --from=0 /pack /app/pack
 COPY <<EOT /app/start.sh
 set -e
 java -jar /app/packwiz-installer-bootstrap.jar -g -s server /app/pack/pack.toml
@@ -10,7 +18,7 @@ exec java -Xms4G -Xmx12G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPause
 EOT
 
 FROM amazoncorretto:17-alpine3.21
-COPY --link --from=0 /app /app
+COPY --link --from=1 /app /app
 WORKDIR /mnt
 VOLUME /mnt
 ENTRYPOINT ["sh", "/app/start.sh"]
