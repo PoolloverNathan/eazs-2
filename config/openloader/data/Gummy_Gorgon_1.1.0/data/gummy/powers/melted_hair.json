@@ -1,0 +1,48 @@
+{
+    "name": "Melting Snakes",
+    "description": "The sun causes your gummy snakes to melt (don't worry, they'll grow back!), decreasing movement speed. This can be mitigated by wearing a helmet.",
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "multiply_base",
+            "value": -0.15},
+	    "condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:exposed_to_sun"
+			},
+			{
+				"type": "origins:invisible",
+				"inverted": true
+			},
+			{
+				"type": "origins:equipped_item",
+				"equipment_slot": "head",
+				"inverted": true,
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": [
+						{
+						"item": "minecraft:leather_helmet"
+						},
+						{
+						"item": "minecraft:chainmail_helmet"
+						},
+						{
+						"item": "minecraft:iron_helmet"
+						},
+						{
+						"item": "minecraft:golden_helmet"
+						},
+						{
+						"item": "minecraft:turtle_helmet"
+						}
+						]
+					}
+				}
+			
+		]
+	
+    }
+}

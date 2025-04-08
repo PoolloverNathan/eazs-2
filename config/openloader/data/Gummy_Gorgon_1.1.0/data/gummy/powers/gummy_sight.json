@@ -1,0 +1,9 @@
+{
+    "name": "Gummy Sight",
+    "description": "You have the uncontrollable power to turn other people into gummies when they look at you. People can prevent this by wearing a pumpkin while looking at you (your kind is also naturally immune to this!).",
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+        "type": "origins:execute_command",
+        "command": "origin set  @s origins:gummyfication data:stage4"
+            }
+}

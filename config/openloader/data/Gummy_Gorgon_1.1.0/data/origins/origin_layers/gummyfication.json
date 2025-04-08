@@ -1,0 +1,16 @@
+{
+	"name": "Gummyfication Level",
+	"origins": [
+		"gum:stage0",
+		"gum:stage1",
+		"gum:stage2",
+        	"gum:stage3",
+		"gum:stage4"
+   	],
+	"default_origin": "gum:stage0",
+	"missing_name": "None",
+	"missing_description": "You are immune to gummyfication. But you can press this button to get any gummyfication level (including none).",
+    	"enabled": true,
+	"order": 2,
+    	"allow_random": true
+}

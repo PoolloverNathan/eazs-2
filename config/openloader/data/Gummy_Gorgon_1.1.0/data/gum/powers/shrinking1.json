@@ -1,0 +1,38 @@
+{
+    "name": "Shrinking",
+    "description": "You feel your body getting smaller as you transform. You currently stand at 90% your original height.",
+    "type": "origins:multiple",
+
+    "lose_size": {
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "scale multiply pehkui:base 0.9 @s"
+            },
+	    {
+		"type": "origins:execute_command",
+		"command": "scale persist pehkui:base true @s"
+	    }
+        ]
+    }
+},
+    "regain_size": {
+        "type": "origins:action_on_callback",
+    "entity_action_lost": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "scale divide pehkui:base 0.9 @s"
+            },
+	    {
+		"type": "origins:execute_command",
+		"command": "scale persist pehkui:base true @s"
+	    }
+        ]
+    }
+    }
+}

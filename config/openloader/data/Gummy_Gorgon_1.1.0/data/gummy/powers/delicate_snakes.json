@@ -1,0 +1,10 @@
+{
+    "name": "Delicate Snakes",
+    "description": "Wearing a diamond or netherite helmet would crush the gummy snakes on your head, so you can't wear them.",
+    "type": "origins:restrict_armor",
+    "head": {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 2
+    }
+}

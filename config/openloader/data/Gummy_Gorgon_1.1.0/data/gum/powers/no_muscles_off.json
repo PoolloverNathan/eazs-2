@@ -1,0 +1,112 @@
+{
+    "name": "Complete Atrophy",
+    "description": "All of your muscles have been converted into gummy. Because of this, you cannot hold or equip anything diamond or stronger.",
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+        "type": "origins:drop_inventory",
+        "inventory_type": "inventory",
+        "slot": "weapon.offhand",
+        "retain_ownership": false,
+        "throw_randomly": true,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "playsound minecraft:entity.slime.attack master @s ~ ~ ~ 1 0"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "playsound minecraft:entity.slime.attack master @s ~ ~ ~ 1 0"
+                }
+            ]
+        }
+    },
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": [
+  			{
+			"item": "minecraft:diamond"
+			},
+			{
+			"item": "minecraft:diamond_sword"
+			},
+			{
+			"item": "minecraft:diamond_shovel"
+			},
+			{
+			"item": "minecraft:diamond_pickaxe"
+			},
+			{
+			"item": "minecraft:diamond_horse_armor"
+			},
+			{"item": "minecraft:diamond_hoe"
+			},
+			{
+			"item": "minecraft:diamond_chestplate"
+			},
+			{
+			"item": "minecraft:diamond_helmet"
+			},
+			{
+			"item": "minecraft:diamond_axe"
+			},
+			{
+			"item": "minecraft:diamond_leggings"
+			},
+			{
+			"item": "minecraft:diamond_boots"
+			},
+			{
+			"item": "minecraft:diamond_ore"
+			},
+			{
+			"item": "minecraft:deepslate_diamond_ore"
+			},
+			{
+			"item": "minecraft:ancient_debris"
+			},
+			{
+			"item": "minecraft:netherite_scrap"
+			},
+			{
+			"item": "minecraft:netherite_ingot"
+			},
+			{"item": "minecraft:netherite_axe"
+			},
+			{
+			"item": "minecraft:netherite_boots"
+			},
+			{
+			"item": "minecraft:netherite_chestplate"
+			},
+			{
+			"item": "minecraft:netherite_helmet"
+			},
+			{
+			"item": "minecraft:netherite_hoe"
+			},
+			{
+			"item": "minecraft:netherite_leggings"
+			},
+			{
+			"item": "minecraft:netherite_pickaxe"
+			},
+			{
+			"item": "minecraft:netherite_shovel"
+			},
+			{
+			"item": "minecraft:netherite_sword"
+			},
+			{
+			"item": "minecraft:netherite_upgrade_smithing_template"
+			}
+            ],
+            "inverted": false
+        }
+    }
+}

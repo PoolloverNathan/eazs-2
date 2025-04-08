@@ -1,0 +1,388 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "biomes": {
+        "type": "origins:action_over_time",
+        "interval": 40,
+        "entity_action": {
+            "type": "origins:if_else_list",
+            "actions": [
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:biome",
+                                "condition": {
+                                    "type": "origins:and",
+                                    "conditions": [
+                                        {
+                                            "type": "origins:precipitation",
+                                            "precipitation": "rain"
+                                        },
+                                        {
+                                            "inverted": true,
+                                            "type": "origins:high_humidity"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:in_rain"
+                            },
+                            {
+                                "type": "origins:resource",
+                                "resource": "gum:moisture_bar",
+                                "comparison": "<",
+                                "compare_to": 50
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:fluid_height",
+                                "fluid": "minecraft:water",
+                                "comparison": ">",
+                                "compare_to": 0
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:biome",
+                                "biomes": [
+                                    "minecraft:swamp",
+                                    "minecraft:mangrove_swamp",
+                                    "minecraft:jungle",
+                                    "minecraft:sparse_jungle",
+                                    "minecraft:bamboo_jungle",
+                                    "minecraft:lush_caves"
+                                ]
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:on_fire"
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:modify_resource",
+                        "resource": "gum:moisture_bar",
+                        "modifier": {
+                            "operation": "addition",
+                            "value": 1
+                        }
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:biome",
+                                "condition": {
+                                    "type": "origins:and",
+                                    "conditions": [
+                                        {
+                                            "type": "origins:precipitation",
+                                            "precipitation": "rain"
+                                        },
+                                        {
+                                            "inverted": true,
+                                            "type": "origins:high_humidity"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:in_rain"
+                            },
+                            {
+                                "type": "origins:resource",
+                                "resource": "gum:moisture_bar",
+                                "comparison": ">",
+                                "compare_to": 50
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:fluid_height",
+                                "fluid": "minecraft:water",
+                                "comparison": ">",
+                                "compare_to": 0
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:biome",
+                                "biomes": [
+                                    "minecraft:swamp",
+                                    "minecraft:mangrove_swamp",
+                                    "minecraft:jungle",
+                                    "minecraft:sparse_jungle",
+                                    "minecraft:bamboo_jungle",
+                                    "minecraft:lush_caves"
+                                ]
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:modify_resource",
+                        "resource": "gum:moisture_bar",
+                        "modifier": {
+                            "operation": "addition",
+                            "value": -1
+                        }
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:biome",
+                                "condition": {
+                                    "type": "origins:and",
+                                    "conditions": [
+                                        {
+                                            "type": "origins:precipitation",
+                                            "precipitation": "none"
+                                        },
+                                        {
+                                            "inverted": true,
+                                            "type": "origins:high_humidity"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:in_rain"
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:fluid_height",
+                                "fluid": "minecraft:water",
+                                "comparison": ">",
+                                "compare_to": 0
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:modify_resource",
+                        "resource": "gum:moisture_bar",
+                        "modifier": {
+                            "operation": "addition",
+                            "value": -2
+                        }
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:biome",
+                                "biomes": [
+                                    "minecraft:swamp",
+                                    "minecraft:mangrove_swamp",
+                                    "minecraft:jungle",
+                                    "minecraft:sparse_jungle",
+                                    "minecraft:bamboo_jungle",
+                                    "minecraft:lush_caves"
+                                ]
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:in_rain"
+                            },
+                            {
+                                "type": "origins:resource",
+                                "resource": "gum:moisture_bar",
+                                "comparison": "<",
+                                "compare_to": 75
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:fluid_height",
+                                "fluid": "minecraft:water",
+                                "comparison": ">",
+                                "compare_to": 0
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:on_fire"
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:modify_resource",
+                        "resource": "gum:moisture_bar",
+                        "modifier": {
+                            "operation": "addition",
+                            "value": 1
+                        }
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:biome",
+                                "biomes": [
+                                    "minecraft:swamp",
+                                    "minecraft:mangrove_swamp",
+                                    "minecraft:jungle",
+                                    "minecraft:sparse_jungle",
+                                    "minecraft:bamboo_jungle",
+                                    "minecraft:lush_caves"
+                                ]
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:in_rain"
+                            },
+                            {
+                                "type": "origins:resource",
+                                "resource": "gum:moisture_bar",
+                                "comparison": ">",
+                                "compare_to": 75
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:fluid_height",
+                                "fluid": "minecraft:water",
+                                "comparison": ">",
+                                "compare_to": 0
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:modify_resource",
+                        "resource": "gum:moisture_bar",
+                        "modifier": {
+                            "operation": "addition",
+                            "value": -1
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "rain": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:in_rain"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": ">",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "resource": "gum:moisture_bar",
+            "modifier": {
+                "operation": "addition",
+                "value": 2
+            }
+        }
+    },
+    "on_fire": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:on_fire"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:status_effect",
+                    "effect": "minecraft:fire_resistance"
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "resource": "gum:moisture_bar",
+            "modifier": {
+                "operation": "addition",
+                "value": -4
+            }
+        }
+    },
+    "water": {
+	"condition": {
+		"type": "origins:and",
+        	"conditions": [
+	{
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": ">",
+            "compare_to": 0
+        },
+	{
+	   "inverted": true,
+	   "type": "origins:resource",
+	   "resource": "gum:moisture_bar",
+	   "comparison": "==",
+	   "compare_to": 100
+	}
+	]
+	},
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:modify_resource",
+                    "resource": "gum:moisture_bar",
+                    "modifier": {
+                        "operation": "addition",
+                        "value": 4
+                    }
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "fill ~-1 ~ ~-1 ~1 ~ ~1 minecraft:air replace minecraft:water"
+                }
+            ]
+        }
+    },
+    "cauldron": {
+        "condition": {
+            "type": "origins:in_block",
+            "block_condition": {
+                "type": "origins:block",
+                "block": "minecraft:water_cauldron"
+            }
+        },
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:modify_resource",
+                    "resource": "gum:moisture_bar",
+                    "modifier": {
+                        "operation": "addition",
+                        "value": 12
+                    }
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "fill ~-1 ~ ~-1 ~1 ~ ~1 minecraft:cauldron replace minecraft:water_cauldron"
+                }
+            ]
+        }
+    }
+}

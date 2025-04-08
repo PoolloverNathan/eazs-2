@@ -1,0 +1,25 @@
+{
+    "name": "Gummy Gorgon",
+    "description": "Your skin is more scaly than most and your hair is made of gummy worms instead of keratin. If someone were to so much as glance into your eyes, their body will undergo a transformation to a sticky, chewy treat.",
+    "powers": [
+	"gummy:gummy_sight",
+	"gummy:effect_immune",
+    "gummy:snake_eyes",
+	"gummy:delicate_snakes",
+	"gummy:eatingyum",
+	"gummy:melted_hair",
+	"gummy:squishy_feet",
+	"gummy:diet",
+	"gummy:eatingyum",
+    "gummy:more_mortal",
+    "gummy:sticky_slash",
+    "gummy:hard_scales",
+    "gummy:swamp_spawn",
+    "gummy:magic_guard"
+    ],
+    "icon": {
+        "item": "minecraft:pink_dye"
+    },
+    "order": 14,
+    "impact": 3
+}

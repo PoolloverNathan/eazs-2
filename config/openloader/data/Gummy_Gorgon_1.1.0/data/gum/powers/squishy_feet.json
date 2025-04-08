@@ -1,0 +1,12 @@
+{
+	"name": "Gooey Feet",
+	"description": "Your feet now make a much squishier sound when you walk.",
+	"type": "origins:prevent_game_event",
+	"events": [
+		"minecraft:step"
+	],
+	"entity_action": {
+		"type": "origins:execute_command",
+		"command": "playsound minecraft:entity.slime.jump player @s[distance=..2] ~ ~ ~ 0.7 1.2"
+	}
+}

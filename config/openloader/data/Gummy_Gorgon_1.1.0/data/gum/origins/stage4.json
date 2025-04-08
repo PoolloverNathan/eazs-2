@@ -1,0 +1,11 @@
+{
+    "name": "Immune",
+    "description": "You've somehow become immune to the gorgon's gaze.",
+    "powers": [],
+    "icon": {
+        "item": "minecraft:pink_dye"
+    },
+    "order": 3,
+    "impact": 3,
+    "loading_priority": 11
+}

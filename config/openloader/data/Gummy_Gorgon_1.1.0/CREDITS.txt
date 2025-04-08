@@ -1,0 +1,13 @@
+This is a document to list all the people who have worked on this datapack and who have had their code used in its creation
+
+Idea by: edwardthewatzo
+
+Origin coding* by: t3rra_cat0
+
+*A couple powers had most of the work done by other coders. These powers are:
+
+Moisture Meter - created by psychobreadstick for the Slime-Taur origin (link [this link takes you to the figura discord server]: https://discordapp.com/channels/1129805506354085959/1279433667734671502/1279460358519521291)
+
+Brightness - created by frucs as a general use power to increase the brightness of the screen (link [this link takes you to the origins discord server]: https://discordapp.com/channels/734127708488859831/825449766384828476/1284631766186983494)
+
+Sugary Diet - created by edwardthe watzo (i think?) specifically for this origin
