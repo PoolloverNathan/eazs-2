@@ -91,6 +91,15 @@
           if builtins ? getEnv then builtins.getEnv "PWD" else self
         }/pack.toml";
         releasePrismPack = mkPrismPack "release" "https://poollovernathan.github.io/eazs-2/pack.toml";
+        
+        default = pkgs.runCommand "pack" {
+          buildInputs = [ pkgs.packwiz ];
+        } ''
+          cp -r ${./.} $out
+          cd $out
+          chmod -R +w .
+          packwiz refresh --build
+        '';
       };
     };
 }
