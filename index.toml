@@ -1577,6 +1577,10 @@ file = "mods/damagenumbers.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/deathlog.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/decorative-blocks.pw.toml"
 metafile = true
 
@@ -1901,6 +1905,10 @@ metafile = true
 
 [[files]]
 file = "mods/origins.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/owo-lib.pw.toml"
 metafile = true
 
 [[files]]
