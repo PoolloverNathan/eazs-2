@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-	function compact_slab(a, b) {
+	function compact(a, b) {
 		event.recipes.create.compacting([b], [`2x ${a}`])
 	}
 	//
