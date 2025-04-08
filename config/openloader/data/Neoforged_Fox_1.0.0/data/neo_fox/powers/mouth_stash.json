@@ -1,0 +1,11 @@
+{
+    "name": "Mouth Stash",
+    "description": "You can carry 5 unique stacks of items in your mouth. These items will be kept in your inventory on death.",
+    "type": "origins:inventory",
+    "title": "Mouth Stash",
+    "container_type": "hopper",
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
+    "recoverable": true
+}

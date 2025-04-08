@@ -694,6 +694,54 @@ file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/wireles
 file = "config/openloader/data/More CC Tweaks/pack.mcmeta"
 
 [[files]]
+file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/origins/neo_fox.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/blessing.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/burst.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/fireproof.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/frail.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/lightweight.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/mouth_stash.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/natural_swimmer.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/scavenger.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/short.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/slender.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/sneaky.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/strong_eyes.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/weak_arms.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_1.0.0/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_1.0.0/pack.mcmeta"
+
+[[files]]
 file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/origins/origin_layers/origin.json"
 
 [[files]]

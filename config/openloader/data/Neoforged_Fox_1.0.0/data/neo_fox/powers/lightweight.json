@@ -1,0 +1,35 @@
+{
+    "name": "Lightweight",
+    "description": "You sprint faster, jump higher, and are immune to fall damage.",
+    "type": "origins:multiple",
+    "jump": {
+        "type": "origins:modify_jump",
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 0.5
+        }
+    },
+    "fall_immunity": {
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:from_falling"
+        }
+    },
+    "speed": {
+        "condition": {
+            "type": "origins:sprinting"
+        },
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 40,
+        "tick_rate": 20,
+        "effect": {
+            "effect": "minecraft:speed",
+            "duration": 40,
+            "amplifier": 1,
+            "show_particles": false,
+            "show_icon": true
+        }
+    }
+}

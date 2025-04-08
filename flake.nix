@@ -50,10 +50,10 @@
           '';
       mkPrismPack =
         name: src:
-        zipOf "eazs-live-${name}.zip" (
-          copyFarm "eazs-live-${name}" {
+        zipOf "eazs-br-${name}.zip" (
+          copyFarm "eazs-br-${name}" {
             "icon.png" = ./icon.png;
-            "packwiz-installer-bootstrap.jar" = pkgs.fetchurl {
+            ".minecraft/packwiz-installer-bootstrap.jar" = pkgs.fetchurl {
               url = "https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar";
               hash = "sha256:qPuyTcYEJ46X9GiOgtPZGjGLmO/AjV2/y8vKtkQ9EWw=";
             };
@@ -63,7 +63,7 @@
                 ConfigVersion = "1.2";
                 InstanceType = "OneSix";
                 OverrideCommands = true;
-                PreLaunchCommand = "$INST_JAVA -jar $INST_DIR/packwiz-installer-bootstrap.jar -s both ${src}";
+                PreLaunchCommand = ''java -jar packwiz-installer-bootstrap.jar -s both ${src}'';
               };
             };
             "mmc-pack.json" = pkgs.writers.writeJSON "mmc-pack.json" {
@@ -90,7 +90,7 @@
         prismPack = mkPrismPack "current" "${
           if builtins ? getEnv then builtins.getEnv "PWD" else self
         }/pack.toml";
-        releasePrismPack = mkPrismPack "release" "https://github.com/PoolloverNathan/eazs-2/raw/main/pack.toml";
+        releasePrismPack = mkPrismPack "release" "https://poollovernathan.github.io/eazs-2/pack.toml";
       };
     };
 }

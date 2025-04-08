@@ -1,0 +1,15 @@
+{
+    "name": "Fireproof",
+    "description": "As a descendant of Forge, you are immune to fire damage and even move faster in lava.",
+    "type": "origins:multiple",
+    "fire_immunity": {
+        "type": "origins:fire_immunity"
+    },
+    "lava_speed": {
+        "type": "origins:modify_lava_speed",
+        "modifier": {
+            "operation": "add_base_early",
+            "value": 1
+        }
+    }
+}

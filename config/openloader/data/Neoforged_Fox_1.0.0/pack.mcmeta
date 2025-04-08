@@ -1,0 +1,12 @@
+{
+    "pack": {
+        "name": "Neoforged Fox",
+        "id": "neo_fox",
+        "pack_format": 15,
+        "version": "1.0.0",
+        "authors": [
+            "firstbornspawn"
+        ],
+        "description": "Not affiliated with Mozilla"
+    }
+}
