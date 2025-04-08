@@ -1348,6 +1348,9 @@ file = "kubejs/data/kubejs/powers/statue_stone.json"
 file = "kubejs/data/origins/origin_layers/origin.json"
 
 [[files]]
+file = "kubejs/server_scripts/misc_recipes.js"
+
+[[files]]
 file = "kubejs/server_scripts/slabs.js"
 
 [[files]]
