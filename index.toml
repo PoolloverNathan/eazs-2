@@ -16,6 +16,9 @@ file = "config/figura.json"
 file = "config/immersive_portals.json"
 
 [[files]]
+file = "config/logbegone.toml"
+
+[[files]]
 file = "config/openloader/data/ArachnidPlus/data/arachnidplus/origins/arachnidplus.json"
 
 [[files]]

@@ -1,0 +1,8 @@
+# The configuration file for Log Begone
+
+[logbegone]
+# If a log message has one of these phrases, it will be filtered out from logging
+phrases = ["Disconnecting VANILLA connection attempt", "Trying to teleport a fresh new entity", "java.lang.NullPointerException: Unknown message type!", "Error executing task on Client"]
+
+# If a log message matches one of these regex patterns, it will be filtered out from logging. EX: 
+regex = []
