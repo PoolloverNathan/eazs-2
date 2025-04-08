@@ -1,0 +1,84 @@
+{
+    "name": "Burst",
+    "description": "Shoot out 5 flaming arrows consecutively. You must have them in your regular inventory first.",
+    "type": "origins:multiple",
+    "shoot_arrow": {
+        "condition": {
+            "type": "origins:inventory",
+            "inventory_types": [
+                "inventory"
+            ],
+            "process_mode": "items",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:arrow"
+                }
+            },
+            "slots": [],
+            "comparison": ">=",
+            "compare_to": 5
+        },
+        "type": "origins:fire_projectile",
+        "entity_type": "minecraft:arrow",
+        "cooldown": 300,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/resource_bar.png",
+            "bar_index": 2
+        },
+        "count": 5,
+        "interval": 5,
+        "start_delay": 0,
+        "speed": 3,
+        "divergence": 5,
+        "sound": "minecraft:entity.arrow.shoot",
+        "key": {
+            "key": "key.origins.primary_active"
+        },
+        "projectile_action": {
+            "type": "origins:set_on_fire",
+            "duration": 10
+        }
+    },
+    "remove_arrow": {
+        "condition": {
+            "type": "origins:inventory",
+            "inventory_types": [
+                "inventory"
+            ],
+            "process_mode": "items",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:arrow"
+                }
+            },
+            "slots": [],
+            "comparison": ">=",
+            "compare_to": 5
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:modify_inventory",
+            "inventory_type": "inventory",
+            "item_action": {
+                "type": "origins:consume",
+                "amount": 5
+            },
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:arrow"
+                }
+            },
+            "slots": [],
+            "process_mode": "items",
+            "limit": 1
+        },
+        "cooldown": 300,
+        "key": {
+            "key": "key.origins.primary_active"
+        }
+    }
+}

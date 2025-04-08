@@ -1,0 +1,10 @@
+{
+    "name": "Frail",
+    "description": "As a fox, your max health is half that of a normal player's.",
+    "type": "origins:modify_attribute",
+    "attribute": "minecraft:generic.max_health",
+    "modifier": {
+        "operation": "addition",
+        "value": -10
+    }
+}
