@@ -20,7 +20,7 @@
         "type": "origins:action_on_callback",
         "entity_action_chosen": {
             "type": "origins:execute_command",
-            "command": "scale set pehkui:step_height 1.7 @s"
+            "command": "scale set pehkui:step_height 1.78 @s"
         },
         "execute_chosen_when_orb": true,
         "entity_action_lost": {
@@ -29,7 +29,7 @@
         },
         "entity_action_added": {
             "type": "origins:execute_command",
-            "command": "scale set pehkui:step_height 1.7 @s"
+            "command": "scale set pehkui:step_height 1.78 @s"
         },
         "entity_action_removed": {
             "type": "origins:execute_command",
@@ -37,7 +37,7 @@
         },
         "entity_action_respawned": {
             "type": "origins:execute_command",
-            "command": "scale set pehkui:step_height 1.7 @s"
+            "command": "scale set pehkui:step_height 1.78 @s"
         }
     },
     "sprinting": {
@@ -82,95 +82,5 @@
             "operation": "multiply_total",
             "value": -0.5
         }
-    },
-    "golden_carrots": {
-        "type": "origins:action_on_item_use",
-        "entity_action": {
-            "type": "origins:apply_effect",
-            "effects": [
-                {
-                    "effect": "minecraft:speed",
-                    "duration": 600,
-                    "amplifier": 1,
-                    "show_particles": true,
-                    "show_icon": true
-                },
-                {
-                    "effect": "minecraft:jump_boost",
-                    "duration": 600,
-                    "amplifier": 2,
-                    "show_particles": true,
-                    "show_icon": true
-                }
-            ]
-        },
-        "item_condition": {
-            "type": "origins:ingredient",
-            "ingredient": {
-                "item": "minecraft:golden_carrot"
-            }
-        },
-        "trigger": "finish",
-        "priority": 0
-    },
-    "golden_apple": {
-        "type": "origins:action_on_item_use",
-        "entity_action": {
-            "type": "origins:apply_effect",
-            "effects": [
-                {
-                    "effect": "minecraft:speed",
-                    "duration": 2400,
-                    "amplifier": 1,
-                    "show_particles": true,
-                    "show_icon": true
-                },
-                {
-                    "effect": "minecraft:jump_boost",
-                    "duration": 2400,
-                    "amplifier": 2,
-                    "show_particles": true,
-                    "show_icon": true
-                }
-            ]
-        },
-        "item_condition": {
-            "type": "origins:ingredient",
-            "ingredient": {
-                "item": "minecraft:golden_apple"
-            }
-        },
-        "trigger": "finish",
-        "priority": 0
-    },
-    "enchanted_golden_apple": {
-        "type": "origins:action_on_item_use",
-        "entity_action": {
-            "type": "origins:apply_effect",
-            "effects": [
-                {
-                    "effect": "minecraft:speed",
-                    "duration": 9600,
-                    "amplifier": 1,
-                    "show_particles": true,
-                    "show_icon": true
-                },
-                {
-                    "effect": "minecraft:jump_boost",
-                    "duration": 9600,
-                    "amplifier": 2,
-                    "show_particles": true,
-                    "show_icon": true
-                }
-            ]
-        },
-        "item_condition": {
-            "type": "origins:ingredient",
-            "ingredient": {
-                "item": "minecraft:enchanted_golden_apple"
-            }
-        },
-        "trigger": "finish",
-        "priority": 0
     }
 }
