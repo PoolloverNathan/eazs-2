@@ -1,0 +1,17 @@
+{
+    "name": "Centaur",
+    "description": "A being with an upper body closely resembling that of a human with a lower body that of a horse.",
+    "powers": [
+        "altcentaur:robust",
+        "altcentaur:imposing",
+        "altcentaur:rideable",
+        "altcentaur:large_stance",
+        "altcentaur:horse_kick",
+	"altcentaur:no_swimming"
+    ],
+    "icon": {
+        "item": "minecraft:saddle"
+    },
+	"unchoosable": true,
+    "impact": 1
+}

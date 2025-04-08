@@ -79,6 +79,33 @@ file = "config/openloader/data/Cecaelia_Origin_v1.0/data/origins/origin_layers/o
 file = "config/openloader/data/Cecaelia_Origin_v1.0/pack.mcmeta"
 
 [[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/origins/altcentaur.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/powers/horse_kick.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/powers/imposing.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/powers/large_stance.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/powers/no_swimming.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/powers/rideable.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/powers/robust.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/pack.mcmeta"
+
+[[files]]
 file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/origins/centaur.json"
 
 [[files]]
