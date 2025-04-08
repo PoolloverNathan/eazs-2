@@ -10,5 +10,5 @@ flake.lock
 root
 *@
 S-*.vim
-item
+/item
 slab.json

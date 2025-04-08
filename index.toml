@@ -1333,6 +1333,24 @@ file = "config/vowels-packwiz.json"
 file = "icon.png"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/powdered_coal.png"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/powdered_zinc.png"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/wood_chips.png"
+
+[[files]]
+file = "kubejs/assets/vowels/textures/item/powdered_copper.png"
+
+[[files]]
+file = "kubejs/assets/vowels/textures/item/powdered_gold.png"
+
+[[files]]
+file = "kubejs/assets/vowels/textures/item/powdered_iron.png"
+
+[[files]]
 file = "kubejs/data/kubejs/origins/statue.json"
 
 [[files]]
@@ -1355,6 +1373,9 @@ file = "kubejs/server_scripts/slabs.js"
 
 [[files]]
 file = "kubejs/server_scripts/uncrafting.js"
+
+[[files]]
+file = "kubejs/startup_scripts/items.js"
 
 [[files]]
 file = "mods/\"limitless\"-banners.pw.toml"
