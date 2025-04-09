@@ -2004,10 +2004,6 @@ file = "mods/spawn-balance-utility.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/starlight.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/starter-kit.pw.toml"
 metafile = true
 

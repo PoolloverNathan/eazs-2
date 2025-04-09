@@ -3,7 +3,8 @@
   "overrides": {
     "minecraft": {
       "+breaks": {
-        "estrogen": "*"
+        "estrogen": "*",
+        "starlight": "*"
       }
     },
     "dimdoors": {
