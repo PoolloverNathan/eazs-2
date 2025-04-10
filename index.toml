@@ -1333,6 +1333,2031 @@ file = "config/openloader/data/wooly1.1_1.20.1-/pack.png"
 file = "config/vowels-packwiz.json"
 
 [[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/Cecaelia.bbmodel"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/LICENSE"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/README.md"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/avatar.json"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/avatar.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/lib/GSAnimBlend.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/lib/GSCarrier.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/lib/GroundCheck.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/lib/ItemCheck.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/lib/KattArmor.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/lib/LerpAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/lib/MembraneAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/lib/Molang.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/lib/OriginsAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/lib/PartsAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/lib/SquAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/lib/SquAssets.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/scripts/ActionWheel.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/scripts/Anims.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/scripts/Armor.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/scripts/CameraControl.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/scripts/ColorProperties.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/scripts/DamageSound.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/scripts/GlowingEyes.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/scripts/GlowingTail.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/scripts/Ink.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/scripts/KattDynamicCrosshair.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/scripts/Membrane.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/scripts/MermodTailCompatibility.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/scripts/Player.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/scripts/Posing.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/scripts/RemoveFootsteps.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/scripts/SquishyAnims.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/scripts/SyncedVariables.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/scripts/Tail.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/scripts/VanillaModel.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/scripts/WhirlpoolEffect.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/armor/chainmailArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/armor/diamondArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/armor/goldenArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/armor/ironArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/armor/leatherArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/armor/leatherOverlay.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/armor/netheriteArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/armor/trims/boltTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/armor/trims/coastTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/armor/trims/duneTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/armor/trims/eyeTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/armor/trims/flowTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/armor/trims/hostTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/armor/trims/raiserTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/armor/trims/ribTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/armor/trims/sentryTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/armor/trims/shaperTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/armor/trims/silenceTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/armor/trims/snoutTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/armor/trims/spireTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/armor/trims/tideTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/armor/trims/vexTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/armor/trims/wardTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/armor/trims/wayfinderTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/armor/trims/wildTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/eyes_e.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/misc/cape.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/misc/meter.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/octopus.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/octopus_e.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar/textures/skin.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/Centaur.bbmodel"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/LICENSE"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/README.md"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/avatar.json"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/avatar.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/lib/GSAnimBlend.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/lib/GSCarrier.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/lib/GroundCheck.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/lib/ItemCheck.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/lib/KattArmor.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/lib/LerpAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/lib/Molang.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/lib/OriginsAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/lib/PartsAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/lib/SquAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/lib/SquAssets.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/scripts/Accessories.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/scripts/ActionWheel.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/scripts/Anims.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/scripts/Armor.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/scripts/CameraControl.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/scripts/ColorProperties.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/scripts/KattDynamicCrosshair.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/scripts/Player.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/scripts/Posing.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/scripts/ReplaceSounds.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/scripts/SquishyAnims.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/scripts/SyncedVariables.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/scripts/TextureSwap.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/scripts/VanillaModel.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/scripts/Vehicles.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/chainmailArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/diamondArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/goldenArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/ironArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/leatherArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/leatherOverlay.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/netheriteArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/trims/boltTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/trims/coastTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/trims/duneTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/trims/eyeTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/trims/flowTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/trims/hostTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/trims/raiserTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/trims/ribTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/trims/sentryTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/trims/shaperTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/trims/silenceTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/trims/snoutTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/trims/spireTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/trims/tideTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/trims/vexTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/trims/wardTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/trims/wayfinderTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/trims/wildTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/armor/turtleHelmet.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/horse.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/horseLayer.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/horse_e.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/misc/cape.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar/textures/skin.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/Cervitaur.bbmodel"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/Config.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/LICENSE"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/README.md"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/avatar.json"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/avatar.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/lib/GSAnimBlend.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/lib/KattArmor.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/lib/KattClass.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/scripts/ActionWheel.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/scripts/Animations.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/scripts/Armor.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/scripts/CameraControl.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/scripts/MermodTailCompatibility.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/scripts/Player.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/scripts/Saddle.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/scripts/Twitching.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/scripts/VanillaModel.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/textures/antlers.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/textures/armor/chainmail.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/textures/armor/diamond.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/textures/armor/elytra.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/textures/armor/golden.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/textures/armor/iron.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/textures/armor/leather.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/textures/armor/leather_overlay.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/textures/armor/netherite.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/textures/armor/saddle.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/textures/armor/turtle.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/textures/ears.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/textures/lowerBody.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar/textures/skin.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/LICENSE"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/README.md"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/avatar.json"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/avatar.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/lib/Average.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/lib/GSAnimBlend.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/lib/GSCarrier.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/lib/GroundCheck.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/lib/GroupIndex.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/lib/ItemCheck.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/lib/KattArmor.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/lib/MOARArmsAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/lib/OriginsAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/lib/SquAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/models/CharizardTaur.bbmodel"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/models/Pokeball.bbmodel"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/scripts/ActionWheel.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/scripts/Anims.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/scripts/Armor.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/scripts/Arms.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/scripts/CameraControl.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/scripts/ColorProperties.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/scripts/FallSound.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/scripts/Fire.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/scripts/KattDynamicCrosshair.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/scripts/OriginPowers.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/scripts/Player.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/scripts/Pokeball.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/scripts/PokemonSounds.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/scripts/Posing.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/scripts/SquishyAnims.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/scripts/SyncedVariables.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/scripts/VanillaModel.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/scripts/Vehicles.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/chainmailArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/diamondArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/goldenArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/ironArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/leatherArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/leatherOverlay.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/netheriteArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/trims/boltTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/trims/coastTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/trims/duneTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/trims/eyeTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/trims/flowTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/trims/hostTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/trims/raiserTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/trims/ribTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/trims/sentryTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/trims/shaperTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/trims/silenceTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/trims/snoutTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/trims/spireTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/trims/tideTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/trims/vexTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/trims/wardTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/trims/wayfinderTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/trims/wildTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/turtleHelmet.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/armor/turtleHelmet_e.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/charizard.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/charizard_shiny.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/damageFlame.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/misc/cape.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/misc/pokeballModel.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/normalFlame.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar/textures/skin.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/EeveeTaur.bbmodel"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/LICENSE"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/README.md"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/avatar.json"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/avatar.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/lib/GSAnimBlend.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/lib/GSCarrier.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/lib/GroundCheck.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/lib/ItemCheck.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/lib/KattArmor.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/lib/LerpAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/lib/Molang.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/lib/OriginsAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/lib/PartsAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/lib/SquAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/lib/SquAssets.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/scripts/ActionWheel.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/scripts/Anims.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/scripts/Armor.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/scripts/CameraControl.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/scripts/ColorProperties.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/scripts/DamageSound.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/scripts/EeveeGender.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/scripts/ElementalStones.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/scripts/Glowing.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/scripts/GlowingEyes.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/scripts/KattDynamicCrosshair.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/scripts/Player.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/scripts/Pokeball.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/scripts/PokemonSounds.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/scripts/Posing.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/scripts/ReplaceSounds.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/scripts/Shiny.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/scripts/SquishyAnims.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/scripts/SyncedVariables.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/scripts/TypeControl.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/scripts/TypeOrigins.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/scripts/TypePicker.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/scripts/VanillaModel.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/scripts/Vehicles.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/armor/chainmailArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/armor/diamondArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/armor/goldenArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/armor/ironArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/armor/leatherArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/armor/leatherOverlay.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/armor/netheriteArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/armor/trims/boltTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/armor/trims/coastTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/armor/trims/duneTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/armor/trims/eyeTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/armor/trims/flowTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/armor/trims/hostTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/armor/trims/raiserTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/armor/trims/ribTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/armor/trims/sentryTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/armor/trims/shaperTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/armor/trims/silenceTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/armor/trims/snoutTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/armor/trims/spireTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/armor/trims/tideTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/armor/trims/vexTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/armor/trims/wardTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/armor/trims/wayfinderTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/armor/trims/wildTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/eevee.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/eeveeTail.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/eeveeTail_shiny.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/eevee_shiny.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/espeon.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/espeon_e.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/espeon_shiny.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/espeon_shiny_e.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/eyes_e.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/flareon.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/flareon_shiny.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/glaceon.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/glaceon_shiny.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/jolteon.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/jolteon_shiny.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/layer.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/leafeon.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/leafeon_shiny.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/misc/cape.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/misc/poke_ball.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/skin.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/sylveon.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/sylveon_shiny.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/umbreon.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/umbreon_e.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/umbreon_shiny.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/umbreon_shiny_e.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/vaporeon.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars/textures/vaporeon_shiny.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/FurretTaur.bbmodel"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/LICENSE"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/README.md"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/avatar.json"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/avatar.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/lib/GSAnimBlend.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/lib/GSCarrier.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/lib/GroundCheck.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/lib/ItemCheck.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/lib/KattArmor.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/lib/LerpAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/lib/Molang.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/lib/OriginsAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/lib/PartsAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/lib/SquAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/lib/SquAssets.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/scripts/ActionWheel.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/scripts/Anims.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/scripts/Armor.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/scripts/CameraControl.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/scripts/ColorProperties.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/scripts/DamageSound.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/scripts/KattDynamicCrosshair.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/scripts/Player.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/scripts/Pokeball.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/scripts/PokemonSounds.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/scripts/Posing.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/scripts/ReplaceSounds.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/scripts/Shiny.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/scripts/SquishyAnims.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/scripts/SyncedVariables.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/scripts/VanillaModel.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/scripts/Vehicles.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/armor/chainmailArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/armor/diamondArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/armor/goldenArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/armor/ironArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/armor/leatherArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/armor/leatherOverlay.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/armor/netheriteArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/armor/trims/boltTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/armor/trims/coastTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/armor/trims/duneTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/armor/trims/eyeTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/armor/trims/flowTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/armor/trims/hostTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/armor/trims/raiserTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/armor/trims/ribTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/armor/trims/sentryTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/armor/trims/shaperTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/armor/trims/silenceTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/armor/trims/snoutTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/armor/trims/spireTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/armor/trims/tideTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/armor/trims/vexTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/armor/trims/wardTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/armor/trims/wayfinderTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/armor/trims/wildTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/furret.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/furret_shiny.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/misc/cape.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/misc/poke_ball.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar/textures/skin.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/Giraffe.bbmodel"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/LICENSE"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/README.md"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/avatar.json"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/avatar.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/lib/GSAnimBlend.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/lib/GSCarrier.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/lib/GroundCheck.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/lib/ItemCheck.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/lib/KattArmor.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/lib/LerpAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/lib/Molang.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/lib/OriginsAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/lib/PartsAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/lib/SquAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/lib/SquAssets.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/scripts/ActionWheel.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/scripts/Anims.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/scripts/Armor.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/scripts/CameraControl.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/scripts/ColorProperties.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/scripts/KattDynamicCrosshair.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/scripts/Player.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/scripts/Posing.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/scripts/ReplaceSounds.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/scripts/SquishyAnims.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/scripts/SyncedVariables.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/scripts/VanillaModel.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/scripts/Vehicles.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/chainmailArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/diamondArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/goldenArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/ironArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/leatherArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/leatherOverlay.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/netheriteArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/trims/boltTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/trims/coastTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/trims/duneTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/trims/eyeTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/trims/flowTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/trims/hostTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/trims/raiserTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/trims/ribTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/trims/sentryTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/trims/shaperTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/trims/silenceTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/trims/snoutTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/trims/spireTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/trims/tideTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/trims/vexTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/trims/wardTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/trims/wayfinderTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/trims/wildTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/armor/turtleHelmet.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/giraffe.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/misc/cape.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar/textures/skin.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/LICENSE"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/README.md"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/avatar.json"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/avatar.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/lib/Average.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/lib/GSAnimBlend.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/lib/GSCarrier.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/lib/GroundCheck.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/lib/GroupIndex.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/lib/ItemCheck.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/lib/KattArmor.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/lib/OriginsAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/lib/SquAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/models/LaprasTaur.bbmodel"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/models/Pokeball.bbmodel"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/scripts/ActionWheel.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/scripts/Anims.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/scripts/Armor.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/scripts/Arms.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/scripts/CameraControl.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/scripts/ColorProperties.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/scripts/FallSound.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/scripts/GlowingEyes.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/scripts/KattDynamicCrosshair.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/scripts/Player.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/scripts/Pokeball.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/scripts/PokemonSounds.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/scripts/Posing.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/scripts/RemoveFootsteps.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/scripts/SquishyAnims.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/scripts/SyncedVariables.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/scripts/VanillaModel.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/scripts/Vehicles.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/scripts/WhirlpoolEffect.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/armor/chainmailArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/armor/diamondArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/armor/goldenArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/armor/ironArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/armor/leatherArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/armor/leatherOverlay.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/armor/netheriteArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/armor/trims/coastTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/armor/trims/duneTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/armor/trims/eyeTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/armor/trims/hostTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/armor/trims/raiserTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/armor/trims/ribTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/armor/trims/sentryTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/armor/trims/shaperTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/armor/trims/silenceTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/armor/trims/snoutTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/armor/trims/spireTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/armor/trims/tideTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/armor/trims/vexTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/armor/trims/wardTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/armor/trims/wayfinderTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/armor/trims/wildTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/armor/turtleHelmet.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/eyes_e.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/lapras.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/lapras_shiny.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/misc/cape.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/misc/chest.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/misc/pokeballModel.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar/textures/skin.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/LICENSE"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/Merling.bbmodel"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/README.md"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/avatar.json"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/avatar.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/lib/GSAnimBlend.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/lib/GSCarrier.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/lib/GroundCheck.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/lib/ItemCheck.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/lib/KattArmor.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/lib/LerpAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/lib/Molang.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/lib/OriginsAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/lib/PartsAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/lib/SquAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/lib/SquAssets.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/scripts/ActionWheel.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/scripts/Anims.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/scripts/Armor.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/scripts/CameraControl.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/scripts/ColorProperties.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/scripts/DamageSound.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/scripts/GlowingEyes.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/scripts/GlowingTail.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/scripts/KattDynamicCrosshair.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/scripts/MermodTailCompatibility.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/scripts/Player.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/scripts/Posing.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/scripts/RemoveFootsteps.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/scripts/SquishyAnims.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/scripts/SyncedVariables.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/scripts/Tail.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/scripts/VanillaModel.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/scripts/Vehicles.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/scripts/WhirlpoolEffect.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/armor/chainmailArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/armor/diamondArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/armor/goldenArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/armor/ironArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/armor/leatherArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/armor/leatherOverlay.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/armor/netheriteArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/armor/trims/boltTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/armor/trims/coastTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/armor/trims/duneTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/armor/trims/eyeTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/armor/trims/flowTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/armor/trims/hostTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/armor/trims/raiserTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/armor/trims/ribTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/armor/trims/sentryTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/armor/trims/shaperTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/armor/trims/silenceTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/armor/trims/snoutTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/armor/trims/spireTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/armor/trims/tideTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/armor/trims/vexTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/armor/trims/wardTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/armor/trims/wayfinderTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/armor/trims/wildTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/eyes_e.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/misc/cape.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/skin.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/tail.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar/textures/tail_e.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/LICENSE"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/README.md"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/avatar.json"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/avatar.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/lib/Average.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/lib/GSAnimBlend.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/lib/GSCarrier.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/lib/GroundCheck.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/lib/GroupIndex.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/lib/ItemCheck.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/lib/KattArmor.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/lib/OriginsAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/lib/SquAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/models/Pokeball.bbmodel"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/models/SerperiorTaur.bbmodel"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/scripts/ActionWheel.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/scripts/Anims.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/scripts/Armor.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/scripts/Arms.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/scripts/CameraControl.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/scripts/ColorProperties.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/scripts/FallSound.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/scripts/KattDynamicCrosshair.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/scripts/OriginPowers.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/scripts/Player.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/scripts/Pokeball.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/scripts/PokemonSounds.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/scripts/Posing.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/scripts/RemoveFootsteps.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/scripts/SquishyAnims.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/scripts/SyncedVariables.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/scripts/VanillaModel.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/armor/chainmailArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/armor/diamondArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/armor/goldenArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/armor/ironArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/armor/leatherArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/armor/leatherOverlay.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/armor/netheriteArmor.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/armor/trims/coastTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/armor/trims/duneTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/armor/trims/eyeTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/armor/trims/hostTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/armor/trims/raiserTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/armor/trims/ribTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/armor/trims/sentryTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/armor/trims/shaperTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/armor/trims/silenceTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/armor/trims/snoutTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/armor/trims/spireTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/armor/trims/tideTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/armor/trims/vexTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/armor/trims/wardTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/armor/trims/wayfinderTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/armor/trims/wildTrim.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/armor/turtleHelmet.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/misc/cape.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/misc/pokeballModel.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/serperior.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/serperior_shiny.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar/textures/skin.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/LICENSE"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/README.md"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/SlimeTaur.bbmodel"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/avatar.json"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/avatar.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/lib/CMWobble.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/lib/GSAnimBlend.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/lib/GSCarrier.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/lib/GroundCheck.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/lib/ItemCheck.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/lib/LerpAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/lib/Molang.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/lib/OriginsAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/lib/PartsAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/lib/PehkuiScale.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/lib/SquAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/lib/SquAssets.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/scripts/ActionWheel.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/scripts/Anims.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/scripts/Armor.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/scripts/CameraControl.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/scripts/ColorProperties.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/scripts/DamageSound.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/scripts/Items.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/scripts/KattDynamicCrosshair.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/scripts/Player.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/scripts/Posing.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/scripts/RemoveFootsteps.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/scripts/SquishSound.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/scripts/SquishyAnims.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/scripts/SyncedVariables.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/scripts/Trail.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/scripts/VanillaModel.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/scripts/Vehicles.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/scripts/Wobble.lua"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/textures/misc/cape.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/textures/skin.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/textures/slime.png"
+
+[[files]]
+file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/textures/slimeOverlay.png"
+
+[[files]]
 file = "icon.png"
 
 [[files]]

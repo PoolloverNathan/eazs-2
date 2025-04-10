@@ -1,3 +1,36 @@
 [submodule "config/openloader/data/gummy-gorgon-origin"]
 	path = config/openloader/data/gummy-gorgon-origin
 	url = git@github.com:T3rra-Cat/gummy-gorgon-origin
+[submodule "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar"]
+	path = figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar
+	url = https://github.com/TotalTakeover/FiguraSlimeTaurAvatar
+[submodule "figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar"]
+	path = figura/avatars/Templates/TotalTakeover/FiguraSerperiorTaurAvatar
+	url = https://github.com/TotalTakeover/FiguraSerperiorTaurAvatar
+[submodule "figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar"]
+	path = figura/avatars/Templates/TotalTakeover/FiguraLaprasTaurAvatar
+	url = https://github.com/TotalTakeover/FiguraLaprasTaurAvatar
+[submodule "figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar"]
+	path = figura/avatars/Templates/TotalTakeover/FiguraFurretTaurAvatar
+	url = https://github.com/TotalTakeover/FiguraFurretTaurAvatar
+[submodule "figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar"]
+	path = figura/avatars/Templates/TotalTakeover/FiguraCharizardTaurAvatar
+	url = https://github.com/TotalTakeover/FiguraCharizardTaurAvatar
+[submodule "figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar"]
+	path = figura/avatars/Templates/TotalTakeover/FiguraGiraffeTaurAvatar
+	url = https://github.com/TotalTakeover/FiguraGiraffeTaurAvatar
+[submodule "figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar"]
+	path = figura/avatars/Templates/TotalTakeover/FiguraMerlingAvatar
+	url = https://github.com/TotalTakeover/FiguraMerlingAvatar
+[submodule "figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar"]
+	path = figura/avatars/Templates/TotalTakeover/FiguraCervitaurAvatar
+	url = https://github.com/TotalTakeover/FiguraCervitaurAvatar
+[submodule "figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar"]
+	path = figura/avatars/Templates/TotalTakeover/FiguraCentaurAvatar
+	url = https://github.com/TotalTakeover/FiguraCentaurAvatar
+[submodule "figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar"]
+	path = figura/avatars/Templates/TotalTakeover/FiguraCecaeliaAvatar
+	url = https://github.com/TotalTakeover/FiguraCecaeliaAvatar
+[submodule "figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars"]
+	path = figura/avatars/Templates/TotalTakeover/FiguraEeveelutionTaurAvatars
+	url = git@github.com:TotalTakeover/FiguraEeveelutionTaurAvatars
