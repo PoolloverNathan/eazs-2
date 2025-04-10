@@ -1,6 +1,6 @@
 name = "DeathLog"
 filename = "deathlog-0.3.2+1.20.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/TPAYeAOc/versions/V0Hz3q2W/deathlog-0.3.2%2B1.20.jar"
