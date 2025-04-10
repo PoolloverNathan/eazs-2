@@ -1354,6 +1354,9 @@ file = "kubejs/assets/vowels/textures/item/powdered_gold.png"
 file = "kubejs/assets/vowels/textures/item/powdered_iron.png"
 
 [[files]]
+file = "kubejs/data/kubejs/damage_types/blender.json"
+
+[[files]]
 file = "kubejs/data/kubejs/origins/statue.json"
 
 [[files]]
@@ -1364,6 +1367,9 @@ file = "kubejs/data/kubejs/powers/statue_solid.json"
 
 [[files]]
 file = "kubejs/data/kubejs/powers/statue_stone.json"
+
+[[files]]
+file = "kubejs/data/minecraft/loot_tables/blocks/bedrock.json"
 
 [[files]]
 file = "kubejs/data/origins/origin_layers/origin.json"
