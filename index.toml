@@ -3379,7 +3379,16 @@ file = "kubejs/assets/vowels/textures/item/powdered_gold.png"
 file = "kubejs/assets/vowels/textures/item/powdered_iron.png"
 
 [[files]]
-file = "kubejs/data/kubejs/damage_types/blender.json"
+file = "kubejs/data/kubejs/damage_type/blender.json"
+
+[[files]]
+file = "kubejs/data/kubejs/damage_type/heart_attack.json"
+
+[[files]]
+file = "kubejs/data/kubejs/damage_type/rotated.json"
+
+[[files]]
+file = "kubejs/data/kubejs/damage_type/stub_toe.json"
 
 [[files]]
 file = "kubejs/data/kubejs/origins/statue.json"
