@@ -136,6 +136,31 @@ add_crushing("ae2:fluix_pearl", f => {
 	f("ae2:fluix_crystal", 8)
 })
 make_card("ae2:advanced_card", true)
+add_crushing("ae2:interface", f => {
+	// 4 iro
+	f("minecraft:iron_ingot", 4)
+	// formation & annihilation cores
+	f("ae2:formation_core")
+	f("ae2:annihilation_core")
+	// 2 glass
+	f("minecraft:glass", 2)
+	// TODO: add glass shards
+})
+// cable interfaces drop interfaces
+add_crushing("ae2:cable_interface", f => {
+	f("ae2:interface")
+})
+// pattern providers: same as interfaces but replace glass with crafting_table
+add_crushing("ae2:pattern_provider", f => {
+	f("minecraft:iron_ingot", 4)
+	f("ae2:formation_core")
+	f("ae2:annihilation_core")
+	f("minecraft:crafting_table", 2)
+})
+// and cable pattern providers drop pattern providers
+add_crushing("ae2:cable_pattern_provider", f => {
+	f("ae2:pattern_provider")
+})
 
 const built_set = []
 for (let [from, out] of crushing_set) {
