@@ -24,6 +24,24 @@ function add_crushing(item, body) {
 	})
 	crushing_set.set(item, result)
 }
+const colors = [
+	"white",
+	"orange",
+	"magenta",
+	"light_blue",
+	"yellow",
+	"lime",
+	"pink",
+	"gray",
+	"light_gray",
+	"cyan",
+	"purple",
+	"blue",
+	"brown",
+	"green",
+	"red",
+	"black"
+]
 
 add_crushing("minecraft:iron_ingot", f => {
 	f("vowels:powdered_iron")
@@ -161,6 +179,11 @@ add_crushing("ae2:pattern_provider", f => {
 add_crushing("ae2:cable_pattern_provider", f => {
 	f("ae2:pattern_provider")
 })
+for (let c in colors) {
+	add_crushing(`#chipped:${c}_concrete`, f => {
+		f("minecraft:concrete_powder")
+	})
+}
 
 const built_set = []
 for (let [from, out] of crushing_set) {
