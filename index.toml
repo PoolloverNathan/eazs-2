@@ -3420,6 +3420,10 @@ file = "mods/advancement-plaques.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/ae2-emi-crafting.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ae2.pw.toml"
 metafile = true
 
@@ -3620,6 +3624,10 @@ file = "mods/dimensionaldoors.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/distraction-free-recipes.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/dungeon-now-loading.pw.toml"
 metafile = true
 
@@ -3645,6 +3653,14 @@ metafile = true
 
 [[files]]
 file = "mods/eggolib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/emi-create-schematics.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/emi-loot.pw.toml"
 metafile = true
 
 [[files]]
@@ -3740,6 +3756,10 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fzzy-config.pw.toml"
 metafile = true
 
 [[files]]
@@ -4088,6 +4108,10 @@ metafile = true
 
 [[files]]
 file = "mods/trinkets.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/txnilib.pw.toml"
 metafile = true
 
 [[files]]
