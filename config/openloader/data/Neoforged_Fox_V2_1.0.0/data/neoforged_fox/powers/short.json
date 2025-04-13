@@ -1,0 +1,44 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "scale_height": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "neoforged_fox:size_toggle"
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:height 0.5 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale persist set pehkui:height true @s"
+                }
+            ]
+        },
+        "cooldown": 60,
+        "key": {
+            "key": "key.origins.secondary_active"
+        }
+    },
+    "reset_height": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:power_active",
+            "power": "neoforged_fox:size_toggle"
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "scale reset pehkui:height @s"
+        },
+        "cooldown": 60,
+        "key": {
+            "key": "key.origins.secondary_active"
+        }
+    }
+}

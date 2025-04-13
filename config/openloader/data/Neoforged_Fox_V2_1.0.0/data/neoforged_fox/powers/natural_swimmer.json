@@ -1,0 +1,21 @@
+{
+    "name": "Natural Swimmer",
+    "description": "You can stay underwater for up to a minute.",
+    "condition": {
+        "inverted": true,
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 10,
+    "duration_per_stack": 120,
+    "tick_rate": 20,
+    "effect": {
+        "effect": "minecraft:water_breathing",
+        "duration": 1200,
+        "amplifier": 0,
+        "show_particles": false,
+        "show_icon": true
+    }
+}

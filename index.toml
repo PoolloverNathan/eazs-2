@@ -724,52 +724,43 @@ file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/wireles
 file = "config/openloader/data/More CC Tweaks/pack.mcmeta"
 
 [[files]]
-file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/origins/neo_fox.json"
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/data/neoforged_fox/origins/neoforged_fox.json"
 
 [[files]]
-file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/blessing.json"
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/data/neoforged_fox/powers/burst.json"
 
 [[files]]
-file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/burst.json"
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/data/neoforged_fox/powers/fireproof.json"
 
 [[files]]
-file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/fireproof.json"
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/data/neoforged_fox/powers/frail.json"
 
 [[files]]
-file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/frail.json"
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/data/neoforged_fox/powers/lightweight.json"
 
 [[files]]
-file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/lightweight.json"
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/data/neoforged_fox/powers/natural_swimmer.json"
 
 [[files]]
-file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/mouth_stash.json"
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/data/neoforged_fox/powers/short.json"
 
 [[files]]
-file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/natural_swimmer.json"
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/data/neoforged_fox/powers/size_toggle.json"
 
 [[files]]
-file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/scavenger.json"
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/data/neoforged_fox/powers/slender.json"
 
 [[files]]
-file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/short.json"
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/data/neoforged_fox/powers/sneaky.json"
 
 [[files]]
-file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/slender.json"
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/data/neoforged_fox/powers/strong_eyes.json"
 
 [[files]]
-file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/sneaky.json"
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/data/origins/origin_layers/origin.json"
 
 [[files]]
-file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/strong_eyes.json"
-
-[[files]]
-file = "config/openloader/data/Neoforged_Fox_1.0.0/data/neo_fox/powers/weak_arms.json"
-
-[[files]]
-file = "config/openloader/data/Neoforged_Fox_1.0.0/data/origins/origin_layers/origin.json"
-
-[[files]]
-file = "config/openloader/data/Neoforged_Fox_1.0.0/pack.mcmeta"
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/pack.mcmeta"
 
 [[files]]
 file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/origins/origin_layers/origin.json"
@@ -3421,10 +3412,6 @@ file = "kubejs/server_scripts/uncrafting.js"
 file = "kubejs/startup_scripts/items.js"
 
 [[files]]
-file = "mods/\"limitless\"-banners.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/advancement-plaques.pw.toml"
 metafile = true
 
@@ -3829,6 +3816,10 @@ metafile = true
 
 [[files]]
 file = "mods/lazydfu.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/limitless-banners.pw.toml"
 metafile = true
 
 [[files]]
