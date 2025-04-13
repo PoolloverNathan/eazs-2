@@ -1,13 +1,13 @@
 {
     "name": "Sneaky",
-    "description": "Hostile mobs will only detect you at 25% of their normal range",
+    "description": "Hostile mobs will only detect you at 12.5% of their normal range",
     "type": "origins:action_on_callback",
     "entity_action_chosen": {
         "type": "origins:and",
         "actions": [
             {
                 "type": "origins:execute_command",
-                "command": "scale set pehkui:visibility 0.25 @s"
+                "command": "scale set pehkui:visibility 0.125 @s"
             },
             {
                 "type": "origins:execute_command",
@@ -19,5 +19,18 @@
     "entity_action_lost": {
         "type": "origins:execute_command",
         "command": "scale reset pehkui:visibility @s"
+    },
+    "entity_action_added": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:visibility 0.125 @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale persist pehkui:visibility set true @s"
+            }
+        ]
     }
 }

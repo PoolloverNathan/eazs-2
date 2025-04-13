@@ -1,0 +1,20 @@
+{
+    "name": "Neoforged Fox",
+    "description": "Descended from the most prestigious modloaders known to Minecraft, you plan on surpassing them one day, but for now you will have to survive in this world.",
+    "powers": [
+        "neoforged_fox:burst",
+        "neoforged_fox:fireproof",
+        "neoforged_fox:frail",
+        "neoforged_fox:lightweight",
+        "neoforged_fox:natural_swimmer",
+        "neoforged_fox:short",
+        "neoforged_fox:size_toggle",
+        "neoforged_fox:slender",
+        "neoforged_fox:sneaky",
+        "neoforged_fox:strong_eyes"
+    ],
+    "icon": {
+        "item": "minecraft:sweet_berries"
+    },
+    "impact": 3
+}

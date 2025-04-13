@@ -1,0 +1,10 @@
+{
+    "name": "Size Toggle",
+    "description": "You can become half the size of a normal player.",
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
+    "retain_state": true
+}

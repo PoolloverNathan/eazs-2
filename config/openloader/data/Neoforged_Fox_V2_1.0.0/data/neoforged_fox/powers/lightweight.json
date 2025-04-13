@@ -1,0 +1,21 @@
+{
+    "name": "Lightweight",
+    "description": "You jump higher when sneaking and are immune to fall damage.",
+    "type": "origins:multiple",
+    "jump": {
+        "condition": {
+            "type": "origins:sneaking"
+        },
+        "type": "origins:modify_jump",
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 0.5
+        }
+    },
+    "fall_immunity": {
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:from_falling"
+        }
+    }
+}
