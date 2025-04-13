@@ -92,6 +92,12 @@ add_crushing("ae2:printed_engineering_processor", f => {
 add_crushing("suppsquared:iron_plaque", f => {
 	f("minecraft:iron_ingot")
 })
+add_crushing("minecraft:stick", f => {
+	f("kubejs:wood_chips", 2)
+})
+add_crushing("#minecraft:planks", f => {
+	f("minecraft:stick", 2)
+})
 function print_processor(t) {
 	add_crushing(`ae2:${t}_processor`, f => {
 		f(`ae2:printed_${t}_processor`)
@@ -194,6 +200,7 @@ console.log("built set: " + built_set.join("\n"))
 
 ServerEvents.recipes(event => {
 	event.recipes.create.compacting(["minecraft:iron_ingot"], ["vowels:powdered_iron"]).heated()
+	event.recipes.create.compacting(["16x kubejs:wood_chips", Item.of("8x kubejs:wood_chips").withChance(0.5), Item.of("4x kubejs:wood_chips").withChance(0.52)], ["#minecraft:logs"]).heated()
 	for (let [from, to] of built_set) {
 		event.recipes.create.crushing(to, from)
 	}
