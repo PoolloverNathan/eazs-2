@@ -12,3 +12,4 @@ root
 S-*.vim
 /item
 slab.json
+*.log
