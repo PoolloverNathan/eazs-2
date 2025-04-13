@@ -3421,10 +3421,6 @@ file = "kubejs/server_scripts/uncrafting.js"
 file = "kubejs/startup_scripts/items.js"
 
 [[files]]
-file = "mods/\"limitless\"-banners.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/advancement-plaques.pw.toml"
 metafile = true
 
@@ -3829,6 +3825,10 @@ metafile = true
 
 [[files]]
 file = "mods/lazydfu.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/limitless-banners.pw.toml"
 metafile = true
 
 [[files]]
