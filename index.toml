@@ -3971,10 +3971,6 @@ file = "mods/pehkui.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/pneumono_gravestones.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/polymorph.pw.toml"
 metafile = true
 
@@ -4139,6 +4135,10 @@ metafile = true
 
 [[files]]
 file = "mods/xxl-packets.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/yigd.pw.toml"
 metafile = true
 
 [[files]]
