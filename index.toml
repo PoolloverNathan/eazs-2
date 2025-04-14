@@ -4172,3 +4172,7 @@ metafile = true
 [[files]]
 file = "mods/yungs-bridges.pw.toml"
 metafile = true
+
+[[files]]
+file = "mods/zombify.pw.toml"
+metafile = true
