@@ -439,6 +439,45 @@ file = "config/openloader/data/Ice Statue 1.0.0/data/origins/origin_layers/origi
 file = "config/openloader/data/Ice Statue 1.0.0/pack.mcmeta"
 
 [[files]]
+file = "config/openloader/data/Lamia/data/lamia/origins/lamia.json"
+
+[[files]]
+file = "config/openloader/data/Lamia/data/lamia/powers/fangs.json"
+
+[[files]]
+file = "config/openloader/data/Lamia/data/lamia/powers/lamia_anti_jump.json"
+
+[[files]]
+file = "config/openloader/data/Lamia/data/lamia/powers/lamia_coiling.json"
+
+[[files]]
+file = "config/openloader/data/Lamia/data/lamia/powers/lamia_hesitation.json"
+
+[[files]]
+file = "config/openloader/data/Lamia/data/lamia/powers/lamia_prevent_coil_damaging.json"
+
+[[files]]
+file = "config/openloader/data/Lamia/data/lamia/powers/lamia_slithering_serpent.json"
+
+[[files]]
+file = "config/openloader/data/Lamia/data/lamia/powers/poison_shot.json"
+
+[[files]]
+file = "config/openloader/data/Lamia/data/lamia/powers/scale_armor.json"
+
+[[files]]
+file = "config/openloader/data/Lamia/data/lamia/tags/entity_types/lamia_coilable.json"
+
+[[files]]
+file = "config/openloader/data/Lamia/data/lamia/tags/entity_types/lamia_hesitant.json"
+
+[[files]]
+file = "config/openloader/data/Lamia/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Lamia/pack.mcmeta"
+
+[[files]]
 file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/origins/lapras.json"
 
 [[files]]
@@ -3368,6 +3407,9 @@ file = "kubejs/assets/vowels/textures/item/powdered_gold.png"
 
 [[files]]
 file = "kubejs/assets/vowels/textures/item/powdered_iron.png"
+
+[[files]]
+file = "kubejs/client_scripts/enchanting.js"
 
 [[files]]
 file = "kubejs/data/kubejs/damage_type/blender.json"

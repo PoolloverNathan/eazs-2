@@ -1,0 +1,7 @@
+{
+    "origins": [
+        "lamia:lamia"
+    ],
+    "enabled": true,
+    "allow_random_unchoosable": true
+}

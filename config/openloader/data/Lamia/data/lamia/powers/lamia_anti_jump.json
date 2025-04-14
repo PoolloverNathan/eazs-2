@@ -1,0 +1,73 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "anti_jumpspeed": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sprinting"
+                },
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:lava",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:add_velocity",
+            "z": -0.001,
+            "space": "local_horizontal",
+            "client": true,
+            "server": true
+        },
+        "cooldown": 2,
+        "key": {
+            "key": "key.jump"
+        }
+    },
+    "anti_jumpspeed_two": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sprinting"
+                },
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:lava",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:add_velocity",
+            "z": -0.001,
+            "space": "local_horizontal",
+            "client": true,
+            "server": true
+        },
+        "cooldown": 10,
+        "key": {
+            "key": "key.jump",
+            "continuous": true
+        }
+    }
+}

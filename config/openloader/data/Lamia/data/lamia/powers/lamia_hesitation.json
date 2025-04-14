@@ -1,0 +1,61 @@
+{
+    "name": "§2§l§nPiercing Glare",
+    "description": "§aDue to your piercing glare, many, but not all, hostile mobs aren't the most willing to combat you and end up hesitating for two seconds.",
+    "type": "origins:multiple",
+    "hesitant_activate": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:area_of_effect",
+            "radius": 20,
+            "bientity_condition": {
+                "type": "origins:target_condition",
+                "condition": {
+                    "type": "origins:and",
+                    "conditions": [
+                        {
+                            "type": "origins:in_tag",
+                            "tag": "lamia:lamia_hesitant"
+                        },
+                        {
+                            "inverted": true,
+                            "type": "origins:status_effect",
+                            "effect": "minecraft:nausea"
+                        }
+                    ]
+                }
+            },
+            "bientity_action": {
+                "type": "origins:target_action",
+                "action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:nausea",
+                                "duration": 12000,
+                                "amplifier": 10,
+                                "is_ambient": true,
+                                "show_particles": false,
+                                "show_icon": false
+                            }
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "command": "data merge entity @s {NoAI:1b}"
+                        },
+                        {
+                            "type": "origins:delay",
+                            "action": {
+                                "type": "origins:execute_command",
+                                "command": "data merge entity @s {NoAI:0b}"
+                            },
+                            "ticks": 40
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
