@@ -15,4 +15,4 @@ version = "DXUtDziE"
 [option]
 optional = true
 default = true
-description = "BREAKS REI.\n\nRecipe viewer mod with support for advanced features such as recipe trees."
+description = "BREAKS REI.\nREQUIRED_BY AE2 EMI Crafting Integration.\nREQUIRED_BY EMI: Create Schematics.\nREQUIRED_BY EMI Loot.\n\nRecipe viewer mod with support for advanced features such as recipe trees."
