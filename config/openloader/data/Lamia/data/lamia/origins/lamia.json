@@ -1,0 +1,20 @@
+{
+    "name": "§2§lLamia",
+    "description": "§aAn intimidating gaze and majestic appearance have caused these half snake, half human beings to be known far and wide.",
+    "powers": [
+        "lamia:lamia_slithering_serpent",
+        "lamia:lamia_hesitation",
+        "lamia:lamia_anti_jump",
+		"lamia:lamia_coiling",
+        "lamia:fangs",
+        "lamia:scale_armor",
+        "lamia:poison_shot",
+		"origins:carnivore"
+    ],
+    "icon": {
+        "item": "minecraft:scute"
+    },
+    "unchoosable": false,
+    "order": 0,
+    "impact": 3
+}

@@ -11,3 +11,8 @@ hash = "a65f802c06d609c00d9c3ab100fb27dab219e930"
 [update.modrinth]
 mod-id = "5bgqgixq"
 version = "gWlEw051"
+
+[option]
+optional = true
+default = true
+description = "REQUIRES EMI.\n\nAdds Create schematics to EMI favorites for easy Creative access."
