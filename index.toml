@@ -3730,9 +3730,6 @@ file = "mods/exposure.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/extura-0.1.5+1.20.1-fabric-mc.jar"
-
-[[files]]
 file = "mods/fabric-api.pw.toml"
 metafile = true
 
@@ -3762,6 +3759,14 @@ metafile = true
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/figura-goofyplugin.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/figura.pw.toml"
 metafile = true
 
 [[files]]
