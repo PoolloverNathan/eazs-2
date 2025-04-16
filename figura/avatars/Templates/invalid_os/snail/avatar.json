@@ -1,0 +1,14 @@
+{
+  "name": "Snailtaur",
+  "description": "For those who want to be super slow.",
+  "authors": [
+    "InvalidOS (Model, animations, origin, some code)",
+    "Total Takeover (A lot of the code)",
+    "Psycho Breadstick (Some of the origin, QA)",
+    "Squishy (SquishyAPI)",
+    "Grandpa Scout (Animation Blending API)",
+    "Jimmy (Animation code)",
+    "Kitcat962 (Crosshair API)"
+  ],
+  "color": "#27aae0"
+}

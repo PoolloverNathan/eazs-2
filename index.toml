@@ -3391,6 +3391,45 @@ file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/textures/sl
 file = "figura/avatars/Templates/TotalTakeover/FiguraSlimeTaurAvatar/textures/slimeOverlay.png"
 
 [[files]]
+file = "figura/avatars/Templates/invalid_os/snail/avatar.json"
+
+[[files]]
+file = "figura/avatars/Templates/invalid_os/snail/lib/GSAnimBlend.lua"
+
+[[files]]
+file = "figura/avatars/Templates/invalid_os/snail/lib/OriginsAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/invalid_os/snail/lib/SquAPI.lua"
+
+[[files]]
+file = "figura/avatars/Templates/invalid_os/snail/scripts/ActionWheel.lua"
+
+[[files]]
+file = "figura/avatars/Templates/invalid_os/snail/scripts/Animations.lua"
+
+[[files]]
+file = "figura/avatars/Templates/invalid_os/snail/scripts/CameraControl.lua"
+
+[[files]]
+file = "figura/avatars/Templates/invalid_os/snail/scripts/KattDynamicCrosshair.lua"
+
+[[files]]
+file = "figura/avatars/Templates/invalid_os/snail/scripts/Player.lua"
+
+[[files]]
+file = "figura/avatars/Templates/invalid_os/snail/scripts/Posing.lua"
+
+[[files]]
+file = "figura/avatars/Templates/invalid_os/snail/scripts/SquishyAnims.lua"
+
+[[files]]
+file = "figura/avatars/Templates/invalid_os/snail/scripts/VanillaModel.lua"
+
+[[files]]
+file = "figura/avatars/Templates/invalid_os/snail/snailtaur.bbmodel"
+
+[[files]]
 file = "icon.png"
 
 [[files]]
