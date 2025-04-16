@@ -682,9 +682,6 @@ file = "config/openloader/data/Mermaid_Origin_2.0.1/gen_bait.py"
 file = "config/openloader/data/Mermaid_Origin_2.0.1/pack.mcmeta"
 
 [[files]]
-file = "config/openloader/data/More CC Tweaks/createadditions/recipes/mixing/bioethanol.json"
-
-[[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/computer_advanced.json"
 
 [[files]]
@@ -761,6 +758,9 @@ file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/wireles
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/wireless_modem_normal.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/createaddition/recipes/mixing/bioethanol.json"
 
 [[files]]
 file = "config/openloader/data/More CC Tweaks/pack.mcmeta"
