@@ -3669,6 +3669,10 @@ file = "mods/create-fabric.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/create-power-loader-fabric.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/create-railways-navigator.pw.toml"
 metafile = true
 
