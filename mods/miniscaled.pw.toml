@@ -1,0 +1,13 @@
+name = "MiniScaled"
+filename = "mini_scaled-3.0.0-mc1.20.1-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wrwoMwak/versions/zJzXEOrD/mini_scaled-3.0.0-mc1.20.1-fabric.jar"
+hash-format = "sha1"
+hash = "fbd378fa08cd898046a24befdfecafc727fbc8d3"
+
+[update]
+[update.modrinth]
+mod-id = "wrwoMwak"
+version = "zJzXEOrD"

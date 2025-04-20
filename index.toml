@@ -3977,6 +3977,10 @@ file = "mods/memoryleakfix.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/miniscaled.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/mmmmmmmmmmmm.pw.toml"
 metafile = true
 
