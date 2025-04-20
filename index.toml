@@ -3889,6 +3889,10 @@ file = "mods/indium.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/invview.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/item-filters.pw.toml"
 metafile = true
 
@@ -4209,6 +4213,10 @@ metafile = true
 
 [[files]]
 file = "mods/vanilla-permissions.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/vanish.pw.toml"
 metafile = true
 
 [[files]]
