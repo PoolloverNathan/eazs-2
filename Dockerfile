@@ -23,3 +23,4 @@ WORKDIR /mnt
 VOLUME /mnt
 ENTRYPOINT ["sh", "/app/start.sh"]
 EXPOSE 25565
+EXPOSE 23443/udp
