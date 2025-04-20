@@ -4093,7 +4093,7 @@ file = "mods/polymorphic-toms-simple-storag.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/pooltoy-origin-0.2.1.jar"
+file = "mods/pooltoy-origin-0.2.2.jar"
 
 [[files]]
 file = "mods/ratatouille.pw.toml"
