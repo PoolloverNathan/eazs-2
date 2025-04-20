@@ -3693,6 +3693,10 @@ file = "mods/createaddition.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/critters-and-companions.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/damagenumbers.pw.toml"
 metafile = true
 
@@ -4082,6 +4086,10 @@ metafile = true
 
 [[files]]
 file = "mods/pooltoy-origin-0.1.0.jar"
+
+[[files]]
+file = "mods/portal-gun.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/ratatouille.pw.toml"
