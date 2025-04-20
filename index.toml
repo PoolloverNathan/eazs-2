@@ -4096,10 +4096,6 @@ metafile = true
 file = "mods/pooltoy-origin-0.2.1.jar"
 
 [[files]]
-file = "mods/portal-gun.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/ratatouille.pw.toml"
 metafile = true
 
