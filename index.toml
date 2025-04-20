@@ -3885,6 +3885,10 @@ file = "mods/immediatelyfast.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/immersive-aircraft.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/immersive-paintings.pw.toml"
 metafile = true
 
@@ -3954,6 +3958,10 @@ metafile = true
 
 [[files]]
 file = "mods/make_bubbles_pop.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/man-of-many-planes.pw.toml"
 metafile = true
 
 [[files]]
