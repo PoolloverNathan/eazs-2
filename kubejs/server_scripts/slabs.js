@@ -1,8 +1,9 @@
 const acq = []
-function compact(a, b) {
+function compact(a, b, n) {
 	acq.push(a)
+	if (typeof n !== "number") n = 2
 	ServerEvents.recipes(event => {
-		event.recipes.create.compacting([b], [`2x ${a}`])
+		event.recipes.create.compacting([b], [`${n}x ${a}`])
 	})
 }
 //{{{1 wooden slabs
@@ -44,6 +45,20 @@ for (let root of [
 	"minecraft:cobblestone",
 ]) {
 	compact(`${root}_slab`, `${root}`)
+}
+//{{{1 catwalks (close enough)
+const catwalk_materials = {
+	andesite: "create:andesite_alloy",
+	brass: "create:brass_ingot",
+	iron: "minecraft:iron_ingot",
+	copper: "minecraft:copper_ingot",
+	industrial_iron: "createdeco:industrial_iron_ingot",
+	zinc: "create:zinc_ingot",
+}
+for (const [stem, item] of Object.entries(catwalk_materials)) {
+	compact(`createdeco:${stem}_catwalk`, item, 4)
+	compact(`createdeco:${stem}_catwalk_stairs`, item, 2)
+	compact(`createdeco:${stem}_catwalk_railing`, item, 8)
 }
 //}}}1
 console.log("Known slabs: " + acq)

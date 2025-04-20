@@ -137,7 +137,7 @@ make_card("ae2:crafting_card", f => {
 make_card("ae2:fuzzy_card", true, f => {
 	f("minecraft:string", 4)
 })
-make_card("ae2:acceleration_card", true, f => {
+make_card("ae2:speed_card", true, f => {
 	f("ae2:fluix_crystal")
 })
 make_card("ae2:inverter_card", true, f => {
@@ -185,6 +185,137 @@ add_crushing("ae2:pattern_provider", f => {
 add_crushing("ae2:cable_pattern_provider", f => {
 	f("ae2:pattern_provider")
 })
+add_crushing("minecraft:cobblestone", f => {
+	f("minecraft:gravel")
+})
+add_crushing("minecraft:furnace", f => {
+	f("minecraft:cobblestone", 8)
+})
+add_crushing("ae2:energy_acceptor", f => {
+	f("minecraft:iron_ingot", 4)
+	f("ae2:quartz_glass", 4)
+	f("minecraft:copper_ingot")
+})
+add_crushing("ae2:vibration_chamber", f => {
+	f("ae2:energy_acceptor")
+	f("minecraft:furnace")
+	f("minecraft:iron_ingot", 2)
+	f("minecraft:copper_ingot", 4)
+	f("ae2:fluix_crystal")
+})
+add_crushing("sophisticatedbackpacks:upgrade_base", f => {
+	f("minecraft:string", 4)
+	f("minecraft:leather")
+	f("minecraft:iron_ingot", 4)
+})
+function add_upgrade(stem, body1, body2) {
+	add_crushing(`sophisticatedbackpacks:${stem}_upgrade`, f => {
+		f()
+		body1(f)
+	})
+	if (body2 == false) return
+	add_crushing(`sophisticatedbackpacks:advanced_${stem}_upgrade`, f => {
+		f(`sophisticatedbackpacks:advanced_${stem}_upgrade`)
+		if (body2) {
+			body2(f)
+		} else {
+			f("minecraft:diamond")
+			f("minecraft:gold_ingot", 2)
+			f("minecraft:redstone", 3)
+		}
+	})
+}
+add_upgrade("pickup", f => {
+	f("sophisticatedbackpacks:upgrade_base")
+	f("minecraft:redstone", 3)
+	f("minecraft:string", 2)
+	f("minecraft:sticky_piston")
+})
+add_upgrade("filter", f => {
+	f("minecraft:redstone", 4)
+	f("minecraft:string", 4)
+}, f => {
+	f("minecraft:redstone", 3)
+	f("minecraft:gold_ingot", 2)
+})
+// TODO: magnets
+add_upgrade("feeding", f => {
+	f("minecraft:golden_carrot")
+	f("minecraft:golden_apple")
+	f("minecraft:ender_pearl")
+	f("minecraft:glistering_melon_slice")
+})
+add_upgrade("compacting", f => {
+	f("minecraft:piston", 4)
+	f("minecraft:iron_ingot", 2)
+	f("minecraft:redstone", 2)
+})
+add_upgrade("void", f => {
+	f("minecraft:obsidian", 3)
+	f("minecraft:ender_pearl")
+	f("minecraft:redstone", 2)
+})
+add_upgrade("restock", f => {
+	f("minecraft:iron_ingot", 2)
+	f("minecraft:redstone", 2)
+	f("minecraft:chest")
+	f("minecraft:sticky_piston")
+})
+add_upgrade("deposit", f => {
+	f("minecraft:iron_ingot", 2)
+	f("minecraft:redstone", 2)
+	f("minecraft:chest")
+	f("minecraft:piston")
+})
+add_upgrade("deposit", f => {
+	f("minecraft:iron_ingot", 2)
+	f("minecraft:redstone", 2)
+	f("minecraft:chest")
+	f("minecraft:ender_pearl")
+})
+add_upgrade("inception", f => {
+	f("minecraft:ender_eye", 4)
+	f("minecraft:diamond", 3)
+	f("minecraft:nether_star")
+}, false)
+add_upgrade("everlasting", f => {
+	f("minecraft:end_crystal", 4)
+	f("minecraft:nether_star", 4)
+}, false)
+function add_smelting_like_upgrade(name, furnace) {
+	add_upgrade(name, f => {
+		f("minecraft:redstone", 4)
+		f("minecraft:iron_ingot", 3)
+		f(furnace)
+	}, f => {
+		f("minecraft:diamond", 2)
+		f("minecraft:redstone")
+		f("minecraft:gold_ingot")
+		f("minecraft:hopper", 3)
+	})
+}
+add_smelting_like_upgrade("smelting", "minecraft:furnace")
+add_smelting_like_upgrade("smoking", "minecraft:smoker")
+add_smelting_like_upgrade("blasting", "minecraft:blast_furnace")
+function add_iron_upgrade(name, top_item, bottom_item) {
+	add_upgrade(name, f => {
+		f("minecraft:iron_ingot", 2)
+		f(top_item || name.replace("/", ":"))
+		f(bottom_item || "minecraft:redstone")
+	})
+}
+add_iron_upgrade("crafting", "minecraft:crafting_table", "minecraft:chest")
+add_iron_upgrade("stonecutter")
+add_iron_upgrade("jukebox")
+add_iron_upgrade("chipped/botanist_workbench")
+add_iron_upgrade("chipped/glassblower")
+add_iron_upgrade("chipped/carpenters_table")
+add_iron_upgrade("chipped/loom_table")
+add_iron_upgrade("chipped/mason_table")
+add_iron_upgrade("chipped/alchemy_bench")
+add_iron_upgrade("chipped/tinkering_table")
+// TODO: stack upgrades
+
 for (let c in colors) {
 	add_crushing(`#chipped:${c}_concrete`, f => {
 		f("minecraft:concrete_powder")
