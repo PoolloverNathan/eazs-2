@@ -22,4 +22,5 @@ ServerEvents.recipes(event => {
 		event.recipes.createDeploying(inter, [inter, 'minecraft:redstone']),
 		event.recipes.createDeploying(inter, [inter, 'create:tree_fertilizer']),
 	]).transitionalItem(inter).loops(1)
+	event.remove({ not: { type: 'create:sequenced_assembly' }, output: '#botanypots:hopper_botany_pots'})
 })
