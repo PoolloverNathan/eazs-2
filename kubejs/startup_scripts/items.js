@@ -3,6 +3,7 @@ StartupEvents.registry("item", (event) => {
   event.create("powdered_zinc").displayName("Powdered Zinc");
   event.create("wood_chips").displayName("Wood Chips");
   event.create("rubber_patch").displayName("Rubber Patch");
+  event.create("hopper_pot_incomplete").displayName("Incomplete Hopper Pot");
 });
 
 StartupEvents.registry("fluid", (event) => {
