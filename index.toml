@@ -3593,6 +3593,14 @@ file = "mods/bosses-of-mass-destruction.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/botany-pots.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/botany-trees.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/cardinal-components-api.pw.toml"
 metafile = true
 
