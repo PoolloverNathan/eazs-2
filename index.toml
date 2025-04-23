@@ -4253,6 +4253,10 @@ metafile = true
 file = "mods/pooltoy-origin-0.2.2.jar"
 
 [[files]]
+file = "mods/probejs.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ratatouille.pw.toml"
 metafile = true
 
