@@ -4305,3 +4305,6 @@ metafile = true
 [[files]]
 file = "mods/zombify.pw.toml"
 metafile = true
+
+[[files]]
+file = "unsup.toml"
