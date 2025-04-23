@@ -2,7 +2,14 @@
 
 [logbegone]
 # If a log message has one of these phrases, it will be filtered out from logging
-phrases = ["Disconnecting VANILLA connection attempt", "Trying to teleport a fresh new entity", "java.lang.NullPointerException: Unknown message type!", "Error executing task on Client"]
+phrases = [
+	"Disconnecting VANILLA connection attempt",
+	"Error executing task on Client",
+	"Invalid CarriageDataUpdatePacket for non-carriage entity",
+	"Received unknown target for status effect synchronization",
+	"Trying to teleport a fresh new entity",
+	"java.lang.NullPointerException: Unknown message type!"
+]
 
 # If a log message matches one of these regex patterns, it will be filtered out from logging. EX: 
 regex = []
