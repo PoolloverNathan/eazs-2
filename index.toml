@@ -1021,6 +1021,156 @@ file = "config/openloader/data/foxplush/index.png"
 file = "config/openloader/data/foxplush/pack.mcmeta"
 
 [[files]]
+file = "config/openloader/data/gummy-gorgon-origin/CREDITS.txt"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/origins/stage0.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/origins/stage1.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/origins/stage2.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/origins/stage3.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/origins/stage4.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/atrophied.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/edible.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/malleable_body.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/moisture.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/moisture_changing.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/moisture_food.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/no_muscles_boots.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/no_muscles_chestplate.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/no_muscles_helmet.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/no_muscles_leggings.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/no_muscles_main.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/no_muscles_off.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/shrinking1.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/shrinking2.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/shrinking3.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/soft_body.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/squishy_feet.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/stage1trigger.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/stage2trigger.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/stage3trigger.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/sticky_body.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/varied_sizing.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/varied_sizing2.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/wormify.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/tags/blocks/slippery_default.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/tags/items/moisture_food_big.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/tags/items/moisture_food_med.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/tags/items/moisture_food_small.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/origins/gorgon.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/delicate_snakes.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/diet.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/eatingyum.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/effect_immune.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/gummy_sight.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/hard_scales.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/magic_guard.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/melted_hair.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/more_mortal.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/snake_eyes.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/sticky_slash.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/swamp_spawn.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/origins/origin_layers/gummyfication.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/pack.mcmeta"
+
+[[files]]
 file = "config/openloader/data/mobsorigins/data/minecraft/tags/functions/load.json"
 
 [[files]]
