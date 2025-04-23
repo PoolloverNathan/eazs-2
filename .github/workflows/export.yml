@@ -37,7 +37,7 @@ jobs:
       - run: nix build .#releasePrismPack.contents
       - uses: actions/upload-artifact@v4
         with:
-          name: Prism
+          name: prism
           path: result/*
   build:
     runs-on: ubuntu-24.04
