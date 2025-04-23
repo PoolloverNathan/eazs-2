@@ -59,7 +59,7 @@
               hash = "sha256-SvfPebEN2piWc+VbFWOEwb4lQFC4E9P0mLLFKPiz5MA=";
             };
             "instance.cfg" = builtins.toFile "instance.cfg" "";
-            ".minecraft/unsup.ini" =
+            "minecraft/unsup.ini" =
               pkgs.writeText "unsup.ini" # ini
                 ''
                   version=1
@@ -117,7 +117,7 @@
         zipOf "eazs-br-${name}.zip" (
           copyFarm "eazs-br-${name}" {
             "icon.png" = ./icon.png;
-            ".minecraft/packwiz-installer-bootstrap.jar" = pkgs.fetchurl {
+            "minecraft/packwiz-installer-bootstrap.jar" = pkgs.fetchurl {
               url = "https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar";
               hash = "sha256:qPuyTcYEJ46X9GiOgtPZGjGLmO/AjV2/y8vKtkQ9EWw=";
             };
