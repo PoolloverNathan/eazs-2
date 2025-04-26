@@ -1,0 +1,18 @@
+name = "Crash Pipe"
+filename = "crash-pipe-0.1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/1d7Megbi/versions/i6geNgKY/crash-pipe-0.1.0.jar"
+hash-format = "sha1"
+hash = "0c713d1077301969236d178914db37f1e2889942"
+
+[update]
+[update.modrinth]
+mod-id = "1d7Megbi"
+version = "i6geNgKY"
+
+[option]
+optional = true
+default = false
+description = "Plays a pipe falling sound effect when the game crashes."

@@ -1,0 +1,18 @@
+name = "Armor Points ++"
+filename = "armorpointspp-fabric-1.20-3.1.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/xvAim1vw/versions/NJD8sOJg/armorpointspp-fabric-1.20-3.1.2.jar"
+hash-format = "sha1"
+hash = "987a2e76fe844c8af679e598cf13f2ca10c14882"
+
+[update]
+[update.modrinth]
+mod-id = "xvAim1vw"
+version = "NJD8sOJg"
+
+[option]
+optional = true
+default = true
+description = "Collapses very high levels of health and armor and shows armor values over 20."
