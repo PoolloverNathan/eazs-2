@@ -3787,6 +3787,10 @@ file = "mods/cherished-worlds.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/chipped-x-create-fabric.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/chipped.pw.toml"
 metafile = true
 
