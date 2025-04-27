@@ -3799,6 +3799,10 @@ file = "mods/chipped.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/cicada.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 metafile = true
 
@@ -3888,6 +3892,10 @@ metafile = true
 
 [[files]]
 file = "mods/distraction-free-recipes.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/do-a-barrel-roll.pw.toml"
 metafile = true
 
 [[files]]
