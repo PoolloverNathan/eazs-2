@@ -103,6 +103,11 @@
                   cachedVersion = "1.20.1";
                 }
                 {
+                  uid = "net.fabricmc.fabric-loader";
+                  version = pack.versions.fabric;
+                  important = true;
+                }
+                {
                   uid = "com.unascribed.unsup";
                   cachedName = "unsup";
                   cachedVersion = "1.0.2";
