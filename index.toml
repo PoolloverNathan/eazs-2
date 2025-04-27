@@ -3955,7 +3955,7 @@ file = "mods/enchantment-descriptions.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/ensculked-0.1-1.20.1+eazs.jar"
+file = "mods/ensculked-0.1.4-eazs+1.20.1.jar"
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
