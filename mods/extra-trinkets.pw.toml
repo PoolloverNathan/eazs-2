@@ -1,0 +1,13 @@
+name = "Extra Trinkets"
+filename = "extra_trinkets-1.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JLpavzxe/versions/C70azjvC/extra_trinkets-1.7.jar"
+hash-format = "sha1"
+hash = "578d088cb301e4fc617ed3beb130bfdb70074d64"
+
+[update]
+[update.modrinth]
+mod-id = "JLpavzxe"
+version = "C70azjvC"

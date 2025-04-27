@@ -3683,6 +3683,10 @@ file = "mods/aquamirae.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/aquatic-torches.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 metafile = true
 
@@ -3784,6 +3788,10 @@ metafile = true
 
 [[files]]
 file = "mods/cccbridge.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/charm-of-undying.pw.toml"
 metafile = true
 
 [[files]]
@@ -3927,6 +3935,10 @@ file = "mods/eggolib.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/elytra-slot.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/emi-create-schematics.pw.toml"
 metafile = true
 
@@ -3959,6 +3971,10 @@ metafile = true
 
 [[files]]
 file = "mods/exposure.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/extra-trinkets.pw.toml"
 metafile = true
 
 [[files]]
@@ -4095,6 +4111,10 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/just-potion-rings.pw.toml"
 metafile = true
 
 [[files]]
@@ -4330,6 +4350,10 @@ metafile = true
 
 [[files]]
 file = "mods/ships.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/shulker-box-slot.pw.toml"
 metafile = true
 
 [[files]]
