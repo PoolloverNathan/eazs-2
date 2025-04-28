@@ -3583,6 +3583,15 @@ file = "figura/avatars/Templates/invalid_os/snail/snailtaur.bbmodel"
 file = "icon.png"
 
 [[files]]
+file = "kubejs/assets/figura/emojis/eazs.json"
+
+[[files]]
+file = "kubejs/assets/figura/font/emoji_eazs.json"
+
+[[files]]
+file = "kubejs/assets/figura/textures/font/emojis/eazs.png"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/powdered_coal.png"
 
 [[files]]

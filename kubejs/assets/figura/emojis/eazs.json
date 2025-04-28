@@ -1,0 +1,10 @@
+{
+	"blacklist": "",
+	"emojis": {
+		"\uE000": ["bedbug1"],
+		"\uE001": ["bedbug2"],
+		"\uE002": ["bow"],
+		"\uE003": ["bean", "bman", "@bman", "@bman_nopvp"],
+		"\uE004": ["buranyu", "neco_arc_thumbs_up", "neco_arc+1"]
+	}
+}
