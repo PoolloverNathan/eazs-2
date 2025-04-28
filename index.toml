@@ -3622,7 +3622,13 @@ file = "kubejs/data/kubejs/damage_type/rotated.json"
 file = "kubejs/data/kubejs/damage_type/stub_toe.json"
 
 [[files]]
+file = "kubejs/data/kubejs/global_powers/hallways.json"
+
+[[files]]
 file = "kubejs/data/kubejs/origins/statue.json"
+
+[[files]]
+file = "kubejs/data/kubejs/powers/no_mouse_in_hallways.json"
 
 [[files]]
 file = "kubejs/data/kubejs/powers/statue_immobile.json"

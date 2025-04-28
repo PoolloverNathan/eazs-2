@@ -1,0 +1,11 @@
+{
+	"type": "eggolib:prevent_key_use",
+	"condition": {
+		"type": "origins:dimension",
+		"dimension": "proot:hallway"
+	},
+	"keys": [
+		"key.attack",
+		"key.use"
+	]
+}
