@@ -3715,6 +3715,10 @@ file = "mods/axiom.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/banner-bedsheets.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/barbeques-delight.pw.toml"
 metafile = true
 

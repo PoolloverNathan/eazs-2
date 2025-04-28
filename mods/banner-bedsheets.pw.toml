@@ -1,0 +1,13 @@
+name = "Banner Bedsheets"
+filename = "banner-bedsheets-1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pcN1B3cK/versions/Zrs80i81/banner-bedsheets-1.2.jar"
+hash-format = "sha1"
+hash = "4cceb96e421e75dedb0b80c7811440d299cbd976"
+
+[update]
+[update.modrinth]
+mod-id = "pcN1B3cK"
+version = "Zrs80i81"
