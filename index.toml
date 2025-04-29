@@ -3846,6 +3846,10 @@ file = "mods/collective.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/construction-wand-fabric.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/continue.pw.toml"
 metafile = true
 
@@ -4050,6 +4054,10 @@ metafile = true
 
 [[files]]
 file = "mods/first-person-model.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fish-tanks.pw.toml"
 metafile = true
 
 [[files]]
@@ -4497,6 +4505,10 @@ metafile = true
 
 [[files]]
 file = "mods/vowels-1.0.0+1.20.1.jar"
+
+[[files]]
+file = "mods/water-balloon.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/waterframes.pw.toml"
