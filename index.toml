@@ -4145,6 +4145,10 @@ file = "mods/indium.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/inline.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/invview.pw.toml"
 metafile = true
 
@@ -4326,6 +4330,14 @@ metafile = true
 
 [[files]]
 file = "mods/paragraphs.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/patchouli.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/paucal.pw.toml"
 metafile = true
 
 [[files]]
