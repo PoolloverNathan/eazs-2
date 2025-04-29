@@ -3662,6 +3662,10 @@ file = "mods/advancement-plaques.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/advancementjs.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ae2-emi-crafting.pw.toml"
 metafile = true
 
@@ -3719,6 +3723,10 @@ metafile = true
 
 [[files]]
 file = "mods/athena-ctm.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/audioplayer.pw.toml"
 metafile = true
 
 [[files]]
@@ -3895,6 +3903,10 @@ metafile = true
 
 [[files]]
 file = "mods/createaddition.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/creativecore.pw.toml"
 metafile = true
 
 [[files]]
@@ -4090,6 +4102,10 @@ metafile = true
 
 [[files]]
 file = "mods/guard-villagers-(fabricquilt).pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/hex-casting.pw.toml"
 metafile = true
 
 [[files]]
@@ -4460,6 +4476,10 @@ file = "mods/trinkets.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/tt20.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/txnilib.pw.toml"
 metafile = true
 
@@ -4477,6 +4497,14 @@ metafile = true
 
 [[files]]
 file = "mods/vowels-1.0.0+1.20.1.jar"
+
+[[files]]
+file = "mods/waterframes.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/watermedia.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/worldedit.pw.toml"
