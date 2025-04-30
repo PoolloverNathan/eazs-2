@@ -4113,10 +4113,6 @@ file = "mods/guard-villagers-(fabricquilt).pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/hex-casting.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/higher-chat.pw.toml"
 metafile = true
 
