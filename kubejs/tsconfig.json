@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "noEmit": true,
+        "allowJs": true,
+        "checkJs": true,
+        "lib": [],
+        "types": [
+            "kubejs/globals.d.ts"
+        ]
+    },
+    "include": [
+        "server_scripts/*.js",
+        "startup_scripts/*.js"
+    ]
+}
