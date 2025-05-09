@@ -3646,6 +3646,9 @@ file = "kubejs/data/minecraft/loot_tables/blocks/bedrock.json"
 file = "kubejs/data/origins/origin_layers/origin.json"
 
 [[files]]
+file = "kubejs/server_scripts/advancements.js"
+
+[[files]]
 file = "kubejs/server_scripts/misc_recipes.js"
 
 [[files]]

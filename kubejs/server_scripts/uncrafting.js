@@ -219,7 +219,7 @@ function add_upgrade(stem, body1, body2) {
 	})
 	if (body2 == false) return
 	add_crushing(`sophisticatedbackpacks:advanced_${stem}_upgrade`, f => {
-		f(`sophisticatedbackpacks:advanced_${stem}_upgrade`)
+		f(`sophisticatedbackpacks:${stem}_upgrade`)
 		if (body2) {
 			body2(f)
 		} else {
