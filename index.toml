@@ -3725,6 +3725,9 @@ file = "mods/artifacts.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/arwa-1.0.0.jar"
+
+[[files]]
 file = "mods/athena-ctm.pw.toml"
 metafile = true
 
