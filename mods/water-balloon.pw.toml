@@ -1,0 +1,13 @@
+name = "Water Balloon"
+filename = "waterballoon-fabric-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2JEAyza5/versions/lWdd4Im7/waterballoon-fabric-1.20.1-1.0.1.jar"
+hash-format = "sha1"
+hash = "569006b804602733b6ba30f56b1d2525de883393"
+
+[update]
+[update.modrinth]
+mod-id = "2JEAyza5"
+version = "lWdd4Im7"

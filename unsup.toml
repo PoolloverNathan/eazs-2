@@ -1,0 +1,26 @@
+[flavor_groups.recipe_viewer]
+name = "Recipe Viewer"
+description = "Which mod to use to view recipes. EMI is the preferred target (and offers the best server compatibility), but REI is available for those who prefer it."
+[[flavor_groups.recipe_viewer.choices]]
+id = "no_recipes"
+name = "None"
+description = "No recipe viewer mod. Not recommended, unless you're bringing your own."
+[[flavor_groups.recipe_viewer.choices]]
+id = "emi"
+name = "EMI"
+description = "The recommended default recipe viewer, boasting recipe tree support and integration with other mods."
+[[flavor_groups.recipe_viewer.choices]]
+id = "rei"
+name = "REI"
+description = "Roughly Enough Items."
+
+[metafile.emi]
+flavors = ["emi"]
+[metafile.emi-loot]
+flavors = ["emi"]
+[metafile.emi-create-schematics]
+flavors = ["emi"]
+[metafile.ae2-emi-crafting]
+flavors = ["emi"]
+[metafile.rei]
+flavors = ["rei"]

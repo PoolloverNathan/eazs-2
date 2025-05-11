@@ -13,3 +13,5 @@ S-*.vim
 /item
 slab.json
 *.log
+kubejs/tsconfig.json
+kubejs/node_modules/

@@ -1021,6 +1021,156 @@ file = "config/openloader/data/foxplush/index.png"
 file = "config/openloader/data/foxplush/pack.mcmeta"
 
 [[files]]
+file = "config/openloader/data/gummy-gorgon-origin/CREDITS.txt"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/origins/stage0.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/origins/stage1.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/origins/stage2.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/origins/stage3.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/origins/stage4.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/atrophied.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/edible.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/malleable_body.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/moisture.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/moisture_changing.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/moisture_food.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/no_muscles_boots.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/no_muscles_chestplate.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/no_muscles_helmet.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/no_muscles_leggings.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/no_muscles_main.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/no_muscles_off.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/shrinking1.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/shrinking2.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/shrinking3.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/soft_body.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/squishy_feet.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/stage1trigger.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/stage2trigger.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/stage3trigger.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/sticky_body.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/varied_sizing.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/varied_sizing2.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/wormify.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/tags/blocks/slippery_default.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/tags/items/moisture_food_big.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/tags/items/moisture_food_med.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/tags/items/moisture_food_small.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/origins/gorgon.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/delicate_snakes.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/diet.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/eatingyum.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/effect_immune.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/gummy_sight.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/hard_scales.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/magic_guard.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/melted_hair.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/more_mortal.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/snake_eyes.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/sticky_slash.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/swamp_spawn.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/origins/origin_layers/gummyfication.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/pack.mcmeta"
+
+[[files]]
 file = "config/openloader/data/mobsorigins/data/minecraft/tags/functions/load.json"
 
 [[files]]
@@ -3433,6 +3583,15 @@ file = "figura/avatars/Templates/invalid_os/snail/snailtaur.bbmodel"
 file = "icon.png"
 
 [[files]]
+file = "kubejs/assets/figura/emojis/eazs.json"
+
+[[files]]
+file = "kubejs/assets/figura/font/emoji_eazs.json"
+
+[[files]]
+file = "kubejs/assets/figura/textures/font/emojis/eazs.png"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/powdered_coal.png"
 
 [[files]]
@@ -3463,7 +3622,13 @@ file = "kubejs/data/kubejs/damage_type/rotated.json"
 file = "kubejs/data/kubejs/damage_type/stub_toe.json"
 
 [[files]]
+file = "kubejs/data/kubejs/global_powers/hallways.json"
+
+[[files]]
 file = "kubejs/data/kubejs/origins/statue.json"
+
+[[files]]
+file = "kubejs/data/kubejs/powers/no_mouse_in_hallways.json"
 
 [[files]]
 file = "kubejs/data/kubejs/powers/statue_immobile.json"
@@ -3481,6 +3646,9 @@ file = "kubejs/data/minecraft/loot_tables/blocks/bedrock.json"
 file = "kubejs/data/origins/origin_layers/origin.json"
 
 [[files]]
+file = "kubejs/server_scripts/advancements.js"
+
+[[files]]
 file = "kubejs/server_scripts/misc_recipes.js"
 
 [[files]]
@@ -3494,6 +3662,10 @@ file = "kubejs/startup_scripts/items.js"
 
 [[files]]
 file = "mods/advancement-plaques.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/advancementjs.pw.toml"
 metafile = true
 
 [[files]]
@@ -3533,7 +3705,15 @@ file = "mods/aquamirae.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/aquatic-torches.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/armorpoints.pw.toml"
 metafile = true
 
 [[files]]
@@ -3545,11 +3725,26 @@ file = "mods/artifacts.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/arwa-1.0.0.jar"
+
+[[files]]
 file = "mods/athena-ctm.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/audioplayer.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/auth-me.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/axiom.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/banner-bedsheets.pw.toml"
 metafile = true
 
 [[files]]
@@ -3629,11 +3824,23 @@ file = "mods/cccbridge.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/charm-of-undying.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/cherished-worlds.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/chipped-x-create-fabric.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/chipped.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cicada.pw.toml"
 metafile = true
 
 [[files]]
@@ -3642,6 +3849,10 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/construction-wand-fabric.pw.toml"
 metafile = true
 
 [[files]]
@@ -3658,6 +3869,10 @@ metafile = true
 
 [[files]]
 file = "mods/cosmetic-armor.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/crash-pipe.pw.toml"
 metafile = true
 
 [[files]]
@@ -3701,6 +3916,10 @@ file = "mods/createaddition.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/creativecore.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/critters-and-companions.pw.toml"
 metafile = true
 
@@ -3722,6 +3941,10 @@ metafile = true
 
 [[files]]
 file = "mods/distraction-free-recipes.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/do-a-barrel-roll.pw.toml"
 metafile = true
 
 [[files]]
@@ -3753,6 +3976,10 @@ file = "mods/eggolib.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/elytra-slot.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/emi-create-schematics.pw.toml"
 metafile = true
 
@@ -3769,8 +3996,7 @@ file = "mods/enchantment-descriptions.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/ensculked.pw.toml"
-metafile = true
+file = "mods/ensculked-0.1.4-eazs+1.20.1.jar"
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
@@ -3786,6 +4012,10 @@ metafile = true
 
 [[files]]
 file = "mods/exposure.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/extra-trinkets.pw.toml"
 metafile = true
 
 [[files]]
@@ -3830,6 +4060,10 @@ metafile = true
 
 [[files]]
 file = "mods/first-person-model.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fish-tanks.pw.toml"
 metafile = true
 
 [[files]]
@@ -3885,6 +4119,10 @@ file = "mods/guard-villagers-(fabricquilt).pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/higher-chat.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/iceberg.pw.toml"
 metafile = true
 
@@ -3918,6 +4156,10 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/just-potion-rings.pw.toml"
 metafile = true
 
 [[files]]
@@ -4101,7 +4343,11 @@ file = "mods/polymorphic-toms-simple-storag.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/pooltoy-origin-0.2.2.jar"
+file = "mods/pooltoy-origin-0.3.1.jar"
+
+[[files]]
+file = "mods/probejs.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/ratatouille.pw.toml"
@@ -4144,7 +4390,15 @@ file = "mods/searchables.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/server-hats.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ships.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/shulker-box-slot.pw.toml"
 metafile = true
 
 [[files]]
@@ -4232,6 +4486,10 @@ file = "mods/trinkets.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/tt20.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/txnilib.pw.toml"
 metafile = true
 
@@ -4249,6 +4507,18 @@ metafile = true
 
 [[files]]
 file = "mods/vowels-1.0.0+1.20.1.jar"
+
+[[files]]
+file = "mods/water-balloon.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/waterframes.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/watermedia.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/worldedit.pw.toml"
@@ -4305,3 +4575,6 @@ metafile = true
 [[files]]
 file = "mods/zombify.pw.toml"
 metafile = true
+
+[[files]]
+file = "unsup.toml"

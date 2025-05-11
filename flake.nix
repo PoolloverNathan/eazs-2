@@ -43,17 +43,86 @@
         pkgs.runCommand name
           {
             buildInputs = [ pkgs.zip ];
+            contents = path;
           }
           ''
-            cd ${path}
-            zip -9r $out .
+            cd "$contents"
+            zip -0r $out .
           '';
-      mkPrismPack =
+      mkUnsupPrismPack =
+        name: src:
+        zipOf "eazs-br-${name}-unsup.zip" (
+          copyFarm "eazs-br-${name}-unsup" {
+            "icon.png" = ./icon.png;
+            "patches/com.unascribed.unsup.json" = pkgs.fetchurl {
+              url = "https://git.sleeping.town/unascribed/unsup/releases/download/v1.0.2/com.unascribed.unsup.json";
+              hash = "sha256-SvfPebEN2piWc+VbFWOEwb4lQFC4E9P0mLLFKPiz5MA=";
+            };
+            "instance.cfg" = builtins.toFile "instance.cfg" "";
+            "minecraft/unsup.ini" =
+              pkgs.writeText "unsup.ini" # ini
+                ''
+                  version=1
+                  preset=minecraft
+                  source_format=packwiz
+                  source=${if lib.hasPrefix "/" src then "file://${src}" else src}
+                  offer_change_flavors=true
+
+                  [colors]
+                  background=24273a
+                  title=cad3f5
+                  subtitle=a5adcb
+                  progress=c6a0f6
+                  progress_track=181926
+                  dialog=b8c0e0
+                  button=c6a0f6
+                  button_text=1e2030
+                  question=b7bdf8
+                  info=7dc4e4
+                  warning=f5a97f
+                  error=ee99a0
+
+                  [flavors]
+                  recipe_viewer=emi
+                ''
+              // lib.optionalAttrs (lib.hasPrefix "/" src) { nativeBuildInputs = [ src ]; };
+            "mmc-pack.json" = pkgs.writers.writeJSON "mmc-pack.json" {
+              formatVersion = 1;
+              components = [
+                {
+                  important = true;
+                  uid = "net.minecraft";
+                  version = "1.20.1";
+                  cachedName = "Minecraft";
+                  cachedRequires = [
+                    {
+                      uid = "org.lwjgl3";
+                      suggests = "3.3.2";
+                    }
+                  ];
+                  cachedVersion = "1.20.1";
+                }
+                {
+                  uid = "net.fabricmc.fabric-loader";
+                  version = pack.versions.fabric;
+                  important = true;
+                }
+                {
+                  uid = "com.unascribed.unsup";
+                  cachedName = "unsup";
+                  cachedVersion = "1.0.2";
+                  important = true;
+                }
+              ];
+            };
+          }
+        );
+      mkLegacyPrismPack =
         name: src:
         zipOf "eazs-br-${name}.zip" (
           copyFarm "eazs-br-${name}" {
             "icon.png" = ./icon.png;
-            ".minecraft/packwiz-installer-bootstrap.jar" = pkgs.fetchurl {
+            "minecraft/packwiz-installer-bootstrap.jar" = pkgs.fetchurl {
               url = "https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar";
               hash = "sha256:qPuyTcYEJ46X9GiOgtPZGjGLmO/AjV2/y8vKtkQ9EWw=";
             };
@@ -87,19 +156,21 @@
     {
       formatter.${pkgs.system} = pkgs.nixfmt-rfc-style;
       packages.${pkgs.system} = rec {
-        prismPack = mkPrismPack "current" "${
-          if builtins ? getEnv then builtins.getEnv "PWD" else self
-        }/pack.toml";
-        releasePrismPack = mkPrismPack "release" "https://poollovernathan.github.io/eazs-2/pack.toml";
-        
-        default = pkgs.runCommand "pack" {
-          buildInputs = [ pkgs.packwiz ];
-        } ''
-          cp -r ${./.} $out
-          cd $out
-          chmod -R +w .
-          packwiz refresh --build
-        '';
+        prismPack = mkUnsupPrismPack "HEAD" (default + /pack.toml);
+        releasePrismPack = mkUnsupPrismPack "main" "https://poollovernathan.github.io/eazs-2/pack.toml";
+        legacyReleasePrismPack = mkLegacyPrismPack "main" "https://poollovernathan.github.io/eazs-2/pack.toml";
+
+        default =
+          pkgs.runCommand "pack"
+            {
+              buildInputs = [ pkgs.packwiz ];
+            }
+            ''
+              cp -r ${./.} $out
+              cd $out
+              chmod -R +w .
+              packwiz refresh --build
+            '';
       };
     };
 }

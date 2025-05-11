@@ -191,6 +191,10 @@ add_crushing("minecraft:cobblestone", f => {
 add_crushing("minecraft:furnace", f => {
 	f("minecraft:cobblestone", 8)
 })
+add_crushing("ae2:quartz_glass", f => {
+	f("minecraft:glass", 4)
+	f("ae2:certus_quartz_dust", 5)
+})
 add_crushing("ae2:energy_acceptor", f => {
 	f("minecraft:iron_ingot", 4)
 	f("ae2:quartz_glass", 4)
@@ -215,7 +219,7 @@ function add_upgrade(stem, body1, body2) {
 	})
 	if (body2 == false) return
 	add_crushing(`sophisticatedbackpacks:advanced_${stem}_upgrade`, f => {
-		f(`sophisticatedbackpacks:advanced_${stem}_upgrade`)
+		f(`sophisticatedbackpacks:${stem}_upgrade`)
 		if (body2) {
 			body2(f)
 		} else {
@@ -314,6 +318,28 @@ add_iron_upgrade("chipped/loom_table")
 add_iron_upgrade("chipped/mason_table")
 add_iron_upgrade("chipped/alchemy_bench")
 add_iron_upgrade("chipped/tinkering_table")
+
+function add_storage_component(nr, corner, core, top, side) {
+	core = core || "ae2:quartz_glass"
+	top = top || "ae2:calculation_processor"
+	side = side || `ae2:cell_component_${nr/4}k`
+	add_crushing(`ae2:cell_component_${nr}k`, f => {
+		f(corner, 4)
+		f(core)
+		if (side == true) {
+			f(top, 4)
+		} else {
+			f(top)
+			f(side, 3)
+		}
+	})
+}
+add_storage_component(1, "minecraft:redstone", "ae2:logic_processor", "ae2:certus_quartz_crystal", true)
+add_storage_component(4, "minecraft:redstone")
+add_storage_component(16, "minecraft:glowstone_dust")
+add_storage_component(64, "minecraft:glowstone_dust")
+add_storage_component(256, "ae2:sky_dust")
+
 // TODO: stack upgrades
 
 for (let c in colors) {

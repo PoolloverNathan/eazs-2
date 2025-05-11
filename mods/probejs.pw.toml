@@ -1,0 +1,13 @@
+name = "ProbeJS"
+filename = "probejs-6.0.0-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JJNYRb4B/versions/yzoeAC7L/probejs-6.0.0-fabric.jar"
+hash-format = "sha1"
+hash = "8cfcbc17c7ffafb5558f5e78c3b1fd9105d4f847"
+
+[update]
+[update.modrinth]
+mod-id = "JJNYRb4B"
+version = "yzoeAC7L"

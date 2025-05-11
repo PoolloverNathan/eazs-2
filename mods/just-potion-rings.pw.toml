@@ -1,0 +1,13 @@
+name = "Just Potion Rings"
+filename = "justpotionrings-fabric-1.20.[0-1]-v1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6C3LNL9Q/versions/fMFZ17RT/justpotionrings-fabric-1.20.%5B0-1%5D-v1.4.jar"
+hash-format = "sha1"
+hash = "699045e3d734d4fd1a85c2b4e127de16fe1a366b"
+
+[update]
+[update.modrinth]
+mod-id = "6C3LNL9Q"
+version = "fMFZ17RT"
