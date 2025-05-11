@@ -14,3 +14,7 @@ url = 'https://cdn.modrinth.com/data/G1s2WpNo/versions/1yJzEpzh/BetterThirdPerso
 [update.modrinth]
 mod-id = 'G1s2WpNo'
 version = '1yJzEpzh'
+
+[option]
+optional = true
+default = true
